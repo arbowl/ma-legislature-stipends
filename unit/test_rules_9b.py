@@ -19,19 +19,11 @@ from config.role_catalog import (
     HOUSE_JUDICIARY_CHAIR,
     HOUSE_ASSISTANT_MAJORITY_LEADER,
 )
-
-
-def _mk_session() -> Session:
-    return Session(
-        id=Session.from_id_number(194),
-        start_year=2025,
-        end_year=2026,
-        label=Session.from_id_number(194)
-    )
+from unit.utils import mk_session
 
 
 def test_speaker_stipend_basic():
-    session = _mk_session()
+    session = mk_session()
     member = Member(
         member_id="H001",
         name="Test Speaker",
@@ -53,7 +45,7 @@ def test_speaker_stipend_basic():
 
 
 def test_speaker_plus_chair_gets_both():
-    session = _mk_session()
+    session = mk_session()
     member = Member(
         member_id="H001",
         name="Test Speaker",
@@ -76,7 +68,7 @@ def test_speaker_plus_chair_gets_both():
 
 
 def test_two_chairs_and_one_leadership():
-    session = _mk_session()
+    session = mk_session()
     member = Member(
         member_id="H001",
         name="Multi-Role Member",
