@@ -5,7 +5,7 @@ from __future__ import annotations
 from dataclasses import dataclass
 from typing import Optional
 
-
+from audit.provenance import AmountWithProvenance
 from models.core import Member, Session
 from config.travel_config import TRAVEL_RULE_9C
 
@@ -16,7 +16,7 @@ class TravelAllowance:
 
     member_id: str
     session_id: str
-    amount: int
+    amount: AmountWithProvenance
     distance_miles: Optional[float]
     rule_applied: str
 

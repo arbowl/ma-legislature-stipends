@@ -26,7 +26,7 @@ class SourceRef:
     label: str
     kind: SourceKind
     url: Optional[str] = None
-    details: dict = field(default_factory=dict)
+    details: frozenset = field(default_factory=frozenset)
 
 
 @dataclass(frozen=True)

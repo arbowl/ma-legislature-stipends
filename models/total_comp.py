@@ -4,9 +4,10 @@ from __future__ import annotations
 
 from dataclasses import dataclass
 
+from audit.provenance import AmountWithProvenance, ap_sum, ap_zero
 from models.core import Member, Session
-from models.rules_9b import stipend_9b_for_member
-from models.rules_9c import travel_9c_for_member, TravelAllowance
+from models.rules_9b import select_paid_roles_for_member
+from models.rules_9c import travel_9c_for_member
 from config.base_salary import base_salary_for_session
 
 
@@ -15,7 +16,7 @@ class Component:
     """Salary component"""
 
     label: str
-    amount: int
+    amount: AmountWithProvenance
 
 
 @dataclass(frozen=True)
@@ -25,19 +26,21 @@ class TotalCompResult:
     member_id: str
     session_id: str
     components: list[Component]
-    total: int
+    total: AmountWithProvenance
 
 
 def total_comp_for_member(member: Member, session: Session) -> TotalCompResult:
     """Generates total compensation for a member in a session"""
     base = base_salary_for_session(session)
-    stipends_9b = stipend_9b_for_member(member, session)
+    selection = select_paid_roles_for_member(member, session)
+    stipend_amounts = [rs.amount for rs in selection.paid_roles]
+    stipends_9b = sum(stipend_amounts)
     travel_9c = travel_9c_for_member(member, session)
     comps = [
-        Component(label="Base salary (Article CXVIII)", amount=base.amount),
+        Component(label="Base salary (Article CXVIII)", amount=base.amount.value),
         Component(label="Section 9B stipends", amount=stipends_9b),
         Component(
-            label="Section 9C for travel/expenses", amount=travel_9c.amount
+            label="Section 9C for travel/expenses", amount=travel_9c.amount.value
         )
     ]
     total_amount = sum(c.amount for c in comps)

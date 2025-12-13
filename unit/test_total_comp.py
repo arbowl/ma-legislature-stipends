@@ -1,10 +1,8 @@
 from models.core import (
     Member,
-    Session,
     Chamber,
     Party,
     RoleAssignment,
-    RoleCode,
 )
 from config.role_catalog import SPEAKER
 from models.total_comp import total_comp_for_member

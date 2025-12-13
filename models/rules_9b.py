@@ -8,6 +8,8 @@ from itertools import combinations
 from dataclasses import dataclass
 from typing import Optional
 
+from audit.provenance import AmountWithProvenance, ap_scale
+from audit.sources_registry import BEA_WAGE_SERIES
 from models.core import (
     RoleAssignment,
     Session,
@@ -17,7 +19,6 @@ from models.core import (
     CommitteeRoleType,
 )
 from config.role_catalog import (
-    ROLE_DEFINITIONS,
     get_role_definition,
 )
 
@@ -28,7 +29,7 @@ class RoleStipend:
 
     role_code: str
     session_id: str
-    amount: int
+    amount: AmountWithProvenance
     reason: str
 
 
@@ -63,7 +64,10 @@ def stipend_for_role_assignment(
         return None
     tier = StipendTierCode.get_base_amount(tier_id)
     factor = _session_adjustment_factor(session)
-    adjusted = round(tier * factor)
+    if factor == 1.0:
+        adjusted = tier
+    else:
+        adjusted = ap_scale(tier, factor, BEA_WAGE_SERIES)
     return RoleStipend(
         role_code=assignment.role_code,
         session_id=assignment.session_id,
@@ -88,11 +92,16 @@ def raw_role_stipends_for_member(
     return stipends
 
 
-def subset_key(
+def _subset_total_value(subset: tuple[RoleStipend, ...]) -> int:
+    """Provenance-enabled summation helper"""
+    return sum(r.amount.value for r in subset)
+
+
+def _subset_key(
     subset: tuple[RoleStipend, ...]
 ) -> tuple[int, tuple[str, ...]]:
     """Generate sorted tuple of stipends and codes"""
-    total = sum(r.amount for r in subset)
+    total = _subset_total_value(subset)
     codes = tuple(sorted(r.role_code for r in subset))
     return (total, codes)
 
@@ -131,24 +140,24 @@ def select_paid_roles_for_member(
             )
             if chair_count > 1:
                 continue
-            total = sum(rs.amount for rs in combo)
+            total = _subset_total_value(combo)
             if total > best_amount:
                 best_amount = total
                 best_subset = combo
             elif total == best_amount and best_subset:
-                if subset_key(combo) < subset_key(best_subset):
+                if _subset_key(combo) < _subset_key(best_subset):
                     best_subset = combo
     if not best_subset and raw:
         best_subset = (max(raw, key=lambda r: r.amount),)
-        best_amount = sum(r.amount for r in best_subset)
+        best_amount = _subset_total_value(best_subset)
     paid_roles_sorted = sorted(
-        best_subset, key=lambda r: (-r.amount, r.role_code)
+        best_subset, key=lambda r: (-r.amount.value, r.role_code)
     )
     return PaidRoleSelection(
         session_id=session.id,
         member_id=member.member_id,
         paid_roles=paid_roles_sorted,
-        total_amount=best_amount,
+        total_amount=(r.amount.value for r in paid_roles_sorted),
     )
 
 
