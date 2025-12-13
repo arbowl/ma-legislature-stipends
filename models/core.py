@@ -2,7 +2,7 @@
 
 from __future__ import annotations
 
-from dataclasses import dataclass
+from dataclasses import dataclass, field
 from enum import StrEnum, Enum, auto
 from typing import Optional
 
@@ -47,11 +47,19 @@ class CommitteeRoleType(Enum):
 @dataclass(frozen=True)
 class Session:
     """A legislative session"""
-
     id: str
     start_year: int
     end_year: int
     label: str = ""
+
+    @staticmethod
+    def from_id_number(session: int) -> str:
+        sessions: dict[int, str] = {
+            194: "2025-2026",
+        }
+        if session not in sessions:
+            raise IndexError(f"Session #{session} not recognized.")
+        return sessions.get(session)
 
 
 @dataclass(frozen=True)
@@ -83,9 +91,9 @@ class Member:
     member_id: str
     name: str
     chamber: Chamber
+    roles: list[RoleAssignment] = field(default_factory=list)
     party: Party = Party.UNKNOWN
     distance_miles_from_state_house: Optional[float] = None
-    roles: list[RoleAssignment]
 
 
 @dataclass(frozen=True)
