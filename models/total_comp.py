@@ -4,7 +4,7 @@ from __future__ import annotations
 
 from dataclasses import dataclass
 
-from audit.provenance import AmountWithProvenance, ap_sum, ap_zero
+from audit.provenance import AmountWithProvenance
 from models.core import Member, Session
 from models.rules_9b import select_paid_roles_for_member
 from models.rules_9c import travel_9c_for_member
@@ -33,8 +33,7 @@ def total_comp_for_member(member: Member, session: Session) -> TotalCompResult:
     """Generates total compensation for a member in a session"""
     base = base_salary_for_session(session)
     selection = select_paid_roles_for_member(member, session)
-    stipend_amounts = [rs.amount for rs in selection.paid_roles]
-    stipends_9b = sum(stipend_amounts)
+    stipends_9b = sum(rs.amount for rs in selection.paid_roles)
     travel_9c = travel_9c_for_member(member, session)
     comps = [
         Component(label="Base salary (Article CXVIII)", amount=base.amount.value),
