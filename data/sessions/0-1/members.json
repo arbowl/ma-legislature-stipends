@@ -1,0 +1,33 @@
+{
+  "session_id": "0-1",
+  "members": [
+    {
+      "member_id": "H001",
+      "name": "Alice Speaker",
+      "chamber": "house",
+      "party": "D",
+      "distance_miles_from_state_house": 10.0
+    },
+    {
+      "member_id": "H002",
+      "name": "Bob Overloaded",
+      "chamber": "house",
+      "party": "D",
+      "distance_miles_from_state_house": 60.0
+    },
+    {
+      "member_id": "H003",
+      "name": "Carol Backbencher",
+      "chamber": "house",
+      "party": "R",
+      "distance_miles_from_state_house": 45.0
+    },
+    {
+      "member_id": "H004",
+      "name": "Dave Distant VC",
+      "chamber": "house",
+      "party": "D",
+      "distance_miles_from_state_house": 80.0
+    }
+  ]
+}

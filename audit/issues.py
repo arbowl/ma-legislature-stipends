@@ -30,7 +30,7 @@ class AuditIssue:
     def error(code: str, message: str, **context: Any) -> AuditIssue:
         """Builds an error"""
         return AuditIssue(
-            level=_IssueLevel.ERROR,
+            level=_IssueLevel.ERROR.value,
             code=code,
             message=message,
             context=context,
@@ -40,7 +40,7 @@ class AuditIssue:
     def warning(code: str, message: str, **context: Any) -> AuditIssue:
         """Builds a warning"""
         return AuditIssue(
-            level=_IssueLevel.WARNING,
+            level=_IssueLevel.WARNING.value,
             code=code,
             message=message,
             context=context,

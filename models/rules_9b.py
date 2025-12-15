@@ -8,7 +8,7 @@ from itertools import combinations
 from dataclasses import dataclass
 from typing import Optional
 
-from audit.provenance import AmountWithProvenance, ap_scale
+from audit.provenance import AmountWithProvenance, ap_scale, ap_from
 from audit.sources_registry import BEA_WAGE_SERIES
 from models.core import (
     RoleAssignment,
@@ -65,9 +65,9 @@ def stipend_for_role_assignment(
     tier = StipendTierCode.get_base_amount(tier_id)
     factor = _session_adjustment_factor(session)
     if factor == 1.0:
-        adjusted = tier
+        adjusted = ap_from(tier, BEA_WAGE_SERIES)
     else:
-        adjusted = ap_scale(tier, factor, BEA_WAGE_SERIES)
+        adjusted = ap_scale(tier, factor, source=BEA_WAGE_SERIES)
     return RoleStipend(
         role_code=assignment.role_code,
         session_id=assignment.session_id,
@@ -94,6 +94,9 @@ def raw_role_stipends_for_member(
 
 def _subset_total_value(subset: tuple[RoleStipend, ...]) -> int:
     """Provenance-enabled summation helper"""
+    for r in subset:
+        # Replace ProvenanceAmount with your actual class
+        print("DEBUG amount type:", type(r.amount), r.amount)
     return sum(r.amount.value for r in subset)
 
 
@@ -128,13 +131,14 @@ def select_paid_roles_for_member(
             session_id=session.id,
             member_id=member.member_id,
             paid_roles=[rs],
-            total_amount=rs.amount,
+            total_amount=rs.amount.value,
         )
     best_subset: tuple[RoleStipend, ...] = tuple()
     best_amount = 0
     all_rs_only = [rs for (rs, _is_chair) in candidates]
     for k in (1, 2):
         for combo in combinations(all_rs_only, k):
+            print([co for co in combinations(all_rs_only, k)])
             chair_count = sum(
                 1 for rs in combo if _is_committee_chair(rs.role_code)
             )
@@ -148,7 +152,7 @@ def select_paid_roles_for_member(
                 if _subset_key(combo) < _subset_key(best_subset):
                     best_subset = combo
     if not best_subset and raw:
-        best_subset = (max(raw, key=lambda r: r.amount),)
+        best_subset = (max(raw, key=lambda r: r.amount.value),)
         best_amount = _subset_total_value(best_subset)
     paid_roles_sorted = sorted(
         best_subset, key=lambda r: (-r.amount.value, r.role_code)
@@ -157,7 +161,7 @@ def select_paid_roles_for_member(
         session_id=session.id,
         member_id=member.member_id,
         paid_roles=paid_roles_sorted,
-        total_amount=(r.amount.value for r in paid_roles_sorted),
+        total_amount=sum(r.amount.value for r in paid_roles_sorted),
     )
 
 

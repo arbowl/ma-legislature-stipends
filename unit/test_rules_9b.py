@@ -41,7 +41,7 @@ def test_speaker_stipend_basic():
     assert len(stipends) == 1
     s = stipends[0]
     assert s.role_code == RoleCode.SPEAKER
-    assert s.amount == 80_000
+    assert s.amount.value == 80_000
 
 
 def test_speaker_plus_chair_gets_both():

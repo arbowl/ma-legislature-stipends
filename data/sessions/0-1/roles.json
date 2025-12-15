@@ -1,0 +1,31 @@
+{
+  "session_id": "0-1",
+  "roles": [
+    {
+      "member_id": "H001",
+      "role_code": "SPEAKER"
+    },
+    {
+      "member_id": "H001",
+      "role_code": "HOUSE_EDUCATION_CHAIR"
+    },
+
+    {
+      "member_id": "H002",
+      "role_code": "HOUSE_EDUCATION_CHAIR"
+    },
+    {
+      "member_id": "H002",
+      "role_code": "HOUSE_JUDICIARY_CHAIR"
+    },
+    {
+      "member_id": "H002",
+      "role_code": "HOUSE_ASSISTANT_MAJORITY_LEADER"
+    },
+
+    {
+      "member_id": "H004",
+      "role_code": "HOUSE_WM_CHAIR"
+    }
+  ]
+}

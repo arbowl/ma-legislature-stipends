@@ -27,7 +27,7 @@ def test_total_comp_basic():
     )
     res = total_comp_for_member(member, session)
     assert res.total == 75_000 + 80_000 + 15_000
-    amounts = {c.label: c.amount for c in res.components}
+    amounts = {c.label: c.amount.value for c in res.components}
     assert amounts["Base salary (Article CXVIII)"] == 75_000
     assert amounts["Section 9B stipends"] == 80_000
     assert amounts["Section 9C for travel/expenses"] == 15_000
