@@ -11,8 +11,6 @@ def test_demo_session_totals():
     loaded = load_session(data_root, session_id)
     catalog_issues = validate_role_catalog()
     session_issues = validate_session_data(loaded)
-    print(catalog_issues)
-    print(session_issues)
     assert not any(
         i.level == "ERROR" for i in catalog_issues + session_issues
     )

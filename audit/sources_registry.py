@@ -32,6 +32,28 @@ BEA_WAGE_SERIES = SourceRef(
     url="https://bea.gov/",
     details=frozenset(),
 )
+STIPEND_AMOUNT_ADJUSTMENT = SourceRef(
+    id="STIPEND_9B",
+    label="Manual stipend adjustment from Massachusetts Almanac",
+    kind=SourceKind.CALCULATION,
+    url="https://massachusettsalmanac.com/perks-n-pay/",
+    details=frozenset(
+        "Data calculated via delta from base value to Almanac "
+        "reported current value"
+    ),
+)
+BASE_SALARY_ADJUSTMENT = SourceRef(
+    id="BASE_SALARY_9B",
+    label="Manual 9B(g) biennial adjustment factors (2019, 2021, 2023, 2025)",
+    kind=SourceKind.MANUAL_OVERRIDE,
+    url=None,
+    details=frozenset([
+        "https://www.cbsnews.com/boston/news/massachusetts-lawmakers-governor-charlie-baker-pay-raises/",
+        "https://www.heraldnews.com/story/news/state/2021/01/02/massachusetts-lawmakers-eligible-6-46-percent-pay-raise-2021-baker-state-representatives-senators/4111890001/",
+        "https://franklinobserver.town.news/g/franklin-town-ma/n/137414/healey-other-state-officers-line-20-raises",
+        "https://www.masslive.com/boston/2025/01/gov-maura-healey-orders-11-pay-raise-for-mass-lawmakers-in-2025.html",
+    ]),
+)
 
 _ALL_SOURCES: dict[str, SourceRef] = {
     s.id: s for s in [
@@ -39,6 +61,7 @@ _ALL_SOURCES: dict[str, SourceRef] = {
         MGL_3_9C,
         ARTICLE_CXVIII_BASE,
         BEA_WAGE_SERIES,
+        BASE_SALARY_ADJUSTMENT,
     ]
 }
 

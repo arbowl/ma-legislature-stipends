@@ -1,0 +1,32 @@
+{
+  "session_id": "2025-2026",
+  "base_amount": 82046,
+  "aggregate_change_factor": 1.3116,
+  "components": [
+    {
+      "label": "2019 pay raise",
+      "percent": 5.93,
+      "factor": 1.0593,
+      "source_url": "https://www.cbsnews.com/boston/news/massachusetts-lawmakers-governor-charlie-baker-pay-raises/"
+    },
+    {
+      "label": "2021 pay raise",
+      "percent": 6.46,
+      "factor": 1.0646,
+      "source_url": "https://www.heraldnews.com/story/news/state/2021/01/02/massachusetts-lawmakers-eligible-6-46-percent-pay-raise-2021-baker-state-representatives-senators/4111890001/"
+    },
+    {
+      "label": "2023 pay raise",
+      "percent": 4.42,
+      "factor": 1.0442,
+      "source_url": "https://franklinobserver.town.news/g/franklin-town-ma/n/137414/healey-other-state-officers-line-20-raises"
+    },
+    {
+      "label": "2025 pay raise",
+      "percent": 11.39,
+      "factor": 1.1139,
+      "source_url": "https://www.masslive.com/boston/2025/01/gov-maura-healey-orders-11-pay-raise-for-mass-lawmakers-in-2025.html"
+    }
+  ],
+  "note": "Aggregate factor and components built manually from news reports; no official machine-readable BEA source."
+}

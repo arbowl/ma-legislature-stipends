@@ -6,6 +6,9 @@ from dataclasses import dataclass, field
 from enum import StrEnum, Enum, auto
 from typing import Optional
 
+from audit.provenance import AmountWithProvenance
+from audit.sources_registry import MGL_3_9B
+
 
 class Chamber(Enum):
     """Enumeration for different chambers of the Legislature"""
@@ -55,6 +58,7 @@ class Session:
     @staticmethod
     def from_id_number(session: int) -> str:
         sessions: dict[int, str] = {
+            0: "0-1",  # demo
             194: "2025-2026",
         }
         if session not in sessions:
@@ -169,16 +173,32 @@ class StipendTierCode(StrEnum):
     TIER_5200 = "T5200"
 
     @staticmethod
-    def get_base_amount(tier_id: StipendTierCode) -> int:
+    def get_base_amount(tier_id: StipendTierCode) -> AmountWithProvenance:
         """Get the base amount for the stipend tier"""
-        tier_amounts = {
-            StipendTierCode.TIER_80K: 80_000,
-            StipendTierCode.TIER_65K: 65_000,
-            StipendTierCode.TIER_60K: 60_000,
-            StipendTierCode.TIER_50K: 50_000,
-            StipendTierCode.TIER_35K: 35_000,
-            StipendTierCode.TIER_30K: 30_000,
-            StipendTierCode.TIER_15K: 15_000,
-            StipendTierCode.TIER_5200: 5_200,
+        tier_amounts: dict[StipendTierCode, AmountWithProvenance] = {
+            StipendTierCode.TIER_80K: AmountWithProvenance(
+                80_000, MGL_3_9B
+            ),
+            StipendTierCode.TIER_65K: AmountWithProvenance(
+                65_000, MGL_3_9B
+            ),
+            StipendTierCode.TIER_60K: AmountWithProvenance(
+                60_000, MGL_3_9B
+            ),
+            StipendTierCode.TIER_50K: AmountWithProvenance(
+                50_000, MGL_3_9B
+            ),
+            StipendTierCode.TIER_35K: AmountWithProvenance(
+                35_000, MGL_3_9B
+            ),
+            StipendTierCode.TIER_30K: AmountWithProvenance(
+                30_000, MGL_3_9B
+            ),
+            StipendTierCode.TIER_15K: AmountWithProvenance(
+                15_000, MGL_3_9B
+            ),
+            StipendTierCode.TIER_5200: AmountWithProvenance(
+                5_200, MGL_3_9B
+            ),
         }
         return tier_amounts[tier_id]

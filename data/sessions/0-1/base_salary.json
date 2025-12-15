@@ -1,0 +1,7 @@
+{
+  "session_id": "0-1",
+  "base_amount": 75000,
+  "aggregate_change_factor": 1,
+  "components": [{}],
+  "note": "Aggregate factor and components built manually from news reports; no official machine-readable BEA source."
+}

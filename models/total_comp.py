@@ -36,7 +36,7 @@ def total_comp_for_member(member: Member, session: Session) -> TotalCompResult:
     stipends_9b = ap_sum(rs.amount for rs in selection.paid_roles)
     travel_9c = travel_9c_for_member(member, session)
     comps = [
-        Component(label="Base salary (Article CXVIII)", amount=base.amount),
+        Component(label="Base salary (Article CXVIII)", amount=base),
         Component(label="Section 9B stipends", amount=stipends_9b),
         Component(
             label="Section 9C for travel/expenses", amount=travel_9c.amount

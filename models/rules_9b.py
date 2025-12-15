@@ -9,7 +9,7 @@ from dataclasses import dataclass
 from typing import Optional
 
 from audit.provenance import AmountWithProvenance, ap_scale, ap_from
-from audit.sources_registry import BEA_WAGE_SERIES
+from audit.sources_registry import STIPEND_AMOUNT_ADJUSTMENT
 from models.core import (
     RoleAssignment,
     Session,
@@ -21,6 +21,7 @@ from models.core import (
 from config.role_catalog import (
     get_role_definition,
 )
+from config.comp_adjustment import load_stipend_adjustment
 
 
 @dataclass(frozen=True)
@@ -45,7 +46,8 @@ class PaidRoleSelection:
 
 def _session_adjustment_factor(session: Session) -> float:
     """Add adjustments to stipend tiers"""
-    return 1.0  # Placeholder
+    adj = load_stipend_adjustment(session.id)
+    return adj.factor
 
 
 def _is_committee_chair(role_code: RoleCode) -> bool:
@@ -64,10 +66,9 @@ def stipend_for_role_assignment(
         return None
     tier = StipendTierCode.get_base_amount(tier_id)
     factor = _session_adjustment_factor(session)
-    if factor == 1.0:
-        adjusted = ap_from(tier, BEA_WAGE_SERIES)
-    else:
-        adjusted = ap_scale(tier, factor, source=BEA_WAGE_SERIES)
+    adjusted = tier
+    if factor != 1.0:
+        adjusted = ap_scale(tier, factor, source=STIPEND_AMOUNT_ADJUSTMENT)
     return RoleStipend(
         role_code=assignment.role_code,
         session_id=assignment.session_id,

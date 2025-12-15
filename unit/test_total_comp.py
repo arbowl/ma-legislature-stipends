@@ -1,9 +1,12 @@
+from math import isclose
+
 from models.core import (
     Member,
     Chamber,
     Party,
     RoleAssignment,
 )
+from models.rules_9b import raw_role_stipends_for_member
 from config.role_catalog import ROLE_DEFINITIONS
 from models.total_comp import total_comp_for_member
 from unit.utils import mk_session
@@ -33,3 +36,26 @@ def test_total_comp_basic():
     assert amounts["Base salary (Article CXVIII)"] == 75_000
     assert amounts["Section 9B stipends"] == 80_000
     assert amounts["Section 9C for travel/expenses"] == 15_000
+
+
+def test_speaker_stipend_adjusted_for_session():
+    session = mk_session(194)
+    member = Member(
+        member_id="H001",
+        name="Test Speaker",
+        chamber=Chamber.HOUSE,
+        party=Party.DEMOCRAT,
+    )
+    member.roles.append(
+        RoleAssignment(
+            member_id=member.member_id,
+            role_code=SPEAKER.code,
+            session_id=session.id,
+        )
+    )
+    stipends = raw_role_stipends_for_member(member, session)
+    assert len(stipends) == 1
+    s = stipends[0]
+    assert s.role_code == SPEAKER.code
+    expected = 80_000 * 1.4954
+    assert isclose(s.amount.value, expected, rel_tol=1e-6)

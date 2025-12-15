@@ -56,7 +56,7 @@ def ap_add(
     """Adds two provenance artifacts"""
     return AmountWithProvenance(
         value=a.value + b.value,
-        sources=a.sources | b.sources
+        sources=frozenset([a.sources]) | frozenset([b.sources])
     )
 
 
@@ -77,5 +77,5 @@ def ap_scale(
     new_value = round(a.value * factor)
     return AmountWithProvenance(
         value=new_value,
-        sources=a.sources | frozenset(extra_sources)
+        sources=frozenset([a.sources]) | frozenset(extra_sources)
     )
