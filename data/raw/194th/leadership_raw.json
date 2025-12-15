@@ -1,0 +1,158 @@
+[
+  {
+    "member_id": "CSC0",
+    "chamber": "senate",
+    "raw_title": "Majority Leader",
+    "raw_district_party": "Norfolk and Middlesex (D)"
+  },
+  {
+    "member_id": "WNB0",
+    "chamber": "senate",
+    "raw_title": "President Pro Tempore",
+    "raw_district_party": "Suffolk and Middlesex (D)"
+  },
+  {
+    "member_id": "JBL0",
+    "chamber": "senate",
+    "raw_title": "Assistant Majority Leader",
+    "raw_district_party": "Second Essex (D)"
+  },
+  {
+    "member_id": "MJB0",
+    "chamber": "senate",
+    "raw_title": "Assistant Majority Leader",
+    "raw_district_party": "Third Middlesex (D)"
+  },
+  {
+    "member_id": "SND0",
+    "chamber": "senate",
+    "raw_title": "Assistant Majority Leader",
+    "raw_district_party": "Middlesex and Suffolk (D)"
+  },
+  {
+    "member_id": "MFR0",
+    "chamber": "senate",
+    "raw_title": "Senate Majority Whip",
+    "raw_district_party": "Norfolk and Suffolk (D)"
+  },
+  {
+    "member_id": "JAC0",
+    "chamber": "senate",
+    "raw_title": "Assistant Majority Whip",
+    "raw_district_party": "Cape and Islands (D)"
+  },
+  {
+    "member_id": "BET0",
+    "chamber": "senate",
+    "raw_title": "Minority Leader",
+    "raw_district_party": "First Essex and Middlesex (R)"
+  },
+  {
+    "member_id": "PMO",
+    "chamber": "senate",
+    "raw_title": "Assistant Minority Leader",
+    "raw_district_party": "First Plymouth and Norfolk (R)"
+  },
+  {
+    "member_id": "RCF0",
+    "chamber": "senate",
+    "raw_title": "Assistant Minority Leader",
+    "raw_district_party": "Worcester and Hampden (R)"
+  },
+  {
+    "member_id": "PJD0",
+    "chamber": "senate",
+    "raw_title": "Assistant Minority Leader",
+    "raw_district_party": "Worcester and Hampshire (R)"
+  },
+  {
+    "member_id": "KAD0",
+    "chamber": "senate",
+    "raw_title": "Assistant Minority Leader",
+    "raw_district_party": "Third Bristol and Plymouth (R)"
+  },
+  {
+    "member_id": "MJM1",
+    "chamber": "house",
+    "raw_title": "Majority Leader",
+    "raw_district_party": "Brighton (D)"
+  },
+  {
+    "member_id": "K_H1",
+    "chamber": "house",
+    "raw_title": "Speaker Pro Tempore",
+    "raw_district_party": "Stow (D)"
+  },
+  {
+    "member_id": "AHP1",
+    "chamber": "house",
+    "raw_title": "Assistant Majority Leader",
+    "raw_district_party": "Wellesley (D)"
+  },
+  {
+    "member_id": "FAM1",
+    "chamber": "house",
+    "raw_title": "Second Assistant Majority Leader",
+    "raw_district_party": "Lawrence (D)"
+  },
+  {
+    "member_id": "PJD1",
+    "chamber": "house",
+    "raw_title": "Second Assistant Majority Leader",
+    "raw_district_party": "Medford (D)"
+  },
+  {
+    "member_id": "DWG1",
+    "chamber": "house",
+    "raw_title": "First Division Chair",
+    "raw_district_party": "Marlborough (D)"
+  },
+  {
+    "member_id": "JNR1",
+    "chamber": "house",
+    "raw_title": "Second Division Chair",
+    "raw_district_party": "Franklin (D)"
+  },
+  {
+    "member_id": "C_G1",
+    "chamber": "house",
+    "raw_title": "Third Division Chair",
+    "raw_district_party": "Springfield (D)"
+  },
+  {
+    "member_id": "JJO1",
+    "chamber": "house",
+    "raw_title": "Fourth Division Chair",
+    "raw_district_party": "West Boylston (D)"
+  },
+  {
+    "member_id": "BHJ1",
+    "chamber": "house",
+    "raw_title": "Minority Leader",
+    "raw_district_party": "North Reading (R)"
+  },
+  {
+    "member_id": "KNF1",
+    "chamber": "house",
+    "raw_title": "First Assistant Minority Leader",
+    "raw_district_party": "Holden (R)"
+  },
+  {
+    "member_id": "PKF1",
+    "chamber": "house",
+    "raw_title": "Second Assistant Minority Leader",
+    "raw_district_party": "Auburn (R)"
+  },
+  {
+    "member_id": "DKM1",
+    "chamber": "house",
+    "raw_title": "Third Assistant Minority Leader",
+    "raw_district_party": "Grafton (R)"
+  },
+  {
+    "member_id": "DTV1",
+    "chamber": "house",
+    "raw_title": "Third Assistant Minority Leader",
+    "raw_district_party": "East Falmouth (R)"
+  }
+]

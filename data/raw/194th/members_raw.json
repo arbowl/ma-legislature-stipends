@@ -1,0 +1,1586 @@
+[
+  {
+    "member_id": "MJB0",
+    "name": "Michael Barrett",
+    "chamber": "senate",
+    "raw_district": "Third Middlesex",
+    "party": "D",
+    "profile_url": "https://malegislature.gov/Legislators/Profile/MJB0"
+  },
+  {
+    "member_id": "MDB0",
+    "name": "Michael Brady",
+    "chamber": "senate",
+    "raw_district": "Second Plymouth and Norfolk",
+    "party": "D",
+    "profile_url": "https://malegislature.gov/Legislators/Profile/MDB0"
+  },
+  {
+    "member_id": "WNB0",
+    "name": "William Brownsberger",
+    "chamber": "senate",
+    "raw_district": "Suffolk and Middlesex",
+    "party": "D",
+    "profile_url": "https://malegislature.gov/Legislators/Profile/WNB0"
+  },
+  {
+    "member_id": "N_C0",
+    "name": "Nick Collins",
+    "chamber": "senate",
+    "raw_district": "First Suffolk",
+    "party": "D",
+    "profile_url": "https://malegislature.gov/Legislators/Profile/N_C0"
+  },
+  {
+    "member_id": "JMC0",
+    "name": "Joanne Comerford",
+    "chamber": "senate",
+    "raw_district": "Hampshire, Franklin and Worcester",
+    "party": "D",
+    "profile_url": "https://malegislature.gov/Legislators/Profile/JMC0"
+  },
+  {
+    "member_id": "CSC0",
+    "name": "Cynthia Creem",
+    "chamber": "senate",
+    "raw_district": "Norfolk and Middlesex",
+    "party": "D",
+    "profile_url": "https://malegislature.gov/Legislators/Profile/CSC0"
+  },
+  {
+    "member_id": "BPC0",
+    "name": "Brendan Crighton",
+    "chamber": "senate",
+    "raw_district": "Third Essex",
+    "party": "D",
+    "profile_url": "https://malegislature.gov/Legislators/Profile/BPC0"
+  },
+  {
+    "member_id": "JJC0",
+    "name": "John Cronin",
+    "chamber": "senate",
+    "raw_district": "Worcester and Middlesex",
+    "party": "D",
+    "profile_url": "https://malegislature.gov/Legislators/Profile/JJC0"
+  },
+  {
+    "member_id": "JAC0",
+    "name": "Julian Cyr",
+    "chamber": "senate",
+    "raw_district": "Cape and Islands",
+    "party": "D",
+    "profile_url": "https://malegislature.gov/Legislators/Profile/JAC0"
+  },
+  {
+    "member_id": "SND0",
+    "name": "Sal DiDomenico",
+    "chamber": "senate",
+    "raw_district": "Middlesex and Suffolk",
+    "party": "D",
+    "profile_url": "https://malegislature.gov/Legislators/Profile/SND0"
+  },
+  {
+    "member_id": "KAD0",
+    "name": "Kelly Dooner",
+    "chamber": "senate",
+    "raw_district": "Third Bristol and Plymouth",
+    "party": "R",
+    "profile_url": "https://malegislature.gov/Legislators/Profile/KAD0"
+  },
+  {
+    "member_id": "WJD0",
+    "name": "William Driscoll",
+    "chamber": "senate",
+    "raw_district": "Norfolk, Plymouth and Bristol",
+    "party": "D",
+    "profile_url": "https://malegislature.gov/Legislators/Profile/WJD0"
+  },
+  {
+    "member_id": "PJD0",
+    "name": "Peter Durant",
+    "chamber": "senate",
+    "raw_district": "Worcester and Hampshire",
+    "party": "R",
+    "profile_url": "https://malegislature.gov/Legislators/Profile/PJD0"
+  },
+  {
+    "member_id": "LME0",
+    "name": "Lydia Edwards",
+    "chamber": "senate",
+    "raw_district": "Third Suffolk",
+    "party": "D",
+    "profile_url": "https://malegislature.gov/Legislators/Profile/LME0"
+  },
+  {
+    "member_id": "JBE0",
+    "name": "James Eldridge",
+    "chamber": "senate",
+    "raw_district": "Middlesex and Worcester",
+    "party": "D",
+    "profile_url": "https://malegislature.gov/Legislators/Profile/JBE0"
+  },
+  {
+    "member_id": "RCF0",
+    "name": "Ryan Fattman",
+    "chamber": "senate",
+    "raw_district": "Worcester and Hampden",
+    "party": "R",
+    "profile_url": "https://malegislature.gov/Legislators/Profile/RCF0"
+  },
+  {
+    "member_id": "PRF0",
+    "name": "Paul Feeney",
+    "chamber": "senate",
+    "raw_district": "Bristol and Norfolk",
+    "party": "D",
+    "profile_url": "https://malegislature.gov/Legislators/Profile/PRF0"
+  },
+  {
+    "member_id": "DAF0",
+    "name": "Dylan Fernandes",
+    "chamber": "senate",
+    "raw_district": "Plymouth and Barnstable",
+    "party": "D",
+    "profile_url": "https://malegislature.gov/Legislators/Profile/DAF0"
+  },
+  {
+    "member_id": "BRF0",
+    "name": "Barry Finegold",
+    "chamber": "senate",
+    "raw_district": "Second Essex and Middlesex",
+    "party": "D",
+    "profile_url": "https://malegislature.gov/Legislators/Profile/BRF0"
+  },
+  {
+    "member_id": "CFF0",
+    "name": "Cindy Friedman",
+    "chamber": "senate",
+    "raw_district": "Fourth Middlesex",
+    "party": "D",
+    "profile_url": "https://malegislature.gov/Legislators/Profile/CFF0"
+  },
+  {
+    "member_id": "A_G0",
+    "name": "Adam G\u00f3mez",
+    "chamber": "senate",
+    "raw_district": "Hampden",
+    "party": "D",
+    "profile_url": "https://malegislature.gov/Legislators/Profile/A_G0"
+  },
+  {
+    "member_id": "PDJ0",
+    "name": "Patricia Jehlen",
+    "chamber": "senate",
+    "raw_district": "Second Middlesex",
+    "party": "D",
+    "profile_url": "https://malegislature.gov/Legislators/Profile/PDJ0"
+  },
+  {
+    "member_id": "JFK0",
+    "name": "John Keenan",
+    "chamber": "senate",
+    "raw_district": "Norfolk and Plymouth",
+    "party": "D",
+    "profile_url": "https://malegislature.gov/Legislators/Profile/JFK0"
+  },
+  {
+    "member_id": "RKK0",
+    "name": "Robyn Kennedy",
+    "chamber": "senate",
+    "raw_district": "First Worcester",
+    "party": "D",
+    "profile_url": "https://malegislature.gov/Legislators/Profile/RKK0"
+  },
+  {
+    "member_id": "jml0",
+    "name": "Jason Lewis",
+    "chamber": "senate",
+    "raw_district": "Fifth Middlesex",
+    "party": "D",
+    "profile_url": "https://malegislature.gov/Legislators/Profile/jml0"
+  },
+  {
+    "member_id": "JBL0",
+    "name": "Joan Lovely",
+    "chamber": "senate",
+    "raw_district": "Second Essex",
+    "party": "D",
+    "profile_url": "https://malegislature.gov/Legislators/Profile/JBL0"
+  },
+  {
+    "member_id": "PWM0",
+    "name": "Paul Mark",
+    "chamber": "senate",
+    "raw_district": "Berkshire, Hampden, Franklin and Hampshire",
+    "party": "D",
+    "profile_url": "https://malegislature.gov/Legislators/Profile/PWM0"
+  },
+  {
+    "member_id": "L%20M0",
+    "name": "Liz Miranda",
+    "chamber": "senate",
+    "raw_district": "Second Suffolk",
+    "party": "D",
+    "profile_url": "https://malegislature.gov/Legislators/Profile/L%20M0"
+  },
+  {
+    "member_id": "MCM0",
+    "name": "Mark Montigny",
+    "chamber": "senate",
+    "raw_district": "Second Bristol and Plymouth",
+    "party": "D",
+    "profile_url": "https://malegislature.gov/Legislators/Profile/MCM0"
+  },
+  {
+    "member_id": "MOM0",
+    "name": "Michael Moore",
+    "chamber": "senate",
+    "raw_district": "Second Worcester",
+    "party": "D",
+    "profile_url": "https://malegislature.gov/Legislators/Profile/MOM0"
+  },
+  {
+    "member_id": "PMO",
+    "name": "Patrick O'Connor",
+    "chamber": "senate",
+    "raw_district": "First Plymouth and Norfolk",
+    "party": "R",
+    "profile_url": "https://malegislature.gov/Legislators/Profile/PMO"
+  },
+  {
+    "member_id": "JRO0",
+    "name": "Jacob Oliveira",
+    "chamber": "senate",
+    "raw_district": "Hampden, Hampshire and Worcester",
+    "party": "D",
+    "profile_url": "https://malegislature.gov/Legislators/Profile/JRO0"
+  },
+  {
+    "member_id": "PMP0",
+    "name": "Pavel Payano",
+    "chamber": "senate",
+    "raw_district": "First Essex",
+    "party": "D",
+    "profile_url": "https://malegislature.gov/Legislators/Profile/PMP0"
+  },
+  {
+    "member_id": "RLR0",
+    "name": "Rebecca Rausch",
+    "chamber": "senate",
+    "raw_district": "Norfolk, Worcester and Middlesex",
+    "party": "D",
+    "profile_url": "https://malegislature.gov/Legislators/Profile/RLR0"
+  },
+  {
+    "member_id": "MJR0",
+    "name": "Michael Rodrigues",
+    "chamber": "senate",
+    "raw_district": "First Bristol and Plymouth",
+    "party": "D",
+    "profile_url": "https://malegislature.gov/Legislators/Profile/MJR0"
+  },
+  {
+    "member_id": "MFR0",
+    "name": "Michael Rush",
+    "chamber": "senate",
+    "raw_district": "Norfolk and Suffolk",
+    "party": "D",
+    "profile_url": "https://malegislature.gov/Legislators/Profile/MFR0"
+  },
+  {
+    "member_id": "KES0",
+    "name": "Karen Spilka",
+    "chamber": "senate",
+    "raw_district": "Middlesex and Norfolk",
+    "party": "D",
+    "profile_url": "https://malegislature.gov/Legislators/Profile/KES0"
+  },
+  {
+    "member_id": "BET0",
+    "name": "Bruce Tarr",
+    "chamber": "senate",
+    "raw_district": "First Essex and Middlesex",
+    "party": "R",
+    "profile_url": "https://malegislature.gov/Legislators/Profile/BET0"
+  },
+  {
+    "member_id": "JCV0",
+    "name": "John Velis",
+    "chamber": "senate",
+    "raw_district": "Hampden and Hampshire",
+    "party": "D",
+    "profile_url": "https://malegislature.gov/Legislators/Profile/JCV0"
+  },
+  {
+    "member_id": "J_A1",
+    "name": "James Arciero",
+    "chamber": "house",
+    "raw_district": "2nd Middlesex",
+    "party": "D",
+    "profile_url": "https://malegislature.gov/Legislators/Profile/J_A1"
+  },
+  {
+    "member_id": "JCD1",
+    "name": "James Arena-DeRosa",
+    "chamber": "house",
+    "raw_district": "8th Middlesex",
+    "party": "D",
+    "profile_url": "https://malegislature.gov/Legislators/Profile/JCD1"
+  },
+  {
+    "member_id": "JBA1",
+    "name": "Jennifer Balinsky Armini",
+    "chamber": "house",
+    "raw_district": "8th Essex",
+    "party": "D",
+    "profile_url": "https://malegislature.gov/Legislators/Profile/JBA1"
+  },
+  {
+    "member_id": "SBA1",
+    "name": "Shirley Arriaga",
+    "chamber": "house",
+    "raw_district": "8th Hampden",
+    "party": "D",
+    "profile_url": "https://malegislature.gov/Legislators/Profile/SBA1"
+  },
+  {
+    "member_id": "BMA1",
+    "name": "Brian Ashe",
+    "chamber": "house",
+    "raw_district": "2nd Hampden",
+    "party": "D",
+    "profile_url": "https://malegislature.gov/Legislators/Profile/BMA1"
+  },
+  {
+    "member_id": "BJA1",
+    "name": "Bruce Ayers",
+    "chamber": "house",
+    "raw_district": "1st Norfolk",
+    "party": "D",
+    "profile_url": "https://malegislature.gov/Legislators/Profile/BJA1"
+  },
+  {
+    "member_id": "MLB1",
+    "name": "Michelle Badger",
+    "chamber": "house",
+    "raw_district": "1st Plymouth",
+    "party": "D",
+    "profile_url": "https://malegislature.gov/Legislators/Profile/MLB1"
+  },
+  {
+    "member_id": "CPB2",
+    "name": "Christine Barber",
+    "chamber": "house",
+    "raw_district": "34th Middlesex",
+    "party": "D",
+    "profile_url": "https://malegislature.gov/Legislators/Profile/CPB2"
+  },
+  {
+    "member_id": "J_B1",
+    "name": "John Barrett",
+    "chamber": "house",
+    "raw_district": "1st Berkshire",
+    "party": "D",
+    "profile_url": "https://malegislature.gov/Legislators/Profile/J_B1"
+  },
+  {
+    "member_id": "DRB1",
+    "name": "Donald Berthiaume",
+    "chamber": "house",
+    "raw_district": "5th Worcester",
+    "party": "R",
+    "profile_url": "https://malegislature.gov/Legislators/Profile/DRB1"
+  },
+  {
+    "member_id": "D_B1",
+    "name": "David Biele",
+    "chamber": "house",
+    "raw_district": "4th Suffolk",
+    "party": "D",
+    "profile_url": "https://malegislature.gov/Legislators/Profile/D_B1"
+  },
+  {
+    "member_id": "NMB1",
+    "name": "Natalie Blais",
+    "chamber": "house",
+    "raw_district": "1st Franklin",
+    "party": "D",
+    "profile_url": "https://malegislature.gov/Legislators/Profile/NMB1"
+  },
+  {
+    "member_id": "NAG1",
+    "name": "Nicholas Boldyga",
+    "chamber": "house",
+    "raw_district": "3rd Hampden",
+    "party": "R",
+    "profile_url": "https://malegislature.gov/Legislators/Profile/NAG1"
+  },
+  {
+    "member_id": "HLB1",
+    "name": "Hannah Bowen",
+    "chamber": "house",
+    "raw_district": "6th Essex",
+    "party": "D",
+    "profile_url": "https://malegislature.gov/Legislators/Profile/HLB1"
+  },
+  {
+    "member_id": "AFC1",
+    "name": "Antonio Cabral",
+    "chamber": "house",
+    "raw_district": "13th Bristol",
+    "party": "D",
+    "profile_url": "https://malegislature.gov/Legislators/Profile/AFC1"
+  },
+  {
+    "member_id": "DFC1",
+    "name": "Daniel Cahill",
+    "chamber": "house",
+    "raw_district": "10th Essex",
+    "party": "D",
+    "profile_url": "https://malegislature.gov/Legislators/Profile/DFC1"
+  },
+  {
+    "member_id": "S_C1",
+    "name": "Simon Cataldo",
+    "chamber": "house",
+    "raw_district": "14th Middlesex",
+    "party": "D",
+    "profile_url": "https://malegislature.gov/Legislators/Profile/S_C1"
+  },
+  {
+    "member_id": "MSC1",
+    "name": "Michael Chaisson",
+    "chamber": "house",
+    "raw_district": "1st Bristol",
+    "party": "R",
+    "profile_url": "https://malegislature.gov/Legislators/Profile/MSC1"
+  },
+  {
+    "member_id": "T_C1",
+    "name": "Tackey Chan",
+    "chamber": "house",
+    "raw_district": "2nd Norfolk",
+    "party": "D",
+    "profile_url": "https://malegislature.gov/Legislators/Profile/T_C1"
+  },
+  {
+    "member_id": "M_C2",
+    "name": "Michelle Ciccolo",
+    "chamber": "house",
+    "raw_district": "15th Middlesex",
+    "party": "D",
+    "profile_url": "https://malegislature.gov/Legislators/Profile/M_C2"
+  },
+  {
+    "member_id": "M_C1",
+    "name": "Mike Connolly",
+    "chamber": "house",
+    "raw_district": "26th Middlesex",
+    "party": "D",
+    "profile_url": "https://malegislature.gov/Legislators/Profile/M_C1"
+  },
+  {
+    "member_id": "R_C1",
+    "name": "Rob Consalvo",
+    "chamber": "house",
+    "raw_district": "14th Suffolk",
+    "party": "D",
+    "profile_url": "https://malegislature.gov/Legislators/Profile/R_C1"
+  },
+  {
+    "member_id": "M_C3",
+    "name": "Manny Cruz",
+    "chamber": "house",
+    "raw_district": "7th Essex",
+    "party": "D",
+    "profile_url": "https://malegislature.gov/Legislators/Profile/M_C3"
+  },
+  {
+    "member_id": "MJC1",
+    "name": "Mark Cusack",
+    "chamber": "house",
+    "raw_district": "5th Norfolk",
+    "party": "D",
+    "profile_url": "https://malegislature.gov/Legislators/Profile/MJC1"
+  },
+  {
+    "member_id": "LSD1",
+    "name": "Leigh Davis",
+    "chamber": "house",
+    "raw_district": "3rd Berkshire",
+    "party": "D",
+    "profile_url": "https://malegislature.gov/Legislators/Profile/LSD1"
+  },
+  {
+    "member_id": "MSD1",
+    "name": "Michael Day",
+    "chamber": "house",
+    "raw_district": "31st Middlesex",
+    "party": "D",
+    "profile_url": "https://malegislature.gov/Legislators/Profile/MSD1"
+  },
+  {
+    "member_id": "MCD1",
+    "name": "Marjorie Decker",
+    "chamber": "house",
+    "raw_district": "25th Middlesex",
+    "party": "D",
+    "profile_url": "https://malegislature.gov/Legislators/Profile/MCD1"
+  },
+  {
+    "member_id": "DFD1",
+    "name": "David DeCoste",
+    "chamber": "house",
+    "raw_district": "5th Plymouth",
+    "party": "R",
+    "profile_url": "https://malegislature.gov/Legislators/Profile/DFD1"
+  },
+  {
+    "member_id": "KAD1",
+    "name": "Kip Diggs",
+    "chamber": "house",
+    "raw_district": "2nd Barnstable",
+    "party": "D",
+    "profile_url": "https://malegislature.gov/Legislators/Profile/KAD1"
+  },
+  {
+    "member_id": "M_D2",
+    "name": "Mindy Domb",
+    "chamber": "house",
+    "raw_district": "3rd Hampshire",
+    "party": "D",
+    "profile_url": "https://malegislature.gov/Legislators/Profile/M_D2"
+  },
+  {
+    "member_id": "K_D1",
+    "name": "Kate Donaghue",
+    "chamber": "house",
+    "raw_district": "19th Worcester",
+    "party": "D",
+    "profile_url": "https://malegislature.gov/Legislators/Profile/K_D1"
+  },
+  {
+    "member_id": "DMD1",
+    "name": "Daniel Donahue",
+    "chamber": "house",
+    "raw_district": "16th Worcester",
+    "party": "D",
+    "profile_url": "https://malegislature.gov/Legislators/Profile/DMD1"
+  },
+  {
+    "member_id": "PJD1",
+    "name": "Paul Donato",
+    "chamber": "house",
+    "raw_district": "35th Middlesex",
+    "party": "D",
+    "profile_url": "https://malegislature.gov/Legislators/Profile/PJD1"
+  },
+  {
+    "member_id": "MMD1",
+    "name": "Michelle DuBois",
+    "chamber": "house",
+    "raw_district": "10th Plymouth",
+    "party": "D",
+    "profile_url": "https://malegislature.gov/Legislators/Profile/MMD1"
+  },
+  {
+    "member_id": "PAD1",
+    "name": "Patricia Duffy",
+    "chamber": "house",
+    "raw_district": "5th Hampden",
+    "party": "D",
+    "profile_url": "https://malegislature.gov/Legislators/Profile/PAD1"
+  },
+  {
+    "member_id": "RME1",
+    "name": "Rodney Elliott",
+    "chamber": "house",
+    "raw_district": "16th Middlesex",
+    "party": "D",
+    "profile_url": "https://malegislature.gov/Legislators/Profile/RME1"
+  },
+  {
+    "member_id": "TFB1",
+    "name": "Tricia Farley-Bouvier",
+    "chamber": "house",
+    "raw_district": "2nd Berkshire",
+    "party": "D",
+    "profile_url": "https://malegislature.gov/Legislators/Profile/TFB1"
+  },
+  {
+    "member_id": "KNF1",
+    "name": "Kimberly Ferguson",
+    "chamber": "house",
+    "raw_district": "1st Worcester",
+    "party": "R",
+    "profile_url": "https://malegislature.gov/Legislators/Profile/KNF1"
+  },
+  {
+    "member_id": "LMF1",
+    "name": "Lisa Field",
+    "chamber": "house",
+    "raw_district": "3rd Bristol",
+    "party": "D",
+    "profile_url": "https://malegislature.gov/Legislators/Profile/LMF1"
+  },
+  {
+    "member_id": "MJF1",
+    "name": "Michael Finn",
+    "chamber": "house",
+    "raw_district": "6th Hampden",
+    "party": "D",
+    "profile_url": "https://malegislature.gov/Legislators/Profile/MJF1"
+  },
+  {
+    "member_id": "CAF1",
+    "name": "Carole Fiola",
+    "chamber": "house",
+    "raw_district": "6th Bristol",
+    "party": "D",
+    "profile_url": "https://malegislature.gov/Legislators/Profile/CAF1"
+  },
+  {
+    "member_id": "CRF1",
+    "name": "Christopher Flanagan",
+    "chamber": "house",
+    "raw_district": "1st Barnstable",
+    "party": "D",
+    "profile_url": "https://malegislature.gov/Legislators/Profile/CRF1"
+  },
+  {
+    "member_id": "BFR1",
+    "name": "Brandy Fluker-Reid",
+    "chamber": "house",
+    "raw_district": "12th Suffolk",
+    "party": "D",
+    "profile_url": "https://malegislature.gov/Legislators/Profile/BFR1"
+  },
+  {
+    "member_id": "PKF1",
+    "name": "Paul Frost",
+    "chamber": "house",
+    "raw_district": "7th Worcester",
+    "party": "R",
+    "profile_url": "https://malegislature.gov/Legislators/Profile/PKF1"
+  },
+  {
+    "member_id": "DCG2",
+    "name": "Dennis Gallagher",
+    "chamber": "house",
+    "raw_district": "8th Plymouth",
+    "party": "D",
+    "profile_url": "https://malegislature.gov/Legislators/Profile/DCG2"
+  },
+  {
+    "member_id": "WCG1",
+    "name": "William Galvin",
+    "chamber": "house",
+    "raw_district": "6th Norfolk",
+    "party": "D",
+    "profile_url": "https://malegislature.gov/Legislators/Profile/WCG1"
+  },
+  {
+    "member_id": "S_G1",
+    "name": "Sean Garballey",
+    "chamber": "house",
+    "raw_district": "23rd Middlesex",
+    "party": "D",
+    "profile_url": "https://malegislature.gov/Legislators/Profile/S_G1"
+  },
+  {
+    "member_id": "JAG2",
+    "name": "Judith Garcia",
+    "chamber": "house",
+    "raw_district": "11th Suffolk",
+    "party": "D",
+    "profile_url": "https://malegislature.gov/Legislators/Profile/JAG2"
+  },
+  {
+    "member_id": "CMG1",
+    "name": "Colleen Garry",
+    "chamber": "house",
+    "raw_district": "36th Middlesex",
+    "party": "D",
+    "profile_url": "https://malegislature.gov/Legislators/Profile/CMG1"
+  },
+  {
+    "member_id": "JRG2",
+    "name": "John Gaskey",
+    "chamber": "house",
+    "raw_district": "2nd Plymouth",
+    "party": "R",
+    "profile_url": "https://malegislature.gov/Legislators/Profile/JRG2"
+  },
+  {
+    "member_id": "CLG1",
+    "name": "Carmine Gentile",
+    "chamber": "house",
+    "raw_district": "13th Middlesex",
+    "party": "D",
+    "profile_url": "https://malegislature.gov/Legislators/Profile/CLG1"
+  },
+  {
+    "member_id": "JAG1",
+    "name": "Jessica Giannino",
+    "chamber": "house",
+    "raw_district": "16th Suffolk",
+    "party": "D",
+    "profile_url": "https://malegislature.gov/Legislators/Profile/JAG1"
+  },
+  {
+    "member_id": "H_G1",
+    "name": "Homar G\u00f3mez",
+    "chamber": "house",
+    "raw_district": "2nd Hampshire",
+    "party": "D",
+    "profile_url": "https://malegislature.gov/Legislators/Profile/H_G1"
+  },
+  {
+    "member_id": "C_G1",
+    "name": "Carlos Gonz\u00e1lez",
+    "chamber": "house",
+    "raw_district": "10th Hampden",
+    "party": "D",
+    "profile_url": "https://malegislature.gov/Legislators/Profile/C_G1"
+  },
+  {
+    "member_id": "KIG1",
+    "name": "Kenneth Gordon",
+    "chamber": "house",
+    "raw_district": "21st Middlesex",
+    "party": "D",
+    "profile_url": "https://malegislature.gov/Legislators/Profile/KIG1"
+  },
+  {
+    "member_id": "DWG1",
+    "name": "Danielle Gregoire",
+    "chamber": "house",
+    "raw_district": "4th Middlesex",
+    "party": "D",
+    "profile_url": "https://malegislature.gov/Legislators/Profile/DWG1"
+  },
+  {
+    "member_id": "RMH1",
+    "name": "Richard Haggerty",
+    "chamber": "house",
+    "raw_district": "30th Middlesex",
+    "party": "D",
+    "profile_url": "https://malegislature.gov/Legislators/Profile/RMH1"
+  },
+  {
+    "member_id": "RMH2",
+    "name": "Ryan Hamilton",
+    "chamber": "house",
+    "raw_district": "15th Essex",
+    "party": "D",
+    "profile_url": "https://malegislature.gov/Legislators/Profile/RMH2"
+  },
+  {
+    "member_id": "JKH1",
+    "name": "James Hawkins",
+    "chamber": "house",
+    "raw_district": "2nd Bristol",
+    "party": "D",
+    "profile_url": "https://malegislature.gov/Legislators/Profile/JKH1"
+  },
+  {
+    "member_id": "C_H1",
+    "name": "Christopher Hendricks",
+    "chamber": "house",
+    "raw_district": "11th Bristol",
+    "party": "D",
+    "profile_url": "https://malegislature.gov/Legislators/Profile/C_H1"
+  },
+  {
+    "member_id": "N_H1",
+    "name": "Natalie Higgins",
+    "chamber": "house",
+    "raw_district": "4th Worcester",
+    "party": "D",
+    "profile_url": "https://malegislature.gov/Legislators/Profile/N_H1"
+  },
+  {
+    "member_id": "K_H1",
+    "name": "Kate Hogan",
+    "chamber": "house",
+    "raw_district": "3rd Middlesex",
+    "party": "D",
+    "profile_url": "https://malegislature.gov/Legislators/Profile/K_H1"
+  },
+  {
+    "member_id": "REH1",
+    "name": "Russell Holmes",
+    "chamber": "house",
+    "raw_district": "6th Suffolk",
+    "party": "D",
+    "profile_url": "https://malegislature.gov/Legislators/Profile/REH1"
+  },
+  {
+    "member_id": "KGH1",
+    "name": "Kevin Honan",
+    "chamber": "house",
+    "raw_district": "17th Suffolk",
+    "party": "D",
+    "profile_url": "https://malegislature.gov/Legislators/Profile/KGH1"
+  },
+  {
+    "member_id": "TTH1",
+    "name": "Tara Hong",
+    "chamber": "house",
+    "raw_district": "18th Middlesex",
+    "party": "D",
+    "profile_url": "https://malegislature.gov/Legislators/Profile/TTH1"
+  },
+  {
+    "member_id": "V_H1",
+    "name": "Vanna Howard",
+    "chamber": "house",
+    "raw_district": "17th Middlesex",
+    "party": "D",
+    "profile_url": "https://malegislature.gov/Legislators/Profile/V_H1"
+  },
+  {
+    "member_id": "SSH1",
+    "name": "Steven Howitt",
+    "chamber": "house",
+    "raw_district": "4th Bristol",
+    "party": "R",
+    "profile_url": "https://malegislature.gov/Legislators/Profile/SSH1"
+  },
+  {
+    "member_id": "djh1",
+    "name": "Daniel Hunt",
+    "chamber": "house",
+    "raw_district": "13th Suffolk",
+    "party": "D",
+    "profile_url": "https://malegislature.gov/Legislators/Profile/djh1"
+  },
+  {
+    "member_id": "BHJ1",
+    "name": "Bradley Jones",
+    "chamber": "house",
+    "raw_district": "20th Middlesex",
+    "party": "R",
+    "profile_url": "https://malegislature.gov/Legislators/Profile/BHJ1"
+  },
+  {
+    "member_id": "HEK1",
+    "name": "Hannah Kane",
+    "chamber": "house",
+    "raw_district": "11th Worcester",
+    "party": "R",
+    "profile_url": "https://malegislature.gov/Legislators/Profile/HEK1"
+  },
+  {
+    "member_id": "K_K2",
+    "name": "Kristin Kassner",
+    "chamber": "house",
+    "raw_district": "2nd Essex",
+    "party": "D",
+    "profile_url": "https://malegislature.gov/Legislators/Profile/K_K2"
+  },
+  {
+    "member_id": "PJK1",
+    "name": "Patrick Kearney",
+    "chamber": "house",
+    "raw_district": "4th Plymouth",
+    "party": "D",
+    "profile_url": "https://malegislature.gov/Legislators/Profile/PJK1"
+  },
+  {
+    "member_id": "MSK1",
+    "name": "Mary Keefe",
+    "chamber": "house",
+    "raw_district": "15th Worcester",
+    "party": "D",
+    "profile_url": "https://malegislature.gov/Legislators/Profile/MSK1"
+  },
+  {
+    "member_id": "SPK1",
+    "name": "Sally Kerans",
+    "chamber": "house",
+    "raw_district": "13th Essex",
+    "party": "D",
+    "profile_url": "https://malegislature.gov/Legislators/Profile/SPK1"
+  },
+  {
+    "member_id": "M_K1",
+    "name": "Meghan Kilcoyne",
+    "chamber": "house",
+    "raw_district": "12th Worcester",
+    "party": "D",
+    "profile_url": "https://malegislature.gov/Legislators/Profile/M_K1"
+  },
+  {
+    "member_id": "MPK1",
+    "name": "Michael Kushmerek",
+    "chamber": "house",
+    "raw_district": "3rd Worcester",
+    "party": "D",
+    "profile_url": "https://malegislature.gov/Legislators/Profile/MPK1"
+  },
+  {
+    "member_id": "KPL1",
+    "name": "Kathleen LaNatra",
+    "chamber": "house",
+    "raw_district": "12th Plymouth",
+    "party": "D",
+    "profile_url": "https://malegislature.gov/Legislators/Profile/KPL1"
+  },
+  {
+    "member_id": "JJL2",
+    "name": "John Lawn",
+    "chamber": "house",
+    "raw_district": "10th Middlesex",
+    "party": "D",
+    "profile_url": "https://malegislature.gov/Legislators/Profile/JJL2"
+  },
+  {
+    "member_id": "DAL1",
+    "name": "David LeBoeuf",
+    "chamber": "house",
+    "raw_district": "17th Worcester",
+    "party": "D",
+    "profile_url": "https://malegislature.gov/Legislators/Profile/DAL1"
+  },
+  {
+    "member_id": "JPL1",
+    "name": "Jack Lewis",
+    "chamber": "house",
+    "raw_district": "7th Middlesex",
+    "party": "D",
+    "profile_url": "https://malegislature.gov/Legislators/Profile/JPL1"
+  },
+  {
+    "member_id": "DPL1",
+    "name": "David Linsky",
+    "chamber": "house",
+    "raw_district": "5th Middlesex",
+    "party": "D",
+    "profile_url": "https://malegislature.gov/Legislators/Profile/DPL1"
+  },
+  {
+    "member_id": "KLG1",
+    "name": "Kate Lipper-Garabedian",
+    "chamber": "house",
+    "raw_district": "32nd Middlesex",
+    "party": "D",
+    "profile_url": "https://malegislature.gov/Legislators/Profile/KLG1"
+  },
+  {
+    "member_id": "J_L1",
+    "name": "Jay Livingstone",
+    "chamber": "house",
+    "raw_district": "8th Suffolk",
+    "party": "D",
+    "profile_url": "https://malegislature.gov/Legislators/Profile/J_L1"
+  },
+  {
+    "member_id": "MTL1",
+    "name": "Marc Lombardo",
+    "chamber": "house",
+    "raw_district": "22nd Middlesex",
+    "party": "R",
+    "profile_url": "https://malegislature.gov/Legislators/Profile/MTL1"
+  },
+  {
+    "member_id": "H_L1",
+    "name": "Hadley Luddy",
+    "chamber": "house",
+    "raw_district": "4th Barnstable",
+    "party": "D",
+    "profile_url": "https://malegislature.gov/Legislators/Profile/H_L1"
+  },
+  {
+    "member_id": "WFM1",
+    "name": "William MacGregor",
+    "chamber": "house",
+    "raw_district": "10th Suffolk",
+    "party": "D",
+    "profile_url": "https://malegislature.gov/Legislators/Profile/WFM1"
+  },
+  {
+    "member_id": "ACM1",
+    "name": "Adrian Madaro",
+    "chamber": "house",
+    "raw_district": "1st Suffolk",
+    "party": "D",
+    "profile_url": "https://malegislature.gov/Legislators/Profile/ACM1"
+  },
+  {
+    "member_id": "JJM2",
+    "name": "John Mahoney",
+    "chamber": "house",
+    "raw_district": "13th Worcester",
+    "party": "D",
+    "profile_url": "https://malegislature.gov/Legislators/Profile/JJM2"
+  },
+  {
+    "member_id": "R_M1",
+    "name": "Ronald Mariano",
+    "chamber": "house",
+    "raw_district": "3rd Norfolk",
+    "party": "D",
+    "profile_url": "https://malegislature.gov/Legislators/Profile/R_M1"
+  },
+  {
+    "member_id": "CMM1",
+    "name": "Christopher Markey",
+    "chamber": "house",
+    "raw_district": "9th Bristol",
+    "party": "D",
+    "profile_url": "https://malegislature.gov/Legislators/Profile/CMM1"
+  },
+  {
+    "member_id": "JJM1",
+    "name": "John Marsi",
+    "chamber": "house",
+    "raw_district": "6th Worcester",
+    "party": "R",
+    "profile_url": "https://malegislature.gov/Legislators/Profile/JJM1"
+  },
+  {
+    "member_id": "jwm1",
+    "name": "Joseph McGonagle",
+    "chamber": "house",
+    "raw_district": "28th Middlesex",
+    "party": "D",
+    "profile_url": "https://malegislature.gov/Legislators/Profile/jwm1"
+  },
+  {
+    "member_id": "JDM1",
+    "name": "Joseph McKenna",
+    "chamber": "house",
+    "raw_district": "18th Worcester",
+    "party": "R",
+    "profile_url": "https://malegislature.gov/Legislators/Profile/JDM1"
+  },
+  {
+    "member_id": "P_M1",
+    "name": "Paul McMurtry",
+    "chamber": "house",
+    "raw_district": "11th Norfolk",
+    "party": "D",
+    "profile_url": "https://malegislature.gov/Legislators/Profile/P_M1"
+  },
+  {
+    "member_id": "RAM1",
+    "name": "Rita Mendes",
+    "chamber": "house",
+    "raw_district": "11th Plymouth",
+    "party": "D",
+    "profile_url": "https://malegislature.gov/Legislators/Profile/RAM1"
+  },
+  {
+    "member_id": "J_M1",
+    "name": "Joan Meschino",
+    "chamber": "house",
+    "raw_district": "3rd Plymouth",
+    "party": "D",
+    "profile_url": "https://malegislature.gov/Legislators/Profile/J_M1"
+  },
+  {
+    "member_id": "AMM1",
+    "name": "Aaron Michlewitz",
+    "chamber": "house",
+    "raw_district": "3rd Suffolk",
+    "party": "D",
+    "profile_url": "https://malegislature.gov/Legislators/Profile/AMM1"
+  },
+  {
+    "member_id": "TWM1",
+    "name": "Thomas Moakley",
+    "chamber": "house",
+    "raw_district": "Barnstable, Dukes and Nantucket",
+    "party": "D",
+    "profile_url": "https://malegislature.gov/Legislators/Profile/TWM1"
+  },
+  {
+    "member_id": "S_M1",
+    "name": "Samantha Monta\u00f1o",
+    "chamber": "house",
+    "raw_district": "15th Suffolk",
+    "party": "D",
+    "profile_url": "https://malegislature.gov/Legislators/Profile/S_M1"
+  },
+  {
+    "member_id": "FAM1",
+    "name": "Frank Moran",
+    "chamber": "house",
+    "raw_district": "17th Essex",
+    "party": "D",
+    "profile_url": "https://malegislature.gov/Legislators/Profile/FAM1"
+  },
+  {
+    "member_id": "JFM1",
+    "name": "John Moran",
+    "chamber": "house",
+    "raw_district": "9th Suffolk",
+    "party": "D",
+    "profile_url": "https://malegislature.gov/Legislators/Profile/JFM1"
+  },
+  {
+    "member_id": "MJM1",
+    "name": "Michael Moran",
+    "chamber": "house",
+    "raw_district": "18th Suffolk",
+    "party": "D",
+    "profile_url": "https://malegislature.gov/Legislators/Profile/MJM1"
+  },
+  {
+    "member_id": "DKM1",
+    "name": "David Muradian",
+    "chamber": "house",
+    "raw_district": "9th Worcester",
+    "party": "R",
+    "profile_url": "https://malegislature.gov/Legislators/Profile/DKM1"
+  },
+  {
+    "member_id": "JMM1",
+    "name": "James Murphy",
+    "chamber": "house",
+    "raw_district": "4th Norfolk",
+    "party": "D",
+    "profile_url": "https://malegislature.gov/Legislators/Profile/JMM1"
+  },
+  {
+    "member_id": "BWM1",
+    "name": "Brian Murray",
+    "chamber": "house",
+    "raw_district": "10th Worcester",
+    "party": "D",
+    "profile_url": "https://malegislature.gov/Legislators/Profile/BWM1"
+  },
+  {
+    "member_id": "TTN1",
+    "name": "Tram Nguyen",
+    "chamber": "house",
+    "raw_district": "18th Essex",
+    "party": "D",
+    "profile_url": "https://malegislature.gov/Legislators/Profile/TTN1"
+  },
+  {
+    "member_id": "JJO1",
+    "name": "James O'Day",
+    "chamber": "house",
+    "raw_district": "14th Worcester",
+    "party": "D",
+    "profile_url": "https://malegislature.gov/Legislators/Profile/JJO1"
+  },
+  {
+    "member_id": "NJO1",
+    "name": "Norman Orrall",
+    "chamber": "house",
+    "raw_district": "12th Bristol",
+    "party": "R",
+    "profile_url": "https://malegislature.gov/Legislators/Profile/NJO1"
+  },
+  {
+    "member_id": "SJO1",
+    "name": "Steven Ouellette",
+    "chamber": "house",
+    "raw_district": "8th Bristol",
+    "party": "D",
+    "profile_url": "https://malegislature.gov/Legislators/Profile/SJO1"
+  },
+  {
+    "member_id": "SCO1",
+    "name": "Steven Owens",
+    "chamber": "house",
+    "raw_district": "29th Middlesex",
+    "party": "D",
+    "profile_url": "https://malegislature.gov/Legislators/Profile/SCO1"
+  },
+  {
+    "member_id": "FEP1",
+    "name": "Francisco Paulino",
+    "chamber": "house",
+    "raw_district": "16th Essex",
+    "party": "D",
+    "profile_url": "https://malegislature.gov/Legislators/Profile/FEP1"
+  },
+  {
+    "member_id": "KWP1",
+    "name": "Kelly Pease",
+    "chamber": "house",
+    "raw_district": "4th Hampden",
+    "party": "R",
+    "profile_url": "https://malegislature.gov/Legislators/Profile/KWP1"
+  },
+  {
+    "member_id": "AHP1",
+    "name": "Alice Peisch",
+    "chamber": "house",
+    "raw_district": "14th Norfolk",
+    "party": "D",
+    "profile_url": "https://malegislature.gov/Legislators/Profile/AHP1"
+  },
+  {
+    "member_id": "ERP1",
+    "name": "Edward Philips",
+    "chamber": "house",
+    "raw_district": "8th Norfolk",
+    "party": "D",
+    "profile_url": "https://malegislature.gov/Legislators/Profile/ERP1"
+  },
+  {
+    "member_id": "BMP1",
+    "name": "Bridget Plouffe",
+    "chamber": "house",
+    "raw_district": "9th Plymouth",
+    "party": "D",
+    "profile_url": "https://malegislature.gov/Legislators/Profile/BMP1"
+  },
+  {
+    "member_id": "AJP1",
+    "name": "Angelo Puppolo",
+    "chamber": "house",
+    "raw_district": "12th Hampden",
+    "party": "D",
+    "profile_url": "https://malegislature.gov/Legislators/Profile/AJP1"
+  },
+  {
+    "member_id": "APR1",
+    "name": "Adrianne Ramos",
+    "chamber": "house",
+    "raw_district": "14th Essex",
+    "party": "D",
+    "profile_url": "https://malegislature.gov/Legislators/Profile/APR1"
+  },
+  {
+    "member_id": "O_R1",
+    "name": "Orlando Ramos",
+    "chamber": "house",
+    "raw_district": "9th Hampden",
+    "party": "D",
+    "profile_url": "https://malegislature.gov/Legislators/Profile/O_R1"
+  },
+  {
+    "member_id": "S_R1",
+    "name": "Sean Reid",
+    "chamber": "house",
+    "raw_district": "11th Essex",
+    "party": "D",
+    "profile_url": "https://malegislature.gov/Legislators/Profile/S_R1"
+  },
+  {
+    "member_id": "EAR1",
+    "name": "Estela Reyes",
+    "chamber": "house",
+    "raw_district": "4th Essex",
+    "party": "D",
+    "profile_url": "https://malegislature.gov/Legislators/Profile/EAR1"
+  },
+  {
+    "member_id": "D_R1",
+    "name": "David Robertson",
+    "chamber": "house",
+    "raw_district": "19th Middlesex",
+    "party": "D",
+    "profile_url": "https://malegislature.gov/Legislators/Profile/D_R1"
+  },
+  {
+    "member_id": "DMR1",
+    "name": "David Rogers",
+    "chamber": "house",
+    "raw_district": "24th Middlesex",
+    "party": "D",
+    "profile_url": "https://malegislature.gov/Legislators/Profile/DMR1"
+  },
+  {
+    "member_id": "JHR1",
+    "name": "John Rogers",
+    "chamber": "house",
+    "raw_district": "12th Norfolk",
+    "party": "D",
+    "profile_url": "https://malegislature.gov/Legislators/Profile/JHR1"
+  },
+  {
+    "member_id": "JNR1",
+    "name": "Jeffrey Roy",
+    "chamber": "house",
+    "raw_district": "10th Norfolk",
+    "party": "D",
+    "profile_url": "https://malegislature.gov/Legislators/Profile/JNR1"
+  },
+  {
+    "member_id": "djr1",
+    "name": "Daniel Ryan",
+    "chamber": "house",
+    "raw_district": "2nd Suffolk",
+    "party": "D",
+    "profile_url": "https://malegislature.gov/Legislators/Profile/djr1"
+  },
+  {
+    "member_id": "L_S1",
+    "name": "Lindsay Sabadosa",
+    "chamber": "house",
+    "raw_district": "1st Hampshire",
+    "party": "D",
+    "profile_url": "https://malegislature.gov/Legislators/Profile/L_S1"
+  },
+  {
+    "member_id": "AMS3",
+    "name": "Amy Sangiolo",
+    "chamber": "house",
+    "raw_district": "11th Middlesex",
+    "party": "D",
+    "profile_url": "https://malegislature.gov/Legislators/Profile/AMS3"
+  },
+  {
+    "member_id": "ALS1",
+    "name": "Aaron Saunders",
+    "chamber": "house",
+    "raw_district": "7th Hampden",
+    "party": "D",
+    "profile_url": "https://malegislature.gov/Legislators/Profile/ALS1"
+  },
+  {
+    "member_id": "AJS1",
+    "name": "Adam Scanlon",
+    "chamber": "house",
+    "raw_district": "14th Bristol",
+    "party": "D",
+    "profile_url": "https://malegislature.gov/Legislators/Profile/AJS1"
+  },
+  {
+    "member_id": "MRS1",
+    "name": "Margaret Scarsdale",
+    "chamber": "house",
+    "raw_district": "1st Middlesex",
+    "party": "D",
+    "profile_url": "https://malegislature.gov/Legislators/Profile/MRS1"
+  },
+  {
+    "member_id": "G_S1",
+    "name": "Greg Schwartz",
+    "chamber": "house",
+    "raw_district": "12th Middlesex",
+    "party": "D",
+    "profile_url": "https://malegislature.gov/Legislators/Profile/G_S1"
+  },
+  {
+    "member_id": "DAS1",
+    "name": "Danillo Sena",
+    "chamber": "house",
+    "raw_district": "37th Middlesex",
+    "party": "D",
+    "profile_url": "https://malegislature.gov/Legislators/Profile/DAS1"
+  },
+  {
+    "member_id": "D_S1",
+    "name": "Dawne Shand",
+    "chamber": "house",
+    "raw_district": "1st Essex",
+    "party": "D",
+    "profile_url": "https://malegislature.gov/Legislators/Profile/D_S1"
+  },
+  {
+    "member_id": "A_S1",
+    "name": "Alan Silvia",
+    "chamber": "house",
+    "raw_district": "7th Bristol",
+    "party": "D",
+    "profile_url": "https://malegislature.gov/Legislators/Profile/A_S1"
+  },
+  {
+    "member_id": "TMS2",
+    "name": "Todd Smola",
+    "chamber": "house",
+    "raw_district": "1st Hampden",
+    "party": "R",
+    "profile_url": "https://malegislature.gov/Legislators/Profile/TMS2"
+  },
+  {
+    "member_id": "MJS3",
+    "name": "Michael Soter",
+    "chamber": "house",
+    "raw_district": "8th Worcester",
+    "party": "R",
+    "profile_url": "https://malegislature.gov/Legislators/Profile/MJS3"
+  },
+  {
+    "member_id": "PSS1",
+    "name": "Priscila Sousa",
+    "chamber": "house",
+    "raw_district": "6th Middlesex",
+    "party": "D",
+    "profile_url": "https://malegislature.gov/Legislators/Profile/PSS1"
+  },
+  {
+    "member_id": "TMS1",
+    "name": "Thomas Stanley",
+    "chamber": "house",
+    "raw_district": "9th Middlesex",
+    "party": "D",
+    "profile_url": "https://malegislature.gov/Legislators/Profile/TMS1"
+  },
+  {
+    "member_id": "AMS2",
+    "name": "Alyson Sullivan-Almeida",
+    "chamber": "house",
+    "raw_district": "7th Plymouth",
+    "party": "R",
+    "profile_url": "https://malegislature.gov/Legislators/Profile/AMS2"
+  },
+  {
+    "member_id": "KPS1",
+    "name": "Kenneth Sweezey",
+    "chamber": "house",
+    "raw_district": "6th Plymouth",
+    "party": "R",
+    "profile_url": "https://malegislature.gov/Legislators/Profile/KPS1"
+  },
+  {
+    "member_id": "MDS1",
+    "name": "Mark Sylvia",
+    "chamber": "house",
+    "raw_district": "10th Bristol",
+    "party": "D",
+    "profile_url": "https://malegislature.gov/Legislators/Profile/MDS1"
+  },
+  {
+    "member_id": "J_T1",
+    "name": "Joshua Tarsky",
+    "chamber": "house",
+    "raw_district": "13th Norfolk",
+    "party": "D",
+    "profile_url": "https://malegislature.gov/Legislators/Profile/J_T1"
+  },
+  {
+    "member_id": "J_T2",
+    "name": "Justin Thurber",
+    "chamber": "house",
+    "raw_district": "5th Bristol",
+    "party": "R",
+    "profile_url": "https://malegislature.gov/Legislators/Profile/J_T2"
+  },
+  {
+    "member_id": "JRT1",
+    "name": "Jeffrey Turco",
+    "chamber": "house",
+    "raw_district": "19th Suffolk",
+    "party": "D",
+    "profile_url": "https://malegislature.gov/Legislators/Profile/JRT1"
+  },
+  {
+    "member_id": "C_T1",
+    "name": "Chynah Tyler",
+    "chamber": "house",
+    "raw_district": "7th Suffolk",
+    "party": "D",
+    "profile_url": "https://malegislature.gov/Legislators/Profile/C_T1"
+  },
+  {
+    "member_id": "S_G2",
+    "name": "Steven Ultrino",
+    "chamber": "house",
+    "raw_district": "33rd Middlesex",
+    "party": "D",
+    "profile_url": "https://malegislature.gov/Legislators/Profile/S_G2"
+  },
+  {
+    "member_id": "E_U1",
+    "name": "Erika Uyterhoeven",
+    "chamber": "house",
+    "raw_district": "27th Middlesex",
+    "party": "D",
+    "profile_url": "https://malegislature.gov/Legislators/Profile/E_U1"
+  },
+  {
+    "member_id": "AXV1",
+    "name": "Andres Vargas",
+    "chamber": "house",
+    "raw_district": "3rd Essex",
+    "party": "D",
+    "profile_url": "https://malegislature.gov/Legislators/Profile/AXV1"
+  },
+  {
+    "member_id": "MSV1",
+    "name": "Marcus Vaughn",
+    "chamber": "house",
+    "raw_district": "9th Norfolk",
+    "party": "R",
+    "profile_url": "https://malegislature.gov/Legislators/Profile/MSV1"
+  },
+  {
+    "member_id": "DTV1",
+    "name": "David Vieira",
+    "chamber": "house",
+    "raw_district": "3rd Barnstable",
+    "party": "R",
+    "profile_url": "https://malegislature.gov/Legislators/Profile/DTV1"
+  },
+  {
+    "member_id": "T_V1",
+    "name": "Tommy Vitolo",
+    "chamber": "house",
+    "raw_district": "15th Norfolk",
+    "party": "D",
+    "profile_url": "https://malegislature.gov/Legislators/Profile/T_V1"
+  },
+  {
+    "member_id": "TJW1",
+    "name": "Thomas Walsh",
+    "chamber": "house",
+    "raw_district": "12th Essex",
+    "party": "D",
+    "profile_url": "https://malegislature.gov/Legislators/Profile/TJW1"
+  },
+  {
+    "member_id": "RGW1",
+    "name": "Richard Wells",
+    "chamber": "house",
+    "raw_district": "7th Norfolk",
+    "party": "D",
+    "profile_url": "https://malegislature.gov/Legislators/Profile/RGW1"
+  },
+  {
+    "member_id": "SLG1",
+    "name": "Susannah Whipps",
+    "chamber": "house",
+    "raw_district": "2nd Franklin",
+    "party": null,
+    "profile_url": "https://malegislature.gov/Legislators/Profile/SLG1"
+  },
+  {
+    "member_id": "BLW1",
+    "name": "Bud Williams",
+    "chamber": "house",
+    "raw_district": "11th Hampden",
+    "party": "D",
+    "profile_url": "https://malegislature.gov/Legislators/Profile/BLW1"
+  },
+  {
+    "member_id": "DHW1",
+    "name": "Donald Wong",
+    "chamber": "house",
+    "raw_district": "9th Essex",
+    "party": "R",
+    "profile_url": "https://malegislature.gov/Legislators/Profile/DHW1"
+  },
+  {
+    "member_id": "CJW1",
+    "name": "Christopher Worrell",
+    "chamber": "house",
+    "raw_district": "5th Suffolk",
+    "party": "D",
+    "profile_url": "https://malegislature.gov/Legislators/Profile/CJW1"
+  },
+  {
+    "member_id": "SGX1",
+    "name": "Steven Xiarhos",
+    "chamber": "house",
+    "raw_district": "5th Barnstable",
+    "party": "R",
+    "profile_url": "https://malegislature.gov/Legislators/Profile/SGX1"
+  },
+  {
+    "member_id": "JDZ1",
+    "name": "Jonathan Zlotnik",
+    "chamber": "house",
+    "raw_district": "2nd Worcester",
+    "party": "D",
+    "profile_url": "https://malegislature.gov/Legislators/Profile/JDZ1"
+  }
+]
