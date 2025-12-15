@@ -1,28 +1,28 @@
-# ma_leg_comp/config/role_catalog.py
+"""Role catalog for the Legislature"""
 
 from __future__ import annotations
 
-from typing import Optional
+from enum import Enum
 
 from models.core import (
     Chamber,
     RoleDomain,
     CommitteeRoleType,
     RoleDefinition,
+    StipendTierCode
 )
 
-# ---------------------------------------------------------------------------
-# Tier IDs (strings only). These must match config/stipend_tiers.py
-# ---------------------------------------------------------------------------
 
-T80K = "T80K"
-T65K = "T65K"
-T60K = "T60K"
-T50K = "T50K"
-T35K = "T35K"
-T30K = "T30K"
-T15K = "T15K"
-T5200 = "T5200"
+class _RoleKey(str, Enum):
+    """Helper for matching args to keys"""
+
+    CODE = "code"
+    TITLE = "title"
+    DOMAIN = "domain"
+    CHAMBER = "chamber"
+    COMMITTEE_CODE = "committee_code"
+    COMMITTEE_ROLE_TYPE = "committee_role_type"
+    TIER_ID = "tier_id"
 
 
 Spec = dict  # simple alias for readability
@@ -42,7 +42,7 @@ ROLE_SPECS += [
         chamber=Chamber.HOUSE,
         committee_code=None,
         committee_role_type=None,
-        tier_id=T80K,
+        tier_id=StipendTierCode.TIER_80K,
     ),
     Spec(
         code="SENATE_PRESIDENT",
@@ -51,7 +51,7 @@ ROLE_SPECS += [
         chamber=Chamber.SENATE,
         committee_code=None,
         committee_role_type=None,
-        tier_id=T80K,
+        tier_id=StipendTierCode.TIER_80K,
     ),
 ]
 
@@ -67,7 +67,7 @@ ROLE_SPECS += [
         chamber=Chamber.HOUSE,
         committee_code="WAYS_MEANS_HOUSE",
         committee_role_type=CommitteeRoleType.CHAIR,
-        tier_id=T65K,
+        tier_id=StipendTierCode.TIER_65K,
     ),
     Spec(
         code="SENATE_WAYS_MEANS_CHAIR",
@@ -76,7 +76,7 @@ ROLE_SPECS += [
         chamber=Chamber.SENATE,
         committee_code="WAYS_MEANS_SENATE",
         committee_role_type=CommitteeRoleType.CHAIR,
-        tier_id=T65K,
+        tier_id=StipendTierCode.TIER_65K,
     ),
 ]
 
@@ -92,7 +92,7 @@ ROLE_SPECS += [
         chamber=Chamber.HOUSE,
         committee_code=None,
         committee_role_type=None,
-        tier_id=T60K,
+        tier_id=StipendTierCode.TIER_60K,
     ),
     Spec(
         code="HOUSE_MINORITY_FLOOR_LEADER",
@@ -101,7 +101,7 @@ ROLE_SPECS += [
         chamber=Chamber.HOUSE,
         committee_code=None,
         committee_role_type=None,
-        tier_id=T60K,
+        tier_id=StipendTierCode.TIER_60K,
     ),
     Spec(
         code="SENATE_MAJORITY_FLOOR_LEADER",
@@ -110,7 +110,7 @@ ROLE_SPECS += [
         chamber=Chamber.SENATE,
         committee_code=None,
         committee_role_type=None,
-        tier_id=T60K,
+        tier_id=StipendTierCode.TIER_60K,
     ),
     Spec(
         code="SENATE_MINORITY_FLOOR_LEADER",
@@ -119,7 +119,7 @@ ROLE_SPECS += [
         chamber=Chamber.SENATE,
         committee_code=None,
         committee_role_type=None,
-        tier_id=T60K,
+        tier_id=StipendTierCode.TIER_60K,
     ),
 ]
 
@@ -135,7 +135,7 @@ ROLE_SPECS += [
         chamber=Chamber.HOUSE,
         committee_code=None,
         committee_role_type=None,
-        tier_id=T50K,
+        tier_id=StipendTierCode.TIER_50K,
     ),
     Spec(
         code="SENATE_PRESIDENT_PRO_TEM",
@@ -144,7 +144,7 @@ ROLE_SPECS += [
         chamber=Chamber.SENATE,
         committee_code=None,
         committee_role_type=None,
-        tier_id=T50K,
+        tier_id=StipendTierCode.TIER_50K,
     ),
 ]
 
@@ -168,7 +168,7 @@ for chamber, chamber_label in [
                 chamber=chamber,
                 committee_code=None,
                 committee_role_type=None,
-                tier_id=T35K,
+                tier_id=StipendTierCode.TIER_35K,
             ),
             Spec(
                 code=(
@@ -183,7 +183,7 @@ for chamber, chamber_label in [
                 chamber=chamber,
                 committee_code=None,
                 committee_role_type=None,
-                tier_id=T35K,
+                tier_id=StipendTierCode.TIER_35K,
             ),
             Spec(
                 code=(
@@ -198,7 +198,7 @@ for chamber, chamber_label in [
                 chamber=chamber,
                 committee_code=None,
                 committee_role_type=None,
-                tier_id=T35K,
+                tier_id=StipendTierCode.TIER_35K,
             ),
         ]
 
@@ -215,7 +215,7 @@ ROLE_SPECS += [
         chamber=Chamber.HOUSE,
         committee_code=None,
         committee_role_type=None,
-        tier_id=T30K,
+        tier_id=StipendTierCode.TIER_30K,
     ),
     Spec(
         code="HOUSE_DIVISION_2_CHAIR",
@@ -224,7 +224,7 @@ ROLE_SPECS += [
         chamber=Chamber.HOUSE,
         committee_code=None,
         committee_role_type=None,
-        tier_id=T30K,
+        tier_id=StipendTierCode.TIER_30K,
     ),
     Spec(
         code="HOUSE_DIVISION_3_CHAIR",
@@ -233,7 +233,7 @@ ROLE_SPECS += [
         chamber=Chamber.HOUSE,
         committee_code=None,
         committee_role_type=None,
-        tier_id=T30K,
+        tier_id=StipendTierCode.TIER_30K,
     ),
     Spec(
         code="HOUSE_DIVISION_4_CHAIR",
@@ -242,7 +242,7 @@ ROLE_SPECS += [
         chamber=Chamber.HOUSE,
         committee_code=None,
         committee_role_type=None,
-        tier_id=T30K,
+        tier_id=StipendTierCode.TIER_30K,
     ),
 ]
 
@@ -255,7 +255,7 @@ ROLE_SPECS += [
         chamber=Chamber.SENATE,
         committee_code="RULES_SENATE",
         committee_role_type=CommitteeRoleType.CHAIR,
-        tier_id=T30K,
+        tier_id=StipendTierCode.TIER_30K,
     ),
     Spec(
         code="HOUSE_RULES_CHAIR",
@@ -264,7 +264,7 @@ ROLE_SPECS += [
         chamber=Chamber.HOUSE,
         committee_code="RULES_HOUSE",
         committee_role_type=CommitteeRoleType.CHAIR,
-        tier_id=T30K,
+        tier_id=StipendTierCode.TIER_30K,
     ),
 ]
 
@@ -280,7 +280,7 @@ ROLE_SPECS += [
         chamber=Chamber.SENATE,
         committee_code="BONDING_CAPITAL_JOINT",
         committee_role_type=CommitteeRoleType.CHAIR,
-        tier_id=T30K,
+        tier_id=StipendTierCode.TIER_30K,
     ),
     Spec(
         code="HOUSE_BONDING_CAPITAL_CHAIR",
@@ -292,7 +292,7 @@ ROLE_SPECS += [
         chamber=Chamber.HOUSE,
         committee_code="BONDING_CAPITAL_JOINT",
         committee_role_type=CommitteeRoleType.CHAIR,
-        tier_id=T30K,
+        tier_id=StipendTierCode.TIER_30K,
     ),
 ]
 
@@ -305,7 +305,7 @@ ROLE_SPECS += [
         chamber=Chamber.SENATE,
         committee_code="WAYS_MEANS_SENATE",
         committee_role_type=CommitteeRoleType.VICE_CHAIR,
-        tier_id=T30K,
+        tier_id=StipendTierCode.TIER_30K,
     ),
     Spec(
         code="HOUSE_WAYS_MEANS_VICE_CHAIR",
@@ -314,7 +314,7 @@ ROLE_SPECS += [
         chamber=Chamber.HOUSE,
         committee_code="WAYS_MEANS_HOUSE",
         committee_role_type=CommitteeRoleType.VICE_CHAIR,
-        tier_id=T30K,
+        tier_id=StipendTierCode.TIER_30K,
     ),
 ]
 
@@ -327,7 +327,7 @@ ROLE_SPECS += [
         chamber=Chamber.SENATE,
         committee_code="WAYS_MEANS_SENATE",
         committee_role_type=CommitteeRoleType.RANKING_MINORITY,
-        tier_id=T30K,
+        tier_id=StipendTierCode.TIER_30K,
     ),
     Spec(
         code="HOUSE_WAYS_MEANS_RANKING_MINORITY",
@@ -336,7 +336,7 @@ ROLE_SPECS += [
         chamber=Chamber.HOUSE,
         committee_code="WAYS_MEANS_HOUSE",
         committee_role_type=CommitteeRoleType.RANKING_MINORITY,
-        tier_id=T30K,
+        tier_id=StipendTierCode.TIER_30K,
     ),
 ]
 
@@ -349,7 +349,7 @@ ROLE_SPECS += [
         chamber=Chamber.SENATE,
         committee_code="POST_AUDIT_SENATE",
         committee_role_type=CommitteeRoleType.CHAIR,
-        tier_id=T30K,
+        tier_id=StipendTierCode.TIER_30K,
     ),
     Spec(
         code="HOUSE_POST_AUDIT_CHAIR",
@@ -358,7 +358,7 @@ ROLE_SPECS += [
         chamber=Chamber.HOUSE,
         committee_code="POST_AUDIT_HOUSE",
         committee_role_type=CommitteeRoleType.CHAIR,
-        tier_id=T30K,
+        tier_id=StipendTierCode.TIER_30K,
     ),
 ]
 
@@ -371,7 +371,7 @@ ROLE_SPECS += [
         chamber=Chamber.SENATE,
         committee_code="BILLS_THIRD_READING_SENATE",
         committee_role_type=CommitteeRoleType.CHAIR,
-        tier_id=T30K,
+        tier_id=StipendTierCode.TIER_30K,
     ),
     Spec(
         code="HOUSE_BILLS_THIRD_READING_CHAIR",
@@ -380,7 +380,7 @@ ROLE_SPECS += [
         chamber=Chamber.HOUSE,
         committee_code="BILLS_THIRD_READING_HOUSE",
         committee_role_type=CommitteeRoleType.CHAIR,
-        tier_id=T30K,
+        tier_id=StipendTierCode.TIER_30K,
     ),
 ]
 
@@ -393,7 +393,7 @@ ROLE_SPECS += [
         chamber=Chamber.SENATE,
         committee_code="STEERING_POLICY_SENATE",
         committee_role_type=CommitteeRoleType.CHAIR,
-        tier_id=T30K,
+        tier_id=StipendTierCode.TIER_30K,
     ),
     Spec(
         code="HOUSE_STEERING_POLICY_SCHEDULING_CHAIR",
@@ -402,7 +402,7 @@ ROLE_SPECS += [
         chamber=Chamber.HOUSE,
         committee_code="STEERING_POLICY_SCHEDULING_HOUSE",
         committee_role_type=CommitteeRoleType.CHAIR,
-        tier_id=T30K,
+        tier_id=StipendTierCode.TIER_30K,
     ),
 ]
 
@@ -418,7 +418,7 @@ ROLE_SPECS += [
         chamber=Chamber.SENATE,
         committee_code="STATE_ADMIN_JOINT",
         committee_role_type=CommitteeRoleType.CHAIR,
-        tier_id=T30K,
+        tier_id=StipendTierCode.TIER_30K,
     ),
     Spec(
         code="HOUSE_STATE_ADMIN_CHAIR",
@@ -430,7 +430,7 @@ ROLE_SPECS += [
         chamber=Chamber.HOUSE,
         committee_code="STATE_ADMIN_JOINT",
         committee_role_type=CommitteeRoleType.CHAIR,
-        tier_id=T30K,
+        tier_id=StipendTierCode.TIER_30K,
     ),
 ]
 
@@ -443,7 +443,7 @@ ROLE_SPECS += [
         chamber=Chamber.SENATE,
         committee_code="HEALTH_CARE_FINANCING_JOINT",
         committee_role_type=CommitteeRoleType.CHAIR,
-        tier_id=T30K,
+        tier_id=StipendTierCode.TIER_30K,
     ),
     Spec(
         code="HOUSE_HEALTH_CARE_FINANCING_CHAIR",
@@ -452,7 +452,7 @@ ROLE_SPECS += [
         chamber=Chamber.HOUSE,
         committee_code="HEALTH_CARE_FINANCING_JOINT",
         committee_role_type=CommitteeRoleType.CHAIR,
-        tier_id=T30K,
+        tier_id=StipendTierCode.TIER_30K,
     ),
 ]
 
@@ -465,7 +465,7 @@ ROLE_SPECS += [
         chamber=Chamber.SENATE,
         committee_code="FINANCIAL_SERVICES_JOINT",
         committee_role_type=CommitteeRoleType.CHAIR,
-        tier_id=T30K,
+        tier_id=StipendTierCode.TIER_30K,
     ),
     Spec(
         code="HOUSE_FIN_SERVICES_CHAIR",
@@ -474,7 +474,7 @@ ROLE_SPECS += [
         chamber=Chamber.HOUSE,
         committee_code="FINANCIAL_SERVICES_JOINT",
         committee_role_type=CommitteeRoleType.CHAIR,
-        tier_id=T30K,
+        tier_id=StipendTierCode.TIER_30K,
     ),
 ]
 
@@ -487,7 +487,7 @@ ROLE_SPECS += [
         chamber=Chamber.SENATE,
         committee_code="REVENUE_JOINT",
         committee_role_type=CommitteeRoleType.CHAIR,
-        tier_id=T30K,
+        tier_id=StipendTierCode.TIER_30K,
     ),
     Spec(
         code="HOUSE_REVENUE_CHAIR",
@@ -496,7 +496,7 @@ ROLE_SPECS += [
         chamber=Chamber.HOUSE,
         committee_code="REVENUE_JOINT",
         committee_role_type=CommitteeRoleType.CHAIR,
-        tier_id=T30K,
+        tier_id=StipendTierCode.TIER_30K,
     ),
 ]
 
@@ -512,7 +512,7 @@ ROLE_SPECS += [
         chamber=Chamber.SENATE,
         committee_code="ECON_DEV_EMERGING_TECH_JOINT",
         committee_role_type=CommitteeRoleType.CHAIR,
-        tier_id=T30K,
+        tier_id=StipendTierCode.TIER_30K,
     ),
     Spec(
         code="HOUSE_ECON_DEV_CHAIR",
@@ -524,7 +524,7 @@ ROLE_SPECS += [
         chamber=Chamber.HOUSE,
         committee_code="ECON_DEV_EMERGING_TECH_JOINT",
         committee_role_type=CommitteeRoleType.CHAIR,
-        tier_id=T30K,
+        tier_id=StipendTierCode.TIER_30K,
     ),
 ]
 
@@ -537,7 +537,7 @@ ROLE_SPECS += [
         chamber=Chamber.SENATE,
         committee_code="JUDICIARY_JOINT",
         committee_role_type=CommitteeRoleType.CHAIR,
-        tier_id=T30K,
+        tier_id=StipendTierCode.TIER_30K,
     ),
     Spec(
         code="HOUSE_JUDICIARY_CHAIR",
@@ -546,7 +546,7 @@ ROLE_SPECS += [
         chamber=Chamber.HOUSE,
         committee_code="JUDICIARY_JOINT",
         committee_role_type=CommitteeRoleType.CHAIR,
-        tier_id=T30K,
+        tier_id=StipendTierCode.TIER_30K,
     ),
 ]
 
@@ -559,7 +559,7 @@ ROLE_SPECS += [
         chamber=Chamber.SENATE,
         committee_code="EDUCATION_JOINT",
         committee_role_type=CommitteeRoleType.CHAIR,
-        tier_id=T30K,
+        tier_id=StipendTierCode.TIER_30K,
     ),
     Spec(
         code="HOUSE_EDUCATION_CHAIR",
@@ -568,7 +568,7 @@ ROLE_SPECS += [
         chamber=Chamber.HOUSE,
         committee_code="EDUCATION_JOINT",
         committee_role_type=CommitteeRoleType.CHAIR,
-        tier_id=T30K,
+        tier_id=StipendTierCode.TIER_30K,
     ),
 ]
 
@@ -584,7 +584,7 @@ ROLE_SPECS += [
         chamber=Chamber.SENATE,
         committee_code="TELECOM_UTILITIES_ENERGY_JOINT",
         committee_role_type=CommitteeRoleType.CHAIR,
-        tier_id=T30K,
+        tier_id=StipendTierCode.TIER_30K,
     ),
     Spec(
         code="HOUSE_TELECOM_UTILITIES_ENERGY_CHAIR",
@@ -596,7 +596,7 @@ ROLE_SPECS += [
         chamber=Chamber.HOUSE,
         committee_code="TELECOM_UTILITIES_ENERGY_JOINT",
         committee_role_type=CommitteeRoleType.CHAIR,
-        tier_id=T30K,
+        tier_id=StipendTierCode.TIER_30K,
     ),
 ]
 
@@ -609,7 +609,7 @@ ROLE_SPECS += [
         chamber=Chamber.SENATE,
         committee_code="TRANSPORTATION_JOINT",
         committee_role_type=CommitteeRoleType.CHAIR,
-        tier_id=T30K,
+        tier_id=StipendTierCode.TIER_30K,
     ),
     Spec(
         code="HOUSE_TRANSPORTATION_CHAIR",
@@ -618,7 +618,7 @@ ROLE_SPECS += [
         chamber=Chamber.HOUSE,
         committee_code="TRANSPORTATION_JOINT",
         committee_role_type=CommitteeRoleType.CHAIR,
-        tier_id=T30K,
+        tier_id=StipendTierCode.TIER_30K,
     ),
 ]
 
@@ -635,7 +635,7 @@ ROLE_SPECS += [
         chamber=None,
         committee_code=None,
         committee_role_type=CommitteeRoleType.CHAIR,
-        tier_id=T15K,
+        tier_id=StipendTierCode.TIER_15K,
     ),
 ]
 
@@ -648,7 +648,7 @@ ROLE_SPECS += [
         chamber=Chamber.HOUSE,
         committee_code="RULES_HOUSE",
         committee_role_type=CommitteeRoleType.VICE_CHAIR,
-        tier_id=T15K,
+        tier_id=StipendTierCode.TIER_15K,
     ),
     Spec(
         code="HOUSE_RULES_RANKING_MINORITY",
@@ -657,7 +657,7 @@ ROLE_SPECS += [
         chamber=Chamber.HOUSE,
         committee_code="RULES_HOUSE",
         committee_role_type=CommitteeRoleType.RANKING_MINORITY,
-        tier_id=T15K,
+        tier_id=StipendTierCode.TIER_15K,
     ),
 ]
 
@@ -670,7 +670,7 @@ ROLE_SPECS += [
         chamber=Chamber.HOUSE,
         committee_code="POST_AUDIT_HOUSE",
         committee_role_type=CommitteeRoleType.VICE_CHAIR,
-        tier_id=T15K,
+        tier_id=StipendTierCode.TIER_15K,
     ),
 ]
 
@@ -683,7 +683,7 @@ ROLE_SPECS += [
         chamber=Chamber.SENATE,
         committee_code="WAYS_MEANS_SENATE",
         committee_role_type=CommitteeRoleType.ASSISTANT_VICE_CHAIR,
-        tier_id=T15K,
+        tier_id=StipendTierCode.TIER_15K,
     ),
     Spec(
         code="HOUSE_WAYS_MEANS_ASSISTANT_VICE_CHAIR",
@@ -692,7 +692,7 @@ ROLE_SPECS += [
         chamber=Chamber.HOUSE,
         committee_code="WAYS_MEANS_HOUSE",
         committee_role_type=CommitteeRoleType.ASSISTANT_VICE_CHAIR,
-        tier_id=T15K,
+        tier_id=StipendTierCode.TIER_15K,
     ),
     Spec(
         code="HOUSE_WAYS_MEANS_ASSISTANT_RANKING_MINORITY",
@@ -704,7 +704,7 @@ ROLE_SPECS += [
         chamber=Chamber.HOUSE,
         committee_code="WAYS_MEANS_HOUSE",
         committee_role_type=CommitteeRoleType.ASSISTANT_RANKING_MINORITY,
-        tier_id=T15K,
+        tier_id=StipendTierCode.TIER_15K,
     ),
 ]
 
@@ -717,7 +717,7 @@ ROLE_SPECS += [
         chamber=Chamber.HOUSE,
         committee_code="FINANCIAL_SERVICES_JOINT",
         committee_role_type=CommitteeRoleType.VICE_CHAIR,
-        tier_id=T15K,
+        tier_id=StipendTierCode.TIER_15K,
     ),
     Spec(
         code="HOUSE_FIN_SERVICES_RANKING_MINORITY",
@@ -726,7 +726,7 @@ ROLE_SPECS += [
         chamber=Chamber.HOUSE,
         committee_code="FINANCIAL_SERVICES_JOINT",
         committee_role_type=CommitteeRoleType.RANKING_MINORITY,
-        tier_id=T15K,
+        tier_id=StipendTierCode.TIER_15K,
     ),
 ]
 
@@ -739,7 +739,7 @@ ROLE_SPECS += [
         chamber=Chamber.HOUSE,
         committee_code="HEALTH_CARE_FINANCING_JOINT",
         committee_role_type=CommitteeRoleType.VICE_CHAIR,
-        tier_id=T15K,
+        tier_id=StipendTierCode.TIER_15K,
     ),
     Spec(
         code="SENATE_HEALTH_CARE_FINANCING_RANKING_MINORITY",
@@ -751,7 +751,7 @@ ROLE_SPECS += [
         chamber=Chamber.SENATE,
         committee_code="HEALTH_CARE_FINANCING_JOINT",
         committee_role_type=CommitteeRoleType.RANKING_MINORITY,
-        tier_id=T15K,
+        tier_id=StipendTierCode.TIER_15K,
     ),
     Spec(
         code="HOUSE_HEALTH_CARE_FINANCING_RANKING_MINORITY",
@@ -763,7 +763,7 @@ ROLE_SPECS += [
         chamber=Chamber.HOUSE,
         committee_code="HEALTH_CARE_FINANCING_JOINT",
         committee_role_type=CommitteeRoleType.RANKING_MINORITY,
-        tier_id=T15K,
+        tier_id=StipendTierCode.TIER_15K,
     ),
 ]
 
@@ -779,7 +779,7 @@ ROLE_SPECS += [
         chamber=Chamber.HOUSE,
         committee_code="BONDING_CAPITAL_JOINT",
         committee_role_type=CommitteeRoleType.VICE_CHAIR,
-        tier_id=T15K,
+        tier_id=StipendTierCode.TIER_15K,
     ),
     Spec(
         code="HOUSE_BONDING_CAPITAL_RANKING_MINORITY",
@@ -791,7 +791,7 @@ ROLE_SPECS += [
         chamber=Chamber.HOUSE,
         committee_code="BONDING_CAPITAL_JOINT",
         committee_role_type=CommitteeRoleType.RANKING_MINORITY,
-        tier_id=T15K,
+        tier_id=StipendTierCode.TIER_15K,
     ),
 ]
 
@@ -807,7 +807,7 @@ ROLE_SPECS += [
         chamber=Chamber.HOUSE,
         committee_code="STATE_ADMIN_JOINT",
         committee_role_type=CommitteeRoleType.VICE_CHAIR,
-        tier_id=T15K,
+        tier_id=StipendTierCode.TIER_15K,
     ),
 ]
 
@@ -823,7 +823,7 @@ ROLE_SPECS += [
         chamber=Chamber.HOUSE,
         committee_code="ECON_DEV_EMERGING_TECH_JOINT",
         committee_role_type=CommitteeRoleType.VICE_CHAIR,
-        tier_id=T15K,
+        tier_id=StipendTierCode.TIER_15K,
     ),
     Spec(
         code="HOUSE_ECON_DEV_RANKING_MINORITY",
@@ -835,7 +835,7 @@ ROLE_SPECS += [
         chamber=Chamber.HOUSE,
         committee_code="ECON_DEV_EMERGING_TECH_JOINT",
         committee_role_type=CommitteeRoleType.RANKING_MINORITY,
-        tier_id=T15K,
+        tier_id=StipendTierCode.TIER_15K,
     ),
 ]
 
@@ -848,7 +848,7 @@ ROLE_SPECS += [
         chamber=Chamber.HOUSE,
         committee_code="REVENUE_JOINT",
         committee_role_type=CommitteeRoleType.VICE_CHAIR,
-        tier_id=T15K,
+        tier_id=StipendTierCode.TIER_15K,
     ),
 ]
 
@@ -861,7 +861,7 @@ ROLE_SPECS += [
         chamber=Chamber.HOUSE,
         committee_code="JUDICIARY_JOINT",
         committee_role_type=CommitteeRoleType.VICE_CHAIR,
-        tier_id=T15K,
+        tier_id=StipendTierCode.TIER_15K,
     ),
     Spec(
         code="HOUSE_JUDICIARY_RANKING_MINORITY",
@@ -872,7 +872,7 @@ ROLE_SPECS += [
         chamber=Chamber.HOUSE,
         committee_code="JUDICIARY_JOINT",
         committee_role_type=CommitteeRoleType.RANKING_MINORITY,
-        tier_id=T15K,
+        tier_id=StipendTierCode.TIER_15K,
     ),
 ]
 
@@ -885,7 +885,7 @@ ROLE_SPECS += [
         chamber=Chamber.HOUSE,
         committee_code="TRANSPORTATION_JOINT",
         committee_role_type=CommitteeRoleType.VICE_CHAIR,
-        tier_id=T15K,
+        tier_id=StipendTierCode.TIER_15K,
     ),
 ]
 
@@ -898,7 +898,7 @@ ROLE_SPECS += [
         chamber=Chamber.HOUSE,
         committee_code="BILLS_THIRD_READING_HOUSE",
         committee_role_type=CommitteeRoleType.VICE_CHAIR,
-        tier_id=T15K,
+        tier_id=StipendTierCode.TIER_15K,
     ),
 ]
 
@@ -911,7 +911,7 @@ ROLE_SPECS += [
         chamber=Chamber.HOUSE,
         committee_code="STEERING_POLICY_SCHEDULING_HOUSE",
         committee_role_type=CommitteeRoleType.VICE_CHAIR,
-        tier_id=T15K,
+        tier_id=StipendTierCode.TIER_15K,
     ),
 ]
 
@@ -924,7 +924,7 @@ ROLE_SPECS += [
         chamber=Chamber.HOUSE,
         committee_code="EDUCATION_JOINT",
         committee_role_type=CommitteeRoleType.VICE_CHAIR,
-        tier_id=T15K,
+        tier_id=StipendTierCode.TIER_15K,
     ),
 ]
 
@@ -940,7 +940,7 @@ ROLE_SPECS += [
         chamber=Chamber.HOUSE,
         committee_code="TELECOM_UTILITIES_ENERGY_JOINT",
         committee_role_type=CommitteeRoleType.VICE_CHAIR,
-        tier_id=T15K,
+        tier_id=StipendTierCode.TIER_15K,
     ),
 ]
 
@@ -956,7 +956,7 @@ ROLE_SPECS += [
         chamber=None,
         committee_code=None,
         committee_role_type=CommitteeRoleType.VICE_CHAIR,
-        tier_id=T5200,
+        tier_id=StipendTierCode.TIER_5200,
     ),
 ]
 
@@ -965,18 +965,19 @@ ROLE_SPECS += [
 # ---------------------------------------------------------------------------
 
 ROLE_DEFINITIONS: dict[str, RoleDefinition] = {
-    spec["code"]: RoleDefinition(
-        code=spec["code"],
-        title=spec["title"],
-        domain=spec["domain"],
-        chamber=spec["chamber"],
-        committee_code=spec.get("committee_code"),
-        committee_role_type=spec.get("committee_role_type"),
-        stipend_tier_id=spec.get("tier_id"),
+    spec[_RoleKey.CODE]: RoleDefinition(
+        code=spec[_RoleKey.CODE],
+        title=spec[_RoleKey.TITLE],
+        domain=spec[_RoleKey.DOMAIN],
+        chamber=spec[_RoleKey.CHAMBER],
+        committee_code=spec.get(_RoleKey.COMMITTEE_CODE),
+        committee_role_type=spec.get(_RoleKey.COMMITTEE_ROLE_TYPE),
+        stipend_tier_id=spec.get(_RoleKey.TIER_ID),
     )
     for spec in ROLE_SPECS
 }
 
 
 def get_role_definition(code: str) -> RoleDefinition:
+    """Helper function to get defs from codes"""
     return ROLE_DEFINITIONS[code]
