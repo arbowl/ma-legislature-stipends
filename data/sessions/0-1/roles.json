@@ -20,12 +20,12 @@
     },
     {
       "member_id": "H002",
-      "role_code": "HOUSE_ASSISTANT_MAJORITY_LEADER"
+      "role_code": "HOUSE_MAJORITY_ASSISTANT_FLOOR_LEADER"
     },
 
     {
       "member_id": "H004",
-      "role_code": "HOUSE_WM_CHAIR"
+      "role_code": "HOUSE_WAYS_MEANS_CHAIR"
     }
   ]
 }

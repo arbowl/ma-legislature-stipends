@@ -4,9 +4,11 @@ from models.core import (
     Party,
     RoleAssignment,
 )
-from config.role_catalog import SPEAKER
+from config.role_catalog import ROLE_DEFINITIONS
 from models.total_comp import total_comp_for_member
 from unit.utils import mk_session
+
+SPEAKER = ROLE_DEFINITIONS["SPEAKER"]
 
 
 def test_total_comp_basic():

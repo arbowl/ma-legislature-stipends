@@ -1,7 +1,7 @@
 from pathlib import Path
 import json
 
-from config.role_catalog import HOUSE_EDUCATION_CHAIR, HOUSE_JUDICIARY_CHAIR
+from config.role_catalog import ROLE_DEFINITIONS
 from data.session_loader import LoadedSession, load_session
 from models.core import (
     Member,
@@ -11,6 +11,9 @@ from models.core import (
     Party,
 )
 from validators import validate_session_data
+
+HOUSE_EDUCATION_CHAIR = ROLE_DEFINITIONS["HOUSE_EDUCATION_CHAIR"]
+HOUSE_JUDICIARY_CHAIR = ROLE_DEFINITIONS["HOUSE_JUDICIARY_CHAIR"]
 
 
 def test_validate_session_unknown_role(tmp_path: Path):
