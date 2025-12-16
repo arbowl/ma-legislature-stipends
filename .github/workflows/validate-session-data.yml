@@ -1,0 +1,51 @@
+name: Validate Session Data
+
+on:
+  push:
+    paths:
+      - 'data/sessions/**'
+      - 'data/raw/**'
+      - 'ingest/**'
+      - 'scripts/**'
+      - 'config/**'
+  pull_request:
+    paths:
+      - 'data/sessions/**'
+      - 'data/raw/**'
+      - 'ingest/**'
+      - 'scripts/**'
+      - 'config/**'
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Check out repository
+      uses: actions/checkout@v4
+
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: "3.11"
+        cache: 'pip'
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+
+    - name: Validate 2025-2026 session data
+      run: |
+        python -m pytest unit/test_leadership_scraping.py::test_e2e_all_leadership_members_exist -v
+        python -m pytest unit/test_leadership_scraping.py::test_e2e_mapped_leadership_roles_in_session -v
+        python -m pytest unit/test_leadership_scraping.py::test_e2e_specific_members_2025_2026 -v
+
+    - name: Run data validation tests
+      run: |
+        python -m pytest unit/test_validators.py -v
+
+    - name: Check for data consistency
+      run: |
+        python -m pytest unit/test_session_loader.py -v
+

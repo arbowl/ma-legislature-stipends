@@ -1,0 +1,47 @@
+name: Scheduled Validation
+
+on:
+  schedule:
+    - cron: '0 0 * * 1'
+  workflow_dispatch:
+
+jobs:
+  validate-live-data:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Check out repository
+      uses: actions/checkout@v4
+
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: "3.11"
+        cache: 'pip'
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+
+    - name: Run all tests
+      run: |
+        python -m pytest unit/ -v --tb=short
+
+    - name: Test scraping functions
+      run: |
+        python -m pytest unit/test_leadership_scraping.py -v
+
+    - name: Create issue on failure
+      if: failure()
+      uses: actions/github-script@v7
+      with:
+        script: |
+          github.rest.issues.create({
+            owner: context.repo.owner,
+            repo: context.repo.repo,
+            title: 'Scheduled validation failed',
+            body: 'The scheduled validation run failed. This may indicate changes to the MA Legislature website structure.\n\nCheck the workflow run: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}',
+            labels: ['automated', 'needs-investigation']
+          })
+
