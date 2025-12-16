@@ -6,7 +6,9 @@ from dataclasses import dataclass
 import json
 from pathlib import Path
 
-from audit.sources_registry import BASE_SALARY_ADJUSTMENT, STIPEND_AMOUNT_ADJUSTMENT
+from audit.sources_registry import (
+    TRAVEL_AMOUNT_ADJUSTMENT, STIPEND_AMOUNT_ADJUSTMENT
+)
 from audit.provenance import SourceRef
 from models.core import Session
 
@@ -31,6 +33,16 @@ class AdjustedBaseSalary:
     note: str
 
 
+@dataclass(frozen=True)
+class AdjustedTravel:
+    """Base travel plus adjustment"""
+
+    session_id: str
+    factor: float
+    source: SourceRef
+    note: str
+
+
 def load_stipend_adjustment(session_id: str) -> AdjustedStipend:
     path = Path("data/sessions") / session_id / "adjustment.json"
     data: dict = json.loads(path.read_text())
@@ -38,5 +50,16 @@ def load_stipend_adjustment(session_id: str) -> AdjustedStipend:
         session_id=session_id,
         factor=float(data["aggregate_change_factor"]),
         source=STIPEND_AMOUNT_ADJUSTMENT,
+        note=data.get("note", ""),
+    )
+
+
+def load_travel_adjustment(session_id: str) -> AdjustedTravel:
+    path = Path("data/sessions") / session_id / "adjustment.json"
+    data: dict = json.loads(path.read_text())
+    return AdjustedTravel(
+        session_id=session_id,
+        factor=float(data["aggregate_change_factor"]),
+        source=TRAVEL_AMOUNT_ADJUSTMENT,
         note=data.get("note", ""),
     )

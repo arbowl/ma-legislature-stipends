@@ -38,7 +38,16 @@ STIPEND_AMOUNT_ADJUSTMENT = SourceRef(
     kind=SourceKind.CALCULATION,
     url="https://massachusettsalmanac.com/perks-n-pay/",
     details=frozenset(
-        "Data calculated via delta from base value to Almanac " "reported current value"
+        "Data calculated via delta from base value to Almanac reported current value"
+    ),
+)
+TRAVEL_AMOUNT_ADJUSTMENT = SourceRef(
+    id="STIPEND_9B",
+    label="Manual stipend adjustment from Massachusetts Almanac",
+    kind=SourceKind.CALCULATION,
+    url="https://massachusettsalmanac.com/perks-n-pay/",
+    details=frozenset(
+        "Data calculated via delta from base value to Almanac reported current value"
     ),
 )
 BASE_SALARY_ADJUSTMENT = SourceRef(

@@ -5,9 +5,10 @@ from __future__ import annotations
 from dataclasses import dataclass
 from typing import Optional
 
-from audit.provenance import AmountWithProvenance
+from audit.provenance import AmountWithProvenance, ap_scale
 from models.core import Member, Session
 from config.travel_config import TRAVEL_RULE_9C
+from config.comp_adjustment import load_travel_adjustment
 
 
 @dataclass(frozen=True)
@@ -41,6 +42,9 @@ def travel_9c_for_member(member: Member, session: Session) -> TravelAllowance:
             f"distance {d:.1f} > {rule.distance_threshold_miles} miles "
             f"-> ${rule.amount_gt_threshold}"
         )
+    adjustment = load_travel_adjustment(session.id)
+    if adjustment.factor > 1.0:
+        amount = ap_scale(amount, adjustment.factor)
     return TravelAllowance(
         member_id=member.member_id,
         session_id=session.id,
