@@ -78,6 +78,7 @@ def load_session(root: Path, session_id: str) -> LoadedSession:
             name=row["name"],
             chamber=_parse_chamber(row["chamber"]),
             party=_parse_party(row.get("party", "UNKNOWN")),
+            district=row.get("district"),
             distance_miles_from_state_house=row.get("distance_miles_from_state_house"),
         )
         members[member.member_id] = member
