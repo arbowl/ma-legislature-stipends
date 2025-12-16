@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+from pathlib import Path
 from typing import Optional
 
 from config.committee_catalog import get_committee_by_external_id
@@ -10,6 +11,7 @@ from models.core import CommitteeRoleType
 
 
 def normalize_role_label(raw: Optional[str]) -> Optional[CommitteeRoleType]:
+    """Tooling to translate roles and committees"""
     if not raw:
         return None
     t = raw.lower()
@@ -55,7 +57,7 @@ def committee_role_to_internal(
 
 def main() -> None:
     """Run normalization to convert raw data"""
-    normalize("2025-2026", Path("data/raw"), Path("data/sessions"))
+    normalize_role_label("2025-2026", Path("data/raw"), Path("data/sessions"))
 
 
 if __name__ == "__main__":
