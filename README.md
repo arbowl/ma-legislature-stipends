@@ -1,3 +1,6 @@
+![Tests](https://github.com/arbowl/ma-legislature-stipends/workflows/Tests/badge.svg)
+![Quick Check](https://github.com/arbowl/ma-legislature-stipends/workflows/Quick%20Check/badge.svg)
+
 # **Massachusetts Legislature Compensation Model**
 
 This project builds a **fully reproducible, transparent model** of annual compensation for members of the Massachusetts General Court. It encodes the statutory logic behind:
