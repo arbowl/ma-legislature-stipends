@@ -3,7 +3,7 @@
 from __future__ import annotations
 
 from dataclasses import dataclass, field
-from enum import StrEnum, Enum, auto
+from enum import Enum, auto
 from typing import Optional
 
 from audit.provenance import AmountWithProvenance
@@ -116,7 +116,7 @@ class RoleAssignment:
     session_id: str
 
 
-class RoleCode(StrEnum):
+class RoleCode(Enum):
     """Enumeration of role codes"""
 
     SPEAKER = "SPEAKER"
@@ -151,7 +151,7 @@ class RoleCode(StrEnum):
     GENERIC_OTHER_COMMITTEE_VICE_CHAIR = "GENERIC_OTHER_COMMITTEE_VICE_CHAIR"
 
 
-class StipendTierCode(StrEnum):
+class StipendTierCode(Enum):
     """Enumeration of stipend tier codes"""
 
     TIER_80K = "T80K"
