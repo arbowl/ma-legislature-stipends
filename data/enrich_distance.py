@@ -12,11 +12,26 @@ STATE_HOUSE_LAT = 42.3587
 STATE_HOUSE_LON = -71.0636
 
 ORDINAL_WORDS: Dict[str, int] = {
-    "first": 1, "second": 2, "third": 3, "fourth": 4, "fifth": 5,
-    "sixth": 6, "seventh": 7, "eighth": 8, "ninth": 9, "tenth": 10,
-    "eleventh": 11, "twelfth": 12, "thirteenth": 13, "fourteenth": 14,
-    "fifteenth": 15, "sixteenth": 16, "seventeenth": 17, "eighteenth": 18,
-    "nineteenth": 19, "twentieth": 20,
+    "first": 1,
+    "second": 2,
+    "third": 3,
+    "fourth": 4,
+    "fifth": 5,
+    "sixth": 6,
+    "seventh": 7,
+    "eighth": 8,
+    "ninth": 9,
+    "tenth": 10,
+    "eleventh": 11,
+    "twelfth": 12,
+    "thirteenth": 13,
+    "fourteenth": 14,
+    "fifteenth": 15,
+    "sixteenth": 16,
+    "seventeenth": 17,
+    "eighteenth": 18,
+    "nineteenth": 19,
+    "twentieth": 20,
     # extend if needed
 }
 
@@ -41,6 +56,7 @@ COUNTY_TO_PREFIX: Dict[str, str] = {v: k for k, v in HOUSE_PREFIX_TO_COUNTY.item
 
 # --- Distance math ----------------------------------------------------------
 
+
 def haversine_miles(lat1: float, lon1: float, lat2: float, lon2: float) -> float:
     """
     Great-circle distance in miles between two lat/lon points.
@@ -51,12 +67,16 @@ def haversine_miles(lat1: float, lon1: float, lat2: float, lon2: float) -> float
     dphi = math.radians(lat2 - lat1)
     dlambda = math.radians(lon2 - lon1)
 
-    a = math.sin(dphi / 2) ** 2 + math.cos(phi1) * math.cos(phi2) * math.sin(dlambda / 2) ** 2
+    a = (
+        math.sin(dphi / 2) ** 2
+        + math.cos(phi1) * math.cos(phi2) * math.sin(dlambda / 2) ** 2
+    )
     c = 2 * math.atan2(math.sqrt(a), math.sqrt(1 - a))
     return R * c
 
 
 # --- Senate normalization ---------------------------------------------------
+
 
 def norm_senate_name(name: str) -> str:
     """
@@ -68,7 +88,9 @@ def norm_senate_name(name: str) -> str:
     return s
 
 
-def build_senate_centroid_index(centroids: Dict[str, Any]) -> Dict[str, Tuple[str, Tuple[float, float]]]:
+def build_senate_centroid_index(
+    centroids: Dict[str, Any],
+) -> Dict[str, Tuple[str, Tuple[float, float]]]:
     """
     Returns mapping: normalized_name -> (canonical_name, (lat, lon))
     """
@@ -80,6 +102,7 @@ def build_senate_centroid_index(centroids: Dict[str, Any]) -> Dict[str, Tuple[st
 
 
 # --- House normalization ----------------------------------------------------
+
 
 def parse_house_centroid_key(key: str) -> Tuple[str, int]:
     """
@@ -119,8 +142,10 @@ def parse_house_district_name(name: str) -> Tuple[str, int]:
 
     # Special case: the multi-county district with no ordinal in the label
     # Maps to centroid key "BDN" which we treat as (county_label, num) = (..., 1)
-    if lower == "barnstable, dukes and nantucket" or \
-       "barnstable, dukes and nantucket" in lower:
+    if (
+        lower == "barnstable, dukes and nantucket"
+        or "barnstable, dukes and nantucket" in lower
+    ):
         return "barnstable dukes and nantucket", 1
 
     # Strip 'district' if present
@@ -146,7 +171,9 @@ def parse_house_district_name(name: str) -> Tuple[str, int]:
     return county_label, num
 
 
-def build_house_centroid_index(centroids: Dict[str, Any]) -> Dict[Tuple[str, int], Tuple[str, Tuple[float, float]]]:
+def build_house_centroid_index(
+    centroids: Dict[str, Any],
+) -> Dict[Tuple[str, int], Tuple[str, Tuple[float, float]]]:
     """
     Returns mapping: (county_label, num) -> (centroid_key, (lat, lon)).
     """
@@ -158,6 +185,7 @@ def build_house_centroid_index(centroids: Dict[str, Any]) -> Dict[Tuple[str, int
 
 
 # --- Main enrichment logic --------------------------------------------------
+
 
 def enrich_members_with_distance(
     members_path: Path,
@@ -247,10 +275,13 @@ def enrich_members_with_distance(
             print(f"  {member_id}: {district_name!r}")
 
 
-
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description="Enrich members.json with distance to State House.")
-    parser.add_argument("members_json", type=Path, help="Path to members.json for a session")
+    parser = argparse.ArgumentParser(
+        description="Enrich members.json with distance to State House."
+    )
+    parser.add_argument(
+        "members_json", type=Path, help="Path to members.json for a session"
+    )
     parser.add_argument(
         "--centroids",
         type=Path,

@@ -11,11 +11,13 @@ from audit.provenance import SourceRef
 @dataclass
 class ProvenanceInfo:
     """Provenance information for JSON export"""
+
     source_id: str
     label: str
     kind: str
     url: Optional[str] = None
     details: list[str] = None
+
     @staticmethod
     def from_source_ref(source: SourceRef) -> ProvenanceInfo:
         """Convert SourceRef to JSON-serializable format"""
@@ -25,8 +27,9 @@ class ProvenanceInfo:
             label=source.label,
             kind=source.kind.name,
             url=source.url,
-            details=details_list if details_list else None
+            details=details_list if details_list else None,
         )
+
     def to_dict(self) -> dict[str, Any]:
         """Convert to dict, excluding None values"""
         result = asdict(self)
@@ -36,6 +39,7 @@ class ProvenanceInfo:
 @dataclass
 class RoleStipendInfo:
     """Information about a role stipend"""
+
     role_code: str
     role_title: str
     tier_id: Optional[str]
@@ -45,6 +49,7 @@ class RoleStipendInfo:
     paid: bool
     reason: str
     provenance: list[dict[str, Any]]
+
     def to_dict(self) -> dict[str, Any]:
         return asdict(self)
 
@@ -52,10 +57,12 @@ class RoleStipendInfo:
 @dataclass
 class CompensationComponent:
     """A component of compensation"""
+
     label: str
     amount: int
     provenance: list[dict[str, Any]]
     details: Optional[dict[str, Any]] = None
+
     def to_dict(self) -> dict[str, Any]:
         result = asdict(self)
         return {k: v for k, v in result.items() if v is not None}
@@ -64,6 +71,7 @@ class CompensationComponent:
 @dataclass
 class MemberProfile:
     """Complete member profile"""
+
     member_id: str
     name: str
     chamber: str
@@ -74,6 +82,7 @@ class MemberProfile:
     compensation: dict[str, Any]
     validation_issues: list[dict[str, Any]]
     raw_data_sources: dict[str, str]
+
     def to_dict(self) -> dict[str, Any]:
         return asdict(self)
 
@@ -81,6 +90,7 @@ class MemberProfile:
 @dataclass
 class SessionSummaryStats:
     """Summary statistics for a session"""
+
     session_id: str
     total_members: int
     total_compensation: int
@@ -90,6 +100,7 @@ class SessionSummaryStats:
     by_party: dict[str, dict[str, Any]]
     stipend_distribution: dict[str, int]
     top_earners: list[dict[str, Any]]
+
     def to_dict(self) -> dict[str, Any]:
         return asdict(self)
 
@@ -97,6 +108,7 @@ class SessionSummaryStats:
 @dataclass
 class SessionReport:
     """Complete session report"""
+
     session_id: str
     session_label: str
     start_year: int
@@ -105,5 +117,6 @@ class SessionReport:
     members: list[dict[str, Any]]
     summary_statistics: dict[str, Any]
     validation_summary: dict[str, Any]
+
     def to_dict(self) -> dict[str, Any]:
         return asdict(self)

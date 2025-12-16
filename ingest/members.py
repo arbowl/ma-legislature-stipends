@@ -115,14 +115,10 @@ def _parse_top_level_leader(
     <span class="leadershipRole">President of the Senate</span>
     <span class="leadershipDistrict">Middlesex and Norfolk (D)</span>
     """
-    img_wrapper = section.select_one(
-        "div.leadershipImageWrapper.headshotWrapper-lg"
-    )
+    img_wrapper = section.select_one("div.leadershipImageWrapper.headshotWrapper-lg")
     if not img_wrapper:
         return None
-    profile_link = img_wrapper.select_one(
-        "a[href*='/Legislators/Profile/']"
-    )
+    profile_link = img_wrapper.select_one("a[href*='/Legislators/Profile/']")
     if not profile_link:
         return None
     profile_path = profile_link.get("href", "").strip()
@@ -133,9 +129,7 @@ def _parse_top_level_leader(
     role_el = section.select_one("span.leadershipRole")
     raw_title = role_el.get_text(strip=True) if role_el else ""
     district_el = section.select_one("span.leadershipDistrict")
-    raw_district_party = (
-        district_el.get_text(strip=True) if district_el else ""
-    )
+    raw_district_party = district_el.get_text(strip=True) if district_el else ""
     return RawLeadershipRole(
         member_id=member_id,
         chamber=chamber,

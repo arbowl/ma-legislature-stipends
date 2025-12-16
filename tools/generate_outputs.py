@@ -12,9 +12,7 @@ from tools.writers import write_json
 
 
 def generate_all_outputs(
-    session_id: str,
-    output_dir: Path,
-    verbose: bool = False
+    session_id: str, output_dir: Path, verbose: bool = False
 ) -> None:
     """Generate all outputs for a session"""
     print(f"Loading session {session_id}...")
@@ -36,10 +34,7 @@ def generate_all_outputs(
     report = generate_session_report(loaded)
     write_json(report.to_dict(), reports_dir / "full_session.json")
     write_json(report.summary_statistics, reports_dir / "summary_stats.json")
-    write_json(
-        report.validation_summary,
-        reports_dir / "validation_report.json"
-    )
+    write_json(report.validation_summary, reports_dir / "validation_report.json")
     print(f"   [OK] Completed session report")
     print(f"\n{'='*60}")
     print(f"[SUCCESS] All outputs generated successfully!")
@@ -50,14 +45,14 @@ def generate_all_outputs(
     rep_rel = reports_dir.relative_to(output_dir)
     print(f"  - Session report in {rep_rel}/")
     print(f"\nValidation:")
-    cat_err = report.validation_summary['catalog_errors']
-    sess_err = report.validation_summary['session_errors']
-    cat_warn = report.validation_summary['catalog_warnings']
-    sess_warn = report.validation_summary['session_warnings']
+    cat_err = report.validation_summary["catalog_errors"]
+    sess_err = report.validation_summary["session_errors"]
+    cat_warn = report.validation_summary["catalog_warnings"]
+    sess_warn = report.validation_summary["session_warnings"]
     print(f"  - Errors: {cat_err + sess_err}")
     print(f"  - Warnings: {cat_warn + sess_warn}")
     if cat_err + sess_err > 0:
-        val_path = reports_dir / 'validation_report.json'
+        val_path = reports_dir / "validation_report.json"
         print(f"\n[WARNING] Check {val_path} for details")
     print(f"{'='*60}\n")
 
@@ -66,20 +61,13 @@ def main() -> None:
     parser = argparse.ArgumentParser(
         description="Generate JSON analysis outputs for legislative session"
     )
-    parser.add_argument(
-        "session_id",
-        help="Session ID, e.g. 2025-2026"
-    )
+    parser.add_argument("session_id", help="Session ID, e.g. 2025-2026")
     parser.add_argument(
         "--output-dir",
         default="tools/output",
-        help="Output directory (default: tools/output)"
+        help="Output directory (default: tools/output)",
     )
-    parser.add_argument(
-        "--verbose",
-        action="store_true",
-        help="Show detailed progress"
-    )
+    parser.add_argument("--verbose", action="store_true", help="Show detailed progress")
     args = parser.parse_args()
     output_dir = Path(args.output_dir)
     generate_all_outputs(args.session_id, output_dir, args.verbose)

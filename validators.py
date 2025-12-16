@@ -115,9 +115,7 @@ def main() -> None:
 
     loaded = load_session(Path("data/sessions"), "2025-2026")
     print([i for i in validate_role_catalog() if str(i.level) == "ERROR"])
-    print(
-        [i for i in validate_session_data(loaded) if str(i.level) == "ERROR"]
-    )
+    print([i for i in validate_session_data(loaded) if str(i.level) == "ERROR"])
 
 
 if __name__ == "__main__":

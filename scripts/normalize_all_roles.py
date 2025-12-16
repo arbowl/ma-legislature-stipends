@@ -4,6 +4,7 @@ import json
 from pathlib import Path
 from typing import Optional
 import sys
+
 sys.path.insert(0, str(Path(__file__).parent.parent))
 from config.committee_catalog import get_committee_by_external_id
 from config.role_catalog import ROLE_DEFINITIONS
@@ -116,7 +117,7 @@ def main() -> None:
     print("=" * 60)
     print("\n1. Processing committee roles...")
     committee_file = raw_dir / "committee_roles_raw.json"
-    with committee_file.open('r', encoding='utf-8') as f:
+    with committee_file.open("r", encoding="utf-8") as f:
         committee_data = json.load(f)
     for entry in committee_data:
         member_id = entry["member_id"]
@@ -126,21 +127,28 @@ def main() -> None:
             continue
         with (Path("data/sessions") / session_id / "members.json").open() as mf:
             members_data = json.load(mf)
-            member = next((m for m in members_data["members"] if m["member_id"] == member_id), None)
+            member = next(
+                (m for m in members_data["members"] if m["member_id"] == member_id),
+                None,
+            )
             if member is None:
                 continue
             chamber = member["chamber"]
-        role_code = committee_role_to_internal(chamber, committee_external_id, raw_role_label)
+        role_code = committee_role_to_internal(
+            chamber, committee_external_id, raw_role_label
+        )
         if role_code:
-            all_role_entries.append({
-                "member_id": member_id,
-                "role_code": role_code,
-                "session_id": session_id
-            })
+            all_role_entries.append(
+                {
+                    "member_id": member_id,
+                    "role_code": role_code,
+                    "session_id": session_id,
+                }
+            )
     print(f"   Processed {len(all_role_entries)} committee roles")
     print("\n2. Processing leadership roles...")
     leadership_file = raw_dir / "leadership_raw.json"
-    with leadership_file.open('r', encoding='utf-8') as f:
+    with leadership_file.open("r", encoding="utf-8") as f:
         leadership_data = json.load(f)
     unmapped_roles = []
     leadership_count = 0
@@ -152,25 +160,26 @@ def main() -> None:
         if role_code is None:
             unmapped_roles.append((member_id, raw_title, chamber))
         else:
-            all_role_entries.append({
-                "member_id": member_id,
-                "role_code": role_code,
-                "session_id": session_id
-            })
+            all_role_entries.append(
+                {
+                    "member_id": member_id,
+                    "role_code": role_code,
+                    "session_id": session_id,
+                }
+            )
             leadership_count += 1
     print(f"   Processed {leadership_count} leadership roles")
     if unmapped_roles:
-        print(f"\n   [WARNING] {len(unmapped_roles)} leadership roles not modeled in 9B:")
+        print(
+            f"\n   [WARNING] {len(unmapped_roles)} leadership roles not modeled in 9B:"
+        )
         for mid, title, chamber in unmapped_roles:
             print(f"     - {mid}: {title} ({chamber})")
         print("   (These roles exist but have no statutory stipend basis)")
     output_file = output_dir / "roles.json"
-    output_data = {
-        "session_id": session_id,
-        "roles": all_role_entries
-    }
+    output_data = {"session_id": session_id, "roles": all_role_entries}
     output_file.parent.mkdir(parents=True, exist_ok=True)
-    with output_file.open('w', encoding='utf-8') as f:
+    with output_file.open("w", encoding="utf-8") as f:
         json.dump(output_data, f, indent=2)
     print(f"\n" + "=" * 60)
     print(f"[SUCCESS] Wrote {len(all_role_entries)} total roles to {output_file}")
@@ -181,4 +190,3 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
-
