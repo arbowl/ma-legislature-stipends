@@ -49,6 +49,4 @@ def load_base_salary_adjustment(session: Session) -> BaseSalaryConfig:
 def base_salary_for_session(session: Session) -> AmountWithProvenance:
     """Base salary plus adjustments for a session"""
     cfg = load_base_salary_adjustment(session)
-    return ap_from(
-        cfg.base_amount, ARTICLE_CXVIII_BASE, BASE_SALARY_ADJUSTMENT
-    )
+    return ap_from(cfg.base_amount, ARTICLE_CXVIII_BASE, BASE_SALARY_ADJUSTMENT)

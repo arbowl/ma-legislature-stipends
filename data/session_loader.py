@@ -5,7 +5,7 @@ from __future__ import annotations
 import json
 from dataclasses import dataclass
 from pathlib import Path
-from typing import Any
+from typing import Any, Optional
 
 from models.core import (
     Session,
@@ -14,6 +14,7 @@ from models.core import (
     Chamber,
     Party,
 )
+
 
 @dataclass(frozen=True)
 class LoadedSession:
@@ -35,10 +36,12 @@ def _parse_chamber(value: str) -> Chamber:
             return Chamber.JOINT
         case _:
             raise ValueError(f"Unknown chamber value: {value}")
-    
 
-def _parse_party(value: str) -> Party:
+
+def _parse_party(value: Optional[str]) -> Party:
     """Gets party from string"""
+    if value is None:
+        value = "other"
     match value.lower():
         case "d":
             return Party.DEMOCRAT
@@ -75,9 +78,7 @@ def load_session(root: Path, session_id: str) -> LoadedSession:
             name=row["name"],
             chamber=_parse_chamber(row["chamber"]),
             party=_parse_party(row.get("party", "UNKNOWN")),
-            distance_miles_from_state_house=row.get(
-                "distance_miles_from_state_house"
-            ),
+            distance_miles_from_state_house=row.get("distance_miles_from_state_house"),
         )
         members[member.member_id] = member
     with (session_dir / "roles.json").open() as f:
@@ -98,9 +99,7 @@ def load_session(root: Path, session_id: str) -> LoadedSession:
     for ra in role_assignments:
         member = members.get(ra.member_id)
         if member is None:
-            raise ValueError(
-                f"RoleAssignment for unknown member_id {ra.member_id}"
-            )
+            raise ValueError(f"RoleAssignment for unknown member_id {ra.member_id}")
         member.roles.append(ra)
     start_year, end_year = _parse_session_years(session_id)
     session = Session(

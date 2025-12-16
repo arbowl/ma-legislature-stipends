@@ -34,10 +34,7 @@ def test_validate_session_unknown_role(tmp_path: Path):
     roles_payload = {
         "session_id": session_id,
         "roles": [
-            {
-                "member_id": "H001",
-                "role_code": "NON_EXISTENT_ROLE"
-            },
+            {"member_id": "H001", "role_code": "NON_EXISTENT_ROLE"},
         ],
     }
     (d / "members.json").write_text(json.dumps(members_payload))
@@ -60,12 +57,12 @@ def test_multiple_chair_warning():
             RoleAssignment(
                 member_id=m.member_id,
                 role_code=HOUSE_EDUCATION_CHAIR.code,
-                session_id=session.id
+                session_id=session.id,
             ),
             RoleAssignment(
                 member_id=m.member_id,
                 role_code=HOUSE_JUDICIARY_CHAIR.code,
-                session_id=session.id
+                session_id=session.id,
             ),
         ]
     )

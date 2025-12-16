@@ -10,5 +10,5 @@ def mk_session(general_court: Optional[int] = None) -> Session:
         id=Session.from_id_number(general_court),
         start_year=0,
         end_year=1,
-        label=Session.from_id_number(general_court)
+        label=Session.from_id_number(general_court),
     )

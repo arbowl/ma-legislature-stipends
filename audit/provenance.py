@@ -44,25 +44,17 @@ def ap_zero() -> AmountWithProvenance:
 
 def ap_from(value: int, *sources: SourceRef) -> AmountWithProvenance:
     """Generates a provenance artifact from data"""
-    return AmountWithProvenance(
-        value=value,
-        sources=frozenset(sources)
-    )
+    return AmountWithProvenance(value=value, sources=frozenset(sources))
 
 
-def ap_add(
-    a: AmountWithProvenance, b: AmountWithProvenance
-) -> AmountWithProvenance:
+def ap_add(a: AmountWithProvenance, b: AmountWithProvenance) -> AmountWithProvenance:
     """Adds two provenance artifacts"""
     return AmountWithProvenance(
-        value=a.value + b.value,
-        sources=frozenset([a.sources]) | frozenset([b.sources])
+        value=a.value + b.value, sources=frozenset([a.sources]) | frozenset([b.sources])
     )
 
 
-def ap_sum(
-    amounts: Iterable[AmountWithProvenance]
-) -> AmountWithProvenance:
+def ap_sum(amounts: Iterable[AmountWithProvenance]) -> AmountWithProvenance:
     """Combines provenance artifacts"""
     total = ap_zero()
     for a in amounts:
@@ -71,11 +63,10 @@ def ap_sum(
 
 
 def ap_scale(
-        a: AmountWithProvenance, factor: float, **extra_sources: SourceRef
+    a: AmountWithProvenance, factor: float, **extra_sources: SourceRef
 ) -> AmountWithProvenance:
     """Scales provenance artifacts according to BEA"""
     new_value = round(a.value * factor)
     return AmountWithProvenance(
-        value=new_value,
-        sources=frozenset([a.sources]) | frozenset(extra_sources)
+        value=new_value, sources=frozenset([a.sources]) | frozenset(extra_sources)
     )

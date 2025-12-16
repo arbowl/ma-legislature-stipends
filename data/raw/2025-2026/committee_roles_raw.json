@@ -1,0 +1,5910 @@
+[
+  {
+    "member_id": "MJB0",
+    "session_id": "194th",
+    "committee_external_id": "J37",
+    "committee_name": "Joint Committee on Telecommunications, Utilities and Energy",
+    "raw_role_label": "Chairperson"
+  },
+  {
+    "member_id": "MJB0",
+    "session_id": "194th",
+    "committee_external_id": "S51",
+    "committee_name": "Senate Committee on Climate Change and Global Warming",
+    "raw_role_label": "Vice Chair"
+  },
+  {
+    "member_id": "MJB0",
+    "session_id": "194th",
+    "committee_external_id": "J33",
+    "committee_name": "Joint Committee on Advanced Information Technology, the Internet and Cybersecurity",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "MJB0",
+    "session_id": "194th",
+    "committee_external_id": "J30",
+    "committee_name": "Joint Committee on Tourism, Arts and Cultural Development",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "MDB0",
+    "session_id": "194th",
+    "committee_external_id": "J23",
+    "committee_name": "Joint Committee on Public Service",
+    "raw_role_label": "Chairperson"
+  },
+  {
+    "member_id": "MDB0",
+    "session_id": "194th",
+    "committee_external_id": "J47",
+    "committee_name": "Joint Committee on Community Development and Small Businesses",
+    "raw_role_label": "Vice Chair"
+  },
+  {
+    "member_id": "MDB0",
+    "session_id": "194th",
+    "committee_external_id": "J37",
+    "committee_name": "Joint Committee on Telecommunications, Utilities and Energy",
+    "raw_role_label": "Vice Chair"
+  },
+  {
+    "member_id": "MDB0",
+    "session_id": "194th",
+    "committee_external_id": "S30",
+    "committee_name": "Senate Committee on Ways and Means",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "MDB0",
+    "session_id": "194th",
+    "committee_external_id": "J52",
+    "committee_name": "Joint Committee on Emergency Preparedness and Management",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "MDB0",
+    "session_id": "194th",
+    "committee_external_id": "J26",
+    "committee_name": "Joint Committee on Revenue",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "MDB0",
+    "session_id": "194th",
+    "committee_external_id": "J31",
+    "committee_name": "Joint Committee on Veterans and Federal Affairs",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "MDB0",
+    "session_id": "194th",
+    "committee_external_id": "J39",
+    "committee_name": "Joint Committee on Ways and Means",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "WNB0",
+    "session_id": "194th",
+    "committee_external_id": "S65",
+    "committee_name": "Senate Committee on the Census",
+    "raw_role_label": "Chairperson"
+  },
+  {
+    "member_id": "WNB0",
+    "session_id": "194th",
+    "committee_external_id": "S31",
+    "committee_name": "Senate Committee on Bills in the Third Reading",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "WNB0",
+    "session_id": "194th",
+    "committee_external_id": "S29",
+    "committee_name": "Senate Committee on Rules",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "WNB0",
+    "session_id": "194th",
+    "committee_external_id": "S50",
+    "committee_name": "Senate Committee on Steering and Policy",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "WNB0",
+    "session_id": "194th",
+    "committee_external_id": "TS10",
+    "committee_name": "Subcommittee on chapter 250 of the acts of 2024",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "WNB0",
+    "session_id": "194th",
+    "committee_external_id": "J28",
+    "committee_name": "Joint Committee on Housing",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "WNB0",
+    "session_id": "194th",
+    "committee_external_id": "J40",
+    "committee_name": "Joint Committee on Rules",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "WNB0",
+    "session_id": "194th",
+    "committee_external_id": "J27",
+    "committee_name": "Joint Committee on Transportation",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "N_C0",
+    "session_id": "194th",
+    "committee_external_id": "J25",
+    "committee_name": "Joint Committee on State Administration and Regulatory Oversight",
+    "raw_role_label": "Chairperson"
+  },
+  {
+    "member_id": "N_C0",
+    "session_id": "194th",
+    "committee_external_id": "S48",
+    "committee_name": "Senate Committee on Post Audit and Oversight",
+    "raw_role_label": "Vice Chair"
+  },
+  {
+    "member_id": "N_C0",
+    "session_id": "194th",
+    "committee_external_id": "J12",
+    "committee_name": "Joint Committee on Economic Development and Emerging Technologies",
+    "raw_role_label": "Vice Chair"
+  },
+  {
+    "member_id": "N_C0",
+    "session_id": "194th",
+    "committee_external_id": "S31",
+    "committee_name": "Senate Committee on Bills in the Third Reading",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "N_C0",
+    "session_id": "194th",
+    "committee_external_id": "S30",
+    "committee_name": "Senate Committee on Ways and Means",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "N_C0",
+    "session_id": "194th",
+    "committee_external_id": "J47",
+    "committee_name": "Joint Committee on Community Development and Small Businesses",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "N_C0",
+    "session_id": "194th",
+    "committee_external_id": "J18",
+    "committee_name": "Joint Committee on Mental Health, Substance Use and Recovery",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "N_C0",
+    "session_id": "194th",
+    "committee_external_id": "J31",
+    "committee_name": "Joint Committee on Veterans and Federal Affairs",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "N_C0",
+    "session_id": "194th",
+    "committee_external_id": "J39",
+    "committee_name": "Joint Committee on Ways and Means",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "JMC0",
+    "session_id": "194th",
+    "committee_external_id": "J29",
+    "committee_name": "Joint Committee on Higher Education",
+    "raw_role_label": "Chairperson"
+  },
+  {
+    "member_id": "JMC0",
+    "session_id": "194th",
+    "committee_external_id": "S50",
+    "committee_name": "Senate Committee on Steering and Policy",
+    "raw_role_label": "Vice Chair"
+  },
+  {
+    "member_id": "JMC0",
+    "session_id": "194th",
+    "committee_external_id": "S30",
+    "committee_name": "Senate Committee on Ways and Means",
+    "raw_role_label": "Vice Chair"
+  },
+  {
+    "member_id": "JMC0",
+    "session_id": "194th",
+    "committee_external_id": "J45",
+    "committee_name": "Joint Committee on Agriculture and Fisheries",
+    "raw_role_label": "Vice Chair"
+  },
+  {
+    "member_id": "JMC0",
+    "session_id": "194th",
+    "committee_external_id": "J39",
+    "committee_name": "Joint Committee on Ways and Means",
+    "raw_role_label": "Vice Chair"
+  },
+  {
+    "member_id": "JMC0",
+    "session_id": "194th",
+    "committee_external_id": "S51",
+    "committee_name": "Senate Committee on Climate Change and Global Warming",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "JMC0",
+    "session_id": "194th",
+    "committee_external_id": "S48",
+    "committee_name": "Senate Committee on Post Audit and Oversight",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "JMC0",
+    "session_id": "194th",
+    "committee_external_id": "TS10",
+    "committee_name": "Subcommittee on chapter 250 of the acts of 2024",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "JMC0",
+    "session_id": "194th",
+    "committee_external_id": "J34",
+    "committee_name": "Joint Committee on Racial Equity, Civil Rights, and Inclusion",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "CSC0",
+    "session_id": "194th",
+    "committee_external_id": "S51",
+    "committee_name": "Senate Committee on Climate Change and Global Warming",
+    "raw_role_label": "Chairperson"
+  },
+  {
+    "member_id": "CSC0",
+    "session_id": "194th",
+    "committee_external_id": "S66",
+    "committee_name": "Senate Committee on Juvenile and Emerging Adult Justice",
+    "raw_role_label": "Vice Chair"
+  },
+  {
+    "member_id": "CSC0",
+    "session_id": "194th",
+    "committee_external_id": "S56",
+    "committee_name": "Senate Committee on Ethics",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "CSC0",
+    "session_id": "194th",
+    "committee_external_id": "S50",
+    "committee_name": "Senate Committee on Steering and Policy",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "CSC0",
+    "session_id": "194th",
+    "committee_external_id": "J15",
+    "committee_name": "Joint Committee on Election Laws",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "CSC0",
+    "session_id": "194th",
+    "committee_external_id": "J18",
+    "committee_name": "Joint Committee on Mental Health, Substance Use and Recovery",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "BPC0",
+    "session_id": "194th",
+    "committee_external_id": "S66",
+    "committee_name": "Senate Committee on Juvenile and Emerging Adult Justice",
+    "raw_role_label": "Chairperson"
+  },
+  {
+    "member_id": "BPC0",
+    "session_id": "194th",
+    "committee_external_id": "J27",
+    "committee_name": "Joint Committee on Transportation",
+    "raw_role_label": "Chairperson"
+  },
+  {
+    "member_id": "BPC0",
+    "session_id": "194th",
+    "committee_external_id": "S53",
+    "committee_name": "Senate Committee on Personnel and Administration",
+    "raw_role_label": "Vice Chair"
+  },
+  {
+    "member_id": "BPC0",
+    "session_id": "194th",
+    "committee_external_id": "S56",
+    "committee_name": "Senate Committee on Ethics",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "BPC0",
+    "session_id": "194th",
+    "committee_external_id": "S48",
+    "committee_name": "Senate Committee on Post Audit and Oversight",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "BPC0",
+    "session_id": "194th",
+    "committee_external_id": "S29",
+    "committee_name": "Senate Committee on Rules",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "BPC0",
+    "session_id": "194th",
+    "committee_external_id": "S30",
+    "committee_name": "Senate Committee on Ways and Means",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "BPC0",
+    "session_id": "194th",
+    "committee_external_id": "J40",
+    "committee_name": "Joint Committee on Rules",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "BPC0",
+    "session_id": "194th",
+    "committee_external_id": "J39",
+    "committee_name": "Joint Committee on Ways and Means",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "JJC0",
+    "session_id": "194th",
+    "committee_external_id": "J52",
+    "committee_name": "Joint Committee on Emergency Preparedness and Management",
+    "raw_role_label": "Chairperson"
+  },
+  {
+    "member_id": "JJC0",
+    "session_id": "194th",
+    "committee_external_id": "J22",
+    "committee_name": "Joint Committee on Public Safety and Homeland Security",
+    "raw_role_label": "Chairperson"
+  },
+  {
+    "member_id": "JJC0",
+    "session_id": "194th",
+    "committee_external_id": "J24",
+    "committee_name": "Joint Committee on Health Care Financing",
+    "raw_role_label": "Vice Chair"
+  },
+  {
+    "member_id": "JJC0",
+    "session_id": "194th",
+    "committee_external_id": "S30",
+    "committee_name": "Senate Committee on Ways and Means",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "JJC0",
+    "session_id": "194th",
+    "committee_external_id": "J17",
+    "committee_name": "Joint Committee on Consumer Protection and Professional Licensure",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "JJC0",
+    "session_id": "194th",
+    "committee_external_id": "J12",
+    "committee_name": "Joint Committee on Economic Development and Emerging Technologies",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "JJC0",
+    "session_id": "194th",
+    "committee_external_id": "J37",
+    "committee_name": "Joint Committee on Telecommunications, Utilities and Energy",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "JJC0",
+    "session_id": "194th",
+    "committee_external_id": "J39",
+    "committee_name": "Joint Committee on Ways and Means",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "JAC0",
+    "session_id": "194th",
+    "committee_external_id": "J28",
+    "committee_name": "Joint Committee on Housing",
+    "raw_role_label": "Chairperson"
+  },
+  {
+    "member_id": "JAC0",
+    "session_id": "194th",
+    "committee_external_id": "J16",
+    "committee_name": "Joint Committee on Public Health",
+    "raw_role_label": "Vice Chair"
+  },
+  {
+    "member_id": "JAC0",
+    "session_id": "194th",
+    "committee_external_id": "J24",
+    "committee_name": "Joint Committee on Health Care Financing",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "JAC0",
+    "session_id": "194th",
+    "committee_external_id": "J18",
+    "committee_name": "Joint Committee on Mental Health, Substance Use and Recovery",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "JAC0",
+    "session_id": "194th",
+    "committee_external_id": "J34",
+    "committee_name": "Joint Committee on Racial Equity, Civil Rights, and Inclusion",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "JAC0",
+    "session_id": "194th",
+    "committee_external_id": "J37",
+    "committee_name": "Joint Committee on Telecommunications, Utilities and Energy",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "SND0",
+    "session_id": "194th",
+    "committee_external_id": "S31",
+    "committee_name": "Senate Committee on Bills in the Third Reading",
+    "raw_role_label": "Chairperson"
+  },
+  {
+    "member_id": "SND0",
+    "session_id": "194th",
+    "committee_external_id": "S56",
+    "committee_name": "Senate Committee on Ethics",
+    "raw_role_label": "Vice Chair"
+  },
+  {
+    "member_id": "SND0",
+    "session_id": "194th",
+    "committee_external_id": "S53",
+    "committee_name": "Senate Committee on Personnel and Administration",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "SND0",
+    "session_id": "194th",
+    "committee_external_id": "J14",
+    "committee_name": "Joint Committee on Education",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "SND0",
+    "session_id": "194th",
+    "committee_external_id": "J43",
+    "committee_name": "Joint Committee on Labor and Workforce Development",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "SND0",
+    "session_id": "194th",
+    "committee_external_id": "J25",
+    "committee_name": "Joint Committee on State Administration and Regulatory Oversight",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "KAD0",
+    "session_id": "194th",
+    "committee_external_id": "S55",
+    "committee_name": "Senate Committee on Intergovernmental Affairs",
+    "raw_role_label": "Ranking Minority"
+  },
+  {
+    "member_id": "KAD0",
+    "session_id": "194th",
+    "committee_external_id": "J47",
+    "committee_name": "Joint Committee on Community Development and Small Businesses",
+    "raw_role_label": "Ranking Minority"
+  },
+  {
+    "member_id": "KAD0",
+    "session_id": "194th",
+    "committee_external_id": "J17",
+    "committee_name": "Joint Committee on Consumer Protection and Professional Licensure",
+    "raw_role_label": "Ranking Minority"
+  },
+  {
+    "member_id": "KAD0",
+    "session_id": "194th",
+    "committee_external_id": "J24",
+    "committee_name": "Joint Committee on Health Care Financing",
+    "raw_role_label": "Ranking Minority"
+  },
+  {
+    "member_id": "KAD0",
+    "session_id": "194th",
+    "committee_external_id": "J29",
+    "committee_name": "Joint Committee on Higher Education",
+    "raw_role_label": "Ranking Minority"
+  },
+  {
+    "member_id": "KAD0",
+    "session_id": "194th",
+    "committee_external_id": "J18",
+    "committee_name": "Joint Committee on Mental Health, Substance Use and Recovery",
+    "raw_role_label": "Ranking Minority"
+  },
+  {
+    "member_id": "KAD0",
+    "session_id": "194th",
+    "committee_external_id": "J16",
+    "committee_name": "Joint Committee on Public Health",
+    "raw_role_label": "Ranking Minority"
+  },
+  {
+    "member_id": "KAD0",
+    "session_id": "194th",
+    "committee_external_id": "J23",
+    "committee_name": "Joint Committee on Public Service",
+    "raw_role_label": "Ranking Minority"
+  },
+  {
+    "member_id": "KAD0",
+    "session_id": "194th",
+    "committee_external_id": "S53",
+    "committee_name": "Senate Committee on Personnel and Administration",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "KAD0",
+    "session_id": "194th",
+    "committee_external_id": "S30",
+    "committee_name": "Senate Committee on Ways and Means",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "KAD0",
+    "session_id": "194th",
+    "committee_external_id": "J39",
+    "committee_name": "Joint Committee on Ways and Means",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "WJD0",
+    "session_id": "194th",
+    "committee_external_id": "J16",
+    "committee_name": "Joint Committee on Public Health",
+    "raw_role_label": "Chairperson"
+  },
+  {
+    "member_id": "WJD0",
+    "session_id": "194th",
+    "committee_external_id": "J17",
+    "committee_name": "Joint Committee on Consumer Protection and Professional Licensure",
+    "raw_role_label": "Vice Chair"
+  },
+  {
+    "member_id": "WJD0",
+    "session_id": "194th",
+    "committee_external_id": "J22",
+    "committee_name": "Joint Committee on Public Safety and Homeland Security",
+    "raw_role_label": "Vice Chair"
+  },
+  {
+    "member_id": "WJD0",
+    "session_id": "194th",
+    "committee_external_id": "S55",
+    "committee_name": "Senate Committee on Intergovernmental Affairs",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "WJD0",
+    "session_id": "194th",
+    "committee_external_id": "J32",
+    "committee_name": "Joint Committee on Bonding, Capital Expenditures and State Assets",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "WJD0",
+    "session_id": "194th",
+    "committee_external_id": "J52",
+    "committee_name": "Joint Committee on Emergency Preparedness and Management",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "WJD0",
+    "session_id": "194th",
+    "committee_external_id": "J11",
+    "committee_name": "Joint Committee on Financial Services",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "WJD0",
+    "session_id": "194th",
+    "committee_external_id": "J24",
+    "committee_name": "Joint Committee on Health Care Financing",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "PJD0",
+    "session_id": "194th",
+    "committee_external_id": "S66",
+    "committee_name": "Senate Committee on Juvenile and Emerging Adult Justice",
+    "raw_role_label": "Ranking Minority"
+  },
+  {
+    "member_id": "PJD0",
+    "session_id": "194th",
+    "committee_external_id": "S53",
+    "committee_name": "Senate Committee on Personnel and Administration",
+    "raw_role_label": "Ranking Minority"
+  },
+  {
+    "member_id": "PJD0",
+    "session_id": "194th",
+    "committee_external_id": "J33",
+    "committee_name": "Joint Committee on Advanced Information Technology, the Internet and Cybersecurity",
+    "raw_role_label": "Ranking Minority"
+  },
+  {
+    "member_id": "PJD0",
+    "session_id": "194th",
+    "committee_external_id": "J46",
+    "committee_name": "Joint Committee on Aging and Independence",
+    "raw_role_label": "Ranking Minority"
+  },
+  {
+    "member_id": "PJD0",
+    "session_id": "194th",
+    "committee_external_id": "J50",
+    "committee_name": "Joint Committee on Cannabis Policy",
+    "raw_role_label": "Ranking Minority"
+  },
+  {
+    "member_id": "PJD0",
+    "session_id": "194th",
+    "committee_external_id": "J12",
+    "committee_name": "Joint Committee on Economic Development and Emerging Technologies",
+    "raw_role_label": "Ranking Minority"
+  },
+  {
+    "member_id": "PJD0",
+    "session_id": "194th",
+    "committee_external_id": "J10",
+    "committee_name": "Joint Committee on Municipalities and Regional Government",
+    "raw_role_label": "Ranking Minority"
+  },
+  {
+    "member_id": "PJD0",
+    "session_id": "194th",
+    "committee_external_id": "J22",
+    "committee_name": "Joint Committee on Public Safety and Homeland Security",
+    "raw_role_label": "Ranking Minority"
+  },
+  {
+    "member_id": "PJD0",
+    "session_id": "194th",
+    "committee_external_id": "J25",
+    "committee_name": "Joint Committee on State Administration and Regulatory Oversight",
+    "raw_role_label": "Ranking Minority"
+  },
+  {
+    "member_id": "PJD0",
+    "session_id": "194th",
+    "committee_external_id": "S48",
+    "committee_name": "Senate Committee on Post Audit and Oversight",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "LME0",
+    "session_id": "194th",
+    "committee_external_id": "J19",
+    "committee_name": "Joint Committee on the Judiciary",
+    "raw_role_label": "Chairperson"
+  },
+  {
+    "member_id": "LME0",
+    "session_id": "194th",
+    "committee_external_id": "J28",
+    "committee_name": "Joint Committee on Housing",
+    "raw_role_label": "Vice Chair"
+  },
+  {
+    "member_id": "LME0",
+    "session_id": "194th",
+    "committee_external_id": "S30",
+    "committee_name": "Senate Committee on Ways and Means",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "LME0",
+    "session_id": "194th",
+    "committee_external_id": "J13",
+    "committee_name": "Joint Committee on Children, Families and Persons with Disabilities",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "LME0",
+    "session_id": "194th",
+    "committee_external_id": "J17",
+    "committee_name": "Joint Committee on Consumer Protection and Professional Licensure",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "LME0",
+    "session_id": "194th",
+    "committee_external_id": "J27",
+    "committee_name": "Joint Committee on Transportation",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "LME0",
+    "session_id": "194th",
+    "committee_external_id": "J39",
+    "committee_name": "Joint Committee on Ways and Means",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "JBE0",
+    "session_id": "194th",
+    "committee_external_id": "J26",
+    "committee_name": "Joint Committee on Revenue",
+    "raw_role_label": "Chairperson"
+  },
+  {
+    "member_id": "JBE0",
+    "session_id": "194th",
+    "committee_external_id": "J25",
+    "committee_name": "Joint Committee on State Administration and Regulatory Oversight",
+    "raw_role_label": "Vice Chair"
+  },
+  {
+    "member_id": "JBE0",
+    "session_id": "194th",
+    "committee_external_id": "J19",
+    "committee_name": "Joint Committee on the Judiciary",
+    "raw_role_label": "Vice Chair"
+  },
+  {
+    "member_id": "JBE0",
+    "session_id": "194th",
+    "committee_external_id": "S48",
+    "committee_name": "Senate Committee on Post Audit and Oversight",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "JBE0",
+    "session_id": "194th",
+    "committee_external_id": "J50",
+    "committee_name": "Joint Committee on Cannabis Policy",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "JBE0",
+    "session_id": "194th",
+    "committee_external_id": "J13",
+    "committee_name": "Joint Committee on Children, Families and Persons with Disabilities",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "JBE0",
+    "session_id": "194th",
+    "committee_external_id": "J15",
+    "committee_name": "Joint Committee on Election Laws",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "JBE0",
+    "session_id": "194th",
+    "committee_external_id": "J22",
+    "committee_name": "Joint Committee on Public Safety and Homeland Security",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "JBE0",
+    "session_id": "194th",
+    "committee_external_id": "J23",
+    "committee_name": "Joint Committee on Public Service",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "RCF0",
+    "session_id": "194th",
+    "committee_external_id": "S48",
+    "committee_name": "Senate Committee on Post Audit and Oversight",
+    "raw_role_label": "Ranking Minority"
+  },
+  {
+    "member_id": "RCF0",
+    "session_id": "194th",
+    "committee_external_id": "S29",
+    "committee_name": "Senate Committee on Rules",
+    "raw_role_label": "Ranking Minority"
+  },
+  {
+    "member_id": "RCF0",
+    "session_id": "194th",
+    "committee_external_id": "S65",
+    "committee_name": "Senate Committee on the Census",
+    "raw_role_label": "Ranking Minority"
+  },
+  {
+    "member_id": "RCF0",
+    "session_id": "194th",
+    "committee_external_id": "J45",
+    "committee_name": "Joint Committee on Agriculture and Fisheries",
+    "raw_role_label": "Ranking Minority"
+  },
+  {
+    "member_id": "RCF0",
+    "session_id": "194th",
+    "committee_external_id": "J32",
+    "committee_name": "Joint Committee on Bonding, Capital Expenditures and State Assets",
+    "raw_role_label": "Ranking Minority"
+  },
+  {
+    "member_id": "RCF0",
+    "session_id": "194th",
+    "committee_external_id": "J15",
+    "committee_name": "Joint Committee on Election Laws",
+    "raw_role_label": "Ranking Minority"
+  },
+  {
+    "member_id": "RCF0",
+    "session_id": "194th",
+    "committee_external_id": "J52",
+    "committee_name": "Joint Committee on Emergency Preparedness and Management",
+    "raw_role_label": "Ranking Minority"
+  },
+  {
+    "member_id": "RCF0",
+    "session_id": "194th",
+    "committee_external_id": "J26",
+    "committee_name": "Joint Committee on Revenue",
+    "raw_role_label": "Ranking Minority"
+  },
+  {
+    "member_id": "RCF0",
+    "session_id": "194th",
+    "committee_external_id": "J40",
+    "committee_name": "Joint Committee on Rules",
+    "raw_role_label": "Ranking Minority"
+  },
+  {
+    "member_id": "RCF0",
+    "session_id": "194th",
+    "committee_external_id": "J31",
+    "committee_name": "Joint Committee on Veterans and Federal Affairs",
+    "raw_role_label": "Ranking Minority"
+  },
+  {
+    "member_id": "RCF0",
+    "session_id": "194th",
+    "committee_external_id": "S30",
+    "committee_name": "Senate Committee on Ways and Means",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "RCF0",
+    "session_id": "194th",
+    "committee_external_id": "J39",
+    "committee_name": "Joint Committee on Ways and Means",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "PRF0",
+    "session_id": "194th",
+    "committee_external_id": "J11",
+    "committee_name": "Joint Committee on Financial Services",
+    "raw_role_label": "Chairperson"
+  },
+  {
+    "member_id": "PRF0",
+    "session_id": "194th",
+    "committee_external_id": "S30",
+    "committee_name": "Senate Committee on Ways and Means",
+    "raw_role_label": "Assistant Vice Chair"
+  },
+  {
+    "member_id": "PRF0",
+    "session_id": "194th",
+    "committee_external_id": "J39",
+    "committee_name": "Joint Committee on Ways and Means",
+    "raw_role_label": "Assistant Vice Chair"
+  },
+  {
+    "member_id": "PRF0",
+    "session_id": "194th",
+    "committee_external_id": "S53",
+    "committee_name": "Senate Committee on Personnel and Administration",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "PRF0",
+    "session_id": "194th",
+    "committee_external_id": "TS10",
+    "committee_name": "Subcommittee on chapter 250 of the acts of 2024",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "PRF0",
+    "session_id": "194th",
+    "committee_external_id": "J12",
+    "committee_name": "Joint Committee on Economic Development and Emerging Technologies",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "PRF0",
+    "session_id": "194th",
+    "committee_external_id": "J24",
+    "committee_name": "Joint Committee on Health Care Financing",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "PRF0",
+    "session_id": "194th",
+    "committee_external_id": "J28",
+    "committee_name": "Joint Committee on Housing",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "PRF0",
+    "session_id": "194th",
+    "committee_external_id": "J43",
+    "committee_name": "Joint Committee on Labor and Workforce Development",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "DAF0",
+    "session_id": "194th",
+    "committee_external_id": "J45",
+    "committee_name": "Joint Committee on Agriculture and Fisheries",
+    "raw_role_label": "Chairperson"
+  },
+  {
+    "member_id": "DAF0",
+    "session_id": "194th",
+    "committee_external_id": "J50",
+    "committee_name": "Joint Committee on Cannabis Policy",
+    "raw_role_label": "Vice Chair"
+  },
+  {
+    "member_id": "DAF0",
+    "session_id": "194th",
+    "committee_external_id": "J21",
+    "committee_name": "Joint Committee on Environment and Natural Resources",
+    "raw_role_label": "Vice Chair"
+  },
+  {
+    "member_id": "DAF0",
+    "session_id": "194th",
+    "committee_external_id": "S55",
+    "committee_name": "Senate Committee on Intergovernmental Affairs",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "DAF0",
+    "session_id": "194th",
+    "committee_external_id": "J22",
+    "committee_name": "Joint Committee on Public Safety and Homeland Security",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "DAF0",
+    "session_id": "194th",
+    "committee_external_id": "J37",
+    "committee_name": "Joint Committee on Telecommunications, Utilities and Energy",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "DAF0",
+    "session_id": "194th",
+    "committee_external_id": "J27",
+    "committee_name": "Joint Committee on Transportation",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "BRF0",
+    "session_id": "194th",
+    "committee_external_id": "J12",
+    "committee_name": "Joint Committee on Economic Development and Emerging Technologies",
+    "raw_role_label": "Chairperson"
+  },
+  {
+    "member_id": "BRF0",
+    "session_id": "194th",
+    "committee_external_id": "S55",
+    "committee_name": "Senate Committee on Intergovernmental Affairs",
+    "raw_role_label": "Vice Chair"
+  },
+  {
+    "member_id": "BRF0",
+    "session_id": "194th",
+    "committee_external_id": "S48",
+    "committee_name": "Senate Committee on Post Audit and Oversight",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "BRF0",
+    "session_id": "194th",
+    "committee_external_id": "S65",
+    "committee_name": "Senate Committee on the Census",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "BRF0",
+    "session_id": "194th",
+    "committee_external_id": "J33",
+    "committee_name": "Joint Committee on Advanced Information Technology, the Internet and Cybersecurity",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "BRF0",
+    "session_id": "194th",
+    "committee_external_id": "J28",
+    "committee_name": "Joint Committee on Housing",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "CFF0",
+    "session_id": "194th",
+    "committee_external_id": "S50",
+    "committee_name": "Senate Committee on Steering and Policy",
+    "raw_role_label": "Chairperson"
+  },
+  {
+    "member_id": "CFF0",
+    "session_id": "194th",
+    "committee_external_id": "TS10",
+    "committee_name": "Subcommittee on chapter 250 of the acts of 2024",
+    "raw_role_label": "Chairperson"
+  },
+  {
+    "member_id": "CFF0",
+    "session_id": "194th",
+    "committee_external_id": "J24",
+    "committee_name": "Joint Committee on Health Care Financing",
+    "raw_role_label": "Chairperson"
+  },
+  {
+    "member_id": "CFF0",
+    "session_id": "194th",
+    "committee_external_id": "S29",
+    "committee_name": "Senate Committee on Rules",
+    "raw_role_label": "Vice Chair"
+  },
+  {
+    "member_id": "CFF0",
+    "session_id": "194th",
+    "committee_external_id": "J40",
+    "committee_name": "Joint Committee on Rules",
+    "raw_role_label": "Vice Chair"
+  },
+  {
+    "member_id": "CFF0",
+    "session_id": "194th",
+    "committee_external_id": "S56",
+    "committee_name": "Senate Committee on Ethics",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "CFF0",
+    "session_id": "194th",
+    "committee_external_id": "S53",
+    "committee_name": "Senate Committee on Personnel and Administration",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "CFF0",
+    "session_id": "194th",
+    "committee_external_id": "J46",
+    "committee_name": "Joint Committee on Aging and Independence",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "A_G0",
+    "session_id": "194th",
+    "committee_external_id": "J50",
+    "committee_name": "Joint Committee on Cannabis Policy",
+    "raw_role_label": "Chairperson"
+  },
+  {
+    "member_id": "A_G0",
+    "session_id": "194th",
+    "committee_external_id": "J47",
+    "committee_name": "Joint Committee on Community Development and Small Businesses",
+    "raw_role_label": "Chairperson"
+  },
+  {
+    "member_id": "A_G0",
+    "session_id": "194th",
+    "committee_external_id": "J34",
+    "committee_name": "Joint Committee on Racial Equity, Civil Rights, and Inclusion",
+    "raw_role_label": "Vice Chair"
+  },
+  {
+    "member_id": "A_G0",
+    "session_id": "194th",
+    "committee_external_id": "J30",
+    "committee_name": "Joint Committee on Tourism, Arts and Cultural Development",
+    "raw_role_label": "Vice Chair"
+  },
+  {
+    "member_id": "A_G0",
+    "session_id": "194th",
+    "committee_external_id": "S51",
+    "committee_name": "Senate Committee on Climate Change and Global Warming",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "A_G0",
+    "session_id": "194th",
+    "committee_external_id": "S66",
+    "committee_name": "Senate Committee on Juvenile and Emerging Adult Justice",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "A_G0",
+    "session_id": "194th",
+    "committee_external_id": "S30",
+    "committee_name": "Senate Committee on Ways and Means",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "A_G0",
+    "session_id": "194th",
+    "committee_external_id": "J52",
+    "committee_name": "Joint Committee on Emergency Preparedness and Management",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "A_G0",
+    "session_id": "194th",
+    "committee_external_id": "J11",
+    "committee_name": "Joint Committee on Financial Services",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "A_G0",
+    "session_id": "194th",
+    "committee_external_id": "J39",
+    "committee_name": "Joint Committee on Ways and Means",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "PDJ0",
+    "session_id": "194th",
+    "committee_external_id": "J46",
+    "committee_name": "Joint Committee on Aging and Independence",
+    "raw_role_label": "Chairperson"
+  },
+  {
+    "member_id": "PDJ0",
+    "session_id": "194th",
+    "committee_external_id": "J14",
+    "committee_name": "Joint Committee on Education",
+    "raw_role_label": "Vice Chair"
+  },
+  {
+    "member_id": "PDJ0",
+    "session_id": "194th",
+    "committee_external_id": "J26",
+    "committee_name": "Joint Committee on Revenue",
+    "raw_role_label": "Vice Chair"
+  },
+  {
+    "member_id": "PDJ0",
+    "session_id": "194th",
+    "committee_external_id": "J50",
+    "committee_name": "Joint Committee on Cannabis Policy",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "PDJ0",
+    "session_id": "194th",
+    "committee_external_id": "J43",
+    "committee_name": "Joint Committee on Labor and Workforce Development",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "PDJ0",
+    "session_id": "194th",
+    "committee_external_id": "J19",
+    "committee_name": "Joint Committee on the Judiciary",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "JFK0",
+    "session_id": "194th",
+    "committee_external_id": "J15",
+    "committee_name": "Joint Committee on Election Laws",
+    "raw_role_label": "Chairperson"
+  },
+  {
+    "member_id": "JFK0",
+    "session_id": "194th",
+    "committee_external_id": "J10",
+    "committee_name": "Joint Committee on Municipalities and Regional Government",
+    "raw_role_label": "Vice Chair"
+  },
+  {
+    "member_id": "JFK0",
+    "session_id": "194th",
+    "committee_external_id": "J50",
+    "committee_name": "Joint Committee on Cannabis Policy",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "JFK0",
+    "session_id": "194th",
+    "committee_external_id": "J47",
+    "committee_name": "Joint Committee on Community Development and Small Businesses",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "JFK0",
+    "session_id": "194th",
+    "committee_external_id": "J18",
+    "committee_name": "Joint Committee on Mental Health, Substance Use and Recovery",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "JFK0",
+    "session_id": "194th",
+    "committee_external_id": "J16",
+    "committee_name": "Joint Committee on Public Health",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "JFK0",
+    "session_id": "194th",
+    "committee_external_id": "J23",
+    "committee_name": "Joint Committee on Public Service",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "JFK0",
+    "session_id": "194th",
+    "committee_external_id": "J26",
+    "committee_name": "Joint Committee on Revenue",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "RKK0",
+    "session_id": "194th",
+    "committee_external_id": "J13",
+    "committee_name": "Joint Committee on Children, Families and Persons with Disabilities",
+    "raw_role_label": "Chairperson"
+  },
+  {
+    "member_id": "RKK0",
+    "session_id": "194th",
+    "committee_external_id": "J18",
+    "committee_name": "Joint Committee on Mental Health, Substance Use and Recovery",
+    "raw_role_label": "Vice Chair"
+  },
+  {
+    "member_id": "RKK0",
+    "session_id": "194th",
+    "committee_external_id": "S66",
+    "committee_name": "Senate Committee on Juvenile and Emerging Adult Justice",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "RKK0",
+    "session_id": "194th",
+    "committee_external_id": "S30",
+    "committee_name": "Senate Committee on Ways and Means",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "RKK0",
+    "session_id": "194th",
+    "committee_external_id": "J45",
+    "committee_name": "Joint Committee on Agriculture and Fisheries",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "RKK0",
+    "session_id": "194th",
+    "committee_external_id": "J14",
+    "committee_name": "Joint Committee on Education",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "RKK0",
+    "session_id": "194th",
+    "committee_external_id": "J16",
+    "committee_name": "Joint Committee on Public Health",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "RKK0",
+    "session_id": "194th",
+    "committee_external_id": "J34",
+    "committee_name": "Joint Committee on Racial Equity, Civil Rights, and Inclusion",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "RKK0",
+    "session_id": "194th",
+    "committee_external_id": "J39",
+    "committee_name": "Joint Committee on Ways and Means",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "jml0",
+    "session_id": "194th",
+    "committee_external_id": "S56",
+    "committee_name": "Senate Committee on Ethics",
+    "raw_role_label": "Chairperson"
+  },
+  {
+    "member_id": "jml0",
+    "session_id": "194th",
+    "committee_external_id": "J14",
+    "committee_name": "Joint Committee on Education",
+    "raw_role_label": "Chairperson"
+  },
+  {
+    "member_id": "jml0",
+    "session_id": "194th",
+    "committee_external_id": "J43",
+    "committee_name": "Joint Committee on Labor and Workforce Development",
+    "raw_role_label": "Vice Chair"
+  },
+  {
+    "member_id": "jml0",
+    "session_id": "194th",
+    "committee_external_id": "S29",
+    "committee_name": "Senate Committee on Rules",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "jml0",
+    "session_id": "194th",
+    "committee_external_id": "J16",
+    "committee_name": "Joint Committee on Public Health",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "jml0",
+    "session_id": "194th",
+    "committee_external_id": "J40",
+    "committee_name": "Joint Committee on Rules",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "jml0",
+    "session_id": "194th",
+    "committee_external_id": "J27",
+    "committee_name": "Joint Committee on Transportation",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "JBL0",
+    "session_id": "194th",
+    "committee_external_id": "S29",
+    "committee_name": "Senate Committee on Rules",
+    "raw_role_label": "Chairperson"
+  },
+  {
+    "member_id": "JBL0",
+    "session_id": "194th",
+    "committee_external_id": "J40",
+    "committee_name": "Joint Committee on Rules",
+    "raw_role_label": "Chairperson"
+  },
+  {
+    "member_id": "JBL0",
+    "session_id": "194th",
+    "committee_external_id": "J52",
+    "committee_name": "Joint Committee on Emergency Preparedness and Management",
+    "raw_role_label": "Vice Chair"
+  },
+  {
+    "member_id": "JBL0",
+    "session_id": "194th",
+    "committee_external_id": "S51",
+    "committee_name": "Senate Committee on Climate Change and Global Warming",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "JBL0",
+    "session_id": "194th",
+    "committee_external_id": "J46",
+    "committee_name": "Joint Committee on Aging and Independence",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "JBL0",
+    "session_id": "194th",
+    "committee_external_id": "J45",
+    "committee_name": "Joint Committee on Agriculture and Fisheries",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "JBL0",
+    "session_id": "194th",
+    "committee_external_id": "J47",
+    "committee_name": "Joint Committee on Community Development and Small Businesses",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "PWM0",
+    "session_id": "194th",
+    "committee_external_id": "J30",
+    "committee_name": "Joint Committee on Tourism, Arts and Cultural Development",
+    "raw_role_label": "Chairperson"
+  },
+  {
+    "member_id": "PWM0",
+    "session_id": "194th",
+    "committee_external_id": "J32",
+    "committee_name": "Joint Committee on Bonding, Capital Expenditures and State Assets",
+    "raw_role_label": "Vice Chair"
+  },
+  {
+    "member_id": "PWM0",
+    "session_id": "194th",
+    "committee_external_id": "J27",
+    "committee_name": "Joint Committee on Transportation",
+    "raw_role_label": "Vice Chair"
+  },
+  {
+    "member_id": "PWM0",
+    "session_id": "194th",
+    "committee_external_id": "S65",
+    "committee_name": "Senate Committee on the Census",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "PWM0",
+    "session_id": "194th",
+    "committee_external_id": "S30",
+    "committee_name": "Senate Committee on Ways and Means",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "PWM0",
+    "session_id": "194th",
+    "committee_external_id": "J33",
+    "committee_name": "Joint Committee on Advanced Information Technology, the Internet and Cybersecurity",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "PWM0",
+    "session_id": "194th",
+    "committee_external_id": "J12",
+    "committee_name": "Joint Committee on Economic Development and Emerging Technologies",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "PWM0",
+    "session_id": "194th",
+    "committee_external_id": "J29",
+    "committee_name": "Joint Committee on Higher Education",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "PWM0",
+    "session_id": "194th",
+    "committee_external_id": "J39",
+    "committee_name": "Joint Committee on Ways and Means",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "L%20M0",
+    "session_id": "194th",
+    "committee_external_id": "J34",
+    "committee_name": "Joint Committee on Racial Equity, Civil Rights, and Inclusion",
+    "raw_role_label": "Chairperson"
+  },
+  {
+    "member_id": "L%20M0",
+    "session_id": "194th",
+    "committee_external_id": "J13",
+    "committee_name": "Joint Committee on Children, Families and Persons with Disabilities",
+    "raw_role_label": "Vice Chair"
+  },
+  {
+    "member_id": "L%20M0",
+    "session_id": "194th",
+    "committee_external_id": "S66",
+    "committee_name": "Senate Committee on Juvenile and Emerging Adult Justice",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "L%20M0",
+    "session_id": "194th",
+    "committee_external_id": "S65",
+    "committee_name": "Senate Committee on the Census",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "L%20M0",
+    "session_id": "194th",
+    "committee_external_id": "S30",
+    "committee_name": "Senate Committee on Ways and Means",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "L%20M0",
+    "session_id": "194th",
+    "committee_external_id": "J12",
+    "committee_name": "Joint Committee on Economic Development and Emerging Technologies",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "L%20M0",
+    "session_id": "194th",
+    "committee_external_id": "J19",
+    "committee_name": "Joint Committee on the Judiciary",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "L%20M0",
+    "session_id": "194th",
+    "committee_external_id": "J39",
+    "committee_name": "Joint Committee on Ways and Means",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "MCM0",
+    "session_id": "194th",
+    "committee_external_id": "S55",
+    "committee_name": "Senate Committee on Intergovernmental Affairs",
+    "raw_role_label": "Chairperson"
+  },
+  {
+    "member_id": "MCM0",
+    "session_id": "194th",
+    "committee_external_id": "S48",
+    "committee_name": "Senate Committee on Post Audit and Oversight",
+    "raw_role_label": "Chairperson"
+  },
+  {
+    "member_id": "MCM0",
+    "session_id": "194th",
+    "committee_external_id": "J23",
+    "committee_name": "Joint Committee on Public Service",
+    "raw_role_label": "Vice Chair"
+  },
+  {
+    "member_id": "MCM0",
+    "session_id": "194th",
+    "committee_external_id": "S65",
+    "committee_name": "Senate Committee on the Census",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "MCM0",
+    "session_id": "194th",
+    "committee_external_id": "J31",
+    "committee_name": "Joint Committee on Veterans and Federal Affairs",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "MOM0",
+    "session_id": "194th",
+    "committee_external_id": "J33",
+    "committee_name": "Joint Committee on Advanced Information Technology, the Internet and Cybersecurity",
+    "raw_role_label": "Chairperson"
+  },
+  {
+    "member_id": "MOM0",
+    "session_id": "194th",
+    "committee_external_id": "J11",
+    "committee_name": "Joint Committee on Financial Services",
+    "raw_role_label": "Vice Chair"
+  },
+  {
+    "member_id": "MOM0",
+    "session_id": "194th",
+    "committee_external_id": "S55",
+    "committee_name": "Senate Committee on Intergovernmental Affairs",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "MOM0",
+    "session_id": "194th",
+    "committee_external_id": "J32",
+    "committee_name": "Joint Committee on Bonding, Capital Expenditures and State Assets",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "MOM0",
+    "session_id": "194th",
+    "committee_external_id": "J21",
+    "committee_name": "Joint Committee on Environment and Natural Resources",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "MOM0",
+    "session_id": "194th",
+    "committee_external_id": "J29",
+    "committee_name": "Joint Committee on Higher Education",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "MOM0",
+    "session_id": "194th",
+    "committee_external_id": "J10",
+    "committee_name": "Joint Committee on Municipalities and Regional Government",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "MOM0",
+    "session_id": "194th",
+    "committee_external_id": "J22",
+    "committee_name": "Joint Committee on Public Safety and Homeland Security",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "PMO",
+    "session_id": "194th",
+    "committee_external_id": "S51",
+    "committee_name": "Senate Committee on Climate Change and Global Warming",
+    "raw_role_label": "Ranking Minority"
+  },
+  {
+    "member_id": "PMO",
+    "session_id": "194th",
+    "committee_external_id": "S56",
+    "committee_name": "Senate Committee on Ethics",
+    "raw_role_label": "Ranking Minority"
+  },
+  {
+    "member_id": "PMO",
+    "session_id": "194th",
+    "committee_external_id": "S30",
+    "committee_name": "Senate Committee on Ways and Means",
+    "raw_role_label": "Ranking Minority"
+  },
+  {
+    "member_id": "PMO",
+    "session_id": "194th",
+    "committee_external_id": "J13",
+    "committee_name": "Joint Committee on Children, Families and Persons with Disabilities",
+    "raw_role_label": "Ranking Minority"
+  },
+  {
+    "member_id": "PMO",
+    "session_id": "194th",
+    "committee_external_id": "J14",
+    "committee_name": "Joint Committee on Education",
+    "raw_role_label": "Ranking Minority"
+  },
+  {
+    "member_id": "PMO",
+    "session_id": "194th",
+    "committee_external_id": "J28",
+    "committee_name": "Joint Committee on Housing",
+    "raw_role_label": "Ranking Minority"
+  },
+  {
+    "member_id": "PMO",
+    "session_id": "194th",
+    "committee_external_id": "J43",
+    "committee_name": "Joint Committee on Labor and Workforce Development",
+    "raw_role_label": "Ranking Minority"
+  },
+  {
+    "member_id": "PMO",
+    "session_id": "194th",
+    "committee_external_id": "J19",
+    "committee_name": "Joint Committee on the Judiciary",
+    "raw_role_label": "Ranking Minority"
+  },
+  {
+    "member_id": "PMO",
+    "session_id": "194th",
+    "committee_external_id": "J27",
+    "committee_name": "Joint Committee on Transportation",
+    "raw_role_label": "Ranking Minority"
+  },
+  {
+    "member_id": "PMO",
+    "session_id": "194th",
+    "committee_external_id": "J39",
+    "committee_name": "Joint Committee on Ways and Means",
+    "raw_role_label": "Ranking Minority"
+  },
+  {
+    "member_id": "JRO0",
+    "session_id": "194th",
+    "committee_external_id": "J43",
+    "committee_name": "Joint Committee on Labor and Workforce Development",
+    "raw_role_label": "Chairperson"
+  },
+  {
+    "member_id": "JRO0",
+    "session_id": "194th",
+    "committee_external_id": "J15",
+    "committee_name": "Joint Committee on Election Laws",
+    "raw_role_label": "Vice Chair"
+  },
+  {
+    "member_id": "JRO0",
+    "session_id": "194th",
+    "committee_external_id": "S30",
+    "committee_name": "Senate Committee on Ways and Means",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "JRO0",
+    "session_id": "194th",
+    "committee_external_id": "J45",
+    "committee_name": "Joint Committee on Agriculture and Fisheries",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "JRO0",
+    "session_id": "194th",
+    "committee_external_id": "J32",
+    "committee_name": "Joint Committee on Bonding, Capital Expenditures and State Assets",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "JRO0",
+    "session_id": "194th",
+    "committee_external_id": "J17",
+    "committee_name": "Joint Committee on Consumer Protection and Professional Licensure",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "JRO0",
+    "session_id": "194th",
+    "committee_external_id": "J11",
+    "committee_name": "Joint Committee on Financial Services",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "JRO0",
+    "session_id": "194th",
+    "committee_external_id": "J23",
+    "committee_name": "Joint Committee on Public Service",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "JRO0",
+    "session_id": "194th",
+    "committee_external_id": "J39",
+    "committee_name": "Joint Committee on Ways and Means",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "PMP0",
+    "session_id": "194th",
+    "committee_external_id": "J17",
+    "committee_name": "Joint Committee on Consumer Protection and Professional Licensure",
+    "raw_role_label": "Chairperson"
+  },
+  {
+    "member_id": "PMP0",
+    "session_id": "194th",
+    "committee_external_id": "J33",
+    "committee_name": "Joint Committee on Advanced Information Technology, the Internet and Cybersecurity",
+    "raw_role_label": "Vice Chair"
+  },
+  {
+    "member_id": "PMP0",
+    "session_id": "194th",
+    "committee_external_id": "S66",
+    "committee_name": "Senate Committee on Juvenile and Emerging Adult Justice",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "PMP0",
+    "session_id": "194th",
+    "committee_external_id": "S50",
+    "committee_name": "Senate Committee on Steering and Policy",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "PMP0",
+    "session_id": "194th",
+    "committee_external_id": "S30",
+    "committee_name": "Senate Committee on Ways and Means",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "PMP0",
+    "session_id": "194th",
+    "committee_external_id": "J14",
+    "committee_name": "Joint Committee on Education",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "PMP0",
+    "session_id": "194th",
+    "committee_external_id": "J24",
+    "committee_name": "Joint Committee on Health Care Financing",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "PMP0",
+    "session_id": "194th",
+    "committee_external_id": "J29",
+    "committee_name": "Joint Committee on Higher Education",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "PMP0",
+    "session_id": "194th",
+    "committee_external_id": "J39",
+    "committee_name": "Joint Committee on Ways and Means",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "RLR0",
+    "session_id": "194th",
+    "committee_external_id": "J21",
+    "committee_name": "Joint Committee on Environment and Natural Resources",
+    "raw_role_label": "Chairperson"
+  },
+  {
+    "member_id": "RLR0",
+    "session_id": "194th",
+    "committee_external_id": "J10",
+    "committee_name": "Joint Committee on Municipalities and Regional Government",
+    "raw_role_label": "Chairperson"
+  },
+  {
+    "member_id": "RLR0",
+    "session_id": "194th",
+    "committee_external_id": "S65",
+    "committee_name": "Senate Committee on the Census",
+    "raw_role_label": "Vice Chair"
+  },
+  {
+    "member_id": "RLR0",
+    "session_id": "194th",
+    "committee_external_id": "J13",
+    "committee_name": "Joint Committee on Children, Families and Persons with Disabilities",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "RLR0",
+    "session_id": "194th",
+    "committee_external_id": "J15",
+    "committee_name": "Joint Committee on Election Laws",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "RLR0",
+    "session_id": "194th",
+    "committee_external_id": "J26",
+    "committee_name": "Joint Committee on Revenue",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "RLR0",
+    "session_id": "194th",
+    "committee_external_id": "J25",
+    "committee_name": "Joint Committee on State Administration and Regulatory Oversight",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "RLR0",
+    "session_id": "194th",
+    "committee_external_id": "J30",
+    "committee_name": "Joint Committee on Tourism, Arts and Cultural Development",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "MJR0",
+    "session_id": "194th",
+    "committee_external_id": "S30",
+    "committee_name": "Senate Committee on Ways and Means",
+    "raw_role_label": "Chairperson"
+  },
+  {
+    "member_id": "MJR0",
+    "session_id": "194th",
+    "committee_external_id": "J39",
+    "committee_name": "Joint Committee on Ways and Means",
+    "raw_role_label": "Chairperson"
+  },
+  {
+    "member_id": "MJR0",
+    "session_id": "194th",
+    "committee_external_id": "S31",
+    "committee_name": "Senate Committee on Bills in the Third Reading",
+    "raw_role_label": "Vice Chair"
+  },
+  {
+    "member_id": "MFR0",
+    "session_id": "194th",
+    "committee_external_id": "S53",
+    "committee_name": "Senate Committee on Personnel and Administration",
+    "raw_role_label": "Chairperson"
+  },
+  {
+    "member_id": "MFR0",
+    "session_id": "194th",
+    "committee_external_id": "J31",
+    "committee_name": "Joint Committee on Veterans and Federal Affairs",
+    "raw_role_label": "Vice Chair"
+  },
+  {
+    "member_id": "MFR0",
+    "session_id": "194th",
+    "committee_external_id": "S30",
+    "committee_name": "Senate Committee on Ways and Means",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "MFR0",
+    "session_id": "194th",
+    "committee_external_id": "J46",
+    "committee_name": "Joint Committee on Aging and Independence",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "MFR0",
+    "session_id": "194th",
+    "committee_external_id": "J21",
+    "committee_name": "Joint Committee on Environment and Natural Resources",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "MFR0",
+    "session_id": "194th",
+    "committee_external_id": "J10",
+    "committee_name": "Joint Committee on Municipalities and Regional Government",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "MFR0",
+    "session_id": "194th",
+    "committee_external_id": "J39",
+    "committee_name": "Joint Committee on Ways and Means",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "BET0",
+    "session_id": "194th",
+    "committee_external_id": "S31",
+    "committee_name": "Senate Committee on Bills in the Third Reading",
+    "raw_role_label": "Ranking Minority"
+  },
+  {
+    "member_id": "BET0",
+    "session_id": "194th",
+    "committee_external_id": "S50",
+    "committee_name": "Senate Committee on Steering and Policy",
+    "raw_role_label": "Ranking Minority"
+  },
+  {
+    "member_id": "BET0",
+    "session_id": "194th",
+    "committee_external_id": "J21",
+    "committee_name": "Joint Committee on Environment and Natural Resources",
+    "raw_role_label": "Ranking Minority"
+  },
+  {
+    "member_id": "BET0",
+    "session_id": "194th",
+    "committee_external_id": "J11",
+    "committee_name": "Joint Committee on Financial Services",
+    "raw_role_label": "Ranking Minority"
+  },
+  {
+    "member_id": "BET0",
+    "session_id": "194th",
+    "committee_external_id": "J34",
+    "committee_name": "Joint Committee on Racial Equity, Civil Rights, and Inclusion",
+    "raw_role_label": "Ranking Minority"
+  },
+  {
+    "member_id": "BET0",
+    "session_id": "194th",
+    "committee_external_id": "J37",
+    "committee_name": "Joint Committee on Telecommunications, Utilities and Energy",
+    "raw_role_label": "Ranking Minority"
+  },
+  {
+    "member_id": "BET0",
+    "session_id": "194th",
+    "committee_external_id": "J30",
+    "committee_name": "Joint Committee on Tourism, Arts and Cultural Development",
+    "raw_role_label": "Ranking Minority"
+  },
+  {
+    "member_id": "BET0",
+    "session_id": "194th",
+    "committee_external_id": "S56",
+    "committee_name": "Senate Committee on Ethics",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "BET0",
+    "session_id": "194th",
+    "committee_external_id": "S29",
+    "committee_name": "Senate Committee on Rules",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "BET0",
+    "session_id": "194th",
+    "committee_external_id": "J40",
+    "committee_name": "Joint Committee on Rules",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "JCV0",
+    "session_id": "194th",
+    "committee_external_id": "J18",
+    "committee_name": "Joint Committee on Mental Health, Substance Use and Recovery",
+    "raw_role_label": "Chairperson"
+  },
+  {
+    "member_id": "JCV0",
+    "session_id": "194th",
+    "committee_external_id": "J31",
+    "committee_name": "Joint Committee on Veterans and Federal Affairs",
+    "raw_role_label": "Chairperson"
+  },
+  {
+    "member_id": "JCV0",
+    "session_id": "194th",
+    "committee_external_id": "J46",
+    "committee_name": "Joint Committee on Aging and Independence",
+    "raw_role_label": "Vice Chair"
+  },
+  {
+    "member_id": "JCV0",
+    "session_id": "194th",
+    "committee_external_id": "J32",
+    "committee_name": "Joint Committee on Bonding, Capital Expenditures and State Assets",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "JCV0",
+    "session_id": "194th",
+    "committee_external_id": "J22",
+    "committee_name": "Joint Committee on Public Safety and Homeland Security",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "JCV0",
+    "session_id": "194th",
+    "committee_external_id": "J25",
+    "committee_name": "Joint Committee on State Administration and Regulatory Oversight",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "JCV0",
+    "session_id": "194th",
+    "committee_external_id": "J19",
+    "committee_name": "Joint Committee on the Judiciary",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "J_A1",
+    "session_id": "194th",
+    "committee_external_id": "J27",
+    "committee_name": "Joint Committee on Transportation",
+    "raw_role_label": "Chairperson"
+  },
+  {
+    "member_id": "JCD1",
+    "session_id": "194th",
+    "committee_external_id": "J45",
+    "committee_name": "Joint Committee on Agriculture and Fisheries",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "JCD1",
+    "session_id": "194th",
+    "committee_external_id": "J28",
+    "committee_name": "Joint Committee on Housing",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "JCD1",
+    "session_id": "194th",
+    "committee_external_id": "J23",
+    "committee_name": "Joint Committee on Public Service",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "JCD1",
+    "session_id": "194th",
+    "committee_external_id": "J31",
+    "committee_name": "Joint Committee on Veterans and Federal Affairs",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "JBA1",
+    "session_id": "194th",
+    "committee_external_id": "H45",
+    "committee_name": "House Committee on Human Resources and Employee Engagement",
+    "raw_role_label": "Vice Chair"
+  },
+  {
+    "member_id": "JBA1",
+    "session_id": "194th",
+    "committee_external_id": "J21",
+    "committee_name": "Joint Committee on Environment and Natural Resources",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "JBA1",
+    "session_id": "194th",
+    "committee_external_id": "J25",
+    "committee_name": "Joint Committee on State Administration and Regulatory Oversight",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "JBA1",
+    "session_id": "194th",
+    "committee_external_id": "J27",
+    "committee_name": "Joint Committee on Transportation",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "SBA1",
+    "session_id": "194th",
+    "committee_external_id": "H34",
+    "committee_name": "House Committee on Ways and Means",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "SBA1",
+    "session_id": "194th",
+    "committee_external_id": "J29",
+    "committee_name": "Joint Committee on Higher Education",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "SBA1",
+    "session_id": "194th",
+    "committee_external_id": "J16",
+    "committee_name": "Joint Committee on Public Health",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "SBA1",
+    "session_id": "194th",
+    "committee_external_id": "J31",
+    "committee_name": "Joint Committee on Veterans and Federal Affairs",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "SBA1",
+    "session_id": "194th",
+    "committee_external_id": "J39",
+    "committee_name": "Joint Committee on Ways and Means",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "BMA1",
+    "session_id": "194th",
+    "committee_external_id": "H36",
+    "committee_name": "House Committee on Bills in the Third Reading",
+    "raw_role_label": "Vice Chair"
+  },
+  {
+    "member_id": "BMA1",
+    "session_id": "194th",
+    "committee_external_id": "H52",
+    "committee_name": "House Committee on Steering, Policy and Scheduling",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "BMA1",
+    "session_id": "194th",
+    "committee_external_id": "J47",
+    "committee_name": "Joint Committee on Community Development and Small Businesses",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "BMA1",
+    "session_id": "194th",
+    "committee_external_id": "J30",
+    "committee_name": "Joint Committee on Tourism, Arts and Cultural Development",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "BJA1",
+    "session_id": "194th",
+    "committee_external_id": "J14",
+    "committee_name": "Joint Committee on Education",
+    "raw_role_label": "Vice Chair"
+  },
+  {
+    "member_id": "BJA1",
+    "session_id": "194th",
+    "committee_external_id": "J43",
+    "committee_name": "Joint Committee on Labor and Workforce Development",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "BJA1",
+    "session_id": "194th",
+    "committee_external_id": "J16",
+    "committee_name": "Joint Committee on Public Health",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "BJA1",
+    "session_id": "194th",
+    "committee_external_id": "J30",
+    "committee_name": "Joint Committee on Tourism, Arts and Cultural Development",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "MLB1",
+    "session_id": "194th",
+    "committee_external_id": "H54",
+    "committee_name": "House Committee on Federal Funding, Policy and Accountability",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "MLB1",
+    "session_id": "194th",
+    "committee_external_id": "J52",
+    "committee_name": "Joint Committee on Emergency Preparedness and Management",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "MLB1",
+    "session_id": "194th",
+    "committee_external_id": "J29",
+    "committee_name": "Joint Committee on Higher Education",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "MLB1",
+    "session_id": "194th",
+    "committee_external_id": "J28",
+    "committee_name": "Joint Committee on Housing",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "CPB2",
+    "session_id": "194th",
+    "committee_external_id": "J21",
+    "committee_name": "Joint Committee on Environment and Natural Resources",
+    "raw_role_label": "Chairperson"
+  },
+  {
+    "member_id": "J_B1",
+    "session_id": "194th",
+    "committee_external_id": "H53",
+    "committee_name": "House Committee on Operations, Facilities and Security",
+    "raw_role_label": "Chairperson"
+  },
+  {
+    "member_id": "DRB1",
+    "session_id": "194th",
+    "committee_external_id": "J50",
+    "committee_name": "Joint Committee on Cannabis Policy",
+    "raw_role_label": "Ranking Minority"
+  },
+  {
+    "member_id": "DRB1",
+    "session_id": "194th",
+    "committee_external_id": "J19",
+    "committee_name": "Joint Committee on the Judiciary",
+    "raw_role_label": "Ranking Minority"
+  },
+  {
+    "member_id": "DRB1",
+    "session_id": "194th",
+    "committee_external_id": "J17",
+    "committee_name": "Joint Committee on Consumer Protection and Professional Licensure",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "DRB1",
+    "session_id": "194th",
+    "committee_external_id": "J28",
+    "committee_name": "Joint Committee on Housing",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "D_B1",
+    "session_id": "194th",
+    "committee_external_id": "J11",
+    "committee_name": "Joint Committee on Financial Services",
+    "raw_role_label": "Vice Chair"
+  },
+  {
+    "member_id": "D_B1",
+    "session_id": "194th",
+    "committee_external_id": "H34",
+    "committee_name": "House Committee on Ways and Means",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "D_B1",
+    "session_id": "194th",
+    "committee_external_id": "J46",
+    "committee_name": "Joint Committee on Aging and Independence",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "D_B1",
+    "session_id": "194th",
+    "committee_external_id": "J52",
+    "committee_name": "Joint Committee on Emergency Preparedness and Management",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "D_B1",
+    "session_id": "194th",
+    "committee_external_id": "J39",
+    "committee_name": "Joint Committee on Ways and Means",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "NMB1",
+    "session_id": "194th",
+    "committee_external_id": "J45",
+    "committee_name": "Joint Committee on Agriculture and Fisheries",
+    "raw_role_label": "Chairperson"
+  },
+  {
+    "member_id": "NAG1",
+    "session_id": "194th",
+    "committee_external_id": "H45",
+    "committee_name": "House Committee on Human Resources and Employee Engagement",
+    "raw_role_label": "Ranking Minority"
+  },
+  {
+    "member_id": "NAG1",
+    "session_id": "194th",
+    "committee_external_id": "J46",
+    "committee_name": "Joint Committee on Aging and Independence",
+    "raw_role_label": "Ranking Minority"
+  },
+  {
+    "member_id": "NAG1",
+    "session_id": "194th",
+    "committee_external_id": "J45",
+    "committee_name": "Joint Committee on Agriculture and Fisheries",
+    "raw_role_label": "Ranking Minority"
+  },
+  {
+    "member_id": "NAG1",
+    "session_id": "194th",
+    "committee_external_id": "J26",
+    "committee_name": "Joint Committee on Revenue",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "HLB1",
+    "session_id": "194th",
+    "committee_external_id": "J28",
+    "committee_name": "Joint Committee on Housing",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "HLB1",
+    "session_id": "194th",
+    "committee_external_id": "J43",
+    "committee_name": "Joint Committee on Labor and Workforce Development",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "HLB1",
+    "session_id": "194th",
+    "committee_external_id": "J25",
+    "committee_name": "Joint Committee on State Administration and Regulatory Oversight",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "HLB1",
+    "session_id": "194th",
+    "committee_external_id": "J27",
+    "committee_name": "Joint Committee on Transportation",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "AFC1",
+    "session_id": "194th",
+    "committee_external_id": "J25",
+    "committee_name": "Joint Committee on State Administration and Regulatory Oversight",
+    "raw_role_label": "Chairperson"
+  },
+  {
+    "member_id": "DFC1",
+    "session_id": "194th",
+    "committee_external_id": "J22",
+    "committee_name": "Joint Committee on Public Safety and Homeland Security",
+    "raw_role_label": "Chairperson"
+  },
+  {
+    "member_id": "S_C1",
+    "session_id": "194th",
+    "committee_external_id": "J21",
+    "committee_name": "Joint Committee on Environment and Natural Resources",
+    "raw_role_label": "Vice Chair"
+  },
+  {
+    "member_id": "S_C1",
+    "session_id": "194th",
+    "committee_external_id": "J14",
+    "committee_name": "Joint Committee on Education",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "S_C1",
+    "session_id": "194th",
+    "committee_external_id": "J11",
+    "committee_name": "Joint Committee on Financial Services",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "S_C1",
+    "session_id": "194th",
+    "committee_external_id": "J19",
+    "committee_name": "Joint Committee on the Judiciary",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "MSC1",
+    "session_id": "194th",
+    "committee_external_id": "J10",
+    "committee_name": "Joint Committee on Municipalities and Regional Government",
+    "raw_role_label": "Ranking Minority"
+  },
+  {
+    "member_id": "MSC1",
+    "session_id": "194th",
+    "committee_external_id": "H34",
+    "committee_name": "House Committee on Ways and Means",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "MSC1",
+    "session_id": "194th",
+    "committee_external_id": "J47",
+    "committee_name": "Joint Committee on Community Development and Small Businesses",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "MSC1",
+    "session_id": "194th",
+    "committee_external_id": "J11",
+    "committee_name": "Joint Committee on Financial Services",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "MSC1",
+    "session_id": "194th",
+    "committee_external_id": "J25",
+    "committee_name": "Joint Committee on State Administration and Regulatory Oversight",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "MSC1",
+    "session_id": "194th",
+    "committee_external_id": "J39",
+    "committee_name": "Joint Committee on Ways and Means",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "T_C1",
+    "session_id": "194th",
+    "committee_external_id": "J17",
+    "committee_name": "Joint Committee on Consumer Protection and Professional Licensure",
+    "raw_role_label": "Chairperson"
+  },
+  {
+    "member_id": "M_C2",
+    "session_id": "194th",
+    "committee_external_id": "H51",
+    "committee_name": "House Committee on Climate Action and Sustainability",
+    "raw_role_label": "Vice Chair"
+  },
+  {
+    "member_id": "M_C2",
+    "session_id": "194th",
+    "committee_external_id": "J46",
+    "committee_name": "Joint Committee on Aging and Independence",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "M_C2",
+    "session_id": "194th",
+    "committee_external_id": "J16",
+    "committee_name": "Joint Committee on Public Health",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "M_C2",
+    "session_id": "194th",
+    "committee_external_id": "J22",
+    "committee_name": "Joint Committee on Public Safety and Homeland Security",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "M_C1",
+    "session_id": "194th",
+    "committee_external_id": "Hxx",
+    "committee_name": "House Committee on Intergovernmental Affairs",
+    "raw_role_label": "Vice Chair"
+  },
+  {
+    "member_id": "M_C1",
+    "session_id": "194th",
+    "committee_external_id": "J32",
+    "committee_name": "Joint Committee on Bonding, Capital Expenditures and State Assets",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "M_C1",
+    "session_id": "194th",
+    "committee_external_id": "J10",
+    "committee_name": "Joint Committee on Municipalities and Regional Government",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "M_C1",
+    "session_id": "194th",
+    "committee_external_id": "J30",
+    "committee_name": "Joint Committee on Tourism, Arts and Cultural Development",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "R_C1",
+    "session_id": "194th",
+    "committee_external_id": "H33",
+    "committee_name": "House Committee on Rules",
+    "raw_role_label": "Vice Chair"
+  },
+  {
+    "member_id": "R_C1",
+    "session_id": "194th",
+    "committee_external_id": "J40",
+    "committee_name": "Joint Committee on Rules",
+    "raw_role_label": "Vice Chair"
+  },
+  {
+    "member_id": "R_C1",
+    "session_id": "194th",
+    "committee_external_id": "J28",
+    "committee_name": "Joint Committee on Housing",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "R_C1",
+    "session_id": "194th",
+    "committee_external_id": "J43",
+    "committee_name": "Joint Committee on Labor and Workforce Development",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "M_C3",
+    "session_id": "194th",
+    "committee_external_id": "H34",
+    "committee_name": "House Committee on Ways and Means",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "M_C3",
+    "session_id": "194th",
+    "committee_external_id": "J50",
+    "committee_name": "Joint Committee on Cannabis Policy",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "M_C3",
+    "session_id": "194th",
+    "committee_external_id": "J12",
+    "committee_name": "Joint Committee on Economic Development and Emerging Technologies",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "M_C3",
+    "session_id": "194th",
+    "committee_external_id": "J14",
+    "committee_name": "Joint Committee on Education",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "M_C3",
+    "session_id": "194th",
+    "committee_external_id": "J39",
+    "committee_name": "Joint Committee on Ways and Means",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "MJC1",
+    "session_id": "194th",
+    "committee_external_id": "J37",
+    "committee_name": "Joint Committee on Telecommunications, Utilities and Energy",
+    "raw_role_label": "Chairperson"
+  },
+  {
+    "member_id": "MJC1",
+    "session_id": "194th",
+    "committee_external_id": "H33",
+    "committee_name": "House Committee on Rules",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "MJC1",
+    "session_id": "194th",
+    "committee_external_id": "J40",
+    "committee_name": "Joint Committee on Rules",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "LSD1",
+    "session_id": "194th",
+    "committee_external_id": "H51",
+    "committee_name": "House Committee on Climate Action and Sustainability",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "LSD1",
+    "session_id": "194th",
+    "committee_external_id": "H54",
+    "committee_name": "House Committee on Federal Funding, Policy and Accountability",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "LSD1",
+    "session_id": "194th",
+    "committee_external_id": "J15",
+    "committee_name": "Joint Committee on Election Laws",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "LSD1",
+    "session_id": "194th",
+    "committee_external_id": "J25",
+    "committee_name": "Joint Committee on State Administration and Regulatory Oversight",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "MSD1",
+    "session_id": "194th",
+    "committee_external_id": "J19",
+    "committee_name": "Joint Committee on the Judiciary",
+    "raw_role_label": "Chairperson"
+  },
+  {
+    "member_id": "MSD1",
+    "session_id": "194th",
+    "committee_external_id": "H38",
+    "committee_name": "House Committee on Ethics",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "MCD1",
+    "session_id": "194th",
+    "committee_external_id": "J16",
+    "committee_name": "Joint Committee on Public Health",
+    "raw_role_label": "Chairperson"
+  },
+  {
+    "member_id": "DFD1",
+    "session_id": "194th",
+    "committee_external_id": "J28",
+    "committee_name": "Joint Committee on Housing",
+    "raw_role_label": "Ranking Minority"
+  },
+  {
+    "member_id": "DFD1",
+    "session_id": "194th",
+    "committee_external_id": "J23",
+    "committee_name": "Joint Committee on Public Service",
+    "raw_role_label": "Ranking Minority"
+  },
+  {
+    "member_id": "DFD1",
+    "session_id": "194th",
+    "committee_external_id": "J27",
+    "committee_name": "Joint Committee on Transportation",
+    "raw_role_label": "Ranking Minority"
+  },
+  {
+    "member_id": "DFD1",
+    "session_id": "194th",
+    "committee_external_id": "J46",
+    "committee_name": "Joint Committee on Aging and Independence",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "DFD1",
+    "session_id": "194th",
+    "committee_external_id": "J34",
+    "committee_name": "Joint Committee on Racial Equity, Civil Rights, and Inclusion",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "KAD1",
+    "session_id": "194th",
+    "committee_external_id": "H34",
+    "committee_name": "House Committee on Ways and Means",
+    "raw_role_label": "Assistant Vice Chair"
+  },
+  {
+    "member_id": "KAD1",
+    "session_id": "194th",
+    "committee_external_id": "J39",
+    "committee_name": "Joint Committee on Ways and Means",
+    "raw_role_label": "Assistant Vice Chair"
+  },
+  {
+    "member_id": "KAD1",
+    "session_id": "194th",
+    "committee_external_id": "J24",
+    "committee_name": "Joint Committee on Health Care Financing",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "KAD1",
+    "session_id": "194th",
+    "committee_external_id": "J28",
+    "committee_name": "Joint Committee on Housing",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "KAD1",
+    "session_id": "194th",
+    "committee_external_id": "J34",
+    "committee_name": "Joint Committee on Racial Equity, Civil Rights, and Inclusion",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "M_D2",
+    "session_id": "194th",
+    "committee_external_id": "J18",
+    "committee_name": "Joint Committee on Mental Health, Substance Use and Recovery",
+    "raw_role_label": "Chairperson"
+  },
+  {
+    "member_id": "K_D1",
+    "session_id": "194th",
+    "committee_external_id": "H54",
+    "committee_name": "House Committee on Federal Funding, Policy and Accountability",
+    "raw_role_label": "Vice Chair"
+  },
+  {
+    "member_id": "K_D1",
+    "session_id": "194th",
+    "committee_external_id": "J13",
+    "committee_name": "Joint Committee on Children, Families and Persons with Disabilities",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "K_D1",
+    "session_id": "194th",
+    "committee_external_id": "J47",
+    "committee_name": "Joint Committee on Community Development and Small Businesses",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "K_D1",
+    "session_id": "194th",
+    "committee_external_id": "J18",
+    "committee_name": "Joint Committee on Mental Health, Substance Use and Recovery",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "DMD1",
+    "session_id": "194th",
+    "committee_external_id": "J50",
+    "committee_name": "Joint Committee on Cannabis Policy",
+    "raw_role_label": "Chairperson"
+  },
+  {
+    "member_id": "PJD1",
+    "session_id": "194th",
+    "committee_external_id": "H33",
+    "committee_name": "House Committee on Rules",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "PJD1",
+    "session_id": "194th",
+    "committee_external_id": "J26",
+    "committee_name": "Joint Committee on Revenue",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "PJD1",
+    "session_id": "194th",
+    "committee_external_id": "J40",
+    "committee_name": "Joint Committee on Rules",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "MMD1",
+    "session_id": "194th",
+    "committee_external_id": "J18",
+    "committee_name": "Joint Committee on Mental Health, Substance Use and Recovery",
+    "raw_role_label": "Vice Chair"
+  },
+  {
+    "member_id": "MMD1",
+    "session_id": "194th",
+    "committee_external_id": "Hxx",
+    "committee_name": "House Committee on Intergovernmental Affairs",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "MMD1",
+    "session_id": "194th",
+    "committee_external_id": "H52",
+    "committee_name": "House Committee on Steering, Policy and Scheduling",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "MMD1",
+    "session_id": "194th",
+    "committee_external_id": "J13",
+    "committee_name": "Joint Committee on Children, Families and Persons with Disabilities",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "PAD1",
+    "session_id": "194th",
+    "committee_external_id": "J50",
+    "committee_name": "Joint Committee on Cannabis Policy",
+    "raw_role_label": "Vice Chair"
+  },
+  {
+    "member_id": "PAD1",
+    "session_id": "194th",
+    "committee_external_id": "H45",
+    "committee_name": "House Committee on Human Resources and Employee Engagement",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "PAD1",
+    "session_id": "194th",
+    "committee_external_id": "H34",
+    "committee_name": "House Committee on Ways and Means",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "PAD1",
+    "session_id": "194th",
+    "committee_external_id": "J31",
+    "committee_name": "Joint Committee on Veterans and Federal Affairs",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "PAD1",
+    "session_id": "194th",
+    "committee_external_id": "J39",
+    "committee_name": "Joint Committee on Ways and Means",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "RME1",
+    "session_id": "194th",
+    "committee_external_id": "H34",
+    "committee_name": "House Committee on Ways and Means",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "RME1",
+    "session_id": "194th",
+    "committee_external_id": "J12",
+    "committee_name": "Joint Committee on Economic Development and Emerging Technologies",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "RME1",
+    "session_id": "194th",
+    "committee_external_id": "J22",
+    "committee_name": "Joint Committee on Public Safety and Homeland Security",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "RME1",
+    "session_id": "194th",
+    "committee_external_id": "J23",
+    "committee_name": "Joint Committee on Public Service",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "RME1",
+    "session_id": "194th",
+    "committee_external_id": "J39",
+    "committee_name": "Joint Committee on Ways and Means",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "TFB1",
+    "session_id": "194th",
+    "committee_external_id": "J33",
+    "committee_name": "Joint Committee on Advanced Information Technology, the Internet and Cybersecurity",
+    "raw_role_label": "Chairperson"
+  },
+  {
+    "member_id": "KNF1",
+    "session_id": "194th",
+    "committee_external_id": "H36",
+    "committee_name": "House Committee on Bills in the Third Reading",
+    "raw_role_label": "Ranking Minority"
+  },
+  {
+    "member_id": "KNF1",
+    "session_id": "194th",
+    "committee_external_id": "J45",
+    "committee_name": "Joint Committee on Agriculture and Fisheries",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "KNF1",
+    "session_id": "194th",
+    "committee_external_id": "J37",
+    "committee_name": "Joint Committee on Telecommunications, Utilities and Energy",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "LMF1",
+    "session_id": "194th",
+    "committee_external_id": "J46",
+    "committee_name": "Joint Committee on Aging and Independence",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "LMF1",
+    "session_id": "194th",
+    "committee_external_id": "J32",
+    "committee_name": "Joint Committee on Bonding, Capital Expenditures and State Assets",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "LMF1",
+    "session_id": "194th",
+    "committee_external_id": "J13",
+    "committee_name": "Joint Committee on Children, Families and Persons with Disabilities",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "LMF1",
+    "session_id": "194th",
+    "committee_external_id": "J17",
+    "committee_name": "Joint Committee on Consumer Protection and Professional Licensure",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "MJF1",
+    "session_id": "194th",
+    "committee_external_id": "J32",
+    "committee_name": "Joint Committee on Bonding, Capital Expenditures and State Assets",
+    "raw_role_label": "Chairperson"
+  },
+  {
+    "member_id": "CAF1",
+    "session_id": "194th",
+    "committee_external_id": "J12",
+    "committee_name": "Joint Committee on Economic Development and Emerging Technologies",
+    "raw_role_label": "Chairperson"
+  },
+  {
+    "member_id": "CAF1",
+    "session_id": "194th",
+    "committee_external_id": "H33",
+    "committee_name": "House Committee on Rules",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "CAF1",
+    "session_id": "194th",
+    "committee_external_id": "J40",
+    "committee_name": "Joint Committee on Rules",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "CRF1",
+    "session_id": "194th",
+    "committee_external_id": "H51",
+    "committee_name": "House Committee on Climate Action and Sustainability",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "CRF1",
+    "session_id": "194th",
+    "committee_external_id": "J33",
+    "committee_name": "Joint Committee on Advanced Information Technology, the Internet and Cybersecurity",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "CRF1",
+    "session_id": "194th",
+    "committee_external_id": "J45",
+    "committee_name": "Joint Committee on Agriculture and Fisheries",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "CRF1",
+    "session_id": "194th",
+    "committee_external_id": "J52",
+    "committee_name": "Joint Committee on Emergency Preparedness and Management",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "BFR1",
+    "session_id": "194th",
+    "committee_external_id": "J19",
+    "committee_name": "Joint Committee on the Judiciary",
+    "raw_role_label": "Vice Chair"
+  },
+  {
+    "member_id": "BFR1",
+    "session_id": "194th",
+    "committee_external_id": "H53",
+    "committee_name": "House Committee on Operations, Facilities and Security",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "BFR1",
+    "session_id": "194th",
+    "committee_external_id": "J50",
+    "committee_name": "Joint Committee on Cannabis Policy",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "PKF1",
+    "session_id": "194th",
+    "committee_external_id": "J15",
+    "committee_name": "Joint Committee on Election Laws",
+    "raw_role_label": "Ranking Minority"
+  },
+  {
+    "member_id": "PKF1",
+    "session_id": "194th",
+    "committee_external_id": "H33",
+    "committee_name": "House Committee on Rules",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "PKF1",
+    "session_id": "194th",
+    "committee_external_id": "J24",
+    "committee_name": "Joint Committee on Health Care Financing",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "PKF1",
+    "session_id": "194th",
+    "committee_external_id": "J40",
+    "committee_name": "Joint Committee on Rules",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "DCG2",
+    "session_id": "194th",
+    "committee_external_id": "Hxx",
+    "committee_name": "House Committee on Intergovernmental Affairs",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "DCG2",
+    "session_id": "194th",
+    "committee_external_id": "H52",
+    "committee_name": "House Committee on Steering, Policy and Scheduling",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "DCG2",
+    "session_id": "194th",
+    "committee_external_id": "J43",
+    "committee_name": "Joint Committee on Labor and Workforce Development",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "DCG2",
+    "session_id": "194th",
+    "committee_external_id": "J25",
+    "committee_name": "Joint Committee on State Administration and Regulatory Oversight",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "WCG1",
+    "session_id": "194th",
+    "committee_external_id": "H33",
+    "committee_name": "House Committee on Rules",
+    "raw_role_label": "Chairperson"
+  },
+  {
+    "member_id": "WCG1",
+    "session_id": "194th",
+    "committee_external_id": "J40",
+    "committee_name": "Joint Committee on Rules",
+    "raw_role_label": "Chairperson"
+  },
+  {
+    "member_id": "S_G1",
+    "session_id": "194th",
+    "committee_external_id": "J30",
+    "committee_name": "Joint Committee on Tourism, Arts and Cultural Development",
+    "raw_role_label": "Chairperson"
+  },
+  {
+    "member_id": "JAG2",
+    "session_id": "194th",
+    "committee_external_id": "J13",
+    "committee_name": "Joint Committee on Children, Families and Persons with Disabilities",
+    "raw_role_label": "Vice Chair"
+  },
+  {
+    "member_id": "JAG2",
+    "session_id": "194th",
+    "committee_external_id": "H34",
+    "committee_name": "House Committee on Ways and Means",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "JAG2",
+    "session_id": "194th",
+    "committee_external_id": "J14",
+    "committee_name": "Joint Committee on Education",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "JAG2",
+    "session_id": "194th",
+    "committee_external_id": "J24",
+    "committee_name": "Joint Committee on Health Care Financing",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "JAG2",
+    "session_id": "194th",
+    "committee_external_id": "J39",
+    "committee_name": "Joint Committee on Ways and Means",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "CMG1",
+    "session_id": "194th",
+    "committee_external_id": "J18",
+    "committee_name": "Joint Committee on Mental Health, Substance Use and Recovery",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "CMG1",
+    "session_id": "194th",
+    "committee_external_id": "J23",
+    "committee_name": "Joint Committee on Public Service",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "CMG1",
+    "session_id": "194th",
+    "committee_external_id": "J25",
+    "committee_name": "Joint Committee on State Administration and Regulatory Oversight",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "CMG1",
+    "session_id": "194th",
+    "committee_external_id": "J19",
+    "committee_name": "Joint Committee on the Judiciary",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "JRG2",
+    "session_id": "194th",
+    "committee_external_id": "H51",
+    "committee_name": "House Committee on Climate Action and Sustainability",
+    "raw_role_label": "Ranking Minority"
+  },
+  {
+    "member_id": "JRG2",
+    "session_id": "194th",
+    "committee_external_id": "H53",
+    "committee_name": "House Committee on Operations, Facilities and Security",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "JRG2",
+    "session_id": "194th",
+    "committee_external_id": "J33",
+    "committee_name": "Joint Committee on Advanced Information Technology, the Internet and Cybersecurity",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "JRG2",
+    "session_id": "194th",
+    "committee_external_id": "J21",
+    "committee_name": "Joint Committee on Environment and Natural Resources",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "JRG2",
+    "session_id": "194th",
+    "committee_external_id": "J31",
+    "committee_name": "Joint Committee on Veterans and Federal Affairs",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "CLG1",
+    "session_id": "194th",
+    "committee_external_id": "J29",
+    "committee_name": "Joint Committee on Higher Education",
+    "raw_role_label": "Vice Chair"
+  },
+  {
+    "member_id": "CLG1",
+    "session_id": "194th",
+    "committee_external_id": "J46",
+    "committee_name": "Joint Committee on Aging and Independence",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "CLG1",
+    "session_id": "194th",
+    "committee_external_id": "J10",
+    "committee_name": "Joint Committee on Municipalities and Regional Government",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "CLG1",
+    "session_id": "194th",
+    "committee_external_id": "J25",
+    "committee_name": "Joint Committee on State Administration and Regulatory Oversight",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "JAG1",
+    "session_id": "194th",
+    "committee_external_id": "J12",
+    "committee_name": "Joint Committee on Economic Development and Emerging Technologies",
+    "raw_role_label": "Vice Chair"
+  },
+  {
+    "member_id": "JAG1",
+    "session_id": "194th",
+    "committee_external_id": "H45",
+    "committee_name": "House Committee on Human Resources and Employee Engagement",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "JAG1",
+    "session_id": "194th",
+    "committee_external_id": "J50",
+    "committee_name": "Joint Committee on Cannabis Policy",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "H_G1",
+    "session_id": "194th",
+    "committee_external_id": "J45",
+    "committee_name": "Joint Committee on Agriculture and Fisheries",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "H_G1",
+    "session_id": "194th",
+    "committee_external_id": "J10",
+    "committee_name": "Joint Committee on Municipalities and Regional Government",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "H_G1",
+    "session_id": "194th",
+    "committee_external_id": "J22",
+    "committee_name": "Joint Committee on Public Safety and Homeland Security",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "H_G1",
+    "session_id": "194th",
+    "committee_external_id": "J26",
+    "committee_name": "Joint Committee on Revenue",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "C_G1",
+    "session_id": "194th",
+    "committee_external_id": "H38",
+    "committee_name": "House Committee on Ethics",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "C_G1",
+    "session_id": "194th",
+    "committee_external_id": "H45",
+    "committee_name": "House Committee on Human Resources and Employee Engagement",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "C_G1",
+    "session_id": "194th",
+    "committee_external_id": "H53",
+    "committee_name": "House Committee on Operations, Facilities and Security",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "C_G1",
+    "session_id": "194th",
+    "committee_external_id": "H33",
+    "committee_name": "House Committee on Rules",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "C_G1",
+    "session_id": "194th",
+    "committee_external_id": "J40",
+    "committee_name": "Joint Committee on Rules",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "KIG1",
+    "session_id": "194th",
+    "committee_external_id": "J14",
+    "committee_name": "Joint Committee on Education",
+    "raw_role_label": "Chairperson"
+  },
+  {
+    "member_id": "KIG1",
+    "session_id": "194th",
+    "committee_external_id": "H38",
+    "committee_name": "House Committee on Ethics",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "DWG1",
+    "session_id": "194th",
+    "committee_external_id": "H53",
+    "committee_name": "House Committee on Operations, Facilities and Security",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "DWG1",
+    "session_id": "194th",
+    "committee_external_id": "H46",
+    "committee_name": "House Committee on Post Audit and Oversight",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "DWG1",
+    "session_id": "194th",
+    "committee_external_id": "H33",
+    "committee_name": "House Committee on Rules",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "DWG1",
+    "session_id": "194th",
+    "committee_external_id": "J40",
+    "committee_name": "Joint Committee on Rules",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "RMH1",
+    "session_id": "194th",
+    "committee_external_id": "J28",
+    "committee_name": "Joint Committee on Housing",
+    "raw_role_label": "Chairperson"
+  },
+  {
+    "member_id": "RMH2",
+    "session_id": "194th",
+    "committee_external_id": "H34",
+    "committee_name": "House Committee on Ways and Means",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "RMH2",
+    "session_id": "194th",
+    "committee_external_id": "J15",
+    "committee_name": "Joint Committee on Election Laws",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "RMH2",
+    "session_id": "194th",
+    "committee_external_id": "J11",
+    "committee_name": "Joint Committee on Financial Services",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "RMH2",
+    "session_id": "194th",
+    "committee_external_id": "J43",
+    "committee_name": "Joint Committee on Labor and Workforce Development",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "RMH2",
+    "session_id": "194th",
+    "committee_external_id": "J39",
+    "committee_name": "Joint Committee on Ways and Means",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "JKH1",
+    "session_id": "194th",
+    "committee_external_id": "J33",
+    "committee_name": "Joint Committee on Advanced Information Technology, the Internet and Cybersecurity",
+    "raw_role_label": "Vice Chair"
+  },
+  {
+    "member_id": "JKH1",
+    "session_id": "194th",
+    "committee_external_id": "H34",
+    "committee_name": "House Committee on Ways and Means",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "JKH1",
+    "session_id": "194th",
+    "committee_external_id": "J17",
+    "committee_name": "Joint Committee on Consumer Protection and Professional Licensure",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "JKH1",
+    "session_id": "194th",
+    "committee_external_id": "J27",
+    "committee_name": "Joint Committee on Transportation",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "JKH1",
+    "session_id": "194th",
+    "committee_external_id": "J39",
+    "committee_name": "Joint Committee on Ways and Means",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "C_H1",
+    "session_id": "194th",
+    "committee_external_id": "H52",
+    "committee_name": "House Committee on Steering, Policy and Scheduling",
+    "raw_role_label": "Vice Chair"
+  },
+  {
+    "member_id": "C_H1",
+    "session_id": "194th",
+    "committee_external_id": "J47",
+    "committee_name": "Joint Committee on Community Development and Small Businesses",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "C_H1",
+    "session_id": "194th",
+    "committee_external_id": "J12",
+    "committee_name": "Joint Committee on Economic Development and Emerging Technologies",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "C_H1",
+    "session_id": "194th",
+    "committee_external_id": "J27",
+    "committee_name": "Joint Committee on Transportation",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "N_H1",
+    "session_id": "194th",
+    "committee_external_id": "J23",
+    "committee_name": "Joint Committee on Public Service",
+    "raw_role_label": "Vice Chair"
+  },
+  {
+    "member_id": "N_H1",
+    "session_id": "194th",
+    "committee_external_id": "H34",
+    "committee_name": "House Committee on Ways and Means",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "N_H1",
+    "session_id": "194th",
+    "committee_external_id": "J37",
+    "committee_name": "Joint Committee on Telecommunications, Utilities and Energy",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "N_H1",
+    "session_id": "194th",
+    "committee_external_id": "J19",
+    "committee_name": "Joint Committee on the Judiciary",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "N_H1",
+    "session_id": "194th",
+    "committee_external_id": "J39",
+    "committee_name": "Joint Committee on Ways and Means",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "K_H1",
+    "session_id": "194th",
+    "committee_external_id": "H38",
+    "committee_name": "House Committee on Ethics",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "K_H1",
+    "session_id": "194th",
+    "committee_external_id": "H53",
+    "committee_name": "House Committee on Operations, Facilities and Security",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "K_H1",
+    "session_id": "194th",
+    "committee_external_id": "H33",
+    "committee_name": "House Committee on Rules",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "K_H1",
+    "session_id": "194th",
+    "committee_external_id": "J40",
+    "committee_name": "Joint Committee on Rules",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "REH1",
+    "session_id": "194th",
+    "committee_external_id": "H53",
+    "committee_name": "House Committee on Operations, Facilities and Security",
+    "raw_role_label": "Vice Chair"
+  },
+  {
+    "member_id": "REH1",
+    "session_id": "194th",
+    "committee_external_id": "H34",
+    "committee_name": "House Committee on Ways and Means",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "REH1",
+    "session_id": "194th",
+    "committee_external_id": "J18",
+    "committee_name": "Joint Committee on Mental Health, Substance Use and Recovery",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "REH1",
+    "session_id": "194th",
+    "committee_external_id": "J34",
+    "committee_name": "Joint Committee on Racial Equity, Civil Rights, and Inclusion",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "REH1",
+    "session_id": "194th",
+    "committee_external_id": "J39",
+    "committee_name": "Joint Committee on Ways and Means",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "KGH1",
+    "session_id": "194th",
+    "committee_external_id": "H52",
+    "committee_name": "House Committee on Steering, Policy and Scheduling",
+    "raw_role_label": "Chairperson"
+  },
+  {
+    "member_id": "TTH1",
+    "session_id": "194th",
+    "committee_external_id": "J47",
+    "committee_name": "Joint Committee on Community Development and Small Businesses",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "TTH1",
+    "session_id": "194th",
+    "committee_external_id": "J15",
+    "committee_name": "Joint Committee on Election Laws",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "TTH1",
+    "session_id": "194th",
+    "committee_external_id": "J21",
+    "committee_name": "Joint Committee on Environment and Natural Resources",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "TTH1",
+    "session_id": "194th",
+    "committee_external_id": "J29",
+    "committee_name": "Joint Committee on Higher Education",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "V_H1",
+    "session_id": "194th",
+    "committee_external_id": "H34",
+    "committee_name": "House Committee on Ways and Means",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "V_H1",
+    "session_id": "194th",
+    "committee_external_id": "J47",
+    "committee_name": "Joint Committee on Community Development and Small Businesses",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "V_H1",
+    "session_id": "194th",
+    "committee_external_id": "J29",
+    "committee_name": "Joint Committee on Higher Education",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "V_H1",
+    "session_id": "194th",
+    "committee_external_id": "J34",
+    "committee_name": "Joint Committee on Racial Equity, Civil Rights, and Inclusion",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "V_H1",
+    "session_id": "194th",
+    "committee_external_id": "J39",
+    "committee_name": "Joint Committee on Ways and Means",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "SSH1",
+    "session_id": "194th",
+    "committee_external_id": "H52",
+    "committee_name": "House Committee on Steering, Policy and Scheduling",
+    "raw_role_label": "Ranking Minority"
+  },
+  {
+    "member_id": "SSH1",
+    "session_id": "194th",
+    "committee_external_id": "J11",
+    "committee_name": "Joint Committee on Financial Services",
+    "raw_role_label": "Ranking Minority"
+  },
+  {
+    "member_id": "SSH1",
+    "session_id": "194th",
+    "committee_external_id": "H38",
+    "committee_name": "House Committee on Ethics",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "SSH1",
+    "session_id": "194th",
+    "committee_external_id": "J18",
+    "committee_name": "Joint Committee on Mental Health, Substance Use and Recovery",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "djh1",
+    "session_id": "194th",
+    "committee_external_id": "J15",
+    "committee_name": "Joint Committee on Election Laws",
+    "raw_role_label": "Chairperson"
+  },
+  {
+    "member_id": "BHJ1",
+    "session_id": "194th",
+    "committee_external_id": "J37",
+    "committee_name": "Joint Committee on Telecommunications, Utilities and Energy",
+    "raw_role_label": "Ranking Minority"
+  },
+  {
+    "member_id": "HEK1",
+    "session_id": "194th",
+    "committee_external_id": "H38",
+    "committee_name": "House Committee on Ethics",
+    "raw_role_label": "Ranking Minority"
+  },
+  {
+    "member_id": "HEK1",
+    "session_id": "194th",
+    "committee_external_id": "J24",
+    "committee_name": "Joint Committee on Health Care Financing",
+    "raw_role_label": "Ranking Minority"
+  },
+  {
+    "member_id": "HEK1",
+    "session_id": "194th",
+    "committee_external_id": "J16",
+    "committee_name": "Joint Committee on Public Health",
+    "raw_role_label": "Ranking Minority"
+  },
+  {
+    "member_id": "HEK1",
+    "session_id": "194th",
+    "committee_external_id": "J25",
+    "committee_name": "Joint Committee on State Administration and Regulatory Oversight",
+    "raw_role_label": "Ranking Minority"
+  },
+  {
+    "member_id": "HEK1",
+    "session_id": "194th",
+    "committee_external_id": "H52",
+    "committee_name": "House Committee on Steering, Policy and Scheduling",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "K_K2",
+    "session_id": "194th",
+    "committee_external_id": "H34",
+    "committee_name": "House Committee on Ways and Means",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "K_K2",
+    "session_id": "194th",
+    "committee_external_id": "J21",
+    "committee_name": "Joint Committee on Environment and Natural Resources",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "K_K2",
+    "session_id": "194th",
+    "committee_external_id": "J10",
+    "committee_name": "Joint Committee on Municipalities and Regional Government",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "K_K2",
+    "session_id": "194th",
+    "committee_external_id": "J26",
+    "committee_name": "Joint Committee on Revenue",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "K_K2",
+    "session_id": "194th",
+    "committee_external_id": "J39",
+    "committee_name": "Joint Committee on Ways and Means",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "PJK1",
+    "session_id": "194th",
+    "committee_external_id": "Hxx",
+    "committee_name": "House Committee on Intergovernmental Affairs",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "PJK1",
+    "session_id": "194th",
+    "committee_external_id": "H34",
+    "committee_name": "House Committee on Ways and Means",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "PJK1",
+    "session_id": "194th",
+    "committee_external_id": "J47",
+    "committee_name": "Joint Committee on Community Development and Small Businesses",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "PJK1",
+    "session_id": "194th",
+    "committee_external_id": "J31",
+    "committee_name": "Joint Committee on Veterans and Federal Affairs",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "PJK1",
+    "session_id": "194th",
+    "committee_external_id": "J39",
+    "committee_name": "Joint Committee on Ways and Means",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "MSK1",
+    "session_id": "194th",
+    "committee_external_id": "J17",
+    "committee_name": "Joint Committee on Consumer Protection and Professional Licensure",
+    "raw_role_label": "Vice Chair"
+  },
+  {
+    "member_id": "MSK1",
+    "session_id": "194th",
+    "committee_external_id": "J18",
+    "committee_name": "Joint Committee on Mental Health, Substance Use and Recovery",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "MSK1",
+    "session_id": "194th",
+    "committee_external_id": "J34",
+    "committee_name": "Joint Committee on Racial Equity, Civil Rights, and Inclusion",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "MSK1",
+    "session_id": "194th",
+    "committee_external_id": "J30",
+    "committee_name": "Joint Committee on Tourism, Arts and Cultural Development",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "SPK1",
+    "session_id": "194th",
+    "committee_external_id": "J16",
+    "committee_name": "Joint Committee on Public Health",
+    "raw_role_label": "Vice Chair"
+  },
+  {
+    "member_id": "SPK1",
+    "session_id": "194th",
+    "committee_external_id": "H46",
+    "committee_name": "House Committee on Post Audit and Oversight",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "SPK1",
+    "session_id": "194th",
+    "committee_external_id": "H34",
+    "committee_name": "House Committee on Ways and Means",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "SPK1",
+    "session_id": "194th",
+    "committee_external_id": "J11",
+    "committee_name": "Joint Committee on Financial Services",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "SPK1",
+    "session_id": "194th",
+    "committee_external_id": "J39",
+    "committee_name": "Joint Committee on Ways and Means",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "M_K1",
+    "session_id": "194th",
+    "committee_external_id": "J24",
+    "committee_name": "Joint Committee on Health Care Financing",
+    "raw_role_label": "Vice Chair"
+  },
+  {
+    "member_id": "M_K1",
+    "session_id": "194th",
+    "committee_external_id": "H45",
+    "committee_name": "House Committee on Human Resources and Employee Engagement",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "M_K1",
+    "session_id": "194th",
+    "committee_external_id": "H34",
+    "committee_name": "House Committee on Ways and Means",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "M_K1",
+    "session_id": "194th",
+    "committee_external_id": "J19",
+    "committee_name": "Joint Committee on the Judiciary",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "M_K1",
+    "session_id": "194th",
+    "committee_external_id": "J39",
+    "committee_name": "Joint Committee on Ways and Means",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "MPK1",
+    "session_id": "194th",
+    "committee_external_id": "J37",
+    "committee_name": "Joint Committee on Telecommunications, Utilities and Energy",
+    "raw_role_label": "Vice Chair"
+  },
+  {
+    "member_id": "MPK1",
+    "session_id": "194th",
+    "committee_external_id": "J12",
+    "committee_name": "Joint Committee on Economic Development and Emerging Technologies",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "MPK1",
+    "session_id": "194th",
+    "committee_external_id": "J14",
+    "committee_name": "Joint Committee on Education",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "KPL1",
+    "session_id": "194th",
+    "committee_external_id": "H54",
+    "committee_name": "House Committee on Federal Funding, Policy and Accountability",
+    "raw_role_label": "Chairperson"
+  },
+  {
+    "member_id": "JJL2",
+    "session_id": "194th",
+    "committee_external_id": "J24",
+    "committee_name": "Joint Committee on Health Care Financing",
+    "raw_role_label": "Chairperson"
+  },
+  {
+    "member_id": "DAL1",
+    "session_id": "194th",
+    "committee_external_id": "H52",
+    "committee_name": "House Committee on Steering, Policy and Scheduling",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "DAL1",
+    "session_id": "194th",
+    "committee_external_id": "J13",
+    "committee_name": "Joint Committee on Children, Families and Persons with Disabilities",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "DAL1",
+    "session_id": "194th",
+    "committee_external_id": "J17",
+    "committee_name": "Joint Committee on Consumer Protection and Professional Licensure",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "DAL1",
+    "session_id": "194th",
+    "committee_external_id": "J28",
+    "committee_name": "Joint Committee on Housing",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "JPL1",
+    "session_id": "194th",
+    "committee_external_id": "J10",
+    "committee_name": "Joint Committee on Municipalities and Regional Government",
+    "raw_role_label": "Chairperson"
+  },
+  {
+    "member_id": "DPL1",
+    "session_id": "194th",
+    "committee_external_id": "J26",
+    "committee_name": "Joint Committee on Revenue",
+    "raw_role_label": "Vice Chair"
+  },
+  {
+    "member_id": "DPL1",
+    "session_id": "194th",
+    "committee_external_id": "J22",
+    "committee_name": "Joint Committee on Public Safety and Homeland Security",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "DPL1",
+    "session_id": "194th",
+    "committee_external_id": "J30",
+    "committee_name": "Joint Committee on Tourism, Arts and Cultural Development",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "DPL1",
+    "session_id": "194th",
+    "committee_external_id": "J27",
+    "committee_name": "Joint Committee on Transportation",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "KLG1",
+    "session_id": "194th",
+    "committee_external_id": "H38",
+    "committee_name": "House Committee on Ethics",
+    "raw_role_label": "Chairperson"
+  },
+  {
+    "member_id": "KLG1",
+    "session_id": "194th",
+    "committee_external_id": "J11",
+    "committee_name": "Joint Committee on Financial Services",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "J_L1",
+    "session_id": "194th",
+    "committee_external_id": "J13",
+    "committee_name": "Joint Committee on Children, Families and Persons with Disabilities",
+    "raw_role_label": "Chairperson"
+  },
+  {
+    "member_id": "MTL1",
+    "session_id": "194th",
+    "committee_external_id": "J33",
+    "committee_name": "Joint Committee on Advanced Information Technology, the Internet and Cybersecurity",
+    "raw_role_label": "Ranking Minority"
+  },
+  {
+    "member_id": "MTL1",
+    "session_id": "194th",
+    "committee_external_id": "J26",
+    "committee_name": "Joint Committee on Revenue",
+    "raw_role_label": "Ranking Minority"
+  },
+  {
+    "member_id": "MTL1",
+    "session_id": "194th",
+    "committee_external_id": "H45",
+    "committee_name": "House Committee on Human Resources and Employee Engagement",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "MTL1",
+    "session_id": "194th",
+    "committee_external_id": "J15",
+    "committee_name": "Joint Committee on Election Laws",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "H_L1",
+    "session_id": "194th",
+    "committee_external_id": "Hxx",
+    "committee_name": "House Committee on Intergovernmental Affairs",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "H_L1",
+    "session_id": "194th",
+    "committee_external_id": "J45",
+    "committee_name": "Joint Committee on Agriculture and Fisheries",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "H_L1",
+    "session_id": "194th",
+    "committee_external_id": "J32",
+    "committee_name": "Joint Committee on Bonding, Capital Expenditures and State Assets",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "H_L1",
+    "session_id": "194th",
+    "committee_external_id": "J30",
+    "committee_name": "Joint Committee on Tourism, Arts and Cultural Development",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "WFM1",
+    "session_id": "194th",
+    "committee_external_id": "J50",
+    "committee_name": "Joint Committee on Cannabis Policy",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "WFM1",
+    "session_id": "194th",
+    "committee_external_id": "J12",
+    "committee_name": "Joint Committee on Economic Development and Emerging Technologies",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "WFM1",
+    "session_id": "194th",
+    "committee_external_id": "J11",
+    "committee_name": "Joint Committee on Financial Services",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "WFM1",
+    "session_id": "194th",
+    "committee_external_id": "J37",
+    "committee_name": "Joint Committee on Telecommunications, Utilities and Energy",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "ACM1",
+    "session_id": "194th",
+    "committee_external_id": "J26",
+    "committee_name": "Joint Committee on Revenue",
+    "raw_role_label": "Chairperson"
+  },
+  {
+    "member_id": "JJM2",
+    "session_id": "194th",
+    "committee_external_id": "H46",
+    "committee_name": "House Committee on Post Audit and Oversight",
+    "raw_role_label": "Chairperson"
+  },
+  {
+    "member_id": "JJM2",
+    "session_id": "194th",
+    "committee_external_id": "H45",
+    "committee_name": "House Committee on Human Resources and Employee Engagement",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "CMM1",
+    "session_id": "194th",
+    "committee_external_id": "J15",
+    "committee_name": "Joint Committee on Election Laws",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "CMM1",
+    "session_id": "194th",
+    "committee_external_id": "J24",
+    "committee_name": "Joint Committee on Health Care Financing",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "CMM1",
+    "session_id": "194th",
+    "committee_external_id": "J28",
+    "committee_name": "Joint Committee on Housing",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "CMM1",
+    "session_id": "194th",
+    "committee_external_id": "J18",
+    "committee_name": "Joint Committee on Mental Health, Substance Use and Recovery",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "JJM1",
+    "session_id": "194th",
+    "committee_external_id": "J14",
+    "committee_name": "Joint Committee on Education",
+    "raw_role_label": "Ranking Minority"
+  },
+  {
+    "member_id": "JJM1",
+    "session_id": "194th",
+    "committee_external_id": "H34",
+    "committee_name": "House Committee on Ways and Means",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "JJM1",
+    "session_id": "194th",
+    "committee_external_id": "J13",
+    "committee_name": "Joint Committee on Children, Families and Persons with Disabilities",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "JJM1",
+    "session_id": "194th",
+    "committee_external_id": "J27",
+    "committee_name": "Joint Committee on Transportation",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "JJM1",
+    "session_id": "194th",
+    "committee_external_id": "J39",
+    "committee_name": "Joint Committee on Ways and Means",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "jwm1",
+    "session_id": "194th",
+    "committee_external_id": "J31",
+    "committee_name": "Joint Committee on Veterans and Federal Affairs",
+    "raw_role_label": "Chairperson"
+  },
+  {
+    "member_id": "JDM1",
+    "session_id": "194th",
+    "committee_external_id": "J17",
+    "committee_name": "Joint Committee on Consumer Protection and Professional Licensure",
+    "raw_role_label": "Ranking Minority"
+  },
+  {
+    "member_id": "JDM1",
+    "session_id": "194th",
+    "committee_external_id": "H46",
+    "committee_name": "House Committee on Post Audit and Oversight",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "JDM1",
+    "session_id": "194th",
+    "committee_external_id": "H34",
+    "committee_name": "House Committee on Ways and Means",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "JDM1",
+    "session_id": "194th",
+    "committee_external_id": "J32",
+    "committee_name": "Joint Committee on Bonding, Capital Expenditures and State Assets",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "JDM1",
+    "session_id": "194th",
+    "committee_external_id": "J39",
+    "committee_name": "Joint Committee on Ways and Means",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "P_M1",
+    "session_id": "194th",
+    "committee_external_id": "J43",
+    "committee_name": "Joint Committee on Labor and Workforce Development",
+    "raw_role_label": "Chairperson"
+  },
+  {
+    "member_id": "RAM1",
+    "session_id": "194th",
+    "committee_external_id": "J15",
+    "committee_name": "Joint Committee on Election Laws",
+    "raw_role_label": "Vice Chair"
+  },
+  {
+    "member_id": "RAM1",
+    "session_id": "194th",
+    "committee_external_id": "H34",
+    "committee_name": "House Committee on Ways and Means",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "RAM1",
+    "session_id": "194th",
+    "committee_external_id": "J34",
+    "committee_name": "Joint Committee on Racial Equity, Civil Rights, and Inclusion",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "RAM1",
+    "session_id": "194th",
+    "committee_external_id": "J19",
+    "committee_name": "Joint Committee on the Judiciary",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "RAM1",
+    "session_id": "194th",
+    "committee_external_id": "J39",
+    "committee_name": "Joint Committee on Ways and Means",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "J_M1",
+    "session_id": "194th",
+    "committee_external_id": "J33",
+    "committee_name": "Joint Committee on Advanced Information Technology, the Internet and Cybersecurity",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "J_M1",
+    "session_id": "194th",
+    "committee_external_id": "J17",
+    "committee_name": "Joint Committee on Consumer Protection and Professional Licensure",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "J_M1",
+    "session_id": "194th",
+    "committee_external_id": "J15",
+    "committee_name": "Joint Committee on Election Laws",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "J_M1",
+    "session_id": "194th",
+    "committee_external_id": "J29",
+    "committee_name": "Joint Committee on Higher Education",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "AMM1",
+    "session_id": "194th",
+    "committee_external_id": "H34",
+    "committee_name": "House Committee on Ways and Means",
+    "raw_role_label": "Chairperson"
+  },
+  {
+    "member_id": "AMM1",
+    "session_id": "194th",
+    "committee_external_id": "J39",
+    "committee_name": "Joint Committee on Ways and Means",
+    "raw_role_label": "Chairperson"
+  },
+  {
+    "member_id": "TWM1",
+    "session_id": "194th",
+    "committee_external_id": "H54",
+    "committee_name": "House Committee on Federal Funding, Policy and Accountability",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "TWM1",
+    "session_id": "194th",
+    "committee_external_id": "J33",
+    "committee_name": "Joint Committee on Advanced Information Technology, the Internet and Cybersecurity",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "TWM1",
+    "session_id": "194th",
+    "committee_external_id": "J13",
+    "committee_name": "Joint Committee on Children, Families and Persons with Disabilities",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "TWM1",
+    "session_id": "194th",
+    "committee_external_id": "J19",
+    "committee_name": "Joint Committee on the Judiciary",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "TWM1",
+    "session_id": "194th",
+    "committee_external_id": "J30",
+    "committee_name": "Joint Committee on Tourism, Arts and Cultural Development",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "S_M1",
+    "session_id": "194th",
+    "committee_external_id": "J46",
+    "committee_name": "Joint Committee on Aging and Independence",
+    "raw_role_label": "Vice Chair"
+  },
+  {
+    "member_id": "S_M1",
+    "session_id": "194th",
+    "committee_external_id": "H34",
+    "committee_name": "House Committee on Ways and Means",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "S_M1",
+    "session_id": "194th",
+    "committee_external_id": "J10",
+    "committee_name": "Joint Committee on Municipalities and Regional Government",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "S_M1",
+    "session_id": "194th",
+    "committee_external_id": "J16",
+    "committee_name": "Joint Committee on Public Health",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "S_M1",
+    "session_id": "194th",
+    "committee_external_id": "J39",
+    "committee_name": "Joint Committee on Ways and Means",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "FAM1",
+    "session_id": "194th",
+    "committee_external_id": "H33",
+    "committee_name": "House Committee on Rules",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "FAM1",
+    "session_id": "194th",
+    "committee_external_id": "J40",
+    "committee_name": "Joint Committee on Rules",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "JFM1",
+    "session_id": "194th",
+    "committee_external_id": "H34",
+    "committee_name": "House Committee on Ways and Means",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "JFM1",
+    "session_id": "194th",
+    "committee_external_id": "J24",
+    "committee_name": "Joint Committee on Health Care Financing",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "JFM1",
+    "session_id": "194th",
+    "committee_external_id": "J18",
+    "committee_name": "Joint Committee on Mental Health, Substance Use and Recovery",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "JFM1",
+    "session_id": "194th",
+    "committee_external_id": "J23",
+    "committee_name": "Joint Committee on Public Service",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "JFM1",
+    "session_id": "194th",
+    "committee_external_id": "J39",
+    "committee_name": "Joint Committee on Ways and Means",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "MJM1",
+    "session_id": "194th",
+    "committee_external_id": "H33",
+    "committee_name": "House Committee on Rules",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "MJM1",
+    "session_id": "194th",
+    "committee_external_id": "J40",
+    "committee_name": "Joint Committee on Rules",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "DKM1",
+    "session_id": "194th",
+    "committee_external_id": "H33",
+    "committee_name": "House Committee on Rules",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "DKM1",
+    "session_id": "194th",
+    "committee_external_id": "J24",
+    "committee_name": "Joint Committee on Health Care Financing",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "DKM1",
+    "session_id": "194th",
+    "committee_external_id": "J18",
+    "committee_name": "Joint Committee on Mental Health, Substance Use and Recovery",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "DKM1",
+    "session_id": "194th",
+    "committee_external_id": "J40",
+    "committee_name": "Joint Committee on Rules",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "JMM1",
+    "session_id": "194th",
+    "committee_external_id": "J11",
+    "committee_name": "Joint Committee on Financial Services",
+    "raw_role_label": "Chairperson"
+  },
+  {
+    "member_id": "BWM1",
+    "session_id": "194th",
+    "committee_external_id": "H45",
+    "committee_name": "House Committee on Human Resources and Employee Engagement",
+    "raw_role_label": "Chairperson"
+  },
+  {
+    "member_id": "TTN1",
+    "session_id": "194th",
+    "committee_external_id": "H51",
+    "committee_name": "House Committee on Climate Action and Sustainability",
+    "raw_role_label": "Chairperson"
+  },
+  {
+    "member_id": "TTN1",
+    "session_id": "194th",
+    "committee_external_id": "J11",
+    "committee_name": "Joint Committee on Financial Services",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "JJO1",
+    "session_id": "194th",
+    "committee_external_id": "H53",
+    "committee_name": "House Committee on Operations, Facilities and Security",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "JJO1",
+    "session_id": "194th",
+    "committee_external_id": "H46",
+    "committee_name": "House Committee on Post Audit and Oversight",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "NJO1",
+    "session_id": "194th",
+    "committee_external_id": "J32",
+    "committee_name": "Joint Committee on Bonding, Capital Expenditures and State Assets",
+    "raw_role_label": "Ranking Minority"
+  },
+  {
+    "member_id": "NJO1",
+    "session_id": "194th",
+    "committee_external_id": "H38",
+    "committee_name": "House Committee on Ethics",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "NJO1",
+    "session_id": "194th",
+    "committee_external_id": "J10",
+    "committee_name": "Joint Committee on Municipalities and Regional Government",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "NJO1",
+    "session_id": "194th",
+    "committee_external_id": "J27",
+    "committee_name": "Joint Committee on Transportation",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "SJO1",
+    "session_id": "194th",
+    "committee_external_id": "Hxx",
+    "committee_name": "House Committee on Intergovernmental Affairs",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "SJO1",
+    "session_id": "194th",
+    "committee_external_id": "H46",
+    "committee_name": "House Committee on Post Audit and Oversight",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "SJO1",
+    "session_id": "194th",
+    "committee_external_id": "J33",
+    "committee_name": "Joint Committee on Advanced Information Technology, the Internet and Cybersecurity",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "SJO1",
+    "session_id": "194th",
+    "committee_external_id": "J45",
+    "committee_name": "Joint Committee on Agriculture and Fisheries",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "SJO1",
+    "session_id": "194th",
+    "committee_external_id": "J52",
+    "committee_name": "Joint Committee on Emergency Preparedness and Management",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "SCO1",
+    "session_id": "194th",
+    "committee_external_id": "J30",
+    "committee_name": "Joint Committee on Tourism, Arts and Cultural Development",
+    "raw_role_label": "Vice Chair"
+  },
+  {
+    "member_id": "SCO1",
+    "session_id": "194th",
+    "committee_external_id": "H34",
+    "committee_name": "House Committee on Ways and Means",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "SCO1",
+    "session_id": "194th",
+    "committee_external_id": "J33",
+    "committee_name": "Joint Committee on Advanced Information Technology, the Internet and Cybersecurity",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "SCO1",
+    "session_id": "194th",
+    "committee_external_id": "J27",
+    "committee_name": "Joint Committee on Transportation",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "SCO1",
+    "session_id": "194th",
+    "committee_external_id": "J39",
+    "committee_name": "Joint Committee on Ways and Means",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "FEP1",
+    "session_id": "194th",
+    "committee_external_id": "H51",
+    "committee_name": "House Committee on Climate Action and Sustainability",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "FEP1",
+    "session_id": "194th",
+    "committee_external_id": "Hxx",
+    "committee_name": "House Committee on Intergovernmental Affairs",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "FEP1",
+    "session_id": "194th",
+    "committee_external_id": "J32",
+    "committee_name": "Joint Committee on Bonding, Capital Expenditures and State Assets",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "FEP1",
+    "session_id": "194th",
+    "committee_external_id": "J26",
+    "committee_name": "Joint Committee on Revenue",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "KWP1",
+    "session_id": "194th",
+    "committee_external_id": "H54",
+    "committee_name": "House Committee on Federal Funding, Policy and Accountability",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "KWP1",
+    "session_id": "194th",
+    "committee_external_id": "H34",
+    "committee_name": "House Committee on Ways and Means",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "KWP1",
+    "session_id": "194th",
+    "committee_external_id": "J32",
+    "committee_name": "Joint Committee on Bonding, Capital Expenditures and State Assets",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "KWP1",
+    "session_id": "194th",
+    "committee_external_id": "J29",
+    "committee_name": "Joint Committee on Higher Education",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "KWP1",
+    "session_id": "194th",
+    "committee_external_id": "J39",
+    "committee_name": "Joint Committee on Ways and Means",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "AHP1",
+    "session_id": "194th",
+    "committee_external_id": "H38",
+    "committee_name": "House Committee on Ethics",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "AHP1",
+    "session_id": "194th",
+    "committee_external_id": "H53",
+    "committee_name": "House Committee on Operations, Facilities and Security",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "AHP1",
+    "session_id": "194th",
+    "committee_external_id": "H33",
+    "committee_name": "House Committee on Rules",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "AHP1",
+    "session_id": "194th",
+    "committee_external_id": "J40",
+    "committee_name": "Joint Committee on Rules",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "ERP1",
+    "session_id": "194th",
+    "committee_external_id": "J27",
+    "committee_name": "Joint Committee on Transportation",
+    "raw_role_label": "Vice Chair"
+  },
+  {
+    "member_id": "ERP1",
+    "session_id": "194th",
+    "committee_external_id": "H45",
+    "committee_name": "House Committee on Human Resources and Employee Engagement",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "ERP1",
+    "session_id": "194th",
+    "committee_external_id": "J26",
+    "committee_name": "Joint Committee on Revenue",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "BMP1",
+    "session_id": "194th",
+    "committee_external_id": "H45",
+    "committee_name": "House Committee on Human Resources and Employee Engagement",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "BMP1",
+    "session_id": "194th",
+    "committee_external_id": "J50",
+    "committee_name": "Joint Committee on Cannabis Policy",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "BMP1",
+    "session_id": "194th",
+    "committee_external_id": "J14",
+    "committee_name": "Joint Committee on Education",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "BMP1",
+    "session_id": "194th",
+    "committee_external_id": "J22",
+    "committee_name": "Joint Committee on Public Safety and Homeland Security",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "BMP1",
+    "session_id": "194th",
+    "committee_external_id": "J26",
+    "committee_name": "Joint Committee on Revenue",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "AJP1",
+    "session_id": "194th",
+    "committee_external_id": "Hxx",
+    "committee_name": "House Committee on Intergovernmental Affairs",
+    "raw_role_label": "Chairperson"
+  },
+  {
+    "member_id": "APR1",
+    "session_id": "194th",
+    "committee_external_id": "J28",
+    "committee_name": "Joint Committee on Housing",
+    "raw_role_label": "Vice Chair"
+  },
+  {
+    "member_id": "APR1",
+    "session_id": "194th",
+    "committee_external_id": "H46",
+    "committee_name": "House Committee on Post Audit and Oversight",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "APR1",
+    "session_id": "194th",
+    "committee_external_id": "J43",
+    "committee_name": "Joint Committee on Labor and Workforce Development",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "APR1",
+    "session_id": "194th",
+    "committee_external_id": "J19",
+    "committee_name": "Joint Committee on the Judiciary",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "O_R1",
+    "session_id": "194th",
+    "committee_external_id": "J34",
+    "committee_name": "Joint Committee on Racial Equity, Civil Rights, and Inclusion",
+    "raw_role_label": "Vice Chair"
+  },
+  {
+    "member_id": "O_R1",
+    "session_id": "194th",
+    "committee_external_id": "H34",
+    "committee_name": "House Committee on Ways and Means",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "O_R1",
+    "session_id": "194th",
+    "committee_external_id": "J33",
+    "committee_name": "Joint Committee on Advanced Information Technology, the Internet and Cybersecurity",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "O_R1",
+    "session_id": "194th",
+    "committee_external_id": "J27",
+    "committee_name": "Joint Committee on Transportation",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "O_R1",
+    "session_id": "194th",
+    "committee_external_id": "J39",
+    "committee_name": "Joint Committee on Ways and Means",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "S_R1",
+    "session_id": "194th",
+    "committee_external_id": "H52",
+    "committee_name": "House Committee on Steering, Policy and Scheduling",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "S_R1",
+    "session_id": "194th",
+    "committee_external_id": "J18",
+    "committee_name": "Joint Committee on Mental Health, Substance Use and Recovery",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "S_R1",
+    "session_id": "194th",
+    "committee_external_id": "J16",
+    "committee_name": "Joint Committee on Public Health",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "S_R1",
+    "session_id": "194th",
+    "committee_external_id": "J37",
+    "committee_name": "Joint Committee on Telecommunications, Utilities and Energy",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "EAR1",
+    "session_id": "194th",
+    "committee_external_id": "J52",
+    "committee_name": "Joint Committee on Emergency Preparedness and Management",
+    "raw_role_label": "Vice Chair"
+  },
+  {
+    "member_id": "EAR1",
+    "session_id": "194th",
+    "committee_external_id": "J17",
+    "committee_name": "Joint Committee on Consumer Protection and Professional Licensure",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "EAR1",
+    "session_id": "194th",
+    "committee_external_id": "J25",
+    "committee_name": "Joint Committee on State Administration and Regulatory Oversight",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "EAR1",
+    "session_id": "194th",
+    "committee_external_id": "J31",
+    "committee_name": "Joint Committee on Veterans and Federal Affairs",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "D_R1",
+    "session_id": "194th",
+    "committee_external_id": "H38",
+    "committee_name": "House Committee on Ethics",
+    "raw_role_label": "Vice Chair"
+  },
+  {
+    "member_id": "D_R1",
+    "session_id": "194th",
+    "committee_external_id": "J15",
+    "committee_name": "Joint Committee on Election Laws",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "D_R1",
+    "session_id": "194th",
+    "committee_external_id": "J23",
+    "committee_name": "Joint Committee on Public Service",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "D_R1",
+    "session_id": "194th",
+    "committee_external_id": "J37",
+    "committee_name": "Joint Committee on Telecommunications, Utilities and Energy",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "DMR1",
+    "session_id": "194th",
+    "committee_external_id": "J29",
+    "committee_name": "Joint Committee on Higher Education",
+    "raw_role_label": "Chairperson"
+  },
+  {
+    "member_id": "JHR1",
+    "session_id": "194th",
+    "committee_external_id": "J32",
+    "committee_name": "Joint Committee on Bonding, Capital Expenditures and State Assets",
+    "raw_role_label": "Vice Chair"
+  },
+  {
+    "member_id": "JHR1",
+    "session_id": "194th",
+    "committee_external_id": "H46",
+    "committee_name": "House Committee on Post Audit and Oversight",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "JHR1",
+    "session_id": "194th",
+    "committee_external_id": "J47",
+    "committee_name": "Joint Committee on Community Development and Small Businesses",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "JNR1",
+    "session_id": "194th",
+    "committee_external_id": "H53",
+    "committee_name": "House Committee on Operations, Facilities and Security",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "JNR1",
+    "session_id": "194th",
+    "committee_external_id": "H46",
+    "committee_name": "House Committee on Post Audit and Oversight",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "djr1",
+    "session_id": "194th",
+    "committee_external_id": "J23",
+    "committee_name": "Joint Committee on Public Service",
+    "raw_role_label": "Chairperson"
+  },
+  {
+    "member_id": "L_S1",
+    "session_id": "194th",
+    "committee_external_id": "J10",
+    "committee_name": "Joint Committee on Municipalities and Regional Government",
+    "raw_role_label": "Vice Chair"
+  },
+  {
+    "member_id": "L_S1",
+    "session_id": "194th",
+    "committee_external_id": "H34",
+    "committee_name": "House Committee on Ways and Means",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "L_S1",
+    "session_id": "194th",
+    "committee_external_id": "J24",
+    "committee_name": "Joint Committee on Health Care Financing",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "L_S1",
+    "session_id": "194th",
+    "committee_external_id": "J27",
+    "committee_name": "Joint Committee on Transportation",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "L_S1",
+    "session_id": "194th",
+    "committee_external_id": "J39",
+    "committee_name": "Joint Committee on Ways and Means",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "AMS3",
+    "session_id": "194th",
+    "committee_external_id": "J17",
+    "committee_name": "Joint Committee on Consumer Protection and Professional Licensure",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "AMS3",
+    "session_id": "194th",
+    "committee_external_id": "J16",
+    "committee_name": "Joint Committee on Public Health",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "AMS3",
+    "session_id": "194th",
+    "committee_external_id": "J22",
+    "committee_name": "Joint Committee on Public Safety and Homeland Security",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "AMS3",
+    "session_id": "194th",
+    "committee_external_id": "J34",
+    "committee_name": "Joint Committee on Racial Equity, Civil Rights, and Inclusion",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "ALS1",
+    "session_id": "194th",
+    "committee_external_id": "J45",
+    "committee_name": "Joint Committee on Agriculture and Fisheries",
+    "raw_role_label": "Vice Chair"
+  },
+  {
+    "member_id": "ALS1",
+    "session_id": "194th",
+    "committee_external_id": "H52",
+    "committee_name": "House Committee on Steering, Policy and Scheduling",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "ALS1",
+    "session_id": "194th",
+    "committee_external_id": "J32",
+    "committee_name": "Joint Committee on Bonding, Capital Expenditures and State Assets",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "ALS1",
+    "session_id": "194th",
+    "committee_external_id": "J13",
+    "committee_name": "Joint Committee on Children, Families and Persons with Disabilities",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "AJS1",
+    "session_id": "194th",
+    "committee_external_id": "H46",
+    "committee_name": "House Committee on Post Audit and Oversight",
+    "raw_role_label": "Vice Chair"
+  },
+  {
+    "member_id": "AJS1",
+    "session_id": "194th",
+    "committee_external_id": "H54",
+    "committee_name": "House Committee on Federal Funding, Policy and Accountability",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "AJS1",
+    "session_id": "194th",
+    "committee_external_id": "J12",
+    "committee_name": "Joint Committee on Economic Development and Emerging Technologies",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "AJS1",
+    "session_id": "194th",
+    "committee_external_id": "J52",
+    "committee_name": "Joint Committee on Emergency Preparedness and Management",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "MRS1",
+    "session_id": "194th",
+    "committee_external_id": "H34",
+    "committee_name": "House Committee on Ways and Means",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "MRS1",
+    "session_id": "194th",
+    "committee_external_id": "J46",
+    "committee_name": "Joint Committee on Aging and Independence",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "MRS1",
+    "session_id": "194th",
+    "committee_external_id": "J21",
+    "committee_name": "Joint Committee on Environment and Natural Resources",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "MRS1",
+    "session_id": "194th",
+    "committee_external_id": "J37",
+    "committee_name": "Joint Committee on Telecommunications, Utilities and Energy",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "MRS1",
+    "session_id": "194th",
+    "committee_external_id": "J39",
+    "committee_name": "Joint Committee on Ways and Means",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "G_S1",
+    "session_id": "194th",
+    "committee_external_id": "H51",
+    "committee_name": "House Committee on Climate Action and Sustainability",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "G_S1",
+    "session_id": "194th",
+    "committee_external_id": "J32",
+    "committee_name": "Joint Committee on Bonding, Capital Expenditures and State Assets",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "G_S1",
+    "session_id": "194th",
+    "committee_external_id": "J50",
+    "committee_name": "Joint Committee on Cannabis Policy",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "G_S1",
+    "session_id": "194th",
+    "committee_external_id": "J12",
+    "committee_name": "Joint Committee on Economic Development and Emerging Technologies",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "G_S1",
+    "session_id": "194th",
+    "committee_external_id": "J52",
+    "committee_name": "Joint Committee on Emergency Preparedness and Management",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "DAS1",
+    "session_id": "194th",
+    "committee_external_id": "H51",
+    "committee_name": "House Committee on Climate Action and Sustainability",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "DAS1",
+    "session_id": "194th",
+    "committee_external_id": "Hxx",
+    "committee_name": "House Committee on Intergovernmental Affairs",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "DAS1",
+    "session_id": "194th",
+    "committee_external_id": "J45",
+    "committee_name": "Joint Committee on Agriculture and Fisheries",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "DAS1",
+    "session_id": "194th",
+    "committee_external_id": "J13",
+    "committee_name": "Joint Committee on Children, Families and Persons with Disabilities",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "D_S1",
+    "session_id": "194th",
+    "committee_external_id": "J32",
+    "committee_name": "Joint Committee on Bonding, Capital Expenditures and State Assets",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "D_S1",
+    "session_id": "194th",
+    "committee_external_id": "J50",
+    "committee_name": "Joint Committee on Cannabis Policy",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "D_S1",
+    "session_id": "194th",
+    "committee_external_id": "J21",
+    "committee_name": "Joint Committee on Environment and Natural Resources",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "D_S1",
+    "session_id": "194th",
+    "committee_external_id": "J24",
+    "committee_name": "Joint Committee on Health Care Financing",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "A_S1",
+    "session_id": "194th",
+    "committee_external_id": "H34",
+    "committee_name": "House Committee on Ways and Means",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "A_S1",
+    "session_id": "194th",
+    "committee_external_id": "J22",
+    "committee_name": "Joint Committee on Public Safety and Homeland Security",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "A_S1",
+    "session_id": "194th",
+    "committee_external_id": "J23",
+    "committee_name": "Joint Committee on Public Service",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "A_S1",
+    "session_id": "194th",
+    "committee_external_id": "J31",
+    "committee_name": "Joint Committee on Veterans and Federal Affairs",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "A_S1",
+    "session_id": "194th",
+    "committee_external_id": "J39",
+    "committee_name": "Joint Committee on Ways and Means",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "TMS2",
+    "session_id": "194th",
+    "committee_external_id": "H54",
+    "committee_name": "House Committee on Federal Funding, Policy and Accountability",
+    "raw_role_label": "Ranking Minority"
+  },
+  {
+    "member_id": "TMS2",
+    "session_id": "194th",
+    "committee_external_id": "H34",
+    "committee_name": "House Committee on Ways and Means",
+    "raw_role_label": "Ranking Minority"
+  },
+  {
+    "member_id": "TMS2",
+    "session_id": "194th",
+    "committee_external_id": "J39",
+    "committee_name": "Joint Committee on Ways and Means",
+    "raw_role_label": "Ranking Minority"
+  },
+  {
+    "member_id": "TMS2",
+    "session_id": "194th",
+    "committee_external_id": "J23",
+    "committee_name": "Joint Committee on Public Service",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "MJS3",
+    "session_id": "194th",
+    "committee_external_id": "J12",
+    "committee_name": "Joint Committee on Economic Development and Emerging Technologies",
+    "raw_role_label": "Ranking Minority"
+  },
+  {
+    "member_id": "MJS3",
+    "session_id": "194th",
+    "committee_external_id": "J29",
+    "committee_name": "Joint Committee on Higher Education",
+    "raw_role_label": "Ranking Minority"
+  },
+  {
+    "member_id": "MJS3",
+    "session_id": "194th",
+    "committee_external_id": "H45",
+    "committee_name": "House Committee on Human Resources and Employee Engagement",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "MJS3",
+    "session_id": "194th",
+    "committee_external_id": "J50",
+    "committee_name": "Joint Committee on Cannabis Policy",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "PSS1",
+    "session_id": "194th",
+    "committee_external_id": "H34",
+    "committee_name": "House Committee on Ways and Means",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "PSS1",
+    "session_id": "194th",
+    "committee_external_id": "J14",
+    "committee_name": "Joint Committee on Education",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "PSS1",
+    "session_id": "194th",
+    "committee_external_id": "J15",
+    "committee_name": "Joint Committee on Election Laws",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "PSS1",
+    "session_id": "194th",
+    "committee_external_id": "J16",
+    "committee_name": "Joint Committee on Public Health",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "PSS1",
+    "session_id": "194th",
+    "committee_external_id": "J39",
+    "committee_name": "Joint Committee on Ways and Means",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "TMS1",
+    "session_id": "194th",
+    "committee_external_id": "J46",
+    "committee_name": "Joint Committee on Aging and Independence",
+    "raw_role_label": "Chairperson"
+  },
+  {
+    "member_id": "AMS2",
+    "session_id": "194th",
+    "committee_external_id": "Hxx",
+    "committee_name": "House Committee on Intergovernmental Affairs",
+    "raw_role_label": "Ranking Minority"
+  },
+  {
+    "member_id": "AMS2",
+    "session_id": "194th",
+    "committee_external_id": "J13",
+    "committee_name": "Joint Committee on Children, Families and Persons with Disabilities",
+    "raw_role_label": "Ranking Minority"
+  },
+  {
+    "member_id": "AMS2",
+    "session_id": "194th",
+    "committee_external_id": "H34",
+    "committee_name": "House Committee on Ways and Means",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "AMS2",
+    "session_id": "194th",
+    "committee_external_id": "J14",
+    "committee_name": "Joint Committee on Education",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "AMS2",
+    "session_id": "194th",
+    "committee_external_id": "J19",
+    "committee_name": "Joint Committee on the Judiciary",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "AMS2",
+    "session_id": "194th",
+    "committee_external_id": "J39",
+    "committee_name": "Joint Committee on Ways and Means",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "KPS1",
+    "session_id": "194th",
+    "committee_external_id": "J21",
+    "committee_name": "Joint Committee on Environment and Natural Resources",
+    "raw_role_label": "Ranking Minority"
+  },
+  {
+    "member_id": "KPS1",
+    "session_id": "194th",
+    "committee_external_id": "J43",
+    "committee_name": "Joint Committee on Labor and Workforce Development",
+    "raw_role_label": "Ranking Minority"
+  },
+  {
+    "member_id": "KPS1",
+    "session_id": "194th",
+    "committee_external_id": "H45",
+    "committee_name": "House Committee on Human Resources and Employee Engagement",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "KPS1",
+    "session_id": "194th",
+    "committee_external_id": "J12",
+    "committee_name": "Joint Committee on Economic Development and Emerging Technologies",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "KPS1",
+    "session_id": "194th",
+    "committee_external_id": "J22",
+    "committee_name": "Joint Committee on Public Safety and Homeland Security",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "MDS1",
+    "session_id": "194th",
+    "committee_external_id": "H51",
+    "committee_name": "House Committee on Climate Action and Sustainability",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "MDS1",
+    "session_id": "194th",
+    "committee_external_id": "H54",
+    "committee_name": "House Committee on Federal Funding, Policy and Accountability",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "MDS1",
+    "session_id": "194th",
+    "committee_external_id": "J21",
+    "committee_name": "Joint Committee on Environment and Natural Resources",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "MDS1",
+    "session_id": "194th",
+    "committee_external_id": "J43",
+    "committee_name": "Joint Committee on Labor and Workforce Development",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "J_T1",
+    "session_id": "194th",
+    "committee_external_id": "H51",
+    "committee_name": "House Committee on Climate Action and Sustainability",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "J_T1",
+    "session_id": "194th",
+    "committee_external_id": "J10",
+    "committee_name": "Joint Committee on Municipalities and Regional Government",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "J_T1",
+    "session_id": "194th",
+    "committee_external_id": "J23",
+    "committee_name": "Joint Committee on Public Service",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "J_T1",
+    "session_id": "194th",
+    "committee_external_id": "J31",
+    "committee_name": "Joint Committee on Veterans and Federal Affairs",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "J_T2",
+    "session_id": "194th",
+    "committee_external_id": "J47",
+    "committee_name": "Joint Committee on Community Development and Small Businesses",
+    "raw_role_label": "Ranking Minority"
+  },
+  {
+    "member_id": "J_T2",
+    "session_id": "194th",
+    "committee_external_id": "J31",
+    "committee_name": "Joint Committee on Veterans and Federal Affairs",
+    "raw_role_label": "Ranking Minority"
+  },
+  {
+    "member_id": "J_T2",
+    "session_id": "194th",
+    "committee_external_id": "H51",
+    "committee_name": "House Committee on Climate Action and Sustainability",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "J_T2",
+    "session_id": "194th",
+    "committee_external_id": "Hxx",
+    "committee_name": "House Committee on Intergovernmental Affairs",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "J_T2",
+    "session_id": "194th",
+    "committee_external_id": "J16",
+    "committee_name": "Joint Committee on Public Health",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "JRT1",
+    "session_id": "194th",
+    "committee_external_id": "J31",
+    "committee_name": "Joint Committee on Veterans and Federal Affairs",
+    "raw_role_label": "Vice Chair"
+  },
+  {
+    "member_id": "JRT1",
+    "session_id": "194th",
+    "committee_external_id": "H54",
+    "committee_name": "House Committee on Federal Funding, Policy and Accountability",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "JRT1",
+    "session_id": "194th",
+    "committee_external_id": "J52",
+    "committee_name": "Joint Committee on Emergency Preparedness and Management",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "JRT1",
+    "session_id": "194th",
+    "committee_external_id": "J37",
+    "committee_name": "Joint Committee on Telecommunications, Utilities and Energy",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "C_T1",
+    "session_id": "194th",
+    "committee_external_id": "J25",
+    "committee_name": "Joint Committee on State Administration and Regulatory Oversight",
+    "raw_role_label": "Vice Chair"
+  },
+  {
+    "member_id": "C_T1",
+    "session_id": "194th",
+    "committee_external_id": "H34",
+    "committee_name": "House Committee on Ways and Means",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "C_T1",
+    "session_id": "194th",
+    "committee_external_id": "J24",
+    "committee_name": "Joint Committee on Health Care Financing",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "C_T1",
+    "session_id": "194th",
+    "committee_external_id": "J37",
+    "committee_name": "Joint Committee on Telecommunications, Utilities and Energy",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "C_T1",
+    "session_id": "194th",
+    "committee_external_id": "J39",
+    "committee_name": "Joint Committee on Ways and Means",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "S_G2",
+    "session_id": "194th",
+    "committee_external_id": "J52",
+    "committee_name": "Joint Committee on Emergency Preparedness and Management",
+    "raw_role_label": "Chairperson"
+  },
+  {
+    "member_id": "E_U1",
+    "session_id": "194th",
+    "committee_external_id": "H54",
+    "committee_name": "House Committee on Federal Funding, Policy and Accountability",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "E_U1",
+    "session_id": "194th",
+    "committee_external_id": "J46",
+    "committee_name": "Joint Committee on Aging and Independence",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "E_U1",
+    "session_id": "194th",
+    "committee_external_id": "J32",
+    "committee_name": "Joint Committee on Bonding, Capital Expenditures and State Assets",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "E_U1",
+    "session_id": "194th",
+    "committee_external_id": "J34",
+    "committee_name": "Joint Committee on Racial Equity, Civil Rights, and Inclusion",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "AXV1",
+    "session_id": "194th",
+    "committee_external_id": "J47",
+    "committee_name": "Joint Committee on Community Development and Small Businesses",
+    "raw_role_label": "Chairperson"
+  },
+  {
+    "member_id": "MSV1",
+    "session_id": "194th",
+    "committee_external_id": "H53",
+    "committee_name": "House Committee on Operations, Facilities and Security",
+    "raw_role_label": "Ranking Minority"
+  },
+  {
+    "member_id": "MSV1",
+    "session_id": "194th",
+    "committee_external_id": "H46",
+    "committee_name": "House Committee on Post Audit and Oversight",
+    "raw_role_label": "Ranking Minority"
+  },
+  {
+    "member_id": "MSV1",
+    "session_id": "194th",
+    "committee_external_id": "J22",
+    "committee_name": "Joint Committee on Public Safety and Homeland Security",
+    "raw_role_label": "Ranking Minority"
+  },
+  {
+    "member_id": "MSV1",
+    "session_id": "194th",
+    "committee_external_id": "H34",
+    "committee_name": "House Committee on Ways and Means",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "MSV1",
+    "session_id": "194th",
+    "committee_external_id": "J12",
+    "committee_name": "Joint Committee on Economic Development and Emerging Technologies",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "MSV1",
+    "session_id": "194th",
+    "committee_external_id": "J39",
+    "committee_name": "Joint Committee on Ways and Means",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "DTV1",
+    "session_id": "194th",
+    "committee_external_id": "H38",
+    "committee_name": "House Committee on Ethics",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "DTV1",
+    "session_id": "194th",
+    "committee_external_id": "J52",
+    "committee_name": "Joint Committee on Emergency Preparedness and Management",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "DTV1",
+    "session_id": "194th",
+    "committee_external_id": "J30",
+    "committee_name": "Joint Committee on Tourism, Arts and Cultural Development",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "T_V1",
+    "session_id": "194th",
+    "committee_external_id": "J43",
+    "committee_name": "Joint Committee on Labor and Workforce Development",
+    "raw_role_label": "Vice Chair"
+  },
+  {
+    "member_id": "T_V1",
+    "session_id": "194th",
+    "committee_external_id": "J33",
+    "committee_name": "Joint Committee on Advanced Information Technology, the Internet and Cybersecurity",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "T_V1",
+    "session_id": "194th",
+    "committee_external_id": "J17",
+    "committee_name": "Joint Committee on Consumer Protection and Professional Licensure",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "T_V1",
+    "session_id": "194th",
+    "committee_external_id": "J24",
+    "committee_name": "Joint Committee on Health Care Financing",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "TJW1",
+    "session_id": "194th",
+    "committee_external_id": "H36",
+    "committee_name": "House Committee on Bills in the Third Reading",
+    "raw_role_label": "Chairperson"
+  },
+  {
+    "member_id": "RGW1",
+    "session_id": "194th",
+    "committee_external_id": "J29",
+    "committee_name": "Joint Committee on Higher Education",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "RGW1",
+    "session_id": "194th",
+    "committee_external_id": "J10",
+    "committee_name": "Joint Committee on Municipalities and Regional Government",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "RGW1",
+    "session_id": "194th",
+    "committee_external_id": "J22",
+    "committee_name": "Joint Committee on Public Safety and Homeland Security",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "RGW1",
+    "session_id": "194th",
+    "committee_external_id": "J26",
+    "committee_name": "Joint Committee on Revenue",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "SLG1",
+    "session_id": "194th",
+    "committee_external_id": "J46",
+    "committee_name": "Joint Committee on Aging and Independence",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "SLG1",
+    "session_id": "194th",
+    "committee_external_id": "J29",
+    "committee_name": "Joint Committee on Higher Education",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "SLG1",
+    "session_id": "194th",
+    "committee_external_id": "J18",
+    "committee_name": "Joint Committee on Mental Health, Substance Use and Recovery",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "BLW1",
+    "session_id": "194th",
+    "committee_external_id": "J34",
+    "committee_name": "Joint Committee on Racial Equity, Civil Rights, and Inclusion",
+    "raw_role_label": "Chairperson"
+  },
+  {
+    "member_id": "DHW1",
+    "session_id": "194th",
+    "committee_external_id": "H33",
+    "committee_name": "House Committee on Rules",
+    "raw_role_label": "Ranking Minority"
+  },
+  {
+    "member_id": "DHW1",
+    "session_id": "194th",
+    "committee_external_id": "J34",
+    "committee_name": "Joint Committee on Racial Equity, Civil Rights, and Inclusion",
+    "raw_role_label": "Ranking Minority"
+  },
+  {
+    "member_id": "DHW1",
+    "session_id": "194th",
+    "committee_external_id": "J40",
+    "committee_name": "Joint Committee on Rules",
+    "raw_role_label": "Ranking Minority"
+  },
+  {
+    "member_id": "DHW1",
+    "session_id": "194th",
+    "committee_external_id": "J30",
+    "committee_name": "Joint Committee on Tourism, Arts and Cultural Development",
+    "raw_role_label": "Ranking Minority"
+  },
+  {
+    "member_id": "DHW1",
+    "session_id": "194th",
+    "committee_external_id": "J43",
+    "committee_name": "Joint Committee on Labor and Workforce Development",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "CJW1",
+    "session_id": "194th",
+    "committee_external_id": "J22",
+    "committee_name": "Joint Committee on Public Safety and Homeland Security",
+    "raw_role_label": "Vice Chair"
+  },
+  {
+    "member_id": "CJW1",
+    "session_id": "194th",
+    "committee_external_id": "H52",
+    "committee_name": "House Committee on Steering, Policy and Scheduling",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "CJW1",
+    "session_id": "194th",
+    "committee_external_id": "J14",
+    "committee_name": "Joint Committee on Education",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "CJW1",
+    "session_id": "194th",
+    "committee_external_id": "J11",
+    "committee_name": "Joint Committee on Financial Services",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "SGX1",
+    "session_id": "194th",
+    "committee_external_id": "J52",
+    "committee_name": "Joint Committee on Emergency Preparedness and Management",
+    "raw_role_label": "Ranking Minority"
+  },
+  {
+    "member_id": "SGX1",
+    "session_id": "194th",
+    "committee_external_id": "J18",
+    "committee_name": "Joint Committee on Mental Health, Substance Use and Recovery",
+    "raw_role_label": "Ranking Minority"
+  },
+  {
+    "member_id": "SGX1",
+    "session_id": "194th",
+    "committee_external_id": "H34",
+    "committee_name": "House Committee on Ways and Means",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "SGX1",
+    "session_id": "194th",
+    "committee_external_id": "J22",
+    "committee_name": "Joint Committee on Public Safety and Homeland Security",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "SGX1",
+    "session_id": "194th",
+    "committee_external_id": "J39",
+    "committee_name": "Joint Committee on Ways and Means",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "JDZ1",
+    "session_id": "194th",
+    "committee_external_id": "J47",
+    "committee_name": "Joint Committee on Community Development and Small Businesses",
+    "raw_role_label": "Vice Chair"
+  },
+  {
+    "member_id": "JDZ1",
+    "session_id": "194th",
+    "committee_external_id": "J45",
+    "committee_name": "Joint Committee on Agriculture and Fisheries",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "JDZ1",
+    "session_id": "194th",
+    "committee_external_id": "J12",
+    "committee_name": "Joint Committee on Economic Development and Emerging Technologies",
+    "raw_role_label": null
+  },
+  {
+    "member_id": "JDZ1",
+    "session_id": "194th",
+    "committee_external_id": "J21",
+    "committee_name": "Joint Committee on Environment and Natural Resources",
+    "raw_role_label": null
+  }
+]

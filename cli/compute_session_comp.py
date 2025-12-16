@@ -20,7 +20,7 @@ def _print_issues(header: str, issues: list[AuditIssue]) -> None:
         return
     print(header)
     for i in issues:
-        ctx_str = "," .join(f"{k}={v}" for k, v in i.context.items())
+        ctx_str = ",".join(f"{k}={v}" for k, v in i.context.items())
         print(f"  [{i.level}] {i.code}: {i.message} ({ctx_str})")
     print()
 
@@ -41,9 +41,7 @@ def main() -> None:
     session_issues = validate_session_data(loaded)
     _print_issues("Catalog issues:", catalog_issues)
     _print_issues("Session issues:", session_issues)
-    if any(
-        i.level.value == "ERROR" for i in catalog_issues + session_issues
-    ):
+    if any(i.level.value == "ERROR" for i in catalog_issues + session_issues):
         print("Errors detected; aborting computation.")
         return
     session = loaded.session
@@ -52,9 +50,7 @@ def main() -> None:
     print(f"{'Member ID':<10}  {'Name':<25}  {'Total':>10}")
     for member in loaded.members.values():
         res = total_comp_for_member(member, session)
-        print(
-            f"{member.member_id:<10}  {member.name:<25}  {res.total.value:>10}"
-        )
+        print(f"{member.member_id:<10}  {member.name:<25}  {res.total.value:>10}")
 
 
 if __name__ == "__main__":

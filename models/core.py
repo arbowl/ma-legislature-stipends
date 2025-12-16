@@ -50,6 +50,7 @@ class CommitteeRoleType(Enum):
 @dataclass(frozen=True)
 class Session:
     """A legislative session"""
+
     id: str
     start_year: int
     end_year: int
@@ -123,33 +124,17 @@ class RoleCode(StrEnum):
     HOUSE_SPEAKER_PRO_TEM = "HOUSE_SPEAKER_PRO_TEM"
     SENATE_PRESIDENT_PRO_TEM = "SENATE_SPEAKER_PRO_TEM"
     HOUSE_ASSISTANT_MAJORITY_LEADER = "HOUSE_ASSISTANT_MAJORITY_LEADER"
-    HOUSE_SECOND_ASSISTANT_MAJORITY_LEADER = (
-        "HOUSE_SECOND_ASSISTANT_MAJORITY_LEADER"
-    )
-    HOUSE_THIRD_ASSISTANT_MAJORITY_LEADER = (
-        "HOUSE_THIRD_ASSISTANT_MAJORITY_LEADER"
-    )
+    HOUSE_SECOND_ASSISTANT_MAJORITY_LEADER = "HOUSE_SECOND_ASSISTANT_MAJORITY_LEADER"
+    HOUSE_THIRD_ASSISTANT_MAJORITY_LEADER = "HOUSE_THIRD_ASSISTANT_MAJORITY_LEADER"
     HOUSE_ASSISTANT_MINORITY_LEADER = "HOUSE_ASSISTANT_MINORITY_LEADER"
-    HOUSE_SECOND_ASSISTANT_MINORITY_LEADER = (
-        "HOUSE_SECOND_ASSISTANT_MINORITY_LEADER"
-    )
-    HOUSE_THIRD_ASSISTANT_MINORITY_LEADER = (
-        "HOUSE_THIRD_ASSISTANT_MINORITY_LEADER"
-    )
+    HOUSE_SECOND_ASSISTANT_MINORITY_LEADER = "HOUSE_SECOND_ASSISTANT_MINORITY_LEADER"
+    HOUSE_THIRD_ASSISTANT_MINORITY_LEADER = "HOUSE_THIRD_ASSISTANT_MINORITY_LEADER"
     SENATE_ASSISTANT_MAJORITY_LEADER = "SENATE_ASSISTANT_MAJORITY_LEADER"
-    SENATE_SECOND_ASSISTANT_MAJORITY_LEADER = (
-        "SENATE_SECOND_ASSISTANT_MAJORITY_LEADER"
-    )
-    SENATE_THIRD_ASSISTANT_MAJORITY_LEADER = (
-        "SENATE_THIRD_ASSISTANT_MAJORITY_LEADER"
-    )
+    SENATE_SECOND_ASSISTANT_MAJORITY_LEADER = "SENATE_SECOND_ASSISTANT_MAJORITY_LEADER"
+    SENATE_THIRD_ASSISTANT_MAJORITY_LEADER = "SENATE_THIRD_ASSISTANT_MAJORITY_LEADER"
     SENATE_ASSISTANT_MINORITY_LEADER = "SENATE_ASSISTANT_MINORITY_LEADER"
-    SENATE_SECOND_ASSISTANT_MINORITY_LEADER = (
-        "SENATE_SECOND_ASSISTANT_MINORITY_LEADER"
-    )
-    SENATE_THIRD_ASSISTANT_MINORITY_LEADER = (
-        "SENATE_THIRD_ASSISTANT_MINORITY_LEADER"
-    )
+    SENATE_SECOND_ASSISTANT_MINORITY_LEADER = "SENATE_SECOND_ASSISTANT_MINORITY_LEADER"
+    SENATE_THIRD_ASSISTANT_MINORITY_LEADER = "SENATE_THIRD_ASSISTANT_MINORITY_LEADER"
     HOUSE_RULES_CHAIR = "HOUSE_RULES_CHAIR"
     SENATE_RULES_CHAIR = "SENATE_RULES_CHAIR"
     HOUSE_EDUCATION_CHAIR = "HOUSE_EDUCATION_CHAIR"
@@ -176,29 +161,13 @@ class StipendTierCode(StrEnum):
     def get_base_amount(tier_id: StipendTierCode) -> AmountWithProvenance:
         """Get the base amount for the stipend tier"""
         tier_amounts: dict[StipendTierCode, AmountWithProvenance] = {
-            StipendTierCode.TIER_80K: AmountWithProvenance(
-                80_000, MGL_3_9B
-            ),
-            StipendTierCode.TIER_65K: AmountWithProvenance(
-                65_000, MGL_3_9B
-            ),
-            StipendTierCode.TIER_60K: AmountWithProvenance(
-                60_000, MGL_3_9B
-            ),
-            StipendTierCode.TIER_50K: AmountWithProvenance(
-                50_000, MGL_3_9B
-            ),
-            StipendTierCode.TIER_35K: AmountWithProvenance(
-                35_000, MGL_3_9B
-            ),
-            StipendTierCode.TIER_30K: AmountWithProvenance(
-                30_000, MGL_3_9B
-            ),
-            StipendTierCode.TIER_15K: AmountWithProvenance(
-                15_000, MGL_3_9B
-            ),
-            StipendTierCode.TIER_5200: AmountWithProvenance(
-                5_200, MGL_3_9B
-            ),
+            StipendTierCode.TIER_80K: AmountWithProvenance(80_000, MGL_3_9B),
+            StipendTierCode.TIER_65K: AmountWithProvenance(65_000, MGL_3_9B),
+            StipendTierCode.TIER_60K: AmountWithProvenance(60_000, MGL_3_9B),
+            StipendTierCode.TIER_50K: AmountWithProvenance(50_000, MGL_3_9B),
+            StipendTierCode.TIER_35K: AmountWithProvenance(35_000, MGL_3_9B),
+            StipendTierCode.TIER_30K: AmountWithProvenance(30_000, MGL_3_9B),
+            StipendTierCode.TIER_15K: AmountWithProvenance(15_000, MGL_3_9B),
+            StipendTierCode.TIER_5200: AmountWithProvenance(5_200, MGL_3_9B),
         }
         return tier_amounts[tier_id]

@@ -32,15 +32,11 @@ def _party_to_code(text: str) -> Optional[str]:
     return None
 
 
-def _parse_member_row(
-    tr: BeautifulSoup, chamber: ChamberStr
-) -> Optional[RawMember]:
+def _parse_member_row(tr: BeautifulSoup, chamber: ChamberStr) -> Optional[RawMember]:
     tds = tr.find_all("td")
     if len(tds) < 6:
         return None
-    picture_link = tr.select_one(
-        "td.pictureCol a[href*='/Legislators/Profile/']"
-    )
+    picture_link = tr.select_one("td.pictureCol a[href*='/Legislators/Profile/']")
     if not picture_link:
         return None
     profile_path = picture_link.get("href", "").strip()
@@ -119,9 +115,7 @@ def _parse_leadership_entry(
       </div>
     </li>
     """
-    name_link = li.select_one(
-        "h3.leadershipName a[href*='/Legislators/Profile/']"
-    )
+    name_link = li.select_one("h3.leadershipName a[href*='/Legislators/Profile/']")
     if not name_link:
         return None
     profile_path = name_link.get("href", "").strip()
@@ -132,9 +126,7 @@ def _parse_leadership_entry(
     role_el = li.select_one("span.leadershipRole")
     raw_title = role_el.get_text(strip=True) if role_el else ""
     district_el = li.select_one("span.leadershipDistrict")
-    raw_district_party = district_el.get_text(
-        strip=True
-    ) if district_el else ""
+    raw_district_party = district_el.get_text(strip=True) if district_el else ""
     return RawLeadershipRole(
         member_id=member_id,
         chamber=chamber,
@@ -162,31 +154,23 @@ def scrape_leadership() -> list[RawLeadershipRole]:
     return roles
 
 
-def dump_members_raw(
-    session_id: str, out_root: Path = Path("data/raw")
-) -> Path:
+def dump_members_raw(session_id: str, out_root: Path = Path("data/raw")) -> Path:
     """Dumps raw members to JSON"""
     members = scrape_all_members()
     out_dir = out_root / session_id
     out_dir.mkdir(parents=True, exist_ok=True)
     out_path = out_dir / "members_raw.json"
-    out_path.write_text(
-        json.dumps(to_dict_list(members), indent=2), encoding="utf-8"
-    )
+    out_path.write_text(json.dumps(to_dict_list(members), indent=2), encoding="utf-8")
     return out_path
 
 
-def dump_leadership_raw(
-    session_id: str, out_root: Path = Path("data/raw")
-) -> Path:
+def dump_leadership_raw(session_id: str, out_root: Path = Path("data/raw")) -> Path:
     """Dumps raw leadership to JSON"""
     roles = scrape_leadership()
     out_dir = out_root / session_id
     out_dir.mkdir(parents=True, exist_ok=True)
     out_path = out_dir / "leadership_raw.json"
-    out_path.write_text(
-        json.dumps(to_dict_list(roles), indent=2), encoding="utf-8"
-    )
+    out_path.write_text(json.dumps(to_dict_list(roles), indent=2), encoding="utf-8")
     return out_path
 
 
@@ -197,8 +181,8 @@ def main() -> None:
     )
     parser.add_argument(
         "--session-id",
-        default="194th",
-        help="Session identifier to use for output directory (default: 194th)",
+        default="2025-2026",
+        help="Session identifier to use for output directory (default: 2025-2026)",
     )
     parser.add_argument(
         "--out-root",

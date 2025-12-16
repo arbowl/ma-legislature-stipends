@@ -12,6 +12,7 @@ ChamberStr = Literal["house", "senate"]
 @dataclass
 class RawMember:
     """Unprocessed data for a single member"""
+
     member_id: str
     name: str
     chamber: ChamberStr
@@ -23,6 +24,7 @@ class RawMember:
 @dataclass
 class RawLeadershipRole:
     """Unprocessed leadership information"""
+
     member_id: str
     chamber: ChamberStr
     raw_title: str

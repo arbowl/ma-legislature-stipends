@@ -26,8 +26,7 @@ def travel_9c_for_member(member: Member, session: Session) -> TravelAllowance:
     d = member.distance_miles_from_state_house
     if d is None:
         raise ValueError(
-            f"Missing distance_miles_from_state_house "
-            f"for member {member.member_id}"
+            f"Missing distance_miles_from_state_house " f"for member {member.member_id}"
         )
     rule = TRAVEL_RULE_9C
     if d <= rule.distance_threshold_miles:

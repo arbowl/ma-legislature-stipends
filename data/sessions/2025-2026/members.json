@@ -1,0 +1,1589 @@
+{
+  "session_id": "2025-2026",
+  "members": [
+    {
+      "member_id": "MJB0",
+      "name": "Michael Barrett",
+      "chamber": "senate",
+      "party": "D",
+      "district": "Third Middlesex",
+      "distance_miles_from_state_house": null
+    },
+    {
+      "member_id": "MDB0",
+      "name": "Michael Brady",
+      "chamber": "senate",
+      "party": "D",
+      "district": "Second Plymouth and Norfolk",
+      "distance_miles_from_state_house": null
+    },
+    {
+      "member_id": "WNB0",
+      "name": "William Brownsberger",
+      "chamber": "senate",
+      "party": "D",
+      "district": "Suffolk and Middlesex",
+      "distance_miles_from_state_house": null
+    },
+    {
+      "member_id": "N_C0",
+      "name": "Nick Collins",
+      "chamber": "senate",
+      "party": "D",
+      "district": "First Suffolk",
+      "distance_miles_from_state_house": null
+    },
+    {
+      "member_id": "JMC0",
+      "name": "Joanne Comerford",
+      "chamber": "senate",
+      "party": "D",
+      "district": "Hampshire, Franklin and Worcester",
+      "distance_miles_from_state_house": null
+    },
+    {
+      "member_id": "CSC0",
+      "name": "Cynthia Creem",
+      "chamber": "senate",
+      "party": "D",
+      "district": "Norfolk and Middlesex",
+      "distance_miles_from_state_house": null
+    },
+    {
+      "member_id": "BPC0",
+      "name": "Brendan Crighton",
+      "chamber": "senate",
+      "party": "D",
+      "district": "Third Essex",
+      "distance_miles_from_state_house": null
+    },
+    {
+      "member_id": "JJC0",
+      "name": "John Cronin",
+      "chamber": "senate",
+      "party": "D",
+      "district": "Worcester and Middlesex",
+      "distance_miles_from_state_house": null
+    },
+    {
+      "member_id": "JAC0",
+      "name": "Julian Cyr",
+      "chamber": "senate",
+      "party": "D",
+      "district": "Cape and Islands",
+      "distance_miles_from_state_house": null
+    },
+    {
+      "member_id": "SND0",
+      "name": "Sal DiDomenico",
+      "chamber": "senate",
+      "party": "D",
+      "district": "Middlesex and Suffolk",
+      "distance_miles_from_state_house": null
+    },
+    {
+      "member_id": "KAD0",
+      "name": "Kelly Dooner",
+      "chamber": "senate",
+      "party": "R",
+      "district": "Third Bristol and Plymouth",
+      "distance_miles_from_state_house": null
+    },
+    {
+      "member_id": "WJD0",
+      "name": "William Driscoll",
+      "chamber": "senate",
+      "party": "D",
+      "district": "Norfolk, Plymouth and Bristol",
+      "distance_miles_from_state_house": null
+    },
+    {
+      "member_id": "PJD0",
+      "name": "Peter Durant",
+      "chamber": "senate",
+      "party": "R",
+      "district": "Worcester and Hampshire",
+      "distance_miles_from_state_house": null
+    },
+    {
+      "member_id": "LME0",
+      "name": "Lydia Edwards",
+      "chamber": "senate",
+      "party": "D",
+      "district": "Third Suffolk",
+      "distance_miles_from_state_house": null
+    },
+    {
+      "member_id": "JBE0",
+      "name": "James Eldridge",
+      "chamber": "senate",
+      "party": "D",
+      "district": "Middlesex and Worcester",
+      "distance_miles_from_state_house": null
+    },
+    {
+      "member_id": "RCF0",
+      "name": "Ryan Fattman",
+      "chamber": "senate",
+      "party": "R",
+      "district": "Worcester and Hampden",
+      "distance_miles_from_state_house": null
+    },
+    {
+      "member_id": "PRF0",
+      "name": "Paul Feeney",
+      "chamber": "senate",
+      "party": "D",
+      "district": "Bristol and Norfolk",
+      "distance_miles_from_state_house": null
+    },
+    {
+      "member_id": "DAF0",
+      "name": "Dylan Fernandes",
+      "chamber": "senate",
+      "party": "D",
+      "district": "Plymouth and Barnstable",
+      "distance_miles_from_state_house": null
+    },
+    {
+      "member_id": "BRF0",
+      "name": "Barry Finegold",
+      "chamber": "senate",
+      "party": "D",
+      "district": "Second Essex and Middlesex",
+      "distance_miles_from_state_house": null
+    },
+    {
+      "member_id": "CFF0",
+      "name": "Cindy Friedman",
+      "chamber": "senate",
+      "party": "D",
+      "district": "Fourth Middlesex",
+      "distance_miles_from_state_house": null
+    },
+    {
+      "member_id": "A_G0",
+      "name": "Adam G\u00f3mez",
+      "chamber": "senate",
+      "party": "D",
+      "district": "Hampden",
+      "distance_miles_from_state_house": null
+    },
+    {
+      "member_id": "PDJ0",
+      "name": "Patricia Jehlen",
+      "chamber": "senate",
+      "party": "D",
+      "district": "Second Middlesex",
+      "distance_miles_from_state_house": null
+    },
+    {
+      "member_id": "JFK0",
+      "name": "John Keenan",
+      "chamber": "senate",
+      "party": "D",
+      "district": "Norfolk and Plymouth",
+      "distance_miles_from_state_house": null
+    },
+    {
+      "member_id": "RKK0",
+      "name": "Robyn Kennedy",
+      "chamber": "senate",
+      "party": "D",
+      "district": "First Worcester",
+      "distance_miles_from_state_house": null
+    },
+    {
+      "member_id": "jml0",
+      "name": "Jason Lewis",
+      "chamber": "senate",
+      "party": "D",
+      "district": "Fifth Middlesex",
+      "distance_miles_from_state_house": null
+    },
+    {
+      "member_id": "JBL0",
+      "name": "Joan Lovely",
+      "chamber": "senate",
+      "party": "D",
+      "district": "Second Essex",
+      "distance_miles_from_state_house": null
+    },
+    {
+      "member_id": "PWM0",
+      "name": "Paul Mark",
+      "chamber": "senate",
+      "party": "D",
+      "district": "Berkshire, Hampden, Franklin and Hampshire",
+      "distance_miles_from_state_house": null
+    },
+    {
+      "member_id": "L%20M0",
+      "name": "Liz Miranda",
+      "chamber": "senate",
+      "party": "D",
+      "district": "Second Suffolk",
+      "distance_miles_from_state_house": null
+    },
+    {
+      "member_id": "MCM0",
+      "name": "Mark Montigny",
+      "chamber": "senate",
+      "party": "D",
+      "district": "Second Bristol and Plymouth",
+      "distance_miles_from_state_house": null
+    },
+    {
+      "member_id": "MOM0",
+      "name": "Michael Moore",
+      "chamber": "senate",
+      "party": "D",
+      "district": "Second Worcester",
+      "distance_miles_from_state_house": null
+    },
+    {
+      "member_id": "PMO",
+      "name": "Patrick O'Connor",
+      "chamber": "senate",
+      "party": "R",
+      "district": "First Plymouth and Norfolk",
+      "distance_miles_from_state_house": null
+    },
+    {
+      "member_id": "JRO0",
+      "name": "Jacob Oliveira",
+      "chamber": "senate",
+      "party": "D",
+      "district": "Hampden, Hampshire and Worcester",
+      "distance_miles_from_state_house": null
+    },
+    {
+      "member_id": "PMP0",
+      "name": "Pavel Payano",
+      "chamber": "senate",
+      "party": "D",
+      "district": "First Essex",
+      "distance_miles_from_state_house": null
+    },
+    {
+      "member_id": "RLR0",
+      "name": "Rebecca Rausch",
+      "chamber": "senate",
+      "party": "D",
+      "district": "Norfolk, Worcester and Middlesex",
+      "distance_miles_from_state_house": null
+    },
+    {
+      "member_id": "MJR0",
+      "name": "Michael Rodrigues",
+      "chamber": "senate",
+      "party": "D",
+      "district": "First Bristol and Plymouth",
+      "distance_miles_from_state_house": null
+    },
+    {
+      "member_id": "MFR0",
+      "name": "Michael Rush",
+      "chamber": "senate",
+      "party": "D",
+      "district": "Norfolk and Suffolk",
+      "distance_miles_from_state_house": null
+    },
+    {
+      "member_id": "KES0",
+      "name": "Karen Spilka",
+      "chamber": "senate",
+      "party": "D",
+      "district": "Middlesex and Norfolk",
+      "distance_miles_from_state_house": null
+    },
+    {
+      "member_id": "BET0",
+      "name": "Bruce Tarr",
+      "chamber": "senate",
+      "party": "R",
+      "district": "First Essex and Middlesex",
+      "distance_miles_from_state_house": null
+    },
+    {
+      "member_id": "JCV0",
+      "name": "John Velis",
+      "chamber": "senate",
+      "party": "D",
+      "district": "Hampden and Hampshire",
+      "distance_miles_from_state_house": null
+    },
+    {
+      "member_id": "J_A1",
+      "name": "James Arciero",
+      "chamber": "house",
+      "party": "D",
+      "district": "2nd Middlesex",
+      "distance_miles_from_state_house": null
+    },
+    {
+      "member_id": "JCD1",
+      "name": "James Arena-DeRosa",
+      "chamber": "house",
+      "party": "D",
+      "district": "8th Middlesex",
+      "distance_miles_from_state_house": null
+    },
+    {
+      "member_id": "JBA1",
+      "name": "Jennifer Balinsky Armini",
+      "chamber": "house",
+      "party": "D",
+      "district": "8th Essex",
+      "distance_miles_from_state_house": null
+    },
+    {
+      "member_id": "SBA1",
+      "name": "Shirley Arriaga",
+      "chamber": "house",
+      "party": "D",
+      "district": "8th Hampden",
+      "distance_miles_from_state_house": null
+    },
+    {
+      "member_id": "BMA1",
+      "name": "Brian Ashe",
+      "chamber": "house",
+      "party": "D",
+      "district": "2nd Hampden",
+      "distance_miles_from_state_house": null
+    },
+    {
+      "member_id": "BJA1",
+      "name": "Bruce Ayers",
+      "chamber": "house",
+      "party": "D",
+      "district": "1st Norfolk",
+      "distance_miles_from_state_house": null
+    },
+    {
+      "member_id": "MLB1",
+      "name": "Michelle Badger",
+      "chamber": "house",
+      "party": "D",
+      "district": "1st Plymouth",
+      "distance_miles_from_state_house": null
+    },
+    {
+      "member_id": "CPB2",
+      "name": "Christine Barber",
+      "chamber": "house",
+      "party": "D",
+      "district": "34th Middlesex",
+      "distance_miles_from_state_house": null
+    },
+    {
+      "member_id": "J_B1",
+      "name": "John Barrett",
+      "chamber": "house",
+      "party": "D",
+      "district": "1st Berkshire",
+      "distance_miles_from_state_house": null
+    },
+    {
+      "member_id": "DRB1",
+      "name": "Donald Berthiaume",
+      "chamber": "house",
+      "party": "R",
+      "district": "5th Worcester",
+      "distance_miles_from_state_house": null
+    },
+    {
+      "member_id": "D_B1",
+      "name": "David Biele",
+      "chamber": "house",
+      "party": "D",
+      "district": "4th Suffolk",
+      "distance_miles_from_state_house": null
+    },
+    {
+      "member_id": "NMB1",
+      "name": "Natalie Blais",
+      "chamber": "house",
+      "party": "D",
+      "district": "1st Franklin",
+      "distance_miles_from_state_house": null
+    },
+    {
+      "member_id": "NAG1",
+      "name": "Nicholas Boldyga",
+      "chamber": "house",
+      "party": "R",
+      "district": "3rd Hampden",
+      "distance_miles_from_state_house": null
+    },
+    {
+      "member_id": "HLB1",
+      "name": "Hannah Bowen",
+      "chamber": "house",
+      "party": "D",
+      "district": "6th Essex",
+      "distance_miles_from_state_house": null
+    },
+    {
+      "member_id": "AFC1",
+      "name": "Antonio Cabral",
+      "chamber": "house",
+      "party": "D",
+      "district": "13th Bristol",
+      "distance_miles_from_state_house": null
+    },
+    {
+      "member_id": "DFC1",
+      "name": "Daniel Cahill",
+      "chamber": "house",
+      "party": "D",
+      "district": "10th Essex",
+      "distance_miles_from_state_house": null
+    },
+    {
+      "member_id": "S_C1",
+      "name": "Simon Cataldo",
+      "chamber": "house",
+      "party": "D",
+      "district": "14th Middlesex",
+      "distance_miles_from_state_house": null
+    },
+    {
+      "member_id": "MSC1",
+      "name": "Michael Chaisson",
+      "chamber": "house",
+      "party": "R",
+      "district": "1st Bristol",
+      "distance_miles_from_state_house": null
+    },
+    {
+      "member_id": "T_C1",
+      "name": "Tackey Chan",
+      "chamber": "house",
+      "party": "D",
+      "district": "2nd Norfolk",
+      "distance_miles_from_state_house": null
+    },
+    {
+      "member_id": "M_C2",
+      "name": "Michelle Ciccolo",
+      "chamber": "house",
+      "party": "D",
+      "district": "15th Middlesex",
+      "distance_miles_from_state_house": null
+    },
+    {
+      "member_id": "M_C1",
+      "name": "Mike Connolly",
+      "chamber": "house",
+      "party": "D",
+      "district": "26th Middlesex",
+      "distance_miles_from_state_house": null
+    },
+    {
+      "member_id": "R_C1",
+      "name": "Rob Consalvo",
+      "chamber": "house",
+      "party": "D",
+      "district": "14th Suffolk",
+      "distance_miles_from_state_house": null
+    },
+    {
+      "member_id": "M_C3",
+      "name": "Manny Cruz",
+      "chamber": "house",
+      "party": "D",
+      "district": "7th Essex",
+      "distance_miles_from_state_house": null
+    },
+    {
+      "member_id": "MJC1",
+      "name": "Mark Cusack",
+      "chamber": "house",
+      "party": "D",
+      "district": "5th Norfolk",
+      "distance_miles_from_state_house": null
+    },
+    {
+      "member_id": "LSD1",
+      "name": "Leigh Davis",
+      "chamber": "house",
+      "party": "D",
+      "district": "3rd Berkshire",
+      "distance_miles_from_state_house": null
+    },
+    {
+      "member_id": "MSD1",
+      "name": "Michael Day",
+      "chamber": "house",
+      "party": "D",
+      "district": "31st Middlesex",
+      "distance_miles_from_state_house": null
+    },
+    {
+      "member_id": "MCD1",
+      "name": "Marjorie Decker",
+      "chamber": "house",
+      "party": "D",
+      "district": "25th Middlesex",
+      "distance_miles_from_state_house": null
+    },
+    {
+      "member_id": "DFD1",
+      "name": "David DeCoste",
+      "chamber": "house",
+      "party": "R",
+      "district": "5th Plymouth",
+      "distance_miles_from_state_house": null
+    },
+    {
+      "member_id": "KAD1",
+      "name": "Kip Diggs",
+      "chamber": "house",
+      "party": "D",
+      "district": "2nd Barnstable",
+      "distance_miles_from_state_house": null
+    },
+    {
+      "member_id": "M_D2",
+      "name": "Mindy Domb",
+      "chamber": "house",
+      "party": "D",
+      "district": "3rd Hampshire",
+      "distance_miles_from_state_house": null
+    },
+    {
+      "member_id": "K_D1",
+      "name": "Kate Donaghue",
+      "chamber": "house",
+      "party": "D",
+      "district": "19th Worcester",
+      "distance_miles_from_state_house": null
+    },
+    {
+      "member_id": "DMD1",
+      "name": "Daniel Donahue",
+      "chamber": "house",
+      "party": "D",
+      "district": "16th Worcester",
+      "distance_miles_from_state_house": null
+    },
+    {
+      "member_id": "PJD1",
+      "name": "Paul Donato",
+      "chamber": "house",
+      "party": "D",
+      "district": "35th Middlesex",
+      "distance_miles_from_state_house": null
+    },
+    {
+      "member_id": "MMD1",
+      "name": "Michelle DuBois",
+      "chamber": "house",
+      "party": "D",
+      "district": "10th Plymouth",
+      "distance_miles_from_state_house": null
+    },
+    {
+      "member_id": "PAD1",
+      "name": "Patricia Duffy",
+      "chamber": "house",
+      "party": "D",
+      "district": "5th Hampden",
+      "distance_miles_from_state_house": null
+    },
+    {
+      "member_id": "RME1",
+      "name": "Rodney Elliott",
+      "chamber": "house",
+      "party": "D",
+      "district": "16th Middlesex",
+      "distance_miles_from_state_house": null
+    },
+    {
+      "member_id": "TFB1",
+      "name": "Tricia Farley-Bouvier",
+      "chamber": "house",
+      "party": "D",
+      "district": "2nd Berkshire",
+      "distance_miles_from_state_house": null
+    },
+    {
+      "member_id": "KNF1",
+      "name": "Kimberly Ferguson",
+      "chamber": "house",
+      "party": "R",
+      "district": "1st Worcester",
+      "distance_miles_from_state_house": null
+    },
+    {
+      "member_id": "LMF1",
+      "name": "Lisa Field",
+      "chamber": "house",
+      "party": "D",
+      "district": "3rd Bristol",
+      "distance_miles_from_state_house": null
+    },
+    {
+      "member_id": "MJF1",
+      "name": "Michael Finn",
+      "chamber": "house",
+      "party": "D",
+      "district": "6th Hampden",
+      "distance_miles_from_state_house": null
+    },
+    {
+      "member_id": "CAF1",
+      "name": "Carole Fiola",
+      "chamber": "house",
+      "party": "D",
+      "district": "6th Bristol",
+      "distance_miles_from_state_house": null
+    },
+    {
+      "member_id": "CRF1",
+      "name": "Christopher Flanagan",
+      "chamber": "house",
+      "party": "D",
+      "district": "1st Barnstable",
+      "distance_miles_from_state_house": null
+    },
+    {
+      "member_id": "BFR1",
+      "name": "Brandy Fluker-Reid",
+      "chamber": "house",
+      "party": "D",
+      "district": "12th Suffolk",
+      "distance_miles_from_state_house": null
+    },
+    {
+      "member_id": "PKF1",
+      "name": "Paul Frost",
+      "chamber": "house",
+      "party": "R",
+      "district": "7th Worcester",
+      "distance_miles_from_state_house": null
+    },
+    {
+      "member_id": "DCG2",
+      "name": "Dennis Gallagher",
+      "chamber": "house",
+      "party": "D",
+      "district": "8th Plymouth",
+      "distance_miles_from_state_house": null
+    },
+    {
+      "member_id": "WCG1",
+      "name": "William Galvin",
+      "chamber": "house",
+      "party": "D",
+      "district": "6th Norfolk",
+      "distance_miles_from_state_house": null
+    },
+    {
+      "member_id": "S_G1",
+      "name": "Sean Garballey",
+      "chamber": "house",
+      "party": "D",
+      "district": "23rd Middlesex",
+      "distance_miles_from_state_house": null
+    },
+    {
+      "member_id": "JAG2",
+      "name": "Judith Garcia",
+      "chamber": "house",
+      "party": "D",
+      "district": "11th Suffolk",
+      "distance_miles_from_state_house": null
+    },
+    {
+      "member_id": "CMG1",
+      "name": "Colleen Garry",
+      "chamber": "house",
+      "party": "D",
+      "district": "36th Middlesex",
+      "distance_miles_from_state_house": null
+    },
+    {
+      "member_id": "JRG2",
+      "name": "John Gaskey",
+      "chamber": "house",
+      "party": "R",
+      "district": "2nd Plymouth",
+      "distance_miles_from_state_house": null
+    },
+    {
+      "member_id": "CLG1",
+      "name": "Carmine Gentile",
+      "chamber": "house",
+      "party": "D",
+      "district": "13th Middlesex",
+      "distance_miles_from_state_house": null
+    },
+    {
+      "member_id": "JAG1",
+      "name": "Jessica Giannino",
+      "chamber": "house",
+      "party": "D",
+      "district": "16th Suffolk",
+      "distance_miles_from_state_house": null
+    },
+    {
+      "member_id": "H_G1",
+      "name": "Homar G\u00f3mez",
+      "chamber": "house",
+      "party": "D",
+      "district": "2nd Hampshire",
+      "distance_miles_from_state_house": null
+    },
+    {
+      "member_id": "C_G1",
+      "name": "Carlos Gonz\u00e1lez",
+      "chamber": "house",
+      "party": "D",
+      "district": "10th Hampden",
+      "distance_miles_from_state_house": null
+    },
+    {
+      "member_id": "KIG1",
+      "name": "Kenneth Gordon",
+      "chamber": "house",
+      "party": "D",
+      "district": "21st Middlesex",
+      "distance_miles_from_state_house": null
+    },
+    {
+      "member_id": "DWG1",
+      "name": "Danielle Gregoire",
+      "chamber": "house",
+      "party": "D",
+      "district": "4th Middlesex",
+      "distance_miles_from_state_house": null
+    },
+    {
+      "member_id": "RMH1",
+      "name": "Richard Haggerty",
+      "chamber": "house",
+      "party": "D",
+      "district": "30th Middlesex",
+      "distance_miles_from_state_house": null
+    },
+    {
+      "member_id": "RMH2",
+      "name": "Ryan Hamilton",
+      "chamber": "house",
+      "party": "D",
+      "district": "15th Essex",
+      "distance_miles_from_state_house": null
+    },
+    {
+      "member_id": "JKH1",
+      "name": "James Hawkins",
+      "chamber": "house",
+      "party": "D",
+      "district": "2nd Bristol",
+      "distance_miles_from_state_house": null
+    },
+    {
+      "member_id": "C_H1",
+      "name": "Christopher Hendricks",
+      "chamber": "house",
+      "party": "D",
+      "district": "11th Bristol",
+      "distance_miles_from_state_house": null
+    },
+    {
+      "member_id": "N_H1",
+      "name": "Natalie Higgins",
+      "chamber": "house",
+      "party": "D",
+      "district": "4th Worcester",
+      "distance_miles_from_state_house": null
+    },
+    {
+      "member_id": "K_H1",
+      "name": "Kate Hogan",
+      "chamber": "house",
+      "party": "D",
+      "district": "3rd Middlesex",
+      "distance_miles_from_state_house": null
+    },
+    {
+      "member_id": "REH1",
+      "name": "Russell Holmes",
+      "chamber": "house",
+      "party": "D",
+      "district": "6th Suffolk",
+      "distance_miles_from_state_house": null
+    },
+    {
+      "member_id": "KGH1",
+      "name": "Kevin Honan",
+      "chamber": "house",
+      "party": "D",
+      "district": "17th Suffolk",
+      "distance_miles_from_state_house": null
+    },
+    {
+      "member_id": "TTH1",
+      "name": "Tara Hong",
+      "chamber": "house",
+      "party": "D",
+      "district": "18th Middlesex",
+      "distance_miles_from_state_house": null
+    },
+    {
+      "member_id": "V_H1",
+      "name": "Vanna Howard",
+      "chamber": "house",
+      "party": "D",
+      "district": "17th Middlesex",
+      "distance_miles_from_state_house": null
+    },
+    {
+      "member_id": "SSH1",
+      "name": "Steven Howitt",
+      "chamber": "house",
+      "party": "R",
+      "district": "4th Bristol",
+      "distance_miles_from_state_house": null
+    },
+    {
+      "member_id": "djh1",
+      "name": "Daniel Hunt",
+      "chamber": "house",
+      "party": "D",
+      "district": "13th Suffolk",
+      "distance_miles_from_state_house": null
+    },
+    {
+      "member_id": "BHJ1",
+      "name": "Bradley Jones",
+      "chamber": "house",
+      "party": "R",
+      "district": "20th Middlesex",
+      "distance_miles_from_state_house": null
+    },
+    {
+      "member_id": "HEK1",
+      "name": "Hannah Kane",
+      "chamber": "house",
+      "party": "R",
+      "district": "11th Worcester",
+      "distance_miles_from_state_house": null
+    },
+    {
+      "member_id": "K_K2",
+      "name": "Kristin Kassner",
+      "chamber": "house",
+      "party": "D",
+      "district": "2nd Essex",
+      "distance_miles_from_state_house": null
+    },
+    {
+      "member_id": "PJK1",
+      "name": "Patrick Kearney",
+      "chamber": "house",
+      "party": "D",
+      "district": "4th Plymouth",
+      "distance_miles_from_state_house": null
+    },
+    {
+      "member_id": "MSK1",
+      "name": "Mary Keefe",
+      "chamber": "house",
+      "party": "D",
+      "district": "15th Worcester",
+      "distance_miles_from_state_house": null
+    },
+    {
+      "member_id": "SPK1",
+      "name": "Sally Kerans",
+      "chamber": "house",
+      "party": "D",
+      "district": "13th Essex",
+      "distance_miles_from_state_house": null
+    },
+    {
+      "member_id": "M_K1",
+      "name": "Meghan Kilcoyne",
+      "chamber": "house",
+      "party": "D",
+      "district": "12th Worcester",
+      "distance_miles_from_state_house": null
+    },
+    {
+      "member_id": "MPK1",
+      "name": "Michael Kushmerek",
+      "chamber": "house",
+      "party": "D",
+      "district": "3rd Worcester",
+      "distance_miles_from_state_house": null
+    },
+    {
+      "member_id": "KPL1",
+      "name": "Kathleen LaNatra",
+      "chamber": "house",
+      "party": "D",
+      "district": "12th Plymouth",
+      "distance_miles_from_state_house": null
+    },
+    {
+      "member_id": "JJL2",
+      "name": "John Lawn",
+      "chamber": "house",
+      "party": "D",
+      "district": "10th Middlesex",
+      "distance_miles_from_state_house": null
+    },
+    {
+      "member_id": "DAL1",
+      "name": "David LeBoeuf",
+      "chamber": "house",
+      "party": "D",
+      "district": "17th Worcester",
+      "distance_miles_from_state_house": null
+    },
+    {
+      "member_id": "JPL1",
+      "name": "Jack Lewis",
+      "chamber": "house",
+      "party": "D",
+      "district": "7th Middlesex",
+      "distance_miles_from_state_house": null
+    },
+    {
+      "member_id": "DPL1",
+      "name": "David Linsky",
+      "chamber": "house",
+      "party": "D",
+      "district": "5th Middlesex",
+      "distance_miles_from_state_house": null
+    },
+    {
+      "member_id": "KLG1",
+      "name": "Kate Lipper-Garabedian",
+      "chamber": "house",
+      "party": "D",
+      "district": "32nd Middlesex",
+      "distance_miles_from_state_house": null
+    },
+    {
+      "member_id": "J_L1",
+      "name": "Jay Livingstone",
+      "chamber": "house",
+      "party": "D",
+      "district": "8th Suffolk",
+      "distance_miles_from_state_house": null
+    },
+    {
+      "member_id": "MTL1",
+      "name": "Marc Lombardo",
+      "chamber": "house",
+      "party": "R",
+      "district": "22nd Middlesex",
+      "distance_miles_from_state_house": null
+    },
+    {
+      "member_id": "H_L1",
+      "name": "Hadley Luddy",
+      "chamber": "house",
+      "party": "D",
+      "district": "4th Barnstable",
+      "distance_miles_from_state_house": null
+    },
+    {
+      "member_id": "WFM1",
+      "name": "William MacGregor",
+      "chamber": "house",
+      "party": "D",
+      "district": "10th Suffolk",
+      "distance_miles_from_state_house": null
+    },
+    {
+      "member_id": "ACM1",
+      "name": "Adrian Madaro",
+      "chamber": "house",
+      "party": "D",
+      "district": "1st Suffolk",
+      "distance_miles_from_state_house": null
+    },
+    {
+      "member_id": "JJM2",
+      "name": "John Mahoney",
+      "chamber": "house",
+      "party": "D",
+      "district": "13th Worcester",
+      "distance_miles_from_state_house": null
+    },
+    {
+      "member_id": "R_M1",
+      "name": "Ronald Mariano",
+      "chamber": "house",
+      "party": "D",
+      "district": "3rd Norfolk",
+      "distance_miles_from_state_house": null
+    },
+    {
+      "member_id": "CMM1",
+      "name": "Christopher Markey",
+      "chamber": "house",
+      "party": "D",
+      "district": "9th Bristol",
+      "distance_miles_from_state_house": null
+    },
+    {
+      "member_id": "JJM1",
+      "name": "John Marsi",
+      "chamber": "house",
+      "party": "R",
+      "district": "6th Worcester",
+      "distance_miles_from_state_house": null
+    },
+    {
+      "member_id": "jwm1",
+      "name": "Joseph McGonagle",
+      "chamber": "house",
+      "party": "D",
+      "district": "28th Middlesex",
+      "distance_miles_from_state_house": null
+    },
+    {
+      "member_id": "JDM1",
+      "name": "Joseph McKenna",
+      "chamber": "house",
+      "party": "R",
+      "district": "18th Worcester",
+      "distance_miles_from_state_house": null
+    },
+    {
+      "member_id": "P_M1",
+      "name": "Paul McMurtry",
+      "chamber": "house",
+      "party": "D",
+      "district": "11th Norfolk",
+      "distance_miles_from_state_house": null
+    },
+    {
+      "member_id": "RAM1",
+      "name": "Rita Mendes",
+      "chamber": "house",
+      "party": "D",
+      "district": "11th Plymouth",
+      "distance_miles_from_state_house": null
+    },
+    {
+      "member_id": "J_M1",
+      "name": "Joan Meschino",
+      "chamber": "house",
+      "party": "D",
+      "district": "3rd Plymouth",
+      "distance_miles_from_state_house": null
+    },
+    {
+      "member_id": "AMM1",
+      "name": "Aaron Michlewitz",
+      "chamber": "house",
+      "party": "D",
+      "district": "3rd Suffolk",
+      "distance_miles_from_state_house": null
+    },
+    {
+      "member_id": "TWM1",
+      "name": "Thomas Moakley",
+      "chamber": "house",
+      "party": "D",
+      "district": "Barnstable, Dukes and Nantucket",
+      "distance_miles_from_state_house": null
+    },
+    {
+      "member_id": "S_M1",
+      "name": "Samantha Monta\u00f1o",
+      "chamber": "house",
+      "party": "D",
+      "district": "15th Suffolk",
+      "distance_miles_from_state_house": null
+    },
+    {
+      "member_id": "FAM1",
+      "name": "Frank Moran",
+      "chamber": "house",
+      "party": "D",
+      "district": "17th Essex",
+      "distance_miles_from_state_house": null
+    },
+    {
+      "member_id": "JFM1",
+      "name": "John Moran",
+      "chamber": "house",
+      "party": "D",
+      "district": "9th Suffolk",
+      "distance_miles_from_state_house": null
+    },
+    {
+      "member_id": "MJM1",
+      "name": "Michael Moran",
+      "chamber": "house",
+      "party": "D",
+      "district": "18th Suffolk",
+      "distance_miles_from_state_house": null
+    },
+    {
+      "member_id": "DKM1",
+      "name": "David Muradian",
+      "chamber": "house",
+      "party": "R",
+      "district": "9th Worcester",
+      "distance_miles_from_state_house": null
+    },
+    {
+      "member_id": "JMM1",
+      "name": "James Murphy",
+      "chamber": "house",
+      "party": "D",
+      "district": "4th Norfolk",
+      "distance_miles_from_state_house": null
+    },
+    {
+      "member_id": "BWM1",
+      "name": "Brian Murray",
+      "chamber": "house",
+      "party": "D",
+      "district": "10th Worcester",
+      "distance_miles_from_state_house": null
+    },
+    {
+      "member_id": "TTN1",
+      "name": "Tram Nguyen",
+      "chamber": "house",
+      "party": "D",
+      "district": "18th Essex",
+      "distance_miles_from_state_house": null
+    },
+    {
+      "member_id": "JJO1",
+      "name": "James O'Day",
+      "chamber": "house",
+      "party": "D",
+      "district": "14th Worcester",
+      "distance_miles_from_state_house": null
+    },
+    {
+      "member_id": "NJO1",
+      "name": "Norman Orrall",
+      "chamber": "house",
+      "party": "R",
+      "district": "12th Bristol",
+      "distance_miles_from_state_house": null
+    },
+    {
+      "member_id": "SJO1",
+      "name": "Steven Ouellette",
+      "chamber": "house",
+      "party": "D",
+      "district": "8th Bristol",
+      "distance_miles_from_state_house": null
+    },
+    {
+      "member_id": "SCO1",
+      "name": "Steven Owens",
+      "chamber": "house",
+      "party": "D",
+      "district": "29th Middlesex",
+      "distance_miles_from_state_house": null
+    },
+    {
+      "member_id": "FEP1",
+      "name": "Francisco Paulino",
+      "chamber": "house",
+      "party": "D",
+      "district": "16th Essex",
+      "distance_miles_from_state_house": null
+    },
+    {
+      "member_id": "KWP1",
+      "name": "Kelly Pease",
+      "chamber": "house",
+      "party": "R",
+      "district": "4th Hampden",
+      "distance_miles_from_state_house": null
+    },
+    {
+      "member_id": "AHP1",
+      "name": "Alice Peisch",
+      "chamber": "house",
+      "party": "D",
+      "district": "14th Norfolk",
+      "distance_miles_from_state_house": null
+    },
+    {
+      "member_id": "ERP1",
+      "name": "Edward Philips",
+      "chamber": "house",
+      "party": "D",
+      "district": "8th Norfolk",
+      "distance_miles_from_state_house": null
+    },
+    {
+      "member_id": "BMP1",
+      "name": "Bridget Plouffe",
+      "chamber": "house",
+      "party": "D",
+      "district": "9th Plymouth",
+      "distance_miles_from_state_house": null
+    },
+    {
+      "member_id": "AJP1",
+      "name": "Angelo Puppolo",
+      "chamber": "house",
+      "party": "D",
+      "district": "12th Hampden",
+      "distance_miles_from_state_house": null
+    },
+    {
+      "member_id": "APR1",
+      "name": "Adrianne Ramos",
+      "chamber": "house",
+      "party": "D",
+      "district": "14th Essex",
+      "distance_miles_from_state_house": null
+    },
+    {
+      "member_id": "O_R1",
+      "name": "Orlando Ramos",
+      "chamber": "house",
+      "party": "D",
+      "district": "9th Hampden",
+      "distance_miles_from_state_house": null
+    },
+    {
+      "member_id": "S_R1",
+      "name": "Sean Reid",
+      "chamber": "house",
+      "party": "D",
+      "district": "11th Essex",
+      "distance_miles_from_state_house": null
+    },
+    {
+      "member_id": "EAR1",
+      "name": "Estela Reyes",
+      "chamber": "house",
+      "party": "D",
+      "district": "4th Essex",
+      "distance_miles_from_state_house": null
+    },
+    {
+      "member_id": "D_R1",
+      "name": "David Robertson",
+      "chamber": "house",
+      "party": "D",
+      "district": "19th Middlesex",
+      "distance_miles_from_state_house": null
+    },
+    {
+      "member_id": "DMR1",
+      "name": "David Rogers",
+      "chamber": "house",
+      "party": "D",
+      "district": "24th Middlesex",
+      "distance_miles_from_state_house": null
+    },
+    {
+      "member_id": "JHR1",
+      "name": "John Rogers",
+      "chamber": "house",
+      "party": "D",
+      "district": "12th Norfolk",
+      "distance_miles_from_state_house": null
+    },
+    {
+      "member_id": "JNR1",
+      "name": "Jeffrey Roy",
+      "chamber": "house",
+      "party": "D",
+      "district": "10th Norfolk",
+      "distance_miles_from_state_house": null
+    },
+    {
+      "member_id": "djr1",
+      "name": "Daniel Ryan",
+      "chamber": "house",
+      "party": "D",
+      "district": "2nd Suffolk",
+      "distance_miles_from_state_house": null
+    },
+    {
+      "member_id": "L_S1",
+      "name": "Lindsay Sabadosa",
+      "chamber": "house",
+      "party": "D",
+      "district": "1st Hampshire",
+      "distance_miles_from_state_house": null
+    },
+    {
+      "member_id": "AMS3",
+      "name": "Amy Sangiolo",
+      "chamber": "house",
+      "party": "D",
+      "district": "11th Middlesex",
+      "distance_miles_from_state_house": null
+    },
+    {
+      "member_id": "ALS1",
+      "name": "Aaron Saunders",
+      "chamber": "house",
+      "party": "D",
+      "district": "7th Hampden",
+      "distance_miles_from_state_house": null
+    },
+    {
+      "member_id": "AJS1",
+      "name": "Adam Scanlon",
+      "chamber": "house",
+      "party": "D",
+      "district": "14th Bristol",
+      "distance_miles_from_state_house": null
+    },
+    {
+      "member_id": "MRS1",
+      "name": "Margaret Scarsdale",
+      "chamber": "house",
+      "party": "D",
+      "district": "1st Middlesex",
+      "distance_miles_from_state_house": null
+    },
+    {
+      "member_id": "G_S1",
+      "name": "Greg Schwartz",
+      "chamber": "house",
+      "party": "D",
+      "district": "12th Middlesex",
+      "distance_miles_from_state_house": null
+    },
+    {
+      "member_id": "DAS1",
+      "name": "Danillo Sena",
+      "chamber": "house",
+      "party": "D",
+      "district": "37th Middlesex",
+      "distance_miles_from_state_house": null
+    },
+    {
+      "member_id": "D_S1",
+      "name": "Dawne Shand",
+      "chamber": "house",
+      "party": "D",
+      "district": "1st Essex",
+      "distance_miles_from_state_house": null
+    },
+    {
+      "member_id": "A_S1",
+      "name": "Alan Silvia",
+      "chamber": "house",
+      "party": "D",
+      "district": "7th Bristol",
+      "distance_miles_from_state_house": null
+    },
+    {
+      "member_id": "TMS2",
+      "name": "Todd Smola",
+      "chamber": "house",
+      "party": "R",
+      "district": "1st Hampden",
+      "distance_miles_from_state_house": null
+    },
+    {
+      "member_id": "MJS3",
+      "name": "Michael Soter",
+      "chamber": "house",
+      "party": "R",
+      "district": "8th Worcester",
+      "distance_miles_from_state_house": null
+    },
+    {
+      "member_id": "PSS1",
+      "name": "Priscila Sousa",
+      "chamber": "house",
+      "party": "D",
+      "district": "6th Middlesex",
+      "distance_miles_from_state_house": null
+    },
+    {
+      "member_id": "TMS1",
+      "name": "Thomas Stanley",
+      "chamber": "house",
+      "party": "D",
+      "district": "9th Middlesex",
+      "distance_miles_from_state_house": null
+    },
+    {
+      "member_id": "AMS2",
+      "name": "Alyson Sullivan-Almeida",
+      "chamber": "house",
+      "party": "R",
+      "district": "7th Plymouth",
+      "distance_miles_from_state_house": null
+    },
+    {
+      "member_id": "KPS1",
+      "name": "Kenneth Sweezey",
+      "chamber": "house",
+      "party": "R",
+      "district": "6th Plymouth",
+      "distance_miles_from_state_house": null
+    },
+    {
+      "member_id": "MDS1",
+      "name": "Mark Sylvia",
+      "chamber": "house",
+      "party": "D",
+      "district": "10th Bristol",
+      "distance_miles_from_state_house": null
+    },
+    {
+      "member_id": "J_T1",
+      "name": "Joshua Tarsky",
+      "chamber": "house",
+      "party": "D",
+      "district": "13th Norfolk",
+      "distance_miles_from_state_house": null
+    },
+    {
+      "member_id": "J_T2",
+      "name": "Justin Thurber",
+      "chamber": "house",
+      "party": "R",
+      "district": "5th Bristol",
+      "distance_miles_from_state_house": null
+    },
+    {
+      "member_id": "JRT1",
+      "name": "Jeffrey Turco",
+      "chamber": "house",
+      "party": "D",
+      "district": "19th Suffolk",
+      "distance_miles_from_state_house": null
+    },
+    {
+      "member_id": "C_T1",
+      "name": "Chynah Tyler",
+      "chamber": "house",
+      "party": "D",
+      "district": "7th Suffolk",
+      "distance_miles_from_state_house": null
+    },
+    {
+      "member_id": "S_G2",
+      "name": "Steven Ultrino",
+      "chamber": "house",
+      "party": "D",
+      "district": "33rd Middlesex",
+      "distance_miles_from_state_house": null
+    },
+    {
+      "member_id": "E_U1",
+      "name": "Erika Uyterhoeven",
+      "chamber": "house",
+      "party": "D",
+      "district": "27th Middlesex",
+      "distance_miles_from_state_house": null
+    },
+    {
+      "member_id": "AXV1",
+      "name": "Andres Vargas",
+      "chamber": "house",
+      "party": "D",
+      "district": "3rd Essex",
+      "distance_miles_from_state_house": null
+    },
+    {
+      "member_id": "MSV1",
+      "name": "Marcus Vaughn",
+      "chamber": "house",
+      "party": "R",
+      "district": "9th Norfolk",
+      "distance_miles_from_state_house": null
+    },
+    {
+      "member_id": "DTV1",
+      "name": "David Vieira",
+      "chamber": "house",
+      "party": "R",
+      "district": "3rd Barnstable",
+      "distance_miles_from_state_house": null
+    },
+    {
+      "member_id": "T_V1",
+      "name": "Tommy Vitolo",
+      "chamber": "house",
+      "party": "D",
+      "district": "15th Norfolk",
+      "distance_miles_from_state_house": null
+    },
+    {
+      "member_id": "TJW1",
+      "name": "Thomas Walsh",
+      "chamber": "house",
+      "party": "D",
+      "district": "12th Essex",
+      "distance_miles_from_state_house": null
+    },
+    {
+      "member_id": "RGW1",
+      "name": "Richard Wells",
+      "chamber": "house",
+      "party": "D",
+      "district": "7th Norfolk",
+      "distance_miles_from_state_house": null
+    },
+    {
+      "member_id": "SLG1",
+      "name": "Susannah Whipps",
+      "chamber": "house",
+      "party": null,
+      "district": "2nd Franklin",
+      "distance_miles_from_state_house": null
+    },
+    {
+      "member_id": "BLW1",
+      "name": "Bud Williams",
+      "chamber": "house",
+      "party": "D",
+      "district": "11th Hampden",
+      "distance_miles_from_state_house": null
+    },
+    {
+      "member_id": "DHW1",
+      "name": "Donald Wong",
+      "chamber": "house",
+      "party": "R",
+      "district": "9th Essex",
+      "distance_miles_from_state_house": null
+    },
+    {
+      "member_id": "CJW1",
+      "name": "Christopher Worrell",
+      "chamber": "house",
+      "party": "D",
+      "district": "5th Suffolk",
+      "distance_miles_from_state_house": null
+    },
+    {
+      "member_id": "SGX1",
+      "name": "Steven Xiarhos",
+      "chamber": "house",
+      "party": "R",
+      "district": "5th Barnstable",
+      "distance_miles_from_state_house": null
+    },
+    {
+      "member_id": "JDZ1",
+      "name": "Jonathan Zlotnik",
+      "chamber": "house",
+      "party": "D",
+      "district": "2nd Worcester",
+      "distance_miles_from_state_house": null
+    }
+  ]
+}

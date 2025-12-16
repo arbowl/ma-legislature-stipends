@@ -2,10 +2,10 @@
 
 from __future__ import annotations
 
-from dataclasses import dataclass, asdict
 import json
-from pathlib import Path
 from time import sleep
+from dataclasses import dataclass, asdict
+from pathlib import Path
 from typing import Optional
 
 from bs4 import BeautifulSoup
@@ -27,82 +27,62 @@ def _extract_committee_id_from_href(href: str) -> str:
     We want: "S51"
     """
     parts = href.strip("/").split("/")
-    if len(parts) >= 3:
+    if (
+        len(parts) >= 3
+        and parts[0].lower() == "committees"
+        and parts[1].lower() == "detail"
+    ):
         return parts[2]
     return ""
 
 
 def _extract_role_label(li: BeautifulSoup) -> Optional[str]:
-    """Committee role label appears as:
-      <span>Chairperson, </span>
-      <span>Vice Chair, </span>
-      <span>Member, </span>  (rare)
-    or no prefix = plain member
+    """If the li starts with a <span> like 'Chairperson, ' or 'Vice Chair, ',
+    return that word; otherwise None.
     """
     span = li.find("span")
     if not span:
         return None
     text = span.get_text(strip=True).rstrip(",")
-    if text:
-        return text
-    return None
+    return text or None
 
 
 def _extract_committee_name_and_id(li: BeautifulSoup) -> tuple[str, str]:
-    """Finds the <a> inside the <li> and extracts:
-      - committee_name (link text)
-      - committee_external_id (derived from href)
-    """
+    """Find the first <a> with /Committees/Detail/ in the href."""
     a = li.find("a", href=True)
     if not a:
-        return ("", "")
+        return "", ""
+    href = a["href"]
+    if "/Committees/Detail/" not in href:
+        return "", ""
     name = a.get_text(strip=True)
-    committee_id = _extract_committee_id_from_href(a["href"])
-    return name, committee_id
+    cid = _extract_committee_id_from_href(href)
+    return name, cid
 
 
 def scrape_committees_for_member(
     member_id: str, session_id: str
 ) -> list[RawCommitteeRole]:
-    """Scrape `/Legislators/Profile/<ID>/Committees` for ONE member.
-    The page has a session-select dropdown; we must select the correct session.
-
-    Strategy:
-    - Load the page
-    - Find the session dropdown <select>
-    - Select the <option> whose text contains session_id (e.g. "194th")
-    - Extract all <li> entries under that selection
+    """Scrape `/Legislators/Profile/<ID>/Committees` for a single member,
+    assuming the default view is the current session (e.g. 194th).
     """
     path = f"/Legislators/Profile/{member_id}/Committees"
     soup = get_soup(path)
-    select = soup.find("select")
-    selected_value = None
-    if select:
-        for option in select.find_all("option"):
-            text = option.get_text(strip=True)
-            if session_id in text:
-                selected_value = option.get("value")
-                break
-    if selected_value:
-        page_url = f"{path}?sessionId={selected_value}"
-        soup = get_soup(page_url)
     roles: list[RawCommitteeRole] = []
-    ul = soup.find("ul")
-    if not ul:
-        return roles
-    for li in ul.find_all("li", recursive=False):
+    for li in soup.find_all("li"):
         committee_name, committee_id = _extract_committee_name_and_id(li)
+        if not committee_id:
+            continue
         raw_role_label = _extract_role_label(li)
-        if committee_id:
-            roles.append(
-                RawCommitteeRole(
-                    member_id=member_id,
-                    session_id=session_id,
-                    committee_external_id=committee_id,
-                    committee_name=committee_name,
-                    raw_role_label=raw_role_label,
-                )
+        roles.append(
+            RawCommitteeRole(
+                member_id=member_id,
+                session_id=session_id,
+                committee_external_id=committee_id,
+                committee_name=committee_name,
+                raw_role_label=raw_role_label,
             )
+        )
     return roles
 
 
@@ -111,8 +91,7 @@ def dump_committees_raw(
     member_ids: list[str],
     out_root: Path = Path("data/raw"),
 ) -> Path:
-    """Scrape committees for ALL members and write JSON file.
-    """
+    """Scrape committees for ALL members and write JSON file."""
     out_dir = out_root / session_id
     out_dir.mkdir(parents=True, exist_ok=True)
     all_roles: list[dict] = []
@@ -125,13 +104,30 @@ def dump_committees_raw(
     return out_path
 
 
+def dump_committees_raw(
+    session_id: str,
+    member_ids: list[str],
+    out_root: Path = Path("data/raw"),
+) -> Path:
+    """Scrape committees for ALL members and write JSON file."""
+    out_dir = out_root / session_id
+    out_dir.mkdir(parents=True, exist_ok=True)
+    all_roles: list[dict] = []
+    for idx, mid in enumerate(member_ids):
+        print(f"{round((idx + 1) / len(member_ids) * 100, 2)}% done")
+        roles = scrape_committees_for_member(mid, session_id)
+        all_roles.extend(asdict(r) for r in roles)
+        sleep(0.25)
+    out_path = out_dir / "committee_roles_raw.json"
+    out_path.write_text(json.dumps(all_roles, indent=2), encoding="utf-8")
+    return out_path
+
+
 def main() -> None:
     """Generates the raw committee JSON"""
-    members_raw = json.loads(
-        Path("data/raw/194th/members_raw.json"
-    ).read_text())
+    members_raw = json.loads(Path("data/raw/2025-2026/members_raw.json").read_text())
     member_ids = [m["member_id"] for m in members_raw]
-    dump_committees_raw("194th", member_ids)
+    dump_committees_raw("2025-2026", member_ids)
 
 
 if __name__ == "__main__":

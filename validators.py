@@ -2,20 +2,16 @@
 
 from __future__ import annotations
 
+from pathlib import Path
+
 from audit.issues import AuditIssue
-from config.role_catalog import(
-    ROLE_DEFINITIONS,
-    RoleDefinition,
-    get_role_definition
-) 
+from config.role_catalog import ROLE_DEFINITIONS, RoleDefinition, get_role_definition
 from config.stipend_tiers import STIPEND_TIERS
 from data.session_loader import LoadedSession
 from models.core import CommitteeRoleType, Member
 
 
-def _validate_member_raw_roles(
-    member: Member, session_id: str
-) -> list[AuditIssue]:
+def _validate_member_raw_roles(member: Member, session_id: str) -> list[AuditIssue]:
     """Check per-member invariants on the raw role data"""
     issues: list[AuditIssue] = []
     role_defs: list[RoleDefinition] = []
@@ -27,15 +23,9 @@ def _validate_member_raw_roles(
         except KeyError:
             continue
     chair_roles = [
-        rd
-        for rd in role_defs
-        if rd.committee_role_type == CommitteeRoleType.CHAIR
+        rd for rd in role_defs if rd.committee_role_type == CommitteeRoleType.CHAIR
     ]
-    stipend_roles = [
-        rd
-        for rd in role_defs
-        if rd.stipend_tier_id is not None
-    ]
+    stipend_roles = [rd for rd in role_defs if rd.stipend_tier_id is not None]
     if len(chair_roles) > 1:
         issues.append(
             AuditIssue.warning(
@@ -91,9 +81,7 @@ def validate_role_catalog() -> list[AuditIssue]:
             issues.append(
                 AuditIssue.warning(
                     code="DUPLICATE_ROLE_TITLE",
-                    message=(
-                        f"Title {title!r} used for multiple role codes {codes}"
-                    ),
+                    message=(f"Title {title!r} used for multiple role codes {codes}"),
                     title=title,
                     role_codes=codes,
                 )
@@ -109,19 +97,28 @@ def validate_session_data(loaded: LoadedSession) -> list[AuditIssue]:
             issues.append(
                 AuditIssue.error(
                     code="UNKNOWN_ROLE_CODE",
-                    message=(
-                        f"RoleAssignment has unknown role_code {ra.role_code}"
-                    ),
+                    message=(f"RoleAssignment has unknown role_code {ra.role_code}"),
                     role_code=ra.role_code,
                     session_id=ra.session_id,
                 )
             )
-    if any(
-        str(i.level) == "ERROR"
-        and i.code == "UNKNOWN_ROLE_CODE"
-        for i in issues
-    ):
+    if any(str(i.level) == "ERROR" and i.code == "UNKNOWN_ROLE_CODE" for i in issues):
         return issues
     for member in loaded.members.values():
         issues.extend(_validate_member_raw_roles(member, loaded.session.id))
     return issues
+
+
+def main() -> None:
+    """Runs the validators for debugging purposes"""
+    from data.session_loader import load_session
+
+    loaded = load_session(Path("data/sessions"), "2025-2026")
+    print([i for i in validate_role_catalog() if str(i.level) == "ERROR"])
+    print(
+        [i for i in validate_session_data(loaded) if str(i.level) == "ERROR"]
+    )
+
+
+if __name__ == "__main__":
+    main()

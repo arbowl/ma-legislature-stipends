@@ -11,9 +11,7 @@ def test_demo_session_totals():
     loaded = load_session(data_root, session_id)
     catalog_issues = validate_role_catalog()
     session_issues = validate_session_data(loaded)
-    assert not any(
-        i.level == "ERROR" for i in catalog_issues + session_issues
-    )
+    assert not any(i.level == "ERROR" for i in catalog_issues + session_issues)
     session = loaded.session
     results = {
         m_id: total_comp_for_member(member, session)
@@ -23,11 +21,7 @@ def test_demo_session_totals():
     assert results["H002"].total == 160_000
     assert results["H003"].total == 90_000
     assert results["H004"].total == 160_000
-    alice_components = {
-        c.label: c.amount.value
-        for c
-        in results["H001"].components
-    }
+    alice_components = {c.label: c.amount.value for c in results["H001"].components}
     assert alice_components["Base salary (Article CXVIII)"] == 75_000
     assert alice_components["Section 9B stipends"] == 110_000
     assert alice_components["Section 9C for travel/expenses"] == 15_000

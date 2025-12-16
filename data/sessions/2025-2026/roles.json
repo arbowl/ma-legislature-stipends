@@ -1,0 +1,990 @@
+{
+  "session_id": "2025-2026",
+  "roles": [
+    {
+      "member_id": "CSC0",
+      "role_code": "SENATE_MAJORITY_FLOOR_LEADER",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "WNB0",
+      "role_code": "SENATE_PRESIDENT",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "JBL0",
+      "role_code": "SENATE_MAJORITY_FLOOR_LEADER",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "MJB0",
+      "role_code": "SENATE_MAJORITY_FLOOR_LEADER",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "SND0",
+      "role_code": "SENATE_MAJORITY_FLOOR_LEADER",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "BET0",
+      "role_code": "SENATE_MINORITY_FLOOR_LEADER",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "PMO",
+      "role_code": "SENATE_MINORITY_FLOOR_LEADER",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "RCF0",
+      "role_code": "SENATE_MINORITY_FLOOR_LEADER",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "PJD0",
+      "role_code": "SENATE_MINORITY_FLOOR_LEADER",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "KAD0",
+      "role_code": "SENATE_MINORITY_FLOOR_LEADER",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "MJM1",
+      "role_code": "HOUSE_MAJORITY_FLOOR_LEADER",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "K_H1",
+      "role_code": "SPEAKER",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "AHP1",
+      "role_code": "HOUSE_MAJORITY_FLOOR_LEADER",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "FAM1",
+      "role_code": "HOUSE_MAJORITY_FLOOR_LEADER",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "PJD1",
+      "role_code": "HOUSE_MAJORITY_FLOOR_LEADER",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "BHJ1",
+      "role_code": "HOUSE_MINORITY_FLOOR_LEADER",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "KNF1",
+      "role_code": "HOUSE_MINORITY_FLOOR_LEADER",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "PKF1",
+      "role_code": "HOUSE_MINORITY_FLOOR_LEADER",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "DKM1",
+      "role_code": "HOUSE_MINORITY_FLOOR_LEADER",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "DTV1",
+      "role_code": "HOUSE_MINORITY_FLOOR_LEADER",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "MJB0",
+      "role_code": "GENERIC_OTHER_COMMITTEE_CHAIR",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "MJB0",
+      "role_code": "GENERIC_OTHER_COMMITTEE_VICE_CHAIR",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "MDB0",
+      "role_code": "GENERIC_OTHER_COMMITTEE_CHAIR",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "MDB0",
+      "role_code": "GENERIC_OTHER_COMMITTEE_VICE_CHAIR",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "MDB0",
+      "role_code": "GENERIC_OTHER_COMMITTEE_VICE_CHAIR",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "WNB0",
+      "role_code": "GENERIC_OTHER_COMMITTEE_CHAIR",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "N_C0",
+      "role_code": "GENERIC_OTHER_COMMITTEE_CHAIR",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "N_C0",
+      "role_code": "GENERIC_OTHER_COMMITTEE_VICE_CHAIR",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "N_C0",
+      "role_code": "GENERIC_OTHER_COMMITTEE_VICE_CHAIR",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "JMC0",
+      "role_code": "GENERIC_OTHER_COMMITTEE_CHAIR",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "JMC0",
+      "role_code": "GENERIC_OTHER_COMMITTEE_VICE_CHAIR",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "JMC0",
+      "role_code": "GENERIC_OTHER_COMMITTEE_VICE_CHAIR",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "JMC0",
+      "role_code": "GENERIC_OTHER_COMMITTEE_VICE_CHAIR",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "JMC0",
+      "role_code": "GENERIC_OTHER_COMMITTEE_VICE_CHAIR",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "CSC0",
+      "role_code": "GENERIC_OTHER_COMMITTEE_CHAIR",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "CSC0",
+      "role_code": "GENERIC_OTHER_COMMITTEE_VICE_CHAIR",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "BPC0",
+      "role_code": "GENERIC_OTHER_COMMITTEE_CHAIR",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "BPC0",
+      "role_code": "GENERIC_OTHER_COMMITTEE_CHAIR",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "BPC0",
+      "role_code": "GENERIC_OTHER_COMMITTEE_VICE_CHAIR",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "JJC0",
+      "role_code": "GENERIC_OTHER_COMMITTEE_CHAIR",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "JJC0",
+      "role_code": "GENERIC_OTHER_COMMITTEE_CHAIR",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "JJC0",
+      "role_code": "GENERIC_OTHER_COMMITTEE_VICE_CHAIR",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "JAC0",
+      "role_code": "GENERIC_OTHER_COMMITTEE_CHAIR",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "JAC0",
+      "role_code": "GENERIC_OTHER_COMMITTEE_VICE_CHAIR",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "SND0",
+      "role_code": "GENERIC_OTHER_COMMITTEE_CHAIR",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "SND0",
+      "role_code": "GENERIC_OTHER_COMMITTEE_VICE_CHAIR",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "WJD0",
+      "role_code": "GENERIC_OTHER_COMMITTEE_CHAIR",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "WJD0",
+      "role_code": "GENERIC_OTHER_COMMITTEE_VICE_CHAIR",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "WJD0",
+      "role_code": "GENERIC_OTHER_COMMITTEE_VICE_CHAIR",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "LME0",
+      "role_code": "GENERIC_OTHER_COMMITTEE_CHAIR",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "LME0",
+      "role_code": "GENERIC_OTHER_COMMITTEE_VICE_CHAIR",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "JBE0",
+      "role_code": "GENERIC_OTHER_COMMITTEE_CHAIR",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "JBE0",
+      "role_code": "GENERIC_OTHER_COMMITTEE_VICE_CHAIR",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "JBE0",
+      "role_code": "GENERIC_OTHER_COMMITTEE_VICE_CHAIR",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "PRF0",
+      "role_code": "GENERIC_OTHER_COMMITTEE_CHAIR",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "PRF0",
+      "role_code": "GENERIC_OTHER_COMMITTEE_VICE_CHAIR",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "PRF0",
+      "role_code": "GENERIC_OTHER_COMMITTEE_VICE_CHAIR",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "DAF0",
+      "role_code": "GENERIC_OTHER_COMMITTEE_CHAIR",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "DAF0",
+      "role_code": "GENERIC_OTHER_COMMITTEE_VICE_CHAIR",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "DAF0",
+      "role_code": "GENERIC_OTHER_COMMITTEE_VICE_CHAIR",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "BRF0",
+      "role_code": "GENERIC_OTHER_COMMITTEE_CHAIR",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "BRF0",
+      "role_code": "GENERIC_OTHER_COMMITTEE_VICE_CHAIR",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "CFF0",
+      "role_code": "GENERIC_OTHER_COMMITTEE_CHAIR",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "CFF0",
+      "role_code": "GENERIC_OTHER_COMMITTEE_CHAIR",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "CFF0",
+      "role_code": "GENERIC_OTHER_COMMITTEE_CHAIR",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "CFF0",
+      "role_code": "GENERIC_OTHER_COMMITTEE_VICE_CHAIR",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "CFF0",
+      "role_code": "GENERIC_OTHER_COMMITTEE_VICE_CHAIR",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "A_G0",
+      "role_code": "GENERIC_OTHER_COMMITTEE_CHAIR",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "A_G0",
+      "role_code": "GENERIC_OTHER_COMMITTEE_CHAIR",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "A_G0",
+      "role_code": "GENERIC_OTHER_COMMITTEE_VICE_CHAIR",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "A_G0",
+      "role_code": "GENERIC_OTHER_COMMITTEE_VICE_CHAIR",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "PDJ0",
+      "role_code": "GENERIC_OTHER_COMMITTEE_CHAIR",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "PDJ0",
+      "role_code": "GENERIC_OTHER_COMMITTEE_VICE_CHAIR",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "PDJ0",
+      "role_code": "GENERIC_OTHER_COMMITTEE_VICE_CHAIR",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "JFK0",
+      "role_code": "GENERIC_OTHER_COMMITTEE_CHAIR",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "JFK0",
+      "role_code": "GENERIC_OTHER_COMMITTEE_VICE_CHAIR",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "RKK0",
+      "role_code": "GENERIC_OTHER_COMMITTEE_CHAIR",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "RKK0",
+      "role_code": "GENERIC_OTHER_COMMITTEE_VICE_CHAIR",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "jml0",
+      "role_code": "GENERIC_OTHER_COMMITTEE_CHAIR",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "jml0",
+      "role_code": "GENERIC_OTHER_COMMITTEE_CHAIR",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "jml0",
+      "role_code": "GENERIC_OTHER_COMMITTEE_VICE_CHAIR",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "JBL0",
+      "role_code": "GENERIC_OTHER_COMMITTEE_CHAIR",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "JBL0",
+      "role_code": "GENERIC_OTHER_COMMITTEE_CHAIR",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "JBL0",
+      "role_code": "GENERIC_OTHER_COMMITTEE_VICE_CHAIR",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "PWM0",
+      "role_code": "GENERIC_OTHER_COMMITTEE_CHAIR",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "PWM0",
+      "role_code": "GENERIC_OTHER_COMMITTEE_VICE_CHAIR",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "PWM0",
+      "role_code": "GENERIC_OTHER_COMMITTEE_VICE_CHAIR",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "L%20M0",
+      "role_code": "GENERIC_OTHER_COMMITTEE_CHAIR",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "L%20M0",
+      "role_code": "GENERIC_OTHER_COMMITTEE_VICE_CHAIR",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "MCM0",
+      "role_code": "GENERIC_OTHER_COMMITTEE_CHAIR",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "MCM0",
+      "role_code": "GENERIC_OTHER_COMMITTEE_CHAIR",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "MCM0",
+      "role_code": "GENERIC_OTHER_COMMITTEE_VICE_CHAIR",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "MOM0",
+      "role_code": "GENERIC_OTHER_COMMITTEE_CHAIR",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "MOM0",
+      "role_code": "GENERIC_OTHER_COMMITTEE_VICE_CHAIR",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "JRO0",
+      "role_code": "GENERIC_OTHER_COMMITTEE_CHAIR",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "JRO0",
+      "role_code": "GENERIC_OTHER_COMMITTEE_VICE_CHAIR",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "PMP0",
+      "role_code": "GENERIC_OTHER_COMMITTEE_CHAIR",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "PMP0",
+      "role_code": "GENERIC_OTHER_COMMITTEE_VICE_CHAIR",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "RLR0",
+      "role_code": "GENERIC_OTHER_COMMITTEE_CHAIR",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "RLR0",
+      "role_code": "GENERIC_OTHER_COMMITTEE_CHAIR",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "RLR0",
+      "role_code": "GENERIC_OTHER_COMMITTEE_VICE_CHAIR",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "MJR0",
+      "role_code": "GENERIC_OTHER_COMMITTEE_CHAIR",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "MJR0",
+      "role_code": "GENERIC_OTHER_COMMITTEE_CHAIR",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "MJR0",
+      "role_code": "GENERIC_OTHER_COMMITTEE_VICE_CHAIR",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "MFR0",
+      "role_code": "GENERIC_OTHER_COMMITTEE_CHAIR",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "MFR0",
+      "role_code": "GENERIC_OTHER_COMMITTEE_VICE_CHAIR",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "JCV0",
+      "role_code": "GENERIC_OTHER_COMMITTEE_CHAIR",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "JCV0",
+      "role_code": "GENERIC_OTHER_COMMITTEE_CHAIR",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "JCV0",
+      "role_code": "GENERIC_OTHER_COMMITTEE_VICE_CHAIR",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "J_A1",
+      "role_code": "GENERIC_OTHER_COMMITTEE_CHAIR",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "JBA1",
+      "role_code": "GENERIC_OTHER_COMMITTEE_VICE_CHAIR",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "BMA1",
+      "role_code": "GENERIC_OTHER_COMMITTEE_VICE_CHAIR",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "BJA1",
+      "role_code": "GENERIC_OTHER_COMMITTEE_VICE_CHAIR",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "CPB2",
+      "role_code": "GENERIC_OTHER_COMMITTEE_CHAIR",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "J_B1",
+      "role_code": "GENERIC_OTHER_COMMITTEE_CHAIR",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "D_B1",
+      "role_code": "GENERIC_OTHER_COMMITTEE_VICE_CHAIR",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "NMB1",
+      "role_code": "GENERIC_OTHER_COMMITTEE_CHAIR",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "AFC1",
+      "role_code": "GENERIC_OTHER_COMMITTEE_CHAIR",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "DFC1",
+      "role_code": "GENERIC_OTHER_COMMITTEE_CHAIR",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "S_C1",
+      "role_code": "GENERIC_OTHER_COMMITTEE_VICE_CHAIR",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "T_C1",
+      "role_code": "GENERIC_OTHER_COMMITTEE_CHAIR",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "M_C2",
+      "role_code": "GENERIC_OTHER_COMMITTEE_VICE_CHAIR",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "M_C1",
+      "role_code": "GENERIC_OTHER_COMMITTEE_VICE_CHAIR",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "R_C1",
+      "role_code": "GENERIC_OTHER_COMMITTEE_VICE_CHAIR",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "R_C1",
+      "role_code": "GENERIC_OTHER_COMMITTEE_VICE_CHAIR",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "MJC1",
+      "role_code": "GENERIC_OTHER_COMMITTEE_CHAIR",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "MSD1",
+      "role_code": "GENERIC_OTHER_COMMITTEE_CHAIR",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "MCD1",
+      "role_code": "GENERIC_OTHER_COMMITTEE_CHAIR",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "KAD1",
+      "role_code": "GENERIC_OTHER_COMMITTEE_VICE_CHAIR",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "KAD1",
+      "role_code": "GENERIC_OTHER_COMMITTEE_VICE_CHAIR",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "M_D2",
+      "role_code": "GENERIC_OTHER_COMMITTEE_CHAIR",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "K_D1",
+      "role_code": "GENERIC_OTHER_COMMITTEE_VICE_CHAIR",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "DMD1",
+      "role_code": "GENERIC_OTHER_COMMITTEE_CHAIR",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "MMD1",
+      "role_code": "GENERIC_OTHER_COMMITTEE_VICE_CHAIR",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "PAD1",
+      "role_code": "GENERIC_OTHER_COMMITTEE_VICE_CHAIR",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "TFB1",
+      "role_code": "GENERIC_OTHER_COMMITTEE_CHAIR",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "MJF1",
+      "role_code": "GENERIC_OTHER_COMMITTEE_CHAIR",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "CAF1",
+      "role_code": "GENERIC_OTHER_COMMITTEE_CHAIR",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "BFR1",
+      "role_code": "GENERIC_OTHER_COMMITTEE_VICE_CHAIR",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "WCG1",
+      "role_code": "GENERIC_OTHER_COMMITTEE_CHAIR",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "WCG1",
+      "role_code": "GENERIC_OTHER_COMMITTEE_CHAIR",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "S_G1",
+      "role_code": "GENERIC_OTHER_COMMITTEE_CHAIR",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "JAG2",
+      "role_code": "GENERIC_OTHER_COMMITTEE_VICE_CHAIR",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "CLG1",
+      "role_code": "GENERIC_OTHER_COMMITTEE_VICE_CHAIR",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "JAG1",
+      "role_code": "GENERIC_OTHER_COMMITTEE_VICE_CHAIR",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "KIG1",
+      "role_code": "GENERIC_OTHER_COMMITTEE_CHAIR",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "RMH1",
+      "role_code": "GENERIC_OTHER_COMMITTEE_CHAIR",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "JKH1",
+      "role_code": "GENERIC_OTHER_COMMITTEE_VICE_CHAIR",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "C_H1",
+      "role_code": "GENERIC_OTHER_COMMITTEE_VICE_CHAIR",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "N_H1",
+      "role_code": "GENERIC_OTHER_COMMITTEE_VICE_CHAIR",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "REH1",
+      "role_code": "GENERIC_OTHER_COMMITTEE_VICE_CHAIR",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "KGH1",
+      "role_code": "GENERIC_OTHER_COMMITTEE_CHAIR",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "djh1",
+      "role_code": "GENERIC_OTHER_COMMITTEE_CHAIR",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "MSK1",
+      "role_code": "GENERIC_OTHER_COMMITTEE_VICE_CHAIR",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "SPK1",
+      "role_code": "GENERIC_OTHER_COMMITTEE_VICE_CHAIR",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "M_K1",
+      "role_code": "GENERIC_OTHER_COMMITTEE_VICE_CHAIR",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "MPK1",
+      "role_code": "GENERIC_OTHER_COMMITTEE_VICE_CHAIR",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "KPL1",
+      "role_code": "GENERIC_OTHER_COMMITTEE_CHAIR",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "JJL2",
+      "role_code": "GENERIC_OTHER_COMMITTEE_CHAIR",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "JPL1",
+      "role_code": "GENERIC_OTHER_COMMITTEE_CHAIR",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "DPL1",
+      "role_code": "GENERIC_OTHER_COMMITTEE_VICE_CHAIR",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "KLG1",
+      "role_code": "GENERIC_OTHER_COMMITTEE_CHAIR",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "J_L1",
+      "role_code": "GENERIC_OTHER_COMMITTEE_CHAIR",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "ACM1",
+      "role_code": "GENERIC_OTHER_COMMITTEE_CHAIR",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "JJM2",
+      "role_code": "GENERIC_OTHER_COMMITTEE_CHAIR",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "jwm1",
+      "role_code": "GENERIC_OTHER_COMMITTEE_CHAIR",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "P_M1",
+      "role_code": "GENERIC_OTHER_COMMITTEE_CHAIR",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "RAM1",
+      "role_code": "GENERIC_OTHER_COMMITTEE_VICE_CHAIR",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "AMM1",
+      "role_code": "GENERIC_OTHER_COMMITTEE_CHAIR",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "AMM1",
+      "role_code": "GENERIC_OTHER_COMMITTEE_CHAIR",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "S_M1",
+      "role_code": "GENERIC_OTHER_COMMITTEE_VICE_CHAIR",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "JMM1",
+      "role_code": "GENERIC_OTHER_COMMITTEE_CHAIR",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "BWM1",
+      "role_code": "GENERIC_OTHER_COMMITTEE_CHAIR",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "TTN1",
+      "role_code": "GENERIC_OTHER_COMMITTEE_CHAIR",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "SCO1",
+      "role_code": "GENERIC_OTHER_COMMITTEE_VICE_CHAIR",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "ERP1",
+      "role_code": "GENERIC_OTHER_COMMITTEE_VICE_CHAIR",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "AJP1",
+      "role_code": "GENERIC_OTHER_COMMITTEE_CHAIR",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "APR1",
+      "role_code": "GENERIC_OTHER_COMMITTEE_VICE_CHAIR",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "O_R1",
+      "role_code": "GENERIC_OTHER_COMMITTEE_VICE_CHAIR",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "EAR1",
+      "role_code": "GENERIC_OTHER_COMMITTEE_VICE_CHAIR",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "D_R1",
+      "role_code": "GENERIC_OTHER_COMMITTEE_VICE_CHAIR",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "DMR1",
+      "role_code": "GENERIC_OTHER_COMMITTEE_CHAIR",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "JHR1",
+      "role_code": "GENERIC_OTHER_COMMITTEE_VICE_CHAIR",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "djr1",
+      "role_code": "GENERIC_OTHER_COMMITTEE_CHAIR",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "L_S1",
+      "role_code": "GENERIC_OTHER_COMMITTEE_VICE_CHAIR",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "ALS1",
+      "role_code": "GENERIC_OTHER_COMMITTEE_VICE_CHAIR",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "AJS1",
+      "role_code": "GENERIC_OTHER_COMMITTEE_VICE_CHAIR",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "TMS1",
+      "role_code": "GENERIC_OTHER_COMMITTEE_CHAIR",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "JRT1",
+      "role_code": "GENERIC_OTHER_COMMITTEE_VICE_CHAIR",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "C_T1",
+      "role_code": "GENERIC_OTHER_COMMITTEE_VICE_CHAIR",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "S_G2",
+      "role_code": "GENERIC_OTHER_COMMITTEE_CHAIR",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "AXV1",
+      "role_code": "GENERIC_OTHER_COMMITTEE_CHAIR",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "T_V1",
+      "role_code": "GENERIC_OTHER_COMMITTEE_VICE_CHAIR",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "TJW1",
+      "role_code": "GENERIC_OTHER_COMMITTEE_CHAIR",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "BLW1",
+      "role_code": "GENERIC_OTHER_COMMITTEE_CHAIR",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "CJW1",
+      "role_code": "GENERIC_OTHER_COMMITTEE_VICE_CHAIR",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "JDZ1",
+      "role_code": "GENERIC_OTHER_COMMITTEE_VICE_CHAIR",
+      "session_id": "2025-2026"
+    }
+  ]
+}

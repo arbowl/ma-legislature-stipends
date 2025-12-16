@@ -6,10 +6,7 @@ from dataclasses import dataclass
 import json
 from pathlib import Path
 
-from audit.sources_registry import (
-    BASE_SALARY_ADJUSTMENT,
-    STIPEND_AMOUNT_ADJUSTMENT
-)
+from audit.sources_registry import BASE_SALARY_ADJUSTMENT, STIPEND_AMOUNT_ADJUSTMENT
 from audit.provenance import SourceRef
 from models.core import Session
 

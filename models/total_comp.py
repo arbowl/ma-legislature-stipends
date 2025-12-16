@@ -38,9 +38,7 @@ def total_comp_for_member(member: Member, session: Session) -> TotalCompResult:
     comps = [
         Component(label="Base salary (Article CXVIII)", amount=base),
         Component(label="Section 9B stipends", amount=stipends_9b),
-        Component(
-            label="Section 9C for travel/expenses", amount=travel_9c.amount
-        )
+        Component(label="Section 9C for travel/expenses", amount=travel_9c.amount),
     ]
     total_amount = sum(c.amount.value for c in comps)
     return TotalCompResult(

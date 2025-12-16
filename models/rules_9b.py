@@ -56,8 +56,7 @@ def _is_committee_chair(role_code: RoleCode) -> bool:
 
 
 def stipend_for_role_assignment(
-    assignment: RoleAssignment,
-    session: Session
+    assignment: RoleAssignment, session: Session
 ) -> Optional[RoleStipend]:
     """Compute the stipend based on role, session, and adjustment factor"""
     role_def = get_role_definition(assignment.role_code)
@@ -77,10 +76,7 @@ def stipend_for_role_assignment(
     )
 
 
-def raw_role_stipends_for_member(
-    member: Member,
-    session: Session
-) -> list[RoleStipend]:
+def raw_role_stipends_for_member(member: Member, session: Session) -> list[RoleStipend]:
     """Get stipends for role"""
     stipends: list[RoleStipend] = []
     for ra in member.roles:
@@ -101,9 +97,7 @@ def _subset_total_value(subset: tuple[RoleStipend, ...]) -> int:
     return sum(r.amount.value for r in subset)
 
 
-def _subset_key(
-    subset: tuple[RoleStipend, ...]
-) -> tuple[int, tuple[str, ...]]:
+def _subset_key(subset: tuple[RoleStipend, ...]) -> tuple[int, tuple[str, ...]]:
     """Generate sorted tuple of stipends and codes"""
     total = _subset_total_value(subset)
     codes = tuple(sorted(r.role_code for r in subset))
@@ -140,9 +134,7 @@ def select_paid_roles_for_member(
     for k in (1, 2):
         for combo in combinations(all_rs_only, k):
             print([co for co in combinations(all_rs_only, k)])
-            chair_count = sum(
-                1 for rs in combo if _is_committee_chair(rs.role_code)
-            )
+            chair_count = sum(1 for rs in combo if _is_committee_chair(rs.role_code))
             if chair_count > 1:
                 continue
             total = _subset_total_value(combo)
