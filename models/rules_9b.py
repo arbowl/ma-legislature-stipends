@@ -72,7 +72,7 @@ def stipend_for_role_assignment(
         role_code=assignment.role_code,
         session_id=assignment.session_id,
         amount=adjusted,
-        reason=f"Tier {tier_id} base {tier} adjusted by factor {factor}",
+        reason=f"Tier {tier_id} base ${tier.value:,} adjusted by factor {factor}",
     )
 
 
@@ -91,9 +91,6 @@ def raw_role_stipends_for_member(member: Member, session: Session) -> list[RoleS
 
 def _subset_total_value(subset: tuple[RoleStipend, ...]) -> int:
     """Provenance-enabled summation helper"""
-    for r in subset:
-        # Replace ProvenanceAmount with your actual class
-        print("DEBUG amount type:", type(r.amount), r.amount)
     return sum(r.amount.value for r in subset)
 
 
@@ -133,7 +130,6 @@ def select_paid_roles_for_member(
     all_rs_only = [rs for (rs, _is_chair) in candidates]
     for k in (1, 2):
         for combo in combinations(all_rs_only, k):
-            print([co for co in combinations(all_rs_only, k)])
             chair_count = sum(1 for rs in combo if _is_committee_chair(rs.role_code))
             if chair_count > 1:
                 continue
