@@ -1,0 +1,716 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MA Legislative Compensation Lookup - {{ session_id }}</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        :root {
+            --primary: #003366;
+            --accent: #2563eb;
+            --success: #16a34a;
+            --warning: #f59e0b;
+            --danger: #dc2626;
+            --gray-50: #f9fafb;
+            --gray-100: #f3f4f6;
+            --gray-200: #e5e7eb;
+            --gray-300: #d1d5db;
+            --gray-600: #4b5563;
+            --gray-800: #1f2937;
+            --gray-900: #111827;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            line-height: 1.6;
+            color: var(--gray-900);
+            background: var(--gray-50);
+        }
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        header {
+            background: var(--primary);
+            color: white;
+            padding: 30px 20px;
+            margin-bottom: 30px;
+            border-radius: 8px;
+        }
+        header h1 {
+            font-size: 2em;
+            margin-bottom: 8px;
+        }
+        header p {
+            opacity: 0.9;
+            font-size: 1.1em;
+        }
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+        .stat-card {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            border-left: 4px solid var(--accent);
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        }
+        .stat-card h3 {
+            font-size: 0.9em;
+            color: var(--gray-600);
+            margin-bottom: 8px;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+        .stat-card .value {
+            font-size: 1.8em;
+            font-weight: 700;
+            color: var(--primary);
+        }
+        .stat-card .sub {
+            font-size: 0.9em;
+            color: var(--gray-600);
+            margin-top: 4px;
+        }
+        .controls {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        }
+        .search-box {
+            position: relative;
+            margin-bottom: 15px;
+        }
+        .search-box input {
+            width: 100%;
+            padding: 12px 40px 12px 16px;
+            font-size: 1em;
+            border: 2px solid var(--gray-300);
+            border-radius: 6px;
+            outline: none;
+            transition: border-color 0.2s;
+        }
+        .search-box input:focus {
+            border-color: var(--accent);
+        }
+        .filters {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+        .filter-group {
+            display: flex;
+            gap: 8px;
+            align-items: center;
+        }
+        .filter-btn {
+            padding: 8px 16px;
+            border: 2px solid var(--gray-300);
+            background: white;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 0.9em;
+            transition: all 0.2s;
+        }
+        .filter-btn:hover {
+            border-color: var(--accent);
+        }
+        .filter-btn.active {
+            background: var(--accent);
+            color: white;
+            border-color: var(--accent);
+        }
+        select {
+            padding: 8px 12px;
+            border: 2px solid var(--gray-300);
+            border-radius: 6px;
+            font-size: 0.9em;
+            outline: none;
+            cursor: pointer;
+        }
+        select:focus {
+            border-color: var(--accent);
+        }
+        .results-info {
+            padding: 12px 0;
+            color: var(--gray-600);
+            font-size: 0.95em;
+        }
+        .member-card {
+            background: white;
+            border-radius: 8px;
+            padding: 24px;
+            margin-bottom: 16px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+            transition: box-shadow 0.2s;
+        }
+        .member-card:hover {
+            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+        }
+        .member-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: start;
+            margin-bottom: 20px;
+            padding-bottom: 16px;
+            border-bottom: 2px solid var(--gray-100);
+        }
+        .member-info h2 {
+            font-size: 1.5em;
+            color: var(--primary);
+            margin-bottom: 6px;
+        }
+        .member-info h2 a {
+            color: inherit;
+            text-decoration: none;
+            transition: color 0.2s;
+        }
+        .member-info h2 a:hover {
+            color: var(--accent);
+            text-decoration: underline;
+        }
+        .member-info h2 {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+        .source-badge {
+            display: inline-block;
+            padding: 2px 6px;
+            background: var(--gray-200);
+            color: var(--gray-600);
+            border-radius: 4px;
+            font-size: 0.85em;
+            text-decoration: none;
+            transition: all 0.2s;
+            vertical-align: middle;
+            opacity: 0.7;
+        }
+        .source-badge:hover {
+            background: var(--gray-300);
+            opacity: 1;
+        }
+        .member-meta {
+            display: flex;
+            gap: 12px;
+            flex-wrap: wrap;
+            font-size: 0.9em;
+        }
+        .rank-badge {
+            display: inline-block;
+            padding: 4px 8px;
+            background: var(--gray-100);
+            color: var(--gray-700);
+            border-radius: 4px;
+            font-size: 0.85em;
+            font-weight: 500;
+        }
+        .badge {
+            padding: 4px 10px;
+            border-radius: 4px;
+            font-weight: 600;
+            font-size: 0.85em;
+        }
+        .badge-party-D {
+            background: #dbeafe;
+            color: #1e40af;
+        }
+        .badge-party-R {
+            background: #fee2e2;
+            color: #991b1b;
+        }
+        .badge-party-Other {
+            background: var(--gray-200);
+            color: var(--gray-800);
+        }
+        .badge-chamber {
+            background: var(--gray-100);
+            color: var(--gray-800);
+        }
+        .total-comp {
+            text-align: right;
+        }
+        .total-comp .label {
+            font-size: 0.85em;
+            color: var(--gray-600);
+            margin-bottom: 4px;
+        }
+        .total-comp .amount {
+            font-size: 2em;
+            font-weight: 700;
+            color: var(--success);
+        }
+        .comp-section {
+            margin-bottom: 20px;
+        }
+        .comp-section-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 12px;
+            background: var(--gray-50);
+            border-radius: 6px;
+            cursor: pointer;
+            user-select: none;
+            transition: background 0.2s;
+        }
+        .comp-section-header:hover {
+            background: var(--gray-100);
+        }
+        .comp-section-header h3 {
+            font-size: 1.1em;
+            color: var(--gray-800);
+        }
+        .comp-section-header .amount {
+            font-size: 1.2em;
+            font-weight: 700;
+            color: var(--primary);
+        }
+        .comp-section-content {
+            display: none;
+            padding: 16px 12px;
+        }
+        .comp-section.expanded .comp-section-content {
+            display: block;
+        }
+        .comp-section.expanded .comp-section-header {
+            background: var(--gray-100);
+        }
+        .provenance {
+            margin-top: 12px;
+            padding: 12px;
+            background: var(--gray-50);
+            border-radius: 4px;
+            font-size: 0.9em;
+        }
+        .provenance-title {
+            font-weight: 600;
+            color: var(--gray-700);
+            margin-bottom: 8px;
+        }
+        .provenance-item {
+            padding: 6px 0;
+            color: var(--gray-600);
+        }
+        .provenance-item a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+        .provenance-item a:hover {
+            text-decoration: underline;
+        }
+        .role-list {
+            margin-top: 12px;
+        }
+        .role-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: start;
+            padding: 12px;
+            margin-bottom: 8px;
+            background: var(--gray-50);
+            border-radius: 6px;
+            border-left: 4px solid var(--success);
+        }
+        .role-item.unpaid {
+            opacity: 0.6;
+            border-left-color: var(--gray-400);
+        }
+        .role-title {
+            flex: 1;
+        }
+        .role-title h4 {
+            font-size: 1em;
+            color: var(--gray-800);
+            margin-bottom: 4px;
+        }
+        .role-detail {
+            font-size: 0.85em;
+            color: var(--gray-600);
+        }
+        .role-amount {
+            text-align: right;
+            font-weight: 700;
+            color: var(--primary);
+        }
+        .validation-warnings {
+            margin-top: 16px;
+            padding: 12px;
+            background: #fef3c7;
+            border-left: 4px solid var(--warning);
+            border-radius: 4px;
+        }
+        .validation-warnings h4 {
+            color: #92400e;
+            margin-bottom: 8px;
+        }
+        .validation-item {
+            font-size: 0.9em;
+            color: #78350f;
+            padding: 4px 0;
+        }
+        .no-results {
+            text-align: center;
+            padding: 60px 20px;
+            color: var(--gray-600);
+        }
+        .expand-all-btn {
+            padding: 8px 16px;
+            background: var(--accent);
+            color: white;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 0.9em;
+            transition: background 0.2s;
+        }
+        .expand-all-btn:hover {
+            background: #1d4ed8;
+        }
+        @media (max-width: 768px) {
+            .member-header {
+                flex-direction: column;
+            }
+            .total-comp {
+                text-align: left;
+                margin-top: 12px;
+            }
+            .filters {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Massachusetts Legislative Compensation</h1>
+            <p>Session {{ session_id }} - Interactive Viewer with Full Provenance</p>
+        </header>
+        <div class="stats-grid">
+            <div class="stat-card">
+                <h3>Total Members</h3>
+                <div class="value">{{ stats.total_members }}</div>
+            </div>
+            <div class="stat-card">
+                <h3>Total Compensation</h3>
+                <div class="value">${{ "{:,.0f}".format(stats.total_compensation) }}</div>
+            </div>
+            <div class="stat-card">
+                <h3>Average Compensation</h3>
+                <div class="value">${{ "{:,.0f}".format(stats.average_compensation) }}</div>
+                <div class="sub">Median: ${{ "{:,.0f}".format(stats.median_compensation) }}</div>
+            </div>
+            <div class="stat-card">
+                <h3>With Stipends</h3>
+                <div class="value">{{ stats.stipend_distribution['1_or_more_stipends'] }}</div>
+                <div class="sub">{{ stats.stipend_distribution['0_stipends'] }} without</div>
+            </div>
+        </div>
+        <div class="controls">
+            <div class="search-box">
+                <input type="text" id="searchInput" placeholder="Search by name..." autocomplete="off">
+            </div>
+            <div class="filters">
+                <div class="filter-group">
+                    <span>Chamber:</span>
+                    <button class="filter-btn active" data-filter="chamber" data-value="all">All</button>
+                    <button class="filter-btn" data-filter="chamber" data-value="house">House</button>
+                    <button class="filter-btn" data-filter="chamber" data-value="senate">Senate</button>
+                </div>
+                <div class="filter-group">
+                    <span>Party:</span>
+                    <button class="filter-btn active" data-filter="party" data-value="all">All</button>
+                    <button class="filter-btn" data-filter="party" data-value="D">D</button>
+                    <button class="filter-btn" data-filter="party" data-value="R">R</button>
+                </div>
+                <div class="filter-group">
+                    <span>Sort:</span>
+                    <select id="sortSelect">
+                        <option value="name">Name</option>
+                        <option value="total-desc">Total (High to Low)</option>
+                        <option value="total-asc">Total (Low to High)</option>
+                        <option value="stipends-desc">Stipends (High to Low)</option>
+                    </select>
+                </div>
+                <button class="expand-all-btn" onclick="toggleAllSections()">Expand All</button>
+            </div>
+        </div>
+        <div class="results-info" id="resultsInfo"></div>
+        <div id="results"></div>
+    </div>
+    <script>
+        const MEMBERS_DATA = {{ profiles_json|safe }};
+        let currentFilters = {
+            search: '',
+            chamber: 'all',
+            party: 'all',
+            sort: 'name'
+        };
+        let allExpanded = false;
+        let memberRankings = {};
+        function calculateRankings() {
+            const byChamber = { senate: [], house: [] };
+            MEMBERS_DATA.forEach(m => {
+                if (m.chamber in byChamber) {
+                    byChamber[m.chamber].push(m);
+                }
+            });
+            for (const chamber in byChamber) {
+                byChamber[chamber].sort((a, b) => b.compensation.total - a.compensation.total);
+                byChamber[chamber].forEach((m, idx) => {
+                    memberRankings[m.member_id] = {
+                        chamber_rank: idx + 1,
+                        chamber_total: byChamber[chamber].length,
+                        chamber: chamber
+                    };
+                });
+            }
+        }
+        function formatCurrency(amount) {
+            return '$' + amount.toLocaleString('en-US');
+        }
+        function filterMembers() {
+            let filtered = MEMBERS_DATA;
+            if (currentFilters.search) {
+                const query = currentFilters.search.toLowerCase();
+                filtered = filtered.filter(m =>
+                    m.name.toLowerCase().includes(query)
+                );
+            }
+            if (currentFilters.chamber !== 'all') {
+                filtered = filtered.filter(m =>
+                    m.chamber === currentFilters.chamber
+                );
+            }
+            if (currentFilters.party !== 'all') {
+                filtered = filtered.filter(m =>
+                    m.party === currentFilters.party
+                );
+            }
+            const sortFn = {
+                'name': (a, b) => a.name.localeCompare(b.name),
+                'total-desc': (a, b) => b.compensation.total - a.compensation.total,
+                'total-asc': (a, b) => a.compensation.total - b.compensation.total,
+                'stipends-desc': (a, b) => {
+                    const aStip = a.compensation.components[1].amount;
+                    const bStip = b.compensation.components[1].amount;
+                    return bStip - aStip;
+                }
+            }[currentFilters.sort];
+            filtered.sort(sortFn);
+            return filtered;
+        }
+        function renderProvenance(sources) {
+            if (!sources || sources.length === 0) return '';
+            return `
+                <div class="provenance">
+                    <div class="provenance-title">Sources:</div>
+                    ${sources.map(s => `
+                        <div class="provenance-item">
+                            ${s.url ? `<a href="${s.url}" target="_blank">${s.label}</a>` : s.label}
+                            ${s.kind ? ` (${s.kind})` : ''}
+                        </div>
+                    `).join('')}
+                </div>
+            `;
+        }
+        function renderMemberCard(member) {
+            const baseComp = member.compensation.components[0];
+            const stipendsComp = member.compensation.components[1];
+            const travelComp = member.compensation.components[2];
+            const stipendDetails = stipendsComp.details || {};
+            const roles = stipendDetails.breakdown || [];
+            const paidRoles = roles.filter(r => r.paid);
+            const unpaidRoles = roles.filter(r => !r.paid);
+            const ranking = memberRankings[member.member_id] || {};
+            const profileJsonLink = `profiles/${member.member_id}.json`;
+            const legislatureLink = `https://malegislature.gov/Legislators/Profile/${member.member_id}/Committees`;
+            return `
+                <div class="member-card">
+                    <div class="member-header">
+                        <div class="member-info">
+                            <h2>
+                                <a href="${legislatureLink}" target="_blank">${member.name}</a>
+                                <a href="${profileJsonLink}" target="_blank" class="source-badge" title="View JSON data source">📜</a>
+                            </h2>
+                            <div class="member-meta">
+                                <span class="badge badge-party-${member.party}">${member.party}</span>
+                                <span class="badge badge-chamber">${member.chamber.toUpperCase()}</span>
+                                ${ranking.chamber_rank ? 
+                                    `<span class="rank-badge">#${ranking.chamber_rank} in ${member.chamber.charAt(0).toUpperCase() + member.chamber.slice(1)}</span>` : ''}
+                                ${member.distance_from_state_house ? 
+                                    `<span>${member.distance_from_state_house.toFixed(1)} mi from State House</span>` : ''}
+                            </div>
+                        </div>
+                        <div class="total-comp">
+                            <div class="label">Total Compensation</div>
+                            <div class="amount">${formatCurrency(member.compensation.total)}</div>
+                        </div>
+                    </div>
+                    <div class="comp-section">
+                        <div class="comp-section-header" onclick="toggleSection(this)">
+                            <h3>${baseComp.label}</h3>
+                            <span class="amount">${formatCurrency(baseComp.amount)}</span>
+                        </div>
+                        <div class="comp-section-content">
+                            ${baseComp.details ? `
+                                <div style="margin-bottom: 12px; color: var(--gray-600); font-size: 0.9em;">
+                                    Base $${baseComp.details.base_amount.toLocaleString()} 
+                                    ${baseComp.details.adjustment_factor !== 1.0 ? 
+                                        `x ${baseComp.details.adjustment_factor.toFixed(4)}` : ''}
+                                </div>
+                            ` : ''}
+                            ${renderProvenance(baseComp.provenance)}
+                        </div>
+                    </div>
+                    <div class="comp-section">
+                        <div class="comp-section-header" onclick="toggleSection(this)">
+                            <h3>${stipendsComp.label}</h3>
+                            <span class="amount">${formatCurrency(stipendsComp.amount)}</span>
+                        </div>
+                        <div class="comp-section-content">
+                            ${stipendDetails.total_roles > 0 ? `
+                                <div style="margin-bottom: 12px; color: var(--gray-600); font-size: 0.9em;">
+                                    ${stipendDetails.paid_roles} of ${stipendDetails.total_roles} roles paid
+                                    ${stipendDetails.discarded_roles > 0 ? 
+                                        `(${stipendDetails.discarded_roles} discarded by statutory caps)` : ''}
+                                </div>
+                            ` : '<div style="color: var(--gray-600);">No leadership positions</div>'}
+                            ${paidRoles.length > 0 ? `
+                                <div class="role-list">
+                                    ${paidRoles.map(role => `
+                                        <div class="role-item">
+                                            <div class="role-title">
+                                                <h4>${role.role_title}</h4>
+                                                <div class="role-detail">
+                                                    ${role.tier_id ? `Tier ${role.tier_id}: ` : ''}
+                                                    Base $${role.base_amount.toLocaleString()} 
+                                                    ${role.adjustment_factor !== 1.0 ? 
+                                                        `x ${role.adjustment_factor.toFixed(4)}` : ''}
+                                                </div>
+                                            </div>
+                                            <div class="role-amount">
+                                                ${formatCurrency(role.adjusted_amount)}
+                                            </div>
+                                        </div>
+                                    `).join('')}
+                                </div>
+                            ` : ''}
+                            ${unpaidRoles.length > 0 ? `
+                                <div style="margin-top: 16px; font-weight: 600; color: var(--gray-700);">
+                                    Discarded Roles:
+                                </div>
+                                <div class="role-list">
+                                    ${unpaidRoles.map(role => `
+                                        <div class="role-item unpaid">
+                                            <div class="role-title">
+                                                <h4>${role.role_title}</h4>
+                                                <div class="role-detail">
+                                                    Not counted (statutory caps)
+                                                </div>
+                                            </div>
+                                            <div class="role-amount">
+                                                ${formatCurrency(role.adjusted_amount)}
+                                            </div>
+                                        </div>
+                                    `).join('')}
+                                </div>
+                            ` : ''}
+                            ${renderProvenance(stipendsComp.provenance)}
+                        </div>
+                    </div>
+                    <div class="comp-section">
+                        <div class="comp-section-header" onclick="toggleSection(this)">
+                            <h3>${travelComp.label}</h3>
+                            <span class="amount">${formatCurrency(travelComp.amount)}</span>
+                        </div>
+                        <div class="comp-section-content">
+                            ${travelComp.details ? `
+                                <div style="margin-bottom: 12px; color: var(--gray-600); font-size: 0.9em;">
+                                    ${travelComp.details.calculation}
+                                    ${travelComp.details.base_amount && travelComp.details.adjustment_factor !== 1.0 ? 
+                                        `<br>Base $${travelComp.details.base_amount.toLocaleString()} x ${travelComp.details.adjustment_factor.toFixed(4)}` : ''}
+                                </div>
+                            ` : ''}
+                            ${renderProvenance(travelComp.provenance)}
+                        </div>
+                    </div>
+                    ${member.validation_issues && member.validation_issues.length > 0 ? `
+                        <div class="validation-warnings">
+                            <h4>Validation Warnings</h4>
+                            ${member.validation_issues.map(issue => `
+                                <div class="validation-item">
+                                    [${issue.level}] ${issue.message}
+                                </div>
+                            `).join('')}
+                        </div>
+                    ` : ''}
+                </div>
+            `;
+        }
+        function renderResults() {
+            const filtered = filterMembers();
+            const resultsDiv = document.getElementById('results');
+            const infoDiv = document.getElementById('resultsInfo');
+            infoDiv.textContent = `Showing ${filtered.length} of ${MEMBERS_DATA.length} members`;
+            if (filtered.length === 0) {
+                resultsDiv.innerHTML = '<div class="no-results">No members found matching your criteria.</div>';
+                return;
+            }
+            resultsDiv.innerHTML = filtered.map(renderMemberCard).join('');
+        }
+        function toggleSection(header) {
+            const section = header.closest('.comp-section');
+            section.classList.toggle('expanded');
+        }
+        function toggleAllSections() {
+            allExpanded = !allExpanded;
+            const sections = document.querySelectorAll('.comp-section');
+            sections.forEach(section => {
+                if (allExpanded) {
+                    section.classList.add('expanded');
+                } else {
+                    section.classList.remove('expanded');
+                }
+            });
+            document.querySelector('.expand-all-btn').textContent = 
+                allExpanded ? 'Collapse All' : 'Expand All';
+        }
+        document.getElementById('searchInput').addEventListener('input', (e) => {
+            currentFilters.search = e.target.value;
+            renderResults();
+        });
+        document.querySelectorAll('.filter-btn').forEach(btn => {
+            btn.addEventListener('click', (e) => {
+                const filterType = btn.dataset.filter;
+                const filterValue = btn.dataset.value;
+                document.querySelectorAll(`[data-filter="${filterType}"]`).forEach(b => {
+                    b.classList.remove('active');
+                });
+                btn.classList.add('active');
+                currentFilters[filterType] = filterValue;
+                renderResults();
+            });
+        });
+        document.getElementById('sortSelect').addEventListener('change', (e) => {
+            currentFilters.sort = e.target.value;
+            renderResults();
+        });
+        calculateRankings();
+        renderResults();
+    </script>
+</body>
+</html>
+
