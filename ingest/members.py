@@ -62,6 +62,7 @@ def _parse_member_row(tr: BeautifulSoup, chamber: ChamberStr) -> Optional[RawMem
 
 
 def scrape_members_for_chamber(chamber: ChamberStr) -> list[RawMember]:
+    """Scrapes members for a given chamber"""
     path = MEMBERS_PATHS[chamber]
     soup = get_soup(path)
     table = soup.find("table")
@@ -93,6 +94,54 @@ def _infer_chamber_from_section(header_text: str) -> Optional[ChamberStr]:
     if "house" in t:
         return "house"
     return None
+
+
+def _parse_top_level_leader(
+    section: BeautifulSoup, chamber: ChamberStr
+) -> Optional[RawLeadershipRole]:
+    """
+    Parse the top-level leader (Senate President or Speaker of House).
+
+    Example block:
+    <div class="leadershipImageWrapper headshotWrapper-lg">
+        <a href="/Legislators/Profile/KES0">
+            <img src="..." alt="Karen E. Spilka">
+        </a>
+        ...
+    </div>
+    <h3 class="leadershipName">
+        <a href="/Legislators/Profile/KES0">Karen E. Spilka</a>
+    </h3>
+    <span class="leadershipRole">President of the Senate</span>
+    <span class="leadershipDistrict">Middlesex and Norfolk (D)</span>
+    """
+    img_wrapper = section.select_one(
+        "div.leadershipImageWrapper.headshotWrapper-lg"
+    )
+    if not img_wrapper:
+        return None
+    profile_link = img_wrapper.select_one(
+        "a[href*='/Legislators/Profile/']"
+    )
+    if not profile_link:
+        return None
+    profile_path = profile_link.get("href", "").strip()
+    if not profile_path:
+        return None
+    parts = profile_path.split("/")
+    member_id = parts[-1].split("?", 1)[0]
+    role_el = section.select_one("span.leadershipRole")
+    raw_title = role_el.get_text(strip=True) if role_el else ""
+    district_el = section.select_one("span.leadershipDistrict")
+    raw_district_party = (
+        district_el.get_text(strip=True) if district_el else ""
+    )
+    return RawLeadershipRole(
+        member_id=member_id,
+        chamber=chamber,
+        raw_title=raw_title,
+        raw_district_party=raw_district_party,
+    )
 
 
 def _parse_leadership_entry(
@@ -139,18 +188,22 @@ def scrape_leadership() -> list[RawLeadershipRole]:
     """Gets leadership card from page"""
     soup = get_soup(LEADERSHIP_PATH)
     roles: list[RawLeadershipRole] = []
-    headers = soup.find_all(["h2", "h3"])
-    for header in headers:
-        chamber = _infer_chamber_from_section(header.get_text(strip=True))
+    for col in soup.select("div.col-sm-12.col-md-6"):
+        h2 = col.select_one("h2")
+        if not h2:
+            continue
+        chamber = _infer_chamber_from_section(h2.get_text(strip=True))
         if chamber is None:
             continue
-        ul = header.find_next_sibling("ul")
-        if not ul:
-            continue
-        for li in ul.find_all("li", recursive=False):
-            rl = _parse_leadership_entry(li, chamber)
-            if rl is not None:
-                roles.append(rl)
+        top_leader = _parse_top_level_leader(col, chamber)
+        if top_leader:
+            roles.append(top_leader)
+        ul = col.select_one("ul.leadershipList")
+        if ul:
+            for li in ul.find_all("li", recursive=False):
+                rl = _parse_leadership_entry(li, chamber)
+                if rl is not None:
+                    roles.append(rl)
     return roles
 
 
