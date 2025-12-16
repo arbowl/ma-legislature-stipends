@@ -2,233 +2,138 @@
   "session_id": "2025-2026",
   "roles": [
     {
-      "member_id": "CSC0",
-      "role_code": "SENATE_MAJORITY_FLOOR_LEADER",
-      "session_id": "2025-2026"
-    },
-    {
-      "member_id": "WNB0",
-      "role_code": "SENATE_PRESIDENT",
-      "session_id": "2025-2026"
-    },
-    {
-      "member_id": "JBL0",
-      "role_code": "SENATE_MAJORITY_FLOOR_LEADER",
+      "member_id": "MJB0",
+      "role_code": "SENATE_TELECOM_UTILITIES_ENERGY_CHAIR",
       "session_id": "2025-2026"
     },
     {
       "member_id": "MJB0",
-      "role_code": "SENATE_MAJORITY_FLOOR_LEADER",
+      "role_code": "GENERIC_OTHER_COMMITTEE_VICE_CHAIR",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "MDB0",
+      "role_code": "GENERIC_OTHER_COMMITTEE_CHAIR",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "MDB0",
+      "role_code": "GENERIC_OTHER_COMMITTEE_VICE_CHAIR",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "MDB0",
+      "role_code": "GENERIC_OTHER_COMMITTEE_VICE_CHAIR",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "WNB0",
+      "role_code": "GENERIC_OTHER_COMMITTEE_CHAIR",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "N_C0",
+      "role_code": "SENATE_STATE_ADMIN_CHAIR",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "N_C0",
+      "role_code": "GENERIC_OTHER_COMMITTEE_VICE_CHAIR",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "N_C0",
+      "role_code": "GENERIC_OTHER_COMMITTEE_VICE_CHAIR",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "JMC0",
+      "role_code": "GENERIC_OTHER_COMMITTEE_CHAIR",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "JMC0",
+      "role_code": "GENERIC_OTHER_COMMITTEE_VICE_CHAIR",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "JMC0",
+      "role_code": "SENATE_WAYS_MEANS_VICE_CHAIR",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "JMC0",
+      "role_code": "GENERIC_OTHER_COMMITTEE_VICE_CHAIR",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "JMC0",
+      "role_code": "GENERIC_OTHER_COMMITTEE_VICE_CHAIR",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "CSC0",
+      "role_code": "GENERIC_OTHER_COMMITTEE_CHAIR",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "CSC0",
+      "role_code": "GENERIC_OTHER_COMMITTEE_VICE_CHAIR",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "BPC0",
+      "role_code": "GENERIC_OTHER_COMMITTEE_CHAIR",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "BPC0",
+      "role_code": "SENATE_TRANSPORTATION_CHAIR",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "BPC0",
+      "role_code": "GENERIC_OTHER_COMMITTEE_VICE_CHAIR",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "JJC0",
+      "role_code": "GENERIC_OTHER_COMMITTEE_CHAIR",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "JJC0",
+      "role_code": "GENERIC_OTHER_COMMITTEE_CHAIR",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "JJC0",
+      "role_code": "GENERIC_OTHER_COMMITTEE_VICE_CHAIR",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "JAC0",
+      "role_code": "GENERIC_OTHER_COMMITTEE_CHAIR",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "JAC0",
+      "role_code": "GENERIC_OTHER_COMMITTEE_VICE_CHAIR",
       "session_id": "2025-2026"
     },
     {
       "member_id": "SND0",
-      "role_code": "SENATE_MAJORITY_FLOOR_LEADER",
+      "role_code": "SENATE_BILLS_THIRD_READING_CHAIR",
       "session_id": "2025-2026"
     },
     {
-      "member_id": "BET0",
-      "role_code": "SENATE_MINORITY_FLOOR_LEADER",
-      "session_id": "2025-2026"
-    },
-    {
-      "member_id": "PMO",
-      "role_code": "SENATE_MINORITY_FLOOR_LEADER",
-      "session_id": "2025-2026"
-    },
-    {
-      "member_id": "RCF0",
-      "role_code": "SENATE_MINORITY_FLOOR_LEADER",
-      "session_id": "2025-2026"
-    },
-    {
-      "member_id": "PJD0",
-      "role_code": "SENATE_MINORITY_FLOOR_LEADER",
+      "member_id": "SND0",
+      "role_code": "GENERIC_OTHER_COMMITTEE_VICE_CHAIR",
       "session_id": "2025-2026"
     },
     {
       "member_id": "KAD0",
-      "role_code": "SENATE_MINORITY_FLOOR_LEADER",
-      "session_id": "2025-2026"
-    },
-    {
-      "member_id": "MJM1",
-      "role_code": "HOUSE_MAJORITY_FLOOR_LEADER",
-      "session_id": "2025-2026"
-    },
-    {
-      "member_id": "K_H1",
-      "role_code": "SPEAKER",
-      "session_id": "2025-2026"
-    },
-    {
-      "member_id": "AHP1",
-      "role_code": "HOUSE_MAJORITY_FLOOR_LEADER",
-      "session_id": "2025-2026"
-    },
-    {
-      "member_id": "FAM1",
-      "role_code": "HOUSE_MAJORITY_FLOOR_LEADER",
-      "session_id": "2025-2026"
-    },
-    {
-      "member_id": "PJD1",
-      "role_code": "HOUSE_MAJORITY_FLOOR_LEADER",
-      "session_id": "2025-2026"
-    },
-    {
-      "member_id": "BHJ1",
-      "role_code": "HOUSE_MINORITY_FLOOR_LEADER",
-      "session_id": "2025-2026"
-    },
-    {
-      "member_id": "KNF1",
-      "role_code": "HOUSE_MINORITY_FLOOR_LEADER",
-      "session_id": "2025-2026"
-    },
-    {
-      "member_id": "PKF1",
-      "role_code": "HOUSE_MINORITY_FLOOR_LEADER",
-      "session_id": "2025-2026"
-    },
-    {
-      "member_id": "DKM1",
-      "role_code": "HOUSE_MINORITY_FLOOR_LEADER",
-      "session_id": "2025-2026"
-    },
-    {
-      "member_id": "DTV1",
-      "role_code": "HOUSE_MINORITY_FLOOR_LEADER",
-      "session_id": "2025-2026"
-    },
-    {
-      "member_id": "MJB0",
-      "role_code": "GENERIC_OTHER_COMMITTEE_CHAIR",
-      "session_id": "2025-2026"
-    },
-    {
-      "member_id": "MJB0",
-      "role_code": "GENERIC_OTHER_COMMITTEE_VICE_CHAIR",
-      "session_id": "2025-2026"
-    },
-    {
-      "member_id": "MDB0",
-      "role_code": "GENERIC_OTHER_COMMITTEE_CHAIR",
-      "session_id": "2025-2026"
-    },
-    {
-      "member_id": "MDB0",
-      "role_code": "GENERIC_OTHER_COMMITTEE_VICE_CHAIR",
-      "session_id": "2025-2026"
-    },
-    {
-      "member_id": "MDB0",
-      "role_code": "GENERIC_OTHER_COMMITTEE_VICE_CHAIR",
-      "session_id": "2025-2026"
-    },
-    {
-      "member_id": "WNB0",
-      "role_code": "GENERIC_OTHER_COMMITTEE_CHAIR",
-      "session_id": "2025-2026"
-    },
-    {
-      "member_id": "N_C0",
-      "role_code": "GENERIC_OTHER_COMMITTEE_CHAIR",
-      "session_id": "2025-2026"
-    },
-    {
-      "member_id": "N_C0",
-      "role_code": "GENERIC_OTHER_COMMITTEE_VICE_CHAIR",
-      "session_id": "2025-2026"
-    },
-    {
-      "member_id": "N_C0",
-      "role_code": "GENERIC_OTHER_COMMITTEE_VICE_CHAIR",
-      "session_id": "2025-2026"
-    },
-    {
-      "member_id": "JMC0",
-      "role_code": "GENERIC_OTHER_COMMITTEE_CHAIR",
-      "session_id": "2025-2026"
-    },
-    {
-      "member_id": "JMC0",
-      "role_code": "GENERIC_OTHER_COMMITTEE_VICE_CHAIR",
-      "session_id": "2025-2026"
-    },
-    {
-      "member_id": "JMC0",
-      "role_code": "GENERIC_OTHER_COMMITTEE_VICE_CHAIR",
-      "session_id": "2025-2026"
-    },
-    {
-      "member_id": "JMC0",
-      "role_code": "GENERIC_OTHER_COMMITTEE_VICE_CHAIR",
-      "session_id": "2025-2026"
-    },
-    {
-      "member_id": "JMC0",
-      "role_code": "GENERIC_OTHER_COMMITTEE_VICE_CHAIR",
-      "session_id": "2025-2026"
-    },
-    {
-      "member_id": "CSC0",
-      "role_code": "GENERIC_OTHER_COMMITTEE_CHAIR",
-      "session_id": "2025-2026"
-    },
-    {
-      "member_id": "CSC0",
-      "role_code": "GENERIC_OTHER_COMMITTEE_VICE_CHAIR",
-      "session_id": "2025-2026"
-    },
-    {
-      "member_id": "BPC0",
-      "role_code": "GENERIC_OTHER_COMMITTEE_CHAIR",
-      "session_id": "2025-2026"
-    },
-    {
-      "member_id": "BPC0",
-      "role_code": "GENERIC_OTHER_COMMITTEE_CHAIR",
-      "session_id": "2025-2026"
-    },
-    {
-      "member_id": "BPC0",
-      "role_code": "GENERIC_OTHER_COMMITTEE_VICE_CHAIR",
-      "session_id": "2025-2026"
-    },
-    {
-      "member_id": "JJC0",
-      "role_code": "GENERIC_OTHER_COMMITTEE_CHAIR",
-      "session_id": "2025-2026"
-    },
-    {
-      "member_id": "JJC0",
-      "role_code": "GENERIC_OTHER_COMMITTEE_CHAIR",
-      "session_id": "2025-2026"
-    },
-    {
-      "member_id": "JJC0",
-      "role_code": "GENERIC_OTHER_COMMITTEE_VICE_CHAIR",
-      "session_id": "2025-2026"
-    },
-    {
-      "member_id": "JAC0",
-      "role_code": "GENERIC_OTHER_COMMITTEE_CHAIR",
-      "session_id": "2025-2026"
-    },
-    {
-      "member_id": "JAC0",
-      "role_code": "GENERIC_OTHER_COMMITTEE_VICE_CHAIR",
-      "session_id": "2025-2026"
-    },
-    {
-      "member_id": "SND0",
-      "role_code": "GENERIC_OTHER_COMMITTEE_CHAIR",
-      "session_id": "2025-2026"
-    },
-    {
-      "member_id": "SND0",
-      "role_code": "GENERIC_OTHER_COMMITTEE_VICE_CHAIR",
+      "role_code": "SENATE_HEALTH_CARE_FINANCING_RM",
       "session_id": "2025-2026"
     },
     {
@@ -248,7 +153,7 @@
     },
     {
       "member_id": "LME0",
-      "role_code": "GENERIC_OTHER_COMMITTEE_CHAIR",
+      "role_code": "SENATE_JUDICIARY_CHAIR",
       "session_id": "2025-2026"
     },
     {
@@ -258,7 +163,7 @@
     },
     {
       "member_id": "JBE0",
-      "role_code": "GENERIC_OTHER_COMMITTEE_CHAIR",
+      "role_code": "SENATE_REVENUE_CHAIR",
       "session_id": "2025-2026"
     },
     {
@@ -273,12 +178,12 @@
     },
     {
       "member_id": "PRF0",
-      "role_code": "GENERIC_OTHER_COMMITTEE_CHAIR",
+      "role_code": "SENATE_FINANCIAL_SERVICES_CHAIR",
       "session_id": "2025-2026"
     },
     {
       "member_id": "PRF0",
-      "role_code": "GENERIC_OTHER_COMMITTEE_VICE_CHAIR",
+      "role_code": "SENATE_WAYS_MEANS_VICE_CHAIR",
       "session_id": "2025-2026"
     },
     {
@@ -303,7 +208,7 @@
     },
     {
       "member_id": "BRF0",
-      "role_code": "GENERIC_OTHER_COMMITTEE_CHAIR",
+      "role_code": "SENATE_ECON_DEV_EMERG_TECH_CHAIR",
       "session_id": "2025-2026"
     },
     {
@@ -313,7 +218,7 @@
     },
     {
       "member_id": "CFF0",
-      "role_code": "GENERIC_OTHER_COMMITTEE_CHAIR",
+      "role_code": "SENATE_STEERING_POLICY_CHAIR",
       "session_id": "2025-2026"
     },
     {
@@ -323,7 +228,7 @@
     },
     {
       "member_id": "CFF0",
-      "role_code": "GENERIC_OTHER_COMMITTEE_CHAIR",
+      "role_code": "SENATE_HEALTH_CARE_FINANCING_CHAIR",
       "session_id": "2025-2026"
     },
     {
@@ -398,7 +303,7 @@
     },
     {
       "member_id": "jml0",
-      "role_code": "GENERIC_OTHER_COMMITTEE_CHAIR",
+      "role_code": "SENATE_EDUCATION_CHAIR",
       "session_id": "2025-2026"
     },
     {
@@ -408,7 +313,7 @@
     },
     {
       "member_id": "JBL0",
-      "role_code": "GENERIC_OTHER_COMMITTEE_CHAIR",
+      "role_code": "SENATE_RULES_CHAIR",
       "session_id": "2025-2026"
     },
     {
@@ -453,7 +358,7 @@
     },
     {
       "member_id": "MCM0",
-      "role_code": "GENERIC_OTHER_COMMITTEE_CHAIR",
+      "role_code": "SENATE_POST_AUDIT_CHAIR",
       "session_id": "2025-2026"
     },
     {
@@ -469,6 +374,11 @@
     {
       "member_id": "MOM0",
       "role_code": "GENERIC_OTHER_COMMITTEE_VICE_CHAIR",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "PMO",
+      "role_code": "SENATE_WAYS_MEANS_RM",
       "session_id": "2025-2026"
     },
     {
@@ -508,7 +418,7 @@
     },
     {
       "member_id": "MJR0",
-      "role_code": "GENERIC_OTHER_COMMITTEE_CHAIR",
+      "role_code": "SENATE_WAYS_MEANS_CHAIR",
       "session_id": "2025-2026"
     },
     {
@@ -548,7 +458,7 @@
     },
     {
       "member_id": "J_A1",
-      "role_code": "GENERIC_OTHER_COMMITTEE_CHAIR",
+      "role_code": "HOUSE_TRANSPORTATION_CHAIR",
       "session_id": "2025-2026"
     },
     {
@@ -558,12 +468,12 @@
     },
     {
       "member_id": "BMA1",
-      "role_code": "GENERIC_OTHER_COMMITTEE_VICE_CHAIR",
+      "role_code": "HOUSE_BILLS_THIRD_READING_VICE_CHAIR",
       "session_id": "2025-2026"
     },
     {
       "member_id": "BJA1",
-      "role_code": "GENERIC_OTHER_COMMITTEE_VICE_CHAIR",
+      "role_code": "HOUSE_EDUCATION_VICE_CHAIR",
       "session_id": "2025-2026"
     },
     {
@@ -577,8 +487,13 @@
       "session_id": "2025-2026"
     },
     {
+      "member_id": "DRB1",
+      "role_code": "HOUSE_JUDICIARY_RM",
+      "session_id": "2025-2026"
+    },
+    {
       "member_id": "D_B1",
-      "role_code": "GENERIC_OTHER_COMMITTEE_VICE_CHAIR",
+      "role_code": "HOUSE_FINANCIAL_SERVICES_VICE_CHAIR",
       "session_id": "2025-2026"
     },
     {
@@ -588,7 +503,7 @@
     },
     {
       "member_id": "AFC1",
-      "role_code": "GENERIC_OTHER_COMMITTEE_CHAIR",
+      "role_code": "HOUSE_STATE_ADMIN_CHAIR",
       "session_id": "2025-2026"
     },
     {
@@ -618,7 +533,7 @@
     },
     {
       "member_id": "R_C1",
-      "role_code": "GENERIC_OTHER_COMMITTEE_VICE_CHAIR",
+      "role_code": "HOUSE_RULES_VICE_CHAIR",
       "session_id": "2025-2026"
     },
     {
@@ -628,12 +543,12 @@
     },
     {
       "member_id": "MJC1",
-      "role_code": "GENERIC_OTHER_COMMITTEE_CHAIR",
+      "role_code": "HOUSE_TELECOM_UTILITIES_ENERGY_CHAIR",
       "session_id": "2025-2026"
     },
     {
       "member_id": "MSD1",
-      "role_code": "GENERIC_OTHER_COMMITTEE_CHAIR",
+      "role_code": "HOUSE_JUDICIARY_CHAIR",
       "session_id": "2025-2026"
     },
     {
@@ -643,7 +558,7 @@
     },
     {
       "member_id": "KAD1",
-      "role_code": "GENERIC_OTHER_COMMITTEE_VICE_CHAIR",
+      "role_code": "HOUSE_WAYS_MEANS_VICE_CHAIR",
       "session_id": "2025-2026"
     },
     {
@@ -683,22 +598,22 @@
     },
     {
       "member_id": "MJF1",
-      "role_code": "GENERIC_OTHER_COMMITTEE_CHAIR",
+      "role_code": "HOUSE_BONDING_CAPITAL_CHAIR",
       "session_id": "2025-2026"
     },
     {
       "member_id": "CAF1",
-      "role_code": "GENERIC_OTHER_COMMITTEE_CHAIR",
+      "role_code": "HOUSE_ECON_DEV_EMERG_TECH_CHAIR",
       "session_id": "2025-2026"
     },
     {
       "member_id": "BFR1",
-      "role_code": "GENERIC_OTHER_COMMITTEE_VICE_CHAIR",
+      "role_code": "HOUSE_JUDICIARY_VICE_CHAIR",
       "session_id": "2025-2026"
     },
     {
       "member_id": "WCG1",
-      "role_code": "GENERIC_OTHER_COMMITTEE_CHAIR",
+      "role_code": "HOUSE_RULES_CHAIR",
       "session_id": "2025-2026"
     },
     {
@@ -723,12 +638,12 @@
     },
     {
       "member_id": "JAG1",
-      "role_code": "GENERIC_OTHER_COMMITTEE_VICE_CHAIR",
+      "role_code": "HOUSE_ECON_DEV_EMERG_TECH_VICE_CHAIR",
       "session_id": "2025-2026"
     },
     {
       "member_id": "KIG1",
-      "role_code": "GENERIC_OTHER_COMMITTEE_CHAIR",
+      "role_code": "HOUSE_EDUCATION_CHAIR",
       "session_id": "2025-2026"
     },
     {
@@ -743,7 +658,7 @@
     },
     {
       "member_id": "C_H1",
-      "role_code": "GENERIC_OTHER_COMMITTEE_VICE_CHAIR",
+      "role_code": "HOUSE_STEERING_POLICY_SCHEDULING_VICE_CHAIR",
       "session_id": "2025-2026"
     },
     {
@@ -758,12 +673,22 @@
     },
     {
       "member_id": "KGH1",
-      "role_code": "GENERIC_OTHER_COMMITTEE_CHAIR",
+      "role_code": "HOUSE_STEERING_POLICY_SCHEDULING_CHAIR",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "SSH1",
+      "role_code": "HOUSE_FINANCIAL_SERVICES_RM",
       "session_id": "2025-2026"
     },
     {
       "member_id": "djh1",
       "role_code": "GENERIC_OTHER_COMMITTEE_CHAIR",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "HEK1",
+      "role_code": "HOUSE_HEALTH_CARE_FINANCING_RM",
       "session_id": "2025-2026"
     },
     {
@@ -778,12 +703,12 @@
     },
     {
       "member_id": "M_K1",
-      "role_code": "GENERIC_OTHER_COMMITTEE_VICE_CHAIR",
+      "role_code": "HOUSE_HEALTH_CARE_FINANCING_VICE_CHAIR",
       "session_id": "2025-2026"
     },
     {
       "member_id": "MPK1",
-      "role_code": "GENERIC_OTHER_COMMITTEE_VICE_CHAIR",
+      "role_code": "HOUSE_TELECOM_UTILITIES_ENERGY_VICE_CHAIR",
       "session_id": "2025-2026"
     },
     {
@@ -793,7 +718,7 @@
     },
     {
       "member_id": "JJL2",
-      "role_code": "GENERIC_OTHER_COMMITTEE_CHAIR",
+      "role_code": "HOUSE_HEALTH_CARE_FINANCING_CHAIR",
       "session_id": "2025-2026"
     },
     {
@@ -803,7 +728,7 @@
     },
     {
       "member_id": "DPL1",
-      "role_code": "GENERIC_OTHER_COMMITTEE_VICE_CHAIR",
+      "role_code": "HOUSE_REVENUE_VICE_CHAIR",
       "session_id": "2025-2026"
     },
     {
@@ -818,12 +743,12 @@
     },
     {
       "member_id": "ACM1",
-      "role_code": "GENERIC_OTHER_COMMITTEE_CHAIR",
+      "role_code": "HOUSE_REVENUE_CHAIR",
       "session_id": "2025-2026"
     },
     {
       "member_id": "JJM2",
-      "role_code": "GENERIC_OTHER_COMMITTEE_CHAIR",
+      "role_code": "HOUSE_POST_AUDIT_CHAIR",
       "session_id": "2025-2026"
     },
     {
@@ -843,7 +768,7 @@
     },
     {
       "member_id": "AMM1",
-      "role_code": "GENERIC_OTHER_COMMITTEE_CHAIR",
+      "role_code": "HOUSE_WAYS_MEANS_CHAIR",
       "session_id": "2025-2026"
     },
     {
@@ -858,7 +783,7 @@
     },
     {
       "member_id": "JMM1",
-      "role_code": "GENERIC_OTHER_COMMITTEE_CHAIR",
+      "role_code": "HOUSE_FINANCIAL_SERVICES_CHAIR",
       "session_id": "2025-2026"
     },
     {
@@ -872,13 +797,18 @@
       "session_id": "2025-2026"
     },
     {
+      "member_id": "NJO1",
+      "role_code": "HOUSE_BONDING_CAPITAL_RM",
+      "session_id": "2025-2026"
+    },
+    {
       "member_id": "SCO1",
       "role_code": "GENERIC_OTHER_COMMITTEE_VICE_CHAIR",
       "session_id": "2025-2026"
     },
     {
       "member_id": "ERP1",
-      "role_code": "GENERIC_OTHER_COMMITTEE_VICE_CHAIR",
+      "role_code": "HOUSE_TRANSPORTATION_VICE_CHAIR",
       "session_id": "2025-2026"
     },
     {
@@ -913,7 +843,7 @@
     },
     {
       "member_id": "JHR1",
-      "role_code": "GENERIC_OTHER_COMMITTEE_VICE_CHAIR",
+      "role_code": "HOUSE_BONDING_CAPITAL_VICE_CHAIR",
       "session_id": "2025-2026"
     },
     {
@@ -933,7 +863,17 @@
     },
     {
       "member_id": "AJS1",
-      "role_code": "GENERIC_OTHER_COMMITTEE_VICE_CHAIR",
+      "role_code": "HOUSE_POST_AUDIT_VICE_CHAIR",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "TMS2",
+      "role_code": "HOUSE_WAYS_MEANS_RM",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "MJS3",
+      "role_code": "HOUSE_ECON_DEV_EMERG_TECH_RM",
       "session_id": "2025-2026"
     },
     {
@@ -948,7 +888,7 @@
     },
     {
       "member_id": "C_T1",
-      "role_code": "GENERIC_OTHER_COMMITTEE_VICE_CHAIR",
+      "role_code": "HOUSE_STATE_ADMIN_VICE_CHAIR",
       "session_id": "2025-2026"
     },
     {
@@ -968,12 +908,17 @@
     },
     {
       "member_id": "TJW1",
-      "role_code": "GENERIC_OTHER_COMMITTEE_CHAIR",
+      "role_code": "HOUSE_BILLS_THIRD_READING_CHAIR",
       "session_id": "2025-2026"
     },
     {
       "member_id": "BLW1",
       "role_code": "GENERIC_OTHER_COMMITTEE_CHAIR",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "DHW1",
+      "role_code": "HOUSE_RULES_RM",
       "session_id": "2025-2026"
     },
     {
@@ -984,6 +929,136 @@
     {
       "member_id": "JDZ1",
       "role_code": "GENERIC_OTHER_COMMITTEE_VICE_CHAIR",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "KES0",
+      "role_code": "SENATE_PRESIDENT",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "CSC0",
+      "role_code": "SENATE_MAJORITY_FLOOR_LEADER",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "WNB0",
+      "role_code": "SENATE_PRESIDENT_PRO_TEMPORE",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "JBL0",
+      "role_code": "SENATE_MAJORITY_ASSISTANT_FLOOR_LEADER",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "MJB0",
+      "role_code": "SENATE_MAJORITY_ASSISTANT_FLOOR_LEADER",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "SND0",
+      "role_code": "SENATE_MAJORITY_ASSISTANT_FLOOR_LEADER",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "BET0",
+      "role_code": "SENATE_MINORITY_FLOOR_LEADER",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "PMO",
+      "role_code": "SENATE_MINORITY_ASSISTANT_FLOOR_LEADER",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "RCF0",
+      "role_code": "SENATE_MINORITY_ASSISTANT_FLOOR_LEADER",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "PJD0",
+      "role_code": "SENATE_MINORITY_ASSISTANT_FLOOR_LEADER",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "KAD0",
+      "role_code": "SENATE_MINORITY_ASSISTANT_FLOOR_LEADER",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "R_M1",
+      "role_code": "SPEAKER",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "MJM1",
+      "role_code": "HOUSE_MAJORITY_FLOOR_LEADER",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "K_H1",
+      "role_code": "HOUSE_SPEAKER_PRO_TEMPORE",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "AHP1",
+      "role_code": "HOUSE_MAJORITY_ASSISTANT_FLOOR_LEADER",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "FAM1",
+      "role_code": "HOUSE_MAJORITY_SECOND_ASSISTANT_FLOOR_LEADER",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "PJD1",
+      "role_code": "HOUSE_MAJORITY_SECOND_ASSISTANT_FLOOR_LEADER",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "DWG1",
+      "role_code": "HOUSE_DIVISION_CHAIR_1",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "JNR1",
+      "role_code": "HOUSE_DIVISION_CHAIR_2",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "C_G1",
+      "role_code": "HOUSE_DIVISION_CHAIR_3",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "JJO1",
+      "role_code": "HOUSE_DIVISION_CHAIR_4",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "BHJ1",
+      "role_code": "HOUSE_MINORITY_FLOOR_LEADER",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "KNF1",
+      "role_code": "HOUSE_MINORITY_ASSISTANT_FLOOR_LEADER",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "PKF1",
+      "role_code": "HOUSE_MINORITY_SECOND_ASSISTANT_FLOOR_LEADER",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "DKM1",
+      "role_code": "HOUSE_MINORITY_THIRD_ASSISTANT_FLOOR_LEADER",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "DTV1",
+      "role_code": "HOUSE_MINORITY_THIRD_ASSISTANT_FLOOR_LEADER",
       "session_id": "2025-2026"
     }
   ]
