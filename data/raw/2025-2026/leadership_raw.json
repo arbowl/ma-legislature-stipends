@@ -1,5 +1,11 @@
 [
   {
+    "member_id": "KES0",
+    "chamber": "senate",
+    "raw_title": "President of the Senate",
+    "raw_district_party": "Middlesex and Norfolk (D)"
+  },
+  {
     "member_id": "CSC0",
     "chamber": "senate",
     "raw_title": "Majority Leader",
@@ -70,6 +76,12 @@
     "chamber": "senate",
     "raw_title": "Assistant Minority Leader",
     "raw_district_party": "Third Bristol and Plymouth (R)"
+  },
+  {
+    "member_id": "R_M1",
+    "chamber": "house",
+    "raw_title": "Speaker of the House",
+    "raw_district_party": "Quincy (D)"
   },
   {
     "member_id": "MJM1",
