@@ -8,7 +8,6 @@ from pathlib import Path
 
 from audit.sources_registry import TRAVEL_AMOUNT_ADJUSTMENT, STIPEND_AMOUNT_ADJUSTMENT
 from audit.provenance import SourceRef
-from models.core import Session
 
 
 @dataclass(frozen=True)
@@ -42,6 +41,7 @@ class AdjustedTravel:
 
 
 def load_stipend_adjustment(session_id: str) -> AdjustedStipend:
+    """Loads stipend multiplier from config JSON"""
     path = Path("data/sessions") / session_id / "adjustment.json"
     data: dict = json.loads(path.read_text())
     return AdjustedStipend(
@@ -53,6 +53,7 @@ def load_stipend_adjustment(session_id: str) -> AdjustedStipend:
 
 
 def load_travel_adjustment(session_id: str) -> AdjustedTravel:
+    """Loads travel multiplier from config JSON"""
     path = Path("data/sessions") / session_id / "adjustment.json"
     data: dict = json.loads(path.read_text())
     return AdjustedTravel(

@@ -4,7 +4,8 @@ from __future__ import annotations
 
 from audit.provenance import SourceKind, SourceRef
 
-
+# pylint: disable = line-too-long
+# Lots of URLs here, don't need to break them up
 MGL_3_9B = SourceRef(
     id="MGL_3_9B",
     label="Mass. Gen. Laws c.3 S9B",
@@ -77,6 +78,6 @@ _ALL_SOURCES: dict[str, SourceRef] = {
 }
 
 
-def get_source(id: str) -> SourceRef:
+def get_source(source_id: str) -> SourceRef:
     """Given an ID, return a source from the registry"""
-    return _ALL_SOURCES[id]
+    return _ALL_SOURCES[source_id]

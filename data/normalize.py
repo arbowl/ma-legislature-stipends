@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+import argparse
 import json
 from pathlib import Path
 from typing import Optional
@@ -9,6 +10,41 @@ from typing import Optional
 from config.committee_catalog import get_committee_by_external_id
 from config.role_catalog import ROLE_DEFINITIONS
 from models.core import CommitteeRoleType
+
+
+_TITLE_MAP: dict[tuple[str, str], str] = {
+    ("president of the senate", "senate"): "SENATE_PRESIDENT",
+    ("president pro tempore", "senate"): "SENATE_PRESIDENT_PRO_TEMPORE",
+    ("speaker of the house", "house"): "SPEAKER",
+    ("speaker pro tempore", "house"): "HOUSE_SPEAKER_PRO_TEMPORE",
+    ("majority leader", "senate"): "SENATE_MAJORITY_FLOOR_LEADER",
+    ("majority leader", "house"): "HOUSE_MAJORITY_FLOOR_LEADER",
+    ("minority leader", "senate"): "SENATE_MINORITY_FLOOR_LEADER",
+    ("minority leader", "house"): "HOUSE_MINORITY_FLOOR_LEADER",
+    ("assistant majority leader", "senate"): "SENATE_MAJORITY_ASSISTANT_FLOOR_LEADER",
+    ("assistant majority leader", "house"): "HOUSE_MAJORITY_ASSISTANT_FLOOR_LEADER",
+    (
+        "second assistant majority leader",
+        "house",
+    ): "HOUSE_MAJORITY_SECOND_ASSISTANT_FLOOR_LEADER",
+    ("assistant minority leader", "senate"): "SENATE_MINORITY_ASSISTANT_FLOOR_LEADER",
+    (
+        "first assistant minority leader",
+        "house",
+    ): "HOUSE_MINORITY_ASSISTANT_FLOOR_LEADER",
+    (
+        "second assistant minority leader",
+        "house",
+    ): "HOUSE_MINORITY_SECOND_ASSISTANT_FLOOR_LEADER",
+    (
+        "third assistant minority leader",
+        "house",
+    ): "HOUSE_MINORITY_THIRD_ASSISTANT_FLOOR_LEADER",
+    ("first division chair", "house"): "HOUSE_DIVISION_CHAIR_1",
+    ("second division chair", "house"): "HOUSE_DIVISION_CHAIR_2",
+    ("third division chair", "house"): "HOUSE_DIVISION_CHAIR_3",
+    ("fourth division chair", "house"): "HOUSE_DIVISION_CHAIR_4",
+}
 
 
 def normalize_role_label(raw: Optional[str]) -> Optional[CommitteeRoleType]:
@@ -25,11 +61,14 @@ def normalize_role_label(raw: Optional[str]) -> Optional[CommitteeRoleType]:
     return None
 
 
+# pylint: disable = too-many-return-statements
+# One-time use function; no need to break it up
 def committee_role_to_internal(
     chamber: str,
     committee_external_id: str,
     raw_role_label: Optional[str],
 ) -> Optional[str]:
+    """Maps the name of the committee to the project's internal key"""
     role_type = normalize_role_label(raw_role_label)
     if role_type is None:
         return None
@@ -58,53 +97,12 @@ def committee_role_to_internal(
 
 def normalize_leadership_title(raw_title: str, chamber: str) -> Optional[str]:
     """Map scraped leadership title to internal role code"""
-    title_lower = raw_title.lower().strip()
-    chamber_lower = chamber.lower().strip()
-    if title_lower == "president of the senate" and chamber_lower == "senate":
-        return "SENATE_PRESIDENT"
-    if title_lower == "president pro tempore" and chamber_lower == "senate":
-        return "SENATE_PRESIDENT_PRO_TEMPORE"
-    if title_lower == "speaker of the house" and chamber_lower == "house":
-        return "SPEAKER"
-    if title_lower == "speaker pro tempore" and chamber_lower == "house":
-        return "HOUSE_SPEAKER_PRO_TEMPORE"
-    if title_lower == "majority leader":
-        if chamber_lower == "senate":
-            return "SENATE_MAJORITY_FLOOR_LEADER"
-        if chamber_lower == "house":
-            return "HOUSE_MAJORITY_FLOOR_LEADER"
-    if title_lower == "minority leader":
-        if chamber_lower == "senate":
-            return "SENATE_MINORITY_FLOOR_LEADER"
-        if chamber_lower == "house":
-            return "HOUSE_MINORITY_FLOOR_LEADER"
-    if title_lower == "assistant majority leader":
-        if chamber_lower == "senate":
-            return "SENATE_MAJORITY_ASSISTANT_FLOOR_LEADER"
-        if chamber_lower == "house":
-            return "HOUSE_MAJORITY_ASSISTANT_FLOOR_LEADER"
-    if title_lower == "second assistant majority leader":
-        if chamber_lower == "house":
-            return "HOUSE_MAJORITY_SECOND_ASSISTANT_FLOOR_LEADER"
-    if title_lower == "assistant minority leader" and chamber_lower == "senate":
-        return "SENATE_MINORITY_ASSISTANT_FLOOR_LEADER"
-    if title_lower == "first assistant minority leader" and chamber_lower == "house":
-        return "HOUSE_MINORITY_ASSISTANT_FLOOR_LEADER"
-    if title_lower == "second assistant minority leader" and chamber_lower == "house":
-        return "HOUSE_MINORITY_SECOND_ASSISTANT_FLOOR_LEADER"
-    if title_lower == "third assistant minority leader" and chamber_lower == "house":
-        return "HOUSE_MINORITY_THIRD_ASSISTANT_FLOOR_LEADER"
-    if title_lower == "first division chair" and chamber_lower == "house":
-        return "HOUSE_DIVISION_CHAIR_1"
-    if title_lower == "second division chair" and chamber_lower == "house":
-        return "HOUSE_DIVISION_CHAIR_2"
-    if title_lower == "third division chair" and chamber_lower == "house":
-        return "HOUSE_DIVISION_CHAIR_3"
-    if title_lower == "fourth division chair" and chamber_lower == "house":
-        return "HOUSE_DIVISION_CHAIR_4"
-    return None
+    key = (raw_title.lower().strip(), chamber.lower().strip())
+    return _TITLE_MAP.get(key)
 
 
+# pylint: disable = too-many-locals
+# One-time use function; no need to break it up
 def normalize_leadership_roles(
     session_id: str, raw_root: Path, sessions_root: Path
 ) -> None:
@@ -145,8 +143,6 @@ def normalize_leadership_roles(
 
 def main() -> None:
     """Run normalization to convert raw data"""
-    import argparse
-
     parser = argparse.ArgumentParser()
     parser.add_argument("session_id", help="Session ID, e.g. 2025-2026")
     args = parser.parse_args()

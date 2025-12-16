@@ -610,7 +610,10 @@ ROLE_SPECS += [
     ),
     Spec(
         code="HOUSE_BONDING_CAPITAL_RM",
-        title="Ranking Minority Member, House Committee on Bonding, Capital Expenditures and State Assets",
+        title=(
+            "Ranking Minority Member, House Committee on Bonding, "
+            "Capital Expenditures and State Assets"
+        ),
         domain=RoleDomain.COMMITTEE,
         chamber=Chamber.HOUSE,
         committee_code="JOINT_BONDING_CAPITAL_EXPENDITURES_AND_STATE_ASSETS",
@@ -637,7 +640,10 @@ ROLE_SPECS += [
     ),
     Spec(
         code="HOUSE_ECON_DEV_EMERG_TECH_RM",
-        title="Ranking Minority Member, House Committee on Economic Development and Emerging Technologies",
+        title=(
+            "Ranking Minority Member, House Committee on Economic Development "
+            "and Emerging Technologies"
+        ),
         domain=RoleDomain.COMMITTEE,
         chamber=Chamber.HOUSE,
         committee_code="JOINT_ECONOMIC_DEVELOPMENT_AND_EMERGING_TECHNOLOGIES",
@@ -758,8 +764,6 @@ ROLE_SPECS += [
         tier_id=StipendTierCode.TIER_5200,
     ),
 ]
-
-# Finally, build RoleDefinition objects
 
 ROLE_DEFINITIONS: dict[str, RoleDefinition] = {
     spec[_RoleKey.CODE]: RoleDefinition(

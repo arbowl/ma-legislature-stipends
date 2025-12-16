@@ -3,24 +3,8 @@
 from __future__ import annotations
 
 from dataclasses import dataclass, field
-from enum import Enum, auto
+from enum import StrEnum, Enum, auto
 from typing import Optional
-
-# Python 3.10 compatibility - StrEnum was added in Python 3.11
-try:
-    from enum import StrEnum
-except ImportError:
-
-    class StrEnum(str, Enum):
-        """Backport of StrEnum for Python 3.10"""
-
-        @staticmethod
-        def _generate_next_value_(name, start, count, last_values):
-            return name.lower()
-
-        def __str__(self):
-            return str(self.value)
-
 
 from audit.provenance import AmountWithProvenance
 from audit.sources_registry import MGL_3_9B
@@ -73,14 +57,19 @@ class Session:
     label: str = ""
 
     @staticmethod
-    def from_id_number(session: int) -> str:
+    def from_id_number(session: int) -> Session:
+        """Generates session ID from General Court #"""
         sessions: dict[int, str] = {
             0: "0-1",  # demo
             194: "2025-2026",
         }
         if session not in sessions:
             raise IndexError(f"Session #{session} not recognized.")
-        return sessions.get(session)
+        return Session(
+            id=sessions[session],
+            start_year=sessions[session].split("-")[0],
+            end_year=sessions[session].split("-")[1],
+        )
 
 
 @dataclass(frozen=True)

@@ -51,6 +51,7 @@ class RoleStipendInfo:
     provenance: list[dict[str, Any]]
 
     def to_dict(self) -> dict[str, Any]:
+        """Converts the dataclass to a dict"""
         return asdict(self)
 
 
@@ -64,6 +65,7 @@ class CompensationComponent:
     details: Optional[dict[str, Any]] = None
 
     def to_dict(self) -> dict[str, Any]:
+        """Converts the dataclass to a dict"""
         result = asdict(self)
         return {k: v for k, v in result.items() if v is not None}
 
@@ -84,6 +86,7 @@ class MemberProfile:
     raw_data_sources: dict[str, str]
 
     def to_dict(self) -> dict[str, Any]:
+        """Converts the dataclass to a dict"""
         return asdict(self)
 
 
@@ -102,6 +105,7 @@ class SessionSummaryStats:
     top_earners: list[dict[str, Any]]
 
     def to_dict(self) -> dict[str, Any]:
+        """Converts the dataclass to a dict"""
         return asdict(self)
 
 
@@ -119,4 +123,5 @@ class SessionReport:
     validation_summary: dict[str, Any]
 
     def to_dict(self) -> dict[str, Any]:
+        """Converts the dataclass to a dict"""
         return asdict(self)

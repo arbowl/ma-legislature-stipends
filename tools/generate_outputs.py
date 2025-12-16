@@ -22,7 +22,7 @@ def generate_all_outputs(
     profiles_dir = session_output / "profiles"
     reports_dir = session_output / "reports"
     print(f"\nGenerating outputs for {len(loaded.members)} members...")
-    print(f"\n1. Generating member profiles...")
+    print("\n1. Generating member profiles...")
     for i, member in enumerate(loaded.members.values(), 1):
         profile = generate_member_profile(member, session, session_id)
         output_path = profiles_dir / f"{member.member_id}.json"
@@ -30,21 +30,21 @@ def generate_all_outputs(
         if verbose or i % 20 == 0:
             print(f"   Generated {i}/{len(loaded.members)} profiles...")
     print(f"   [OK] Completed {len(loaded.members)} member profiles")
-    print(f"\n2. Generating session report...")
+    print("\n2. Generating session report...")
     report = generate_session_report(loaded)
     write_json(report.to_dict(), reports_dir / "full_session.json")
     write_json(report.summary_statistics, reports_dir / "summary_stats.json")
     write_json(report.validation_summary, reports_dir / "validation_report.json")
-    print(f"   [OK] Completed session report")
+    print("   [OK] Completed session report")
     print(f"\n{'='*60}")
-    print(f"[SUCCESS] All outputs generated successfully!")
+    print("[SUCCESS] All outputs generated successfully!")
     print(f"\nOutput location: {session_output.absolute()}")
-    print(f"\nGenerated:")
+    print("\nGenerated:")
     prof_rel = profiles_dir.relative_to(output_dir)
     print(f"  - {len(loaded.members)} member profiles in {prof_rel}/")
     rep_rel = reports_dir.relative_to(output_dir)
     print(f"  - Session report in {rep_rel}/")
-    print(f"\nValidation:")
+    print("\nValidation:")
     cat_err = report.validation_summary["catalog_errors"]
     sess_err = report.validation_summary["session_errors"]
     cat_warn = report.validation_summary["catalog_warnings"]
@@ -58,6 +58,7 @@ def generate_all_outputs(
 
 
 def main() -> None:
+    """Generate end-to-end JSON analysis packets"""
     parser = argparse.ArgumentParser(
         description="Generate JSON analysis outputs for legislative session"
     )

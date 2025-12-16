@@ -2,8 +2,15 @@
 
 from __future__ import annotations
 
+import json
+from pathlib import Path
+import re
+
 from audit.provenance import SourceRef
-from config.comp_adjustment import load_stipend_adjustment
+from config.comp_adjustment import (
+    load_stipend_adjustment,
+    load_travel_adjustment,
+)
 from config.role_catalog import get_role_definition
 from models.core import Member, Session
 from models.rules_9b import (
@@ -25,7 +32,8 @@ def _extract_provenance(sources: frozenset) -> list[dict]:
     """Extract provenance from a frozenset of sources"""
     all_sources = []
 
-    def extract_recursive(item):
+    def extract_recursive(item: SourceRef | frozenset) -> None:
+        """Extracts all sources from a list"""
         if isinstance(item, frozenset):
             for sub_item in item:
                 extract_recursive(sub_item)
@@ -87,10 +95,6 @@ def generate_member_profile(
             label=comp.label, amount=comp.amount.value, provenance=prov
         ).to_dict()
         if comp.label == "Base salary (Article CXVIII)":
-            from config.base_salary import load_base_salary_adjustment
-            import json
-            from pathlib import Path
-
             base_salary_data = json.loads(
                 (Path("data/sessions") / session.id / "base_salary.json").read_text()
             )
@@ -110,12 +114,8 @@ def generate_member_profile(
                 "discarded_roles": discarded,
             }
         if comp.label == "Section 9C for travel/expenses":
-            from config.comp_adjustment import load_travel_adjustment
-
             travel_result = travel_9c_for_member(member, session)
             travel_adj = load_travel_adjustment(session.id)
-            import re
-
             match = re.search(r"\$([0-9,]+)", travel_result.rule_applied)
             base_amount = (
                 int(match.group(1).replace(",", "")) if match else comp.amount.value

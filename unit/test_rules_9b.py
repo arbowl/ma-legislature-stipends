@@ -89,10 +89,8 @@ def test_two_chairs_and_one_leadership():
         session_id=session.id,
     )
     member.roles.extend([chair1, chair2, leadership])
-
     selection = select_paid_roles_for_member(member, session)
     paid_codes = {r.role_code for r in selection.paid_roles}
-
     assert len(paid_codes) == 2
     assert HOUSE_ASSISTANT_MAJORITY_LEADER.code in paid_codes
     assert {HOUSE_EDUCATION_CHAIR.code, HOUSE_JUDICIARY_CHAIR.code} & paid_codes

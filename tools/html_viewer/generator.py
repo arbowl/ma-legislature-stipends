@@ -65,6 +65,7 @@ def generate_html_viewer(
 
 
 def main() -> None:
+    """Generates the HTML page for workshop purposes"""
     parser = argparse.ArgumentParser(
         description="Generate HTML viewer for legislative compensation data"
     )

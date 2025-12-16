@@ -1,4 +1,7 @@
-"""Scrape committee roles"""
+"""Scrape committee roles.
+
+Run this file from the root to scrape once.
+"""
 
 from __future__ import annotations
 
@@ -15,6 +18,8 @@ from ingest.common import get_soup
 
 @dataclass
 class RawCommitteeRole:
+    """Unfiltered committee data from the source"""
+
     member_id: str
     session_id: str
     committee_external_id: str
@@ -95,24 +100,6 @@ def dump_committees_raw(
     out_dir = out_root / session_id
     out_dir.mkdir(parents=True, exist_ok=True)
     all_roles: list[dict] = []
-    for mid in member_ids:
-        roles = scrape_committees_for_member(mid, session_id)
-        all_roles.extend(asdict(r) for r in roles)
-        sleep(0.25)
-    out_path = out_dir / "committee_roles_raw.json"
-    out_path.write_text(json.dumps(all_roles, indent=2), encoding="utf-8")
-    return out_path
-
-
-def dump_committees_raw(
-    session_id: str,
-    member_ids: list[str],
-    out_root: Path = Path("data/raw"),
-) -> Path:
-    """Scrape committees for ALL members and write JSON file."""
-    out_dir = out_root / session_id
-    out_dir.mkdir(parents=True, exist_ok=True)
-    all_roles: list[dict] = []
     for idx, mid in enumerate(member_ids):
         print(f"{round((idx + 1) / len(member_ids) * 100, 2)}% done")
         roles = scrape_committees_for_member(mid, session_id)
@@ -125,7 +112,9 @@ def dump_committees_raw(
 
 def main() -> None:
     """Generates the raw committee JSON"""
-    members_raw = json.loads(Path("data/raw/2025-2026/members_raw.json").read_text())
+    members_raw = json.loads(
+        Path("data/raw/2025-2026/members_raw.json").read_text("utf-8")
+    )
     member_ids = [m["member_id"] for m in members_raw]
     dump_committees_raw("2025-2026", member_ids)
 

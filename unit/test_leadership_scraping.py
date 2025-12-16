@@ -2,8 +2,6 @@
 
 import json
 from pathlib import Path
-from unittest.mock import Mock
-from unittest.mock import patch
 
 import pytest
 from bs4 import BeautifulSoup
@@ -11,9 +9,7 @@ from bs4 import BeautifulSoup
 from ingest.members import _infer_chamber_from_section
 from ingest.members import _parse_leadership_entry
 from ingest.members import _parse_top_level_leader
-from ingest.members import scrape_leadership
-from ingest.types import RawLeadershipRole
-from scripts.normalize_leadership import normalize_leadership_title
+from data.normalize import normalize_leadership_title
 
 
 @pytest.fixture

@@ -8,7 +8,7 @@ from itertools import combinations
 from dataclasses import dataclass
 from typing import Optional
 
-from audit.provenance import AmountWithProvenance, ap_scale, ap_from
+from audit.provenance import AmountWithProvenance, ap_scale
 from audit.sources_registry import STIPEND_AMOUNT_ADJUSTMENT
 from models.core import (
     RoleAssignment,

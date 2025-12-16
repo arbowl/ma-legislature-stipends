@@ -111,6 +111,8 @@ def validate_session_data(loaded: LoadedSession) -> list[AuditIssue]:
 
 def main() -> None:
     """Runs the validators for debugging purposes"""
+    # pylint: disable = import-outside-toplevel
+    # This is for quick validation, but we don't want to create a dependency.
     from data.session_loader import load_session
 
     loaded = load_session(Path("data/sessions"), "2025-2026")
