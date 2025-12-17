@@ -1,7 +1,7 @@
 from pathlib import Path
 
 from data.session_loader import load_session
-from models.total_comp import total_comp_for_member
+from models.total_comp import total_comp_for_member, CompLabels
 from validators import validate_role_catalog, validate_session_data
 
 
@@ -17,11 +17,11 @@ def test_demo_session_totals():
         m_id: total_comp_for_member(member, session)
         for m_id, member in loaded.members.items()
     }
-    assert results["H001"].total == 200_000
-    assert results["H002"].total == 160_000
-    assert results["H003"].total == 90_000
-    assert results["H004"].total == 160_000
+    assert results["H001"].total.value == 170_000
+    assert results["H002"].total.value == 130_000
+    assert results["H003"].total.value == 90_000
+    assert results["H004"].total.value == 160_000
     alice_components = {c.label: c.amount.value for c in results["H001"].components}
-    assert alice_components["Base salary (Article CXVIII)"] == 75_000
-    assert alice_components["Section 9B stipends"] == 110_000
-    assert alice_components["Section 9C for travel/expenses"] == 15_000
+    assert alice_components[CompLabels.base_salary] == 75_000
+    assert alice_components[CompLabels.stipends_9b] == 80_000
+    assert alice_components[CompLabels.travel_9c] == 15_000
