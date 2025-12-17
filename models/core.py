@@ -167,13 +167,29 @@ class StipendTierCode(str, Enum):
     def get_base_amount(tier_id: StipendTierCode) -> AmountWithProvenance:
         """Get the base amount for the stipend tier"""
         tier_amounts: dict[StipendTierCode, AmountWithProvenance] = {
-            StipendTierCode.TIER_80K: AmountWithProvenance(80_000, MGL_3_9B),
-            StipendTierCode.TIER_65K: AmountWithProvenance(65_000, MGL_3_9B),
-            StipendTierCode.TIER_60K: AmountWithProvenance(60_000, MGL_3_9B),
-            StipendTierCode.TIER_50K: AmountWithProvenance(50_000, MGL_3_9B),
-            StipendTierCode.TIER_35K: AmountWithProvenance(35_000, MGL_3_9B),
-            StipendTierCode.TIER_30K: AmountWithProvenance(30_000, MGL_3_9B),
-            StipendTierCode.TIER_15K: AmountWithProvenance(15_000, MGL_3_9B),
-            StipendTierCode.TIER_5200: AmountWithProvenance(5_200, MGL_3_9B),
+            StipendTierCode.TIER_80K: AmountWithProvenance(
+                80_000, frozenset([MGL_3_9B])
+            ),
+            StipendTierCode.TIER_65K: AmountWithProvenance(
+                65_000, frozenset([MGL_3_9B])
+            ),
+            StipendTierCode.TIER_60K: AmountWithProvenance(
+                60_000, frozenset([MGL_3_9B])
+            ),
+            StipendTierCode.TIER_50K: AmountWithProvenance(
+                50_000, frozenset([MGL_3_9B])
+            ),
+            StipendTierCode.TIER_35K: AmountWithProvenance(
+                35_000, frozenset([MGL_3_9B])
+            ),
+            StipendTierCode.TIER_30K: AmountWithProvenance(
+                30_000, frozenset([MGL_3_9B])
+            ),
+            StipendTierCode.TIER_15K: AmountWithProvenance(
+                15_000, frozenset([MGL_3_9B])
+            ),
+            StipendTierCode.TIER_5200: AmountWithProvenance(
+                5_200, frozenset([MGL_3_9B])
+            ),
         }
         return tier_amounts[tier_id]
