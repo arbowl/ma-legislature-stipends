@@ -47,10 +47,12 @@ def ap_from(value: int, *sources: SourceRef) -> AmountWithProvenance:
     return AmountWithProvenance(value=value, sources=frozenset(sources))
 
 
-def ap_add(a: AmountWithProvenance, b: AmountWithProvenance) -> AmountWithProvenance:
+def ap_add(
+    a: AmountWithProvenance, b: AmountWithProvenance
+) -> AmountWithProvenance:
     """Adds two provenance artifacts"""
     return AmountWithProvenance(
-        value=a.value + b.value, sources=frozenset([a.sources]) | frozenset([b.sources])
+        value=a.value + b.value, sources=a.sources | b.sources
     )
 
 
@@ -68,5 +70,5 @@ def ap_scale(
     """Scales provenance artifacts according to BEA"""
     new_value = round(a.value * factor)
     return AmountWithProvenance(
-        value=new_value, sources=frozenset([a.sources]) | frozenset(extra_sources)
+        value=new_value, sources=a.sources | frozenset(extra_sources.values())
     )
