@@ -1,6 +1,5 @@
 ![Tests](https://github.com/arbowl/ma-legislature-stipends/workflows/Tests/badge.svg)
 ![Quick Check](https://github.com/arbowl/ma-legislature-stipends/workflows/Quick%20Check/badge.svg)
-[![Webpage Status](https://api.netlify.com/api/v1/badges/b0472686-0ddc-4dfe-88f9-8cff86262188/deploy-status)](https://app.netlify.com/projects/comforting-frangipane-e58c06/deploys)
 
 https://BeaconHillStipends.org/
 
@@ -316,3 +315,4 @@ Contributions are welcome:
 - Build new visualizations in `tools/`
 
 Open an issue or submit a PR.
+
