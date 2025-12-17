@@ -30,6 +30,9 @@
             color: var(--gray-900);
             background: var(--gray-50);
         }
+        html {
+            scroll-behavior: smooth;
+        }
         .container {
             max-width: 1400px;
             margin: 0 auto;
@@ -49,6 +52,54 @@
         header p {
             opacity: 0.9;
             font-size: 1.1em;
+        }
+        .header-meta {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 12px;
+            font-size: 0.9em;
+            opacity: 0.85;
+        }
+        .header-meta a {
+            color: white;
+            text-decoration: none;
+            padding: 6px 12px;
+            background: rgba(255, 255, 255, 0.15);
+            border-radius: 4px;
+            transition: background 0.2s;
+        }
+        .header-meta a:hover {
+            background: rgba(255, 255, 255, 0.25);
+        }
+        .header-nav {
+            margin-top: 20px;
+            padding-top: 16px;
+            border-top: 1px solid rgba(255, 255, 255, 0.2);
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            align-items: center;
+        }
+        .header-nav-label {
+            font-size: 0.9em;
+            opacity: 0.85;
+            margin-right: 4px;
+        }
+        .header-nav a {
+            color: white;
+            text-decoration: none;
+            padding: 6px 14px;
+            background: rgba(255, 255, 255, 0.15);
+            border-radius: 4px;
+            font-size: 0.9em;
+            transition: all 0.2s;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+        .header-nav a:hover {
+            background: rgba(255, 255, 255, 0.25);
+            border-color: rgba(255, 255, 255, 0.4);
+            transform: translateY(-1px);
         }
         .stats-grid {
             display: grid;
@@ -378,6 +429,69 @@
         .expand-all-btn:hover {
             background: #1d4ed8;
         }
+        .info-section {
+            background: white;
+            border-radius: 8px;
+            padding: 30px;
+            margin-top: 30px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+            scroll-margin-top: 20px;
+        }
+        .info-section h1 {
+            color: var(--primary);
+            font-size: 1.8em;
+            margin-bottom: 16px;
+            padding-bottom: 12px;
+            border-bottom: 2px solid var(--gray-200);
+        }
+        .info-section h2 {
+            color: var(--primary);
+            font-size: 1.6em;
+            margin-top: 0;
+            margin-bottom: 16px;
+            padding-bottom: 8px;
+            border-bottom: 2px solid var(--gray-200);
+        }
+        .info-section h3 {
+            color: var(--gray-800);
+            font-size: 1.3em;
+            margin-top: 24px;
+            margin-bottom: 12px;
+        }
+        .info-section h4 {
+            color: var(--gray-800);
+            font-size: 1.1em;
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
+        .info-section p {
+            color: var(--gray-700);
+            line-height: 1.7;
+            margin-bottom: 12px;
+        }
+        .info-section a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+        .info-section a:hover {
+            text-decoration: underline;
+        }
+        .info-section ul, .info-section ol {
+            margin-left: 24px;
+            margin-bottom: 12px;
+        }
+        .info-section li {
+            color: var(--gray-700);
+            line-height: 1.7;
+            margin-bottom: 8px;
+        }
+        .info-section code {
+            background: var(--gray-100);
+            padding: 2px 6px;
+            border-radius: 3px;
+            font-family: 'Courier New', monospace;
+            font-size: 0.9em;
+        }
         @media (max-width: 768px) {
             .member-header {
                 flex-direction: column;
@@ -389,6 +503,19 @@
             .filters {
                 flex-direction: column;
             }
+            .header-meta {
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 8px;
+            }
+            .header-nav {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+            .header-nav a {
+                width: 100%;
+                text-align: center;
+            }
         }
     </style>
 </head>
@@ -397,7 +524,21 @@
         <header>
             <h1>Massachusetts Legislative Compensation</h1>
             <p>Session {{ session_id }} - Interactive Viewer with Full Provenance</p>
+            <div class="header-meta">
+                <div>
+                    <span>Version {{ version }}</span>
+                    <span style="margin-left: 16px; opacity: 0.8;">Generated on {{ generated_on }}</span>
+                </div>
+                <a href="{{ github_url }}" target="_blank" rel="noopener noreferrer">View Source Code</a>
+            </div>
+            <div class="header-nav">
+                <span class="header-nav-label">Quick Links:</span>
+                {% for section in html_sections %}
+                <a href="#section-{{ loop.index0 }}">{{ section.title }}</a>
+                {% endfor %}
+            </div>
         </header>
+        
         <div class="stats-grid">
             <div class="stat-card">
                 <h3>Total Members</h3>
@@ -449,6 +590,12 @@
         </div>
         <div class="results-info" id="resultsInfo"></div>
         <div id="results"></div>
+        
+        {% for section in html_sections %}
+        <div class="info-section" id="section-{{ loop.index0 }}">
+            {{ section.content|safe }}
+        </div>
+        {% endfor %}
     </div>
     <script>
         const MEMBERS_DATA = {{ profiles_json|safe }};

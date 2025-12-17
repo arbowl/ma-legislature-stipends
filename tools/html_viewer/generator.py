@@ -4,9 +4,14 @@ from __future__ import annotations
 
 import argparse
 import json
+from datetime import datetime
 from pathlib import Path
 
 from jinja2 import Template
+import markdown  # type: ignore
+
+from version import __version__
+from tools.html_viewer.sections import sections
 
 
 def load_all_profiles(session_dir: Path) -> list[dict]:
@@ -33,6 +38,17 @@ def load_validation_report(session_dir: Path) -> dict:
         return json.load(f)
 
 
+def convert_sections_to_html() -> list[dict[str, str]]:
+    """Convert markdown sections to HTML with title as H2"""
+    html_sections = []
+    for title, content in sections.items():
+        html_content = markdown.markdown(content.strip())
+        # Prepend the section title as an H2 header
+        full_content = f"<h2>{title}</h2>\n{html_content}"
+        html_sections.append({"title": title, "content": full_content})
+    return html_sections
+
+
 def generate_html_viewer(
     session_id: str, output_dir: Path = Path("tools/output")
 ) -> Path:
@@ -49,6 +65,8 @@ def generate_html_viewer(
     with template_path.open("r", encoding="utf-8") as f:
         template = Template(f.read())
     print("Rendering HTML...")
+    html_sections = convert_sections_to_html()
+    generated_on = datetime.now().strftime("%B %d, %Y at %I:%M %p")
     html = template.render(
         session_id=session_id,
         profiles=profiles,
@@ -56,6 +74,10 @@ def generate_html_viewer(
         validation=validation,
         profiles_json=json.dumps(profiles, separators=(",", ":")),
         stats_json=json.dumps(stats, separators=(",", ":")),
+        version=__version__,
+        html_sections=html_sections,
+        github_url="https://github.com/arbowl/ma-legislature-stipends/",
+        generated_on=generated_on,
     )
     output_file = session_dir / "viewer.html"
     with output_file.open("w", encoding="utf-8") as f:
