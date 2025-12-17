@@ -13,7 +13,6 @@ This tool is built from public records and statue, not an authoritative source.
 Use the [CTHRU](https://cthrupayroll.mass.gov/#!/year/2025/) portal to verify
 actual compensation for a member for a given session.
 """,
-
     "Methodology": """
 ### Sources
 
@@ -65,7 +64,6 @@ Some liberties are taken with the model to make it consistent:
 
 - The model calculates the predicted annual compensation based on statute, not payroll data
 """,
-
     "FAQs": """
 ### Q: Does this show exactly what my legislator takes home?
 
@@ -81,7 +79,6 @@ It is not a guarantee of what they will actually receive.
 **A:** Click the sections under a legislator's card to expand them and see the full breakdown.
 Click the "📜" icon to see the detailed provenance for each component.
 """,
-
     "About/Contact": """
 
 My name is Drew Bowler. I'm an independent engineer and civic technologist focused on 
@@ -97,5 +94,5 @@ The code is open source and available on GitHub:
 You can contact me at [info@beaconhilltracker.org](mailto:drew@beaconhilltracker.org)
 
 _Special thanks to Scotia Hille for providing input on data and functionality._
-"""
+""",
 }
