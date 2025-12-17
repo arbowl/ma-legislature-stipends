@@ -151,7 +151,7 @@ class RoleCode(Enum):
     GENERIC_OTHER_COMMITTEE_VICE_CHAIR = "GENERIC_OTHER_COMMITTEE_VICE_CHAIR"
 
 
-class StipendTierCode(Enum):
+class StipendTierCode(str, Enum):
     """Enumeration of stipend tier codes"""
 
     TIER_80K = "T80K"
