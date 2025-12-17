@@ -26,6 +26,27 @@ ARTICLE_CXVIII_BASE = SourceRef(
     kind=SourceKind.STATUTE,
     details=frozenset(),
 )
+SENATE_RULES_11E = SourceRef(
+    id="SENATE_RULES_11E",
+    label="Senate Rules",
+    kind=SourceKind.OFFICIAL_WEBSITE,
+    url="https://malegislature.gov/Laws/Rules/Senate",
+    details=frozenset([
+        "11E. Members of the Senate may be compensated for service in no more "
+        "than 2 positions, whether as a member of leadership or as a chair, "
+        "vice-chair or ranking member of a committee. [2017, 2019.]",
+    ]),
+)
+HOUSE_RULES_18 = SourceRef(
+    id="HOUSE_RULES_18",
+    label="House Rules",
+    kind=SourceKind.OFFICIAL_WEBSITE,
+    url="https://malegislature.gov/Laws/Rules/House",
+    details=frozenset([
+        "No member shall receive more than one stipend pursuant to section "
+        "9B of chapter 3 of the General Laws."
+    ]),
+)
 BEA_WAGE_SERIES = SourceRef(
     id="BEA_WAGE_SERIES",
     label="BEA Massachusetts wages and salaries series (8-quarter adjustment)",
@@ -38,18 +59,18 @@ STIPEND_AMOUNT_ADJUSTMENT = SourceRef(
     label="Manual stipend adjustment from Massachusetts Almanac",
     kind=SourceKind.CALCULATION,
     url="https://massachusettsalmanac.com/perks-n-pay/",
-    details=frozenset(
+    details=frozenset([
         "Data calculated via delta from base value to Almanac reported current value"
-    ),
+    ]),
 )
 TRAVEL_AMOUNT_ADJUSTMENT = SourceRef(
     id="STIPEND_9B",
     label="Manual stipend adjustment from Massachusetts Almanac",
     kind=SourceKind.CALCULATION,
     url="https://massachusettsalmanac.com/perks-n-pay/",
-    details=frozenset(
+    details=frozenset([
         "Data calculated via delta from base value to Almanac reported current value"
-    ),
+    ]),
 )
 BASE_SALARY_ADJUSTMENT = SourceRef(
     id="BASE_SALARY_9B",
