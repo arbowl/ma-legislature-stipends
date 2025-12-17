@@ -47,13 +47,9 @@ def ap_from(value: int, *sources: SourceRef) -> AmountWithProvenance:
     return AmountWithProvenance(value=value, sources=frozenset(sources))
 
 
-def ap_add(
-    a: AmountWithProvenance, b: AmountWithProvenance
-) -> AmountWithProvenance:
+def ap_add(a: AmountWithProvenance, b: AmountWithProvenance) -> AmountWithProvenance:
     """Adds two provenance artifacts"""
-    return AmountWithProvenance(
-        value=a.value + b.value, sources=a.sources | b.sources
-    )
+    return AmountWithProvenance(value=a.value + b.value, sources=a.sources | b.sources)
 
 
 def ap_sum(amounts: Iterable[AmountWithProvenance]) -> AmountWithProvenance:
