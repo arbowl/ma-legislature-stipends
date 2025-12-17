@@ -46,6 +46,16 @@ def convert_sections_to_html() -> list[dict[str, str]]:
         # Prepend the section title as an H2 header
         full_content = f"<h2>{title}</h2>\n{html_content}"
         html_sections.append({"title": title, "content": full_content})
+    
+    # Add changelog as the last section
+    changelog_path = Path(__file__).parent.parent.parent / "CHANGELOG.md"
+    if changelog_path.exists():
+        with changelog_path.open("r", encoding="utf-8") as f:
+            changelog_content = f.read()
+        # Convert markdown to HTML (already includes H1 "Changelog")
+        changelog_html = markdown.markdown(changelog_content.strip())
+        html_sections.append({"title": "Changelog", "content": changelog_html})
+    
     return html_sections
 
 
@@ -79,7 +89,7 @@ def generate_html_viewer(
         github_url="https://github.com/arbowl/ma-legislature-stipends/",
         generated_on=generated_on,
     )
-    output_file = session_dir / "viewer.html"
+    output_file = session_dir / "index.html"
     with output_file.open("w", encoding="utf-8") as f:
         f.write(html)
     print(f"\n[SUCCESS] HTML viewer generated: {output_file.absolute()}")

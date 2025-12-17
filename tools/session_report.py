@@ -27,7 +27,7 @@ def generate_session_report(loaded: LoadedSession) -> SessionReport:
                 "base_salary": comp_result.components[0].amount.value,
                 "stipends_9b": comp_result.components[1].amount.value,
                 "travel_9c": comp_result.components[2].amount.value,
-                "total": comp_result.total,
+                "total": comp_result.total.value,
                 "distance_miles": member.distance_miles_from_state_house,
             }
         )

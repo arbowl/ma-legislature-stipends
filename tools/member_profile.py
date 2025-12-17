@@ -18,7 +18,7 @@ from models.rules_9b import (
     raw_role_stipends_for_member,
 )
 from models.rules_9c import travel_9c_for_member
-from models.total_comp import total_comp_for_member
+from models.total_comp import CompLabels, total_comp_for_member
 from tools.models import (
     CompensationComponent,
     MemberProfile,
@@ -94,7 +94,7 @@ def generate_member_profile(
         comp_dict = CompensationComponent(
             label=comp.label, amount=comp.amount.value, provenance=prov
         ).to_dict()
-        if comp.label == "Base salary (Article CXVIII)":
+        if comp.label == CompLabels.base_salary:
             base_salary_data = json.loads(
                 (Path("data/sessions") / session.id / "base_salary.json").read_text()
             )
@@ -105,7 +105,7 @@ def generate_member_profile(
                     "aggregate_change_factor", 1.0
                 ),
             }
-        if comp.label == "Section 9B stipends":
+        if comp.label == CompLabels.stipends_9b:
             discarded = len(raw_stipends) - len(selection.paid_roles)
             comp_dict["details"] = {
                 "breakdown": stipends_breakdown,
@@ -113,7 +113,7 @@ def generate_member_profile(
                 "paid_roles": len(selection.paid_roles),
                 "discarded_roles": discarded,
             }
-        if comp.label == "Section 9C for travel/expenses":
+        if comp.label == CompLabels.travel_9c:
             travel_result = travel_9c_for_member(member, session)
             travel_adj = load_travel_adjustment(session.id)
             match = re.search(r"\$([0-9,]+)", travel_result.rule_applied)
@@ -145,7 +145,7 @@ def generate_member_profile(
         district=member.district,
         distance_from_state_house=member.distance_miles_from_state_house,
         session_id=session_id,
-        compensation={"total": comp_result.total, "components": components},
+        compensation={"total": comp_result.total.value, "components": components},
         validation_issues=validation_issues,
         raw_data_sources={
             "member_data": f"data/sessions/{session_id}/members.json",
