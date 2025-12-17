@@ -1,5 +1,8 @@
 ![Tests](https://github.com/arbowl/ma-legislature-stipends/workflows/Tests/badge.svg)
 ![Quick Check](https://github.com/arbowl/ma-legislature-stipends/workflows/Quick%20Check/badge.svg)
+[![Webpage Status](https://api.netlify.com/api/v1/badges/b0472686-0ddc-4dfe-88f9-8cff86262188/deploy-status)](https://app.netlify.com/projects/comforting-frangipane-e58c06/deploys)
+
+https://BeaconHillStipends.org/
 
 # **Massachusetts Legislature Compensation Model**
 
@@ -175,3 +178,4 @@ The system is built to be extensible:
 * Produce richer public reports
 
 PRs and issues are welcome.
+
