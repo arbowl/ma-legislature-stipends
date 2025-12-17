@@ -5,11 +5,15 @@ stipends.
 from __future__ import annotations
 
 from itertools import combinations
-from dataclasses import dataclass
-from typing import Optional
+from dataclasses import dataclass, field
+from typing import Optional, Any
 
-from audit.provenance import AmountWithProvenance, ap_scale
-from audit.sources_registry import STIPEND_AMOUNT_ADJUSTMENT
+from audit.provenance import AmountWithProvenance, ap_scale, SourceRef
+from audit.sources_registry import (
+    STIPEND_AMOUNT_ADJUSTMENT,
+    SENATE_RULES_11E,
+    HOUSE_RULES_18,
+)
 from models.core import (
     RoleAssignment,
     Session,
@@ -17,6 +21,7 @@ from models.core import (
     StipendTierCode,
     RoleCode,
     CommitteeRoleType,
+    Chamber,
 )
 from config.role_catalog import (
     get_role_definition,
@@ -42,6 +47,52 @@ class PaidRoleSelection:
     member_id: str
     paid_roles: list[RoleStipend]
     total_amount: int
+    provenance: list[RoleSelectionProvenance] = field(default_factory=list)
+
+
+@dataclass(frozen=True)
+class RoleSelectionProvenance:
+    """Information about a role stipend"""
+
+    role_code: str
+    selected: bool
+    reason: str
+    notes: dict[str, Any] = field(default_factory=dict)
+    sources: frozenset[SourceRef] = field(default_factory=frozenset)
+
+
+@dataclass(frozen=True)
+class ChamberRules:
+    """Chamber-specific rules for role selection under 9B"""
+
+    chamber: Chamber
+    max_chairs: int
+    max_positions: int
+    source_ref: SourceRef
+
+    @property
+    def description(self) -> str:
+        """Human-readable rule description"""
+        if self.chamber == Chamber.HOUSE:
+            return "House: max 1 chair, max 1 position"
+        return "Senate: max 2 chairs, max 2 positions"
+
+
+def get_chamber_rules(chamber: Chamber) -> ChamberRules:
+    """Get the authoritative rules that apply to a specific chamber"""
+    if chamber == Chamber.HOUSE:
+        return ChamberRules(
+            chamber=Chamber.HOUSE,
+            max_chairs=1,
+            max_positions=1,
+            source_ref=HOUSE_RULES_18,
+        )
+    return ChamberRules(
+        chamber=Chamber.SENATE,
+        max_chairs=2,
+        max_positions=2,
+        source_ref=SENATE_RULES_11E,
+    )
 
 
 def _session_adjustment_factor(session: Session) -> float:
@@ -128,10 +179,13 @@ def select_paid_roles_for_member(
     best_subset: tuple[RoleStipend, ...] = tuple()
     best_amount = 0
     all_rs_only = [rs for (rs, _is_chair) in candidates]
-    for k in (1, 2):
+    chamber_rules = get_chamber_rules(member.chamber)
+    max_chairs = chamber_rules.max_chairs
+    max_positions = chamber_rules.max_positions
+    for k in range(1, max_positions + 1):
         for combo in combinations(all_rs_only, k):
             chair_count = sum(1 for rs in combo if _is_committee_chair(rs.role_code))
-            if chair_count > 1:
+            if chair_count > max_chairs:
                 continue
             total = _subset_total_value(combo)
             if total > best_amount:
@@ -146,11 +200,47 @@ def select_paid_roles_for_member(
     paid_roles_sorted = sorted(
         best_subset, key=lambda r: (-r.amount.value, r.role_code)
     )
+    sources_for_decision = (
+        [chamber_rules.source_ref] if len(candidates) > 1 else []
+    )
+    paid_set = {r.role_code for r in paid_roles_sorted}
+    provenance: list[RoleSelectionProvenance] = []
+    chair_cap_applied = len(
+        [rs for (rs, is_chair) in candidates if is_chair]
+    ) > 1
+    for rs, is_chair in candidates:
+        if rs.role_code in paid_set:
+            reason = "SELECTED_MAX_VALUE"
+            notes = {
+                "amount": rs.amount.value,
+                "is_chair": is_chair,
+                "max_positions": max_positions,
+            }
+        else:
+            if is_chair and chair_cap_applied:
+                reason = "DISCARDED_CHAIR_CAP"
+            elif len(paid_roles_sorted) >= max_positions:
+                reason = "DISCARDED_POSITION_CAP"
+            else:
+                reason = "DISCARDED_LOWER_VALUE"
+            notes = {
+                "amount": rs.amount.value,
+                "is_chair": is_chair,
+                "max_positions": max_positions,
+            }
+        provenance.append(RoleSelectionProvenance(
+            role_code=rs.role_code,
+            selected=rs.role_code in paid_set,
+            reason=reason,
+            notes=notes,
+            sources=frozenset(sources_for_decision),
+        ))
     return PaidRoleSelection(
         session_id=session.id,
         member_id=member.member_id,
         paid_roles=paid_roles_sorted,
         total_amount=sum(r.amount.value for r in paid_roles_sorted),
+        provenance=provenance,
     )
 
 
