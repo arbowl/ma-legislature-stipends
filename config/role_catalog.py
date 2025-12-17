@@ -574,7 +574,7 @@ ROLE_SPECS += [
     ),
     Spec(
         code="HOUSE_FINANCIAL_SERVICES_VICE_CHAIR",
-        title="Vice Chair, House Committee on Financial Services",
+        title="Vice Chair, Joint Committee on Financial Services",
         domain=RoleDomain.COMMITTEE,
         chamber=Chamber.HOUSE,
         committee_code="JOINT_FINANCIAL_SERVICES",
@@ -583,7 +583,7 @@ ROLE_SPECS += [
     ),
     Spec(
         code="HOUSE_FINANCIAL_SERVICES_RM",
-        title="Ranking Minority Member, House Committee on Financial Services",
+        title="Ranking Minority Member, Joint Committee on Financial Services",
         domain=RoleDomain.COMMITTEE,
         chamber=Chamber.HOUSE,
         committee_code="JOINT_FINANCIAL_SERVICES",
@@ -652,7 +652,7 @@ ROLE_SPECS += [
     ),
     Spec(
         code="HOUSE_REVENUE_VICE_CHAIR",
-        title="Vice Chair, House Committee on Revenue",
+        title="Vice Chair, Joint Committee on Revenue",
         domain=RoleDomain.COMMITTEE,
         chamber=Chamber.HOUSE,
         committee_code="JOINT_REVENUE",
