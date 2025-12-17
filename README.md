@@ -1,181 +1,318 @@
 ![Tests](https://github.com/arbowl/ma-legislature-stipends/workflows/Tests/badge.svg)
 ![Quick Check](https://github.com/arbowl/ma-legislature-stipends/workflows/Quick%20Check/badge.svg)
+[![Webpage Status](https://api.netlify.com/api/v1/badges/b0472686-0ddc-4dfe-88f9-8cff86262188/deploy-status)](https://app.netlify.com/projects/comforting-frangipane-e58c06/deploys)
 
 https://BeaconHillStipends.org/
 
-# **Massachusetts Legislature Compensation Model**
+# Massachusetts Legislature Compensation Model
 
-This project builds a **fully reproducible, transparent model** of annual compensation for members of the Massachusetts General Court. It encodes the statutory logic behind:
+A rules engine for calculating Massachusetts legislator compensation based on M.G.L. c.3 §9B (stipends) and §9C (travel expenses). This project scrapes, normalizes, and models legislative data to produce auditable, per-member compensation breakdowns with full provenance tracking.
 
-* **Leadership stipends** and **committee stipends** (M.G.L. c.3 §9B)
-* **Travel/distance expenses** (M.G.L. c.3 §9C)
-* **Base salary adjustments** (Article CXVIII of the Massachusetts Constitution)
-* The statute’s **caps and constraints**, including:
+## Quick Start
 
-  * At most **one paid committee chair**
-  * At most **two paid stipend-bearing positions** per member
+```bash
+py -m cli.compute_session_comp 2025-2026
+```
 
-The goal is to provide an auditable, data-driven system capable of computing compensation for any legislative session using publicly available information.
+This runs the compensation calculator for the 2025-2026 session and outputs total compensation for each member.
 
----
+## Architecture Overview
 
-## **What This Project Does**
+The pipeline follows a strict separation between the "real" data processing pipeline and visualization tools:
 
-### **1. Scrapes public legislative data**
+- **Core pipeline** (`ingest/`, `data/`, `models/`, `config/`, `audit/`): Scraping, normalization, rules engine, provenance tracking
+- **Visualization playground** (`tools/`): Reports, HTML generation, and data reconfiguration for presentation
 
-The toolkit automatically retrieves:
+### Pipeline Flow
 
-* The list of all House and Senate members
-* Their districts, parties, and profile identifiers
-* Leadership positions
-* Committee assignments
-* Committee metadata and identifiers
+```
+1. Scrape (ingest/)
+   - Raw HTML from malegislature.gov -> JSON
+2. Normalize (data/normalize.py)
+   - Raw JSON -> Clean session files
+3. Enrich (data/enrich_distance.py)
+   - Add geographic data, adjustments
+4. Compute (models/)
+   - Apply statutory rules
+5. Output (cli/ or tools/)
+   - Per-member compensation with provenance
+```
 
-All scraped data is stored in a structured, human-readable JSON format.
+## Provenance System
 
-### **2. Normalizes everything into a clean internal model**
+Every dollar amount in this system is wrapped in an `AmountWithProvenance` structure that tracks:
 
-The Legislature’s website is inconsistent in formatting names, roles, and committees.
-The pipeline:
+- **The value** (in whole dollars)
+- **Source references** (statutes, official sites, economic data, calculations)
 
-* Standardizes member records
-* Maps committee assignments to a canonical, session-independent catalog
-* Identifies which roles correspond to statutory stipend categories
-* Enforces chamber-appropriate distinctions (House vs Senate vs Joint)
+Source types include:
+- `STATUTE`: M.G.L. citations, constitutional amendments
+- `OFFICIAL_WEBSITE`: Legislature website, chamber rules
+- `ECONOMIC_SERIES`: BEA wage series for biennial adjustments
+- `DATA_FILE`: Session-specific configuration files
+- `CALCULATION`: Derived values with documented methodology
+- `MANUAL_OVERRIDE`: Explicit adjustments with journalistic sourcing
 
-This results in session datasets that the stipend calculator can rely on without ambiguity.
+All sources are registered in `audit/sources_registry.py` with URLs and explanatory details. This makes every calculation auditable back to its legal or data source.
 
-### **3. Computes stipends under M.G.L. c.3 §9B**
+### Example: Provenance in Action
 
-The model reproduces the statute’s stipend structure, including:
+When computing a committee chair stipend:
+1. Base tier amount -> sourced from M.G.L. c.3 §9B
+2. Session adjustment factor -> sourced from BEA wage data or manual override
+3. Final stipend -> carries both sources forward
 
-* Presiding officers
-* Floor leaders
-* Assistant leaders
-* Committee chairs / vice chairs / ranking minority members
-* Baseline statutory tiers (80k, 65k, 60k, 50k, etc.)
-* Session-specific adjustments (e.g., biennial increases)
+If the member holds multiple roles, the selection logic documents which roles were paid and which were excluded due to statutory caps (House: max 1 position, Senate: max 2 positions), with references to the relevant chamber rules.
 
-It also performs **statutory selection**, choosing the highest-paying lawful combination when a member holds more than two stipend-bearing roles.
+## Directory Structure
 
-### **4. Computes travel expenses under M.G.L. c.3 §9C**
+### `ingest/`
+Scrapers for malegislature.gov. Extracts:
+- Member roster (names, districts, parties, profile URLs)
+- Leadership positions (President, Speaker, floor leaders, etc.)
+- Committee assignments and roles
 
-Distance to the State House is derived from official district geographic centroids.
+Output: Raw JSON files stored in `data/raw/{session_id}/`
 
-The model assigns:
+### `data/`
+Data pipeline and session management:
 
-* **$15,000** for members living within 50 miles of the State House
-* **$20,000** for members living more than 50 miles away
+- **`normalize.py`**: Converts scraped data into canonical session files
+  - Maps inconsistent role titles to internal role codes
+  - Links committee assignments to the catalog in `config/committee_catalog.py`
+  - Produces `members.json` and `roles.json` for each session
 
-These totals are integrated into the final compensation output.
+- **`enrich_distance.py`**: Adds geographic data for travel expense calculations (§9C)
+  - Uses district centroids to compute State House distance
+  - Determines travel tier: $15k (≤50 miles) or $20k (>50 miles)
 
-### **5. Produces transparent, per-member compensation breakdowns**
+- **`session_loader.py`**: Loads and validates session data for the rules engine
 
-For each member and each session, the system outputs:
+Session files live in `data/sessions/{session_id}/`:
+```
+members.json              # Normalized member records
+roles.json                # Role assignments mapped to catalog
+base_salary.json          # Base salary config
+adjustment.json           # Session-specific adjustment factors
+district_centroids.json   # Geographic data for travel calc
+```
 
-* Base salary
-* Stipends earned (and which were discarded due to statutory caps)
-* Travel allowance
-* Total annual compensation
-* Provenance: where each figure came from, and why
+### `config/`
+Canonical definitions and catalogs:
 
-This makes the model suitable for research, journalism, policy analysis, and auditing.
+- **`role_catalog.py`**: Every role recognized by the statute, with its tier and stipend eligibility
+- **`committee_catalog.py`**: Session-independent committee definitions
+- **`stipend_tiers.py`**: Statutory stipend tiers (Tier 1: $80k, Tier 2: $65k, etc.)
+- **`base_salary.py`**: Article CXVIII base salary
+- **`comp_adjustment.py`**: Biennial adjustment factors
+- **`travel_config.py`**: §9C travel expense rules
 
----
+The catalogs map external identifiers (from the Legislature website) to internal codes used by the rules engine.
 
-## **How the Pipeline Works (Conceptually)**
+### `models/`
+Core rules engines:
 
-1. **Scrape**
+- **`core.py`**: Type definitions (`Member`, `Session`, `RoleAssignment`, etc.)
+- **`rules_9b.py`**: Stipend calculation engine
+  - Computes stipend for each role
+  - Applies chamber-specific caps (House: 1 position max, Senate: 2 positions max)
+  - Enforces "at most one paid committee chair" rule
+  - Selects the highest-paying lawful combination when caps apply
+- **`rules_9c.py`**: Travel expense calculation (distance-based)
+- **`total_comp.py`**: Aggregates base salary, stipends, and travel into total compensation
 
-   * Pull raw data from the Legislature’s website.
+### `audit/`
+Provenance and validation infrastructure:
 
-2. **Normalize**
+- **`provenance.py`**: `AmountWithProvenance` type and operations (add, scale, sum)
+- **`sources_registry.py`**: Registry of all source references with URLs and citations
+- **`issues.py`**: Validator issue types (errors, warnings)
 
-   * Clean district names, roles, committees.
-   * Match scraped data to the canonical internal catalogs.
-   * Write session-specific `members.json` and `roles.json`.
+### `validators.py`
+Validation checks run before computation:
+- Role catalog consistency (no duplicate codes, valid tier assignments)
+- Session data integrity (all member references valid, roles map to catalog)
+- Committee catalog completeness
 
-3. **Enrich**
+### `cli/`
+Command-line entry points:
 
-   * Add geographic distances.
-   * Apply session-specific stipend adjustment factors.
+- **`compute_session_comp.py`**: Main computation CLI
+  - Runs validators
+  - Computes total compensation for all members
+  - Outputs table with member ID, name, and total
 
-4. **Compute**
+### `tools/` (Visualization Playground)
+This directory is for experimenting with output formats and building reports. It's not part of the core data pipeline.
 
-   * Run the compensation engine for the session.
-   * Apply statutory rules, caps, and adjustments.
+## Data Sources
 
-5. **Output**
+The pipeline relies on:
 
-   * Per-member totals with explanations and audit trails.
+1. **malegislature.gov** for member rosters, leadership, and committee data
+2. **M.G.L. c.3 §9B** for stipend tier definitions and eligibility rules
+3. **M.G.L. c.3 §9C** for travel expense rules
+4. **Senate and House Rules** for chamber-specific caps
+5. **Massachusetts Constitution Article CXVIII** for base salary ($73,655 as of statute; adjusted biennially)
+6. **BEA wage series** (or manual overrides from journalistic sources) for session-specific adjustment factors
 
----
+## Running a Full Session
 
-## **What This Project Is *Not***
+To prepare and compute a new session from scratch:
 
-* It is **not** a tool that modifies or updates any official state records.
-* It is **not** an authoritative statement of legislative compensation.
+### 1. Scrape the data
+```bash
+py -m ingest.members --session-id 2025-2026
+py -m ingest.committees --session-id 2025-2026
+```
 
-  * It is an *open model*, based on public information and statutory interpretation.
-* It is **not** intended for real-time or operational payroll use.
+Output: `data/raw/2025-2026/*.json`
 
-  * It is a research-grade simulation.
+### 2. Normalize into session files
+```bash
+py -m data.normalize 2025-2026
+```
 
----
+Output: `data/sessions/2025-2026/members.json`, `roles.json`
 
-## **How to Use the Project**
+### 3. Enrich with geographic data
+```bash
+py -m data.enrich_distance 2025-2026
+```
 
-1. **Prepare a session**
-   Run the scrape + normalization pipeline for the desired legislative session.
+Output: `data/sessions/2025-2026/district_centroids.json`
 
-2. **Inspect the generated session files**
-   Session data lives under:
+### 4. Configure session parameters
+Manually create or update:
+- `data/sessions/2025-2026/base_salary.json`
+- `data/sessions/2025-2026/adjustment.json`
 
-   ```
-   data/sessions/<session_id>/
-       members.json
-       roles.json
-       base_salary.json
-       stipend_adjustment_9b.json
-   ```
+(See existing session files for format)
 
-3. **Run the compensation calculator**
-   Use the CLI or library call to compute totals for all members.
+### 5. Compute compensation
+```bash
+py -m cli.compute_session_comp 2025-2026
+```
 
-4. **Review the results**
-   The output includes:
+### 6. (Optional) Generate reports
+```bash
+py -m tools.generate_outputs --session-id 2025-2026
+```
 
-   * Stipend components
-   * Which roles counted or were excluded
-   * Travel allowance
-   * Total compensation with detailed provenance
+Output: `tools/output/2025-2026/` (JSON reports, HTML viewer)
 
----
+## Statutory Rules Implemented
 
-## **Why This Project Exists**
+### M.G.L. c.3 §9B: Stipends
 
-Massachusetts’ legislative compensation system is:
+The model encodes the full stipend structure:
 
-* Complex
-* Distributed across multiple laws
-* Partially reported
-* Lacking a canonical, machine-readable source
+- **Presiding officers**: Senate President, Speaker of the House
+- **Floor leaders**: Majority/Minority leaders, assistant leaders
+- **Committee leadership**: Chairs, vice chairs, ranking minority members
+- **Tier system**: Tier 1 ($80k), Tier 2 ($65k), Tier 3 ($60k), Tier 4 ($50k), etc.
 
-This project fills that gap by creating an open, rigorously structured model that anyone can inspect, audit, reproduce, and build upon.
+Statutory caps:
+- **House**: No member may receive more than one stipend (House Rules §18)
+- **Senate**: Members may be compensated for no more than 2 positions (Senate Rules §11E)
+- **All chambers**: At most one paid committee chair per member
 
----
+When a member holds multiple eligible roles, the engine selects the highest-paying lawful combination and documents which roles were excluded.
 
-## **Contributions and Extensions**
+### M.G.L. c.3 §9C: Travel Expenses
 
-The system is built to be extensible:
+- Members living ≤50 miles from the State House: $15,000
+- Members living >50 miles from the State House: $20,000
 
-* Add new sessions
-* Refine role catalogs
-* Improve scraping and normalization
-* Update stipend adjustments as new data becomes available
-* Extend distance modeling with additional geographic sources
-* Produce richer public reports
+Distance calculated from district geographic centroid.
 
-PRs and issues are welcome.
+### Article CXVIII: Base Salary
 
+Statutory base: $73,655 (subject to biennial adjustment per §9B(g))
 
+## Key Design Principles
+
+### Session-Independent Catalogs
+
+Role and committee catalogs use internal codes that don't change across sessions. This allows:
+- Longitudinal analysis across multiple sessions
+- Stable references for tracking role evolution
+- Easier diffing and comparison
+
+External identifiers (from the Legislature website) are mapped to internal codes during normalization.
+
+### Separation of Scraping and Logic
+
+Raw scraped data is stored as-is in `data/raw/`. Normalization happens in a separate step, which means:
+- Re-running normalization doesn't require re-scraping
+- Changes to role mappings can be applied retroactively
+- Data lineage is clear: raw → normalized → computed
+
+### Explicit Handling of Edge Cases
+
+The normalization layer identifies:
+- Unmapped roles (roles that exist but have no statutory stipend)
+- Unrecognized committees (mapped to generic "OTHER COMMITTEE" roles)
+- Missing or inconsistent data
+
+These are logged during normalization and flagged by validators before computation.
+
+## Testing
+
+Run the test suite:
+
+```bash
+pytest unit/
+```
+
+Tests cover:
+- Role catalog validation
+- Session data integrity
+- Statutory selection logic (9B caps)
+- Provenance propagation
+- Demo session computation
+
+## For Journalists and Watchdogs
+
+This system is designed for transparency. Every compensation figure includes:
+
+1. **Which roles** contributed to the total
+2. **Which roles** were held but excluded due to caps
+3. **Exact statutory or data sources** for every amount
+4. **Session-specific adjustments** and their methodology
+
+To audit a specific member:
+
+```bash
+py -m tools.member_profile --session-id 2025-2026 --member-id KES0
+```
+
+This generates a detailed breakdown showing:
+- Base salary (with source)
+- Each stipend (role, tier, amount, source)
+- Why certain roles didn't count (statutory cap explanation)
+- Travel expense (distance, tier, amount, source)
+- Total compensation with full provenance chain
+
+Output is available as JSON (`tools/output/{session}/profiles/{member_id}.json`) or HTML.
+
+## Limitations and Scope
+
+This is a model, not an official record. It:
+- **Is not** connected to the state's payroll system
+- **Does not** account for voluntary stipend refusal (some members decline stipends)
+- **Does not** model mid-session role changes (uses roster as of session start)
+- **May contain** mapping errors where scraped data is ambiguous
+
+The project aims for accuracy but is an independent reconstruction of statutory rules applied to public data. Use it as a research tool and cross-reference with official records when precision matters.
+
+## Contributing
+
+Contributions are welcome:
+- Improve scraping robustness
+- Add historical sessions
+- Refine role or committee catalogs
+- Extend validation checks
+- Build new visualizations in `tools/`
+
+Open an issue or submit a PR.
