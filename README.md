@@ -245,7 +245,7 @@ External identifiers (from the Legislature website) are mapped to internal codes
 Raw scraped data is stored as-is in `data/raw/`. Normalization happens in a separate step, which means:
 - Re-running normalization doesn't require re-scraping
 - Changes to role mappings can be applied retroactively
-- Data lineage is clear: raw → normalized → computed
+- Data lineage is clear: raw -> normalized -> computed
 
 ### Explicit Handling of Edge Cases
 
@@ -315,4 +315,5 @@ Contributions are welcome:
 - Build new visualizations in `tools/`
 
 Open an issue or submit a PR.
+
 
