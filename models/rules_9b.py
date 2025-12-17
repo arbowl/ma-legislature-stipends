@@ -200,14 +200,10 @@ def select_paid_roles_for_member(
     paid_roles_sorted = sorted(
         best_subset, key=lambda r: (-r.amount.value, r.role_code)
     )
-    sources_for_decision = (
-        [chamber_rules.source_ref] if len(candidates) > 1 else []
-    )
+    sources_for_decision = [chamber_rules.source_ref] if len(candidates) > 1 else []
     paid_set = {r.role_code for r in paid_roles_sorted}
     provenance: list[RoleSelectionProvenance] = []
-    chair_cap_applied = len(
-        [rs for (rs, is_chair) in candidates if is_chair]
-    ) > 1
+    chair_cap_applied = len([rs for (rs, is_chair) in candidates if is_chair]) > 1
     for rs, is_chair in candidates:
         if rs.role_code in paid_set:
             reason = "SELECTED_MAX_VALUE"
@@ -228,13 +224,15 @@ def select_paid_roles_for_member(
                 "is_chair": is_chair,
                 "max_positions": max_positions,
             }
-        provenance.append(RoleSelectionProvenance(
-            role_code=rs.role_code,
-            selected=rs.role_code in paid_set,
-            reason=reason,
-            notes=notes,
-            sources=frozenset(sources_for_decision),
-        ))
+        provenance.append(
+            RoleSelectionProvenance(
+                role_code=rs.role_code,
+                selected=rs.role_code in paid_set,
+                reason=reason,
+                notes=notes,
+                sources=frozenset(sources_for_decision),
+            )
+        )
     return PaidRoleSelection(
         session_id=session.id,
         member_id=member.member_id,
