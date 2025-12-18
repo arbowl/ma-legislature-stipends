@@ -34,13 +34,13 @@ def travel_9c_for_member(member: Member, session: Session) -> TravelAllowance:
         amount = rule.amount_leq_threshold
         rule_applied = (
             f"distance {d:.1f} <= {rule.distance_threshold_miles} miles "
-            f"-> ${rule.amount_leq_threshold}"
+            f"-> ${rule.amount_leq_threshold.value}"
         )
     else:
         amount = rule.amount_gt_threshold
         rule_applied = (
             f"distance {d:.1f} > {rule.distance_threshold_miles} miles "
-            f"-> ${rule.amount_gt_threshold}"
+            f"-> ${rule.amount_gt_threshold.value}"
         )
     adjustment = load_travel_adjustment(session.id)
     if adjustment.factor > 1.0:
