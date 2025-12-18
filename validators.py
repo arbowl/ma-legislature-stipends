@@ -7,7 +7,7 @@ from pathlib import Path
 from audit.issues import AuditIssue
 from config.role_catalog import ROLE_DEFINITIONS, RoleDefinition, get_role_definition
 from config.stipend_tiers import STIPEND_TIERS
-from data.session_loader import LoadedSession
+from data.session_loader import LoadedSession, load_session
 from models.core import CommitteeRoleType, Member
 
 
@@ -97,7 +97,7 @@ def validate_session_data(loaded: LoadedSession) -> list[AuditIssue]:
             issues.append(
                 AuditIssue.error(
                     code="UNKNOWN_ROLE_CODE",
-                    message=(f"RoleAssignment has unknown role_code {ra.role_code}"),
+                    message=f"RoleAssignment has unknown role_code {ra.role_code}",
                     role_code=ra.role_code,
                     session_id=ra.session_id,
                 )
@@ -109,15 +109,37 @@ def validate_session_data(loaded: LoadedSession) -> list[AuditIssue]:
     return issues
 
 
+def validate_distance_margins(loaded: LoadedSession) -> list[AuditIssue]:
+    """Checks distance from capitol"""
+    issues: list[AuditIssue] = []
+    for _, member in loaded.members.items():
+        if 45.0 <= member.distance_miles_from_state_house <= 55.0:
+            issues.append(
+                AuditIssue.warning(
+                    code="PROXIMITY_TO_STATE_HOUSE",
+                    message=(
+                        f"Member {member.name} lives within +/- 5 miles of the "
+                        "state house; their distance stipend may need manual review."
+                    ),
+                    member=member.member_id,
+                    district=member.district,
+                    distance=member.distance_miles_from_state_house
+                )
+            )
+    return issues
+
+
 def main() -> None:
     """Runs the validators for debugging purposes"""
-    # pylint: disable = import-outside-toplevel
-    # This is for quick validation, but we don't want to create a dependency.
-    from data.session_loader import load_session
-
     loaded = load_session(Path("data/sessions"), "2025-2026")
+    print(f"{'-' * 20} ERRORS {'-' * 20}")
     print([i for i in validate_role_catalog() if str(i.level) == "ERROR"])
     print([i for i in validate_session_data(loaded) if str(i.level) == "ERROR"])
+    print()
+    print(f"{'-' * 20} WARNINGS {'-' * 20}")
+    print([i for i in validate_role_catalog() if str(i.level) == "WARNING"])
+    print([i for i in validate_session_data(loaded) if str(i.level) == "WARNING"])
+    print([i for i in validate_distance_margins(loaded) if str(i.level) == "WARNING"])
 
 
 if __name__ == "__main__":

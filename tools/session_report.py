@@ -9,7 +9,10 @@ from typing import Any
 from data.session_loader import LoadedSession
 from models.total_comp import total_comp_for_member
 from tools.models import SessionReport, SessionSummaryStats
-from validators import validate_role_catalog, validate_session_data
+from validators import (
+    validate_role_catalog,
+    validate_session_data,
+)
 
 
 def generate_session_report(loaded: LoadedSession) -> SessionReport:
@@ -34,6 +37,7 @@ def generate_session_report(loaded: LoadedSession) -> SessionReport:
     summary = _generate_summary_stats(session.id, all_results)
     catalog_issues = validate_role_catalog()
     session_issues = validate_session_data(loaded)
+    distance_issues = validate_session_data(loaded)
     validation_summary = {
         "catalog_errors": len([i for i in catalog_issues if str(i.level) == "ERROR"]),
         "catalog_warnings": len(
@@ -43,6 +47,8 @@ def generate_session_report(loaded: LoadedSession) -> SessionReport:
         "session_warnings": len(
             [i for i in session_issues if str(i.level) == "WARNING"]
         ),
+        "distance_errors": len([i for i in distance_issues if str(i.level) == "ERROR"]),
+        "distance_warnings": len([i for i in distance_issues if str(i.level) == "WARNING"]),
         "all_issues": [
             {
                 "level": str(issue.level),
@@ -50,7 +56,7 @@ def generate_session_report(loaded: LoadedSession) -> SessionReport:
                 "message": issue.message,
                 "context": issue.context,
             }
-            for issue in catalog_issues + session_issues
+            for issue in catalog_issues + session_issues + distance_issues
         ],
     }
     report = SessionReport(

@@ -47,11 +47,13 @@ def generate_all_outputs(
     print("\nValidation:")
     cat_err = report.validation_summary["catalog_errors"]
     sess_err = report.validation_summary["session_errors"]
+    dist_err = report.validation_summary["distance_errors"]
     cat_warn = report.validation_summary["catalog_warnings"]
     sess_warn = report.validation_summary["session_warnings"]
-    print(f"  - Errors: {cat_err + sess_err}")
-    print(f"  - Warnings: {cat_warn + sess_warn}")
-    if cat_err + sess_err > 0:
+    dist_warn = report.validation_summary["distance_warnings"]
+    print(f"  - Errors: {cat_err + sess_err + dist_err}")
+    print(f"  - Warnings: {cat_warn + sess_warn + dist_warn}")
+    if cat_err + sess_err + dist_err > 0:
         val_path = reports_dir / "validation_report.json"
         print(f"\n[WARNING] Check {val_path} for details")
     print(f"{'='*60}\n")
