@@ -33,7 +33,7 @@ def _validate_member_raw_roles(member: Member, session_id: str) -> list[AuditIss
                 message=(
                     f"Member {member.member_id} has {len(chair_roles)} "
                     f"chair roles in raw data; 9B(f) only allows one paid "
-                    "chair, so one or more will be discarded."
+                    "chair, so one or more may be discarded."
                 ),
                 member_id=member.member_id,
                 session_id=session_id,
@@ -47,7 +47,7 @@ def _validate_member_raw_roles(member: Member, session_id: str) -> list[AuditIss
                 message=(
                     f"Member {member.member_id} has {len(stipend_roles)} "
                     "stipend-bearing roles; 9B(f) only allows two paid "
-                    "positions."
+                    "positions by default."
                 ),
                 member_id=member.member_id,
                 session_id=session_id,
