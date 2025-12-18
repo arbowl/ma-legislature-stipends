@@ -31,7 +31,7 @@ def _validate_member_raw_roles(member: Member, session_id: str) -> list[AuditIss
             AuditIssue.warning(
                 code="MULTIPLE_CHAIR_ROLES_RAW",
                 message=(
-                    f"Member {member.member_id} has {len(chair_roles)} "
+                    f"{member.name} has {len(chair_roles)} "
                     f"chair roles in raw data; 9B(f) only allows one paid "
                     "chair, so one or more may be discarded."
                 ),
@@ -45,13 +45,28 @@ def _validate_member_raw_roles(member: Member, session_id: str) -> list[AuditIss
             AuditIssue.warning(
                 code="MORE_THAN_TWO_STIPEND_ROLES_RAW",
                 message=(
-                    f"Member {member.member_id} has {len(stipend_roles)} "
+                    f"{member.name} has {len(stipend_roles)} "
                     "stipend-bearing roles; 9B(f) only allows two paid "
                     "positions by default."
                 ),
                 member_id=member.member_id,
                 session_id=session_id,
                 stipend_role_codes=[rd.code for rd in stipend_roles],
+            )
+        )
+    if member.distance_miles_from_state_house is None:
+        return issues
+    if 45.0 <= member.distance_miles_from_state_house <= 55.0:
+        issues.append(
+            AuditIssue.warning(
+                code="PROXIMITY_TO_STATE_HOUSE",
+                message=(
+                    f"{member.name} lives within +/- 5 miles of the "
+                    "state house; their distance stipend may need manual review."
+                ),
+                member=member.member_id,
+                district=member.district,
+                distance=member.distance_miles_from_state_house,
             )
         )
     return issues
@@ -123,7 +138,7 @@ def validate_distance_margins(loaded: LoadedSession) -> list[AuditIssue]:
                     ),
                     member=member.member_id,
                     district=member.district,
-                    distance=member.distance_miles_from_state_house
+                    distance=member.distance_miles_from_state_house,
                 )
             )
     return issues
