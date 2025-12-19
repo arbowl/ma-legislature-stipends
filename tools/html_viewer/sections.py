@@ -95,4 +95,3 @@ You can contact me at [info@beaconhilltracker.org](mailto:info@beaconhilltracker
 _Special thanks to Scotia Hille for providing input on data and functionality._
 """,
 }
-
