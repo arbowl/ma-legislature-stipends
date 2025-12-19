@@ -125,9 +125,7 @@ def normalize_committee_roles(
     with members_file.open("r", encoding="utf-8") as f:
         members_data = json.load(f)
     # Create member_id -> chamber mapping
-    member_chamber = {
-        m["member_id"]: m["chamber"] for m in members_data["members"]
-    }
+    member_chamber = {m["member_id"]: m["chamber"] for m in members_data["members"]}
     role_entries = []
     for entry in committee_data:
         member_id = entry["member_id"]
@@ -179,10 +177,7 @@ def normalize_leadership_roles(
                 }
             )
     if unmapped_roles:
-        msg = (
-            f"\nWarning: {len(unmapped_roles)} leadership roles "
-            "not modeled in 9B"
-        )
+        msg = f"\nWarning: {len(unmapped_roles)} leadership roles " "not modeled in 9B"
         print(msg)
         print("These roles exist but have no statutory stipend basis:")
         for mid, title, chamber in unmapped_roles:
@@ -191,21 +186,15 @@ def normalize_leadership_roles(
     return role_entries
 
 
-def normalize_all_roles(
-    session_id: str, raw_root: Path, sessions_root: Path
-) -> None:
+def normalize_all_roles(session_id: str, raw_root: Path, sessions_root: Path) -> None:
     """Convert both committee and leadership roles to roles.json"""
     print("=" * 60)
     print("NORMALIZING ALL ROLES")
     print("=" * 60)
     print("\n1. Processing committee roles...")
-    committee_roles = normalize_committee_roles(
-        session_id, raw_root, sessions_root
-    )
+    committee_roles = normalize_committee_roles(session_id, raw_root, sessions_root)
     print("\n2. Processing leadership roles...")
-    leadership_roles = normalize_leadership_roles(
-        session_id, raw_root, sessions_root
-    )
+    leadership_roles = normalize_leadership_roles(session_id, raw_root, sessions_root)
     all_role_entries = committee_roles + leadership_roles
     output_file = sessions_root / session_id / "roles.json"
     output_data = {"session_id": session_id, "roles": all_role_entries}
@@ -214,8 +203,7 @@ def normalize_all_roles(
         json.dump(output_data, f, indent=2)
     print("\n" + "=" * 60)
     success_msg = (
-        f"[SUCCESS] Wrote {len(all_role_entries)} total roles "
-        f"to {output_file}"
+        f"[SUCCESS] Wrote {len(all_role_entries)} total roles " f"to {output_file}"
     )
     print(success_msg)
     print(f"  - Committee roles: {len(committee_roles)}")
@@ -241,9 +229,7 @@ def main() -> None:
     if args.type == "all":
         normalize_all_roles(args.session_id, raw_root, sessions_root)
     elif args.type == "leadership":
-        roles = normalize_leadership_roles(
-            args.session_id, raw_root, sessions_root
-        )
+        roles = normalize_leadership_roles(args.session_id, raw_root, sessions_root)
         output_file = sessions_root / args.session_id / "roles.json"
         output_data = {"session_id": args.session_id, "roles": roles}
         output_file.parent.mkdir(parents=True, exist_ok=True)
@@ -252,9 +238,7 @@ def main() -> None:
         msg = f"\nWrote {len(roles)} leadership roles to {output_file}"
         print(msg)
     elif args.type == "committee":
-        roles = normalize_committee_roles(
-            args.session_id, raw_root, sessions_root
-        )
+        roles = normalize_committee_roles(args.session_id, raw_root, sessions_root)
         output_file = sessions_root / args.session_id / "roles.json"
         output_data = {"session_id": args.session_id, "roles": roles}
         output_file.parent.mkdir(parents=True, exist_ok=True)
