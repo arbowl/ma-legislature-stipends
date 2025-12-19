@@ -102,6 +102,13 @@ ROLE_SPECS += [
         chamber=Chamber.SENATE,
         tier_id=StipendTierCode.TIER_60K,
     ),
+    Spec(
+        code="SENATE_MAJORITY_WHIP",
+        title="Senate Majority Whip",
+        domain=RoleDomain.LEADERSHIP,
+        chamber=Chamber.SENATE,
+        tier_id=StipendTierCode.TIER_60K,
+    ),
 ]
 
 # 9B(b): Presidents Pro Tempore & Speakers Pro Tempore - 50,000
@@ -156,6 +163,16 @@ for chamber, chamber_label in [
                 tier_id=StipendTierCode.TIER_35K,
             ),
         ]
+
+ROLE_SPECS += [
+    Spec(
+        code="SENATE_ASSISTANT_MAJORITY_WHIP",
+        title="Senate Assistant Majority Whip",
+        domain=RoleDomain.LEADERSHIP,
+        chamber=Chamber.SENATE,
+        tier_id=StipendTierCode.TIER_35K,
+    ),
+]
 
 # 9B(d): House division chairs - 30,000
 
