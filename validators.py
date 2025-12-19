@@ -69,6 +69,19 @@ def _validate_member_raw_roles(member: Member, session_id: str) -> list[AuditIss
                 distance=member.distance_miles_from_state_house,
             )
         )
+    if session_id == "2025-2026" and member.member_id == "PMO":
+        issues.append(
+            AuditIssue.warning(
+                code="STIPEND_REJECTED",
+                message=(
+                    f"{member.name} is eligible for a stipend-bearing role "
+                    "that they voluntarily declined."
+                ),
+                member_id=member.member_id,
+                session_id=session_id,
+                source="https://www.oconnorforsenate.com/economy",
+            )
+        )
     return issues
 
 
