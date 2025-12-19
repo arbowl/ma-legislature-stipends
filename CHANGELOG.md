@@ -9,6 +9,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ### Fixed
 - Joint Committee on Ways and Means does not count as a Chair role (House Rule 1)
+- Senate Whips (& Assistant) leadership role added
 
 
 ## [1.0.1] - 2025-12-18
