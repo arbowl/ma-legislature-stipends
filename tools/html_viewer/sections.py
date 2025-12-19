@@ -88,11 +88,11 @@ I developed the Beacon Hill Stipends page as an independent project. The site is
 affiliated with any political party or organization. The only goal is to provide a 
 transparent and reproducible model of legislative compensation.
 
-The code is open source and available on GitHub:
-[https://github.com/arbowl/ma-legislature-stipends](https://github.com/arbowl/ma-legislature-stipends)
+The code is open source and available on [GitHub](https://github.com/arbowl/ma-legislature-stipends).
 
-You can contact me at [info@beaconhilltracker.org](mailto:drew@beaconhilltracker.org)
+You can contact me at [info@beaconhilltracker.org](mailto:info@beaconhilltracker.org)
 
 _Special thanks to Scotia Hille for providing input on data and functionality._
 """,
 }
+
