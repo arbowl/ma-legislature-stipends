@@ -592,7 +592,7 @@ ROLE_SPECS += [
     ),
     Spec(
         code="HOUSE_HEALTH_CARE_FINANCING_VICE_CHAIR",
-        title="Vice Chair, House Committee on Health Care Financing",
+        title="Vice Chair, Joint Committee on Health Care Financing",
         domain=RoleDomain.COMMITTEE,
         chamber=Chamber.HOUSE,
         committee_code="JOINT_HEALTH_CARE_FINANCING",
@@ -601,7 +601,7 @@ ROLE_SPECS += [
     ),
     Spec(
         code="HOUSE_BONDING_CAPITAL_VICE_CHAIR",
-        title="Vice Chair, House Committee on Bonding, Capital Expenditures and State Assets",
+        title="Vice Chair, Joint Committee on Bonding, Capital Expenditures and State Assets",
         domain=RoleDomain.COMMITTEE,
         chamber=Chamber.HOUSE,
         committee_code="JOINT_BONDING_CAPITAL_EXPENDITURES_AND_STATE_ASSETS",
@@ -611,7 +611,7 @@ ROLE_SPECS += [
     Spec(
         code="HOUSE_BONDING_CAPITAL_RM",
         title=(
-            "Ranking Minority Member, House Committee on Bonding, "
+            "Ranking Minority Member, Joint Committee on Bonding, "
             "Capital Expenditures and State Assets"
         ),
         domain=RoleDomain.COMMITTEE,
@@ -622,7 +622,7 @@ ROLE_SPECS += [
     ),
     Spec(
         code="HOUSE_STATE_ADMIN_VICE_CHAIR",
-        title="Vice Chair, House Committee on State Administration and Regulatory Oversight",
+        title="Vice Chair, Joint Committee on State Administration and Regulatory Oversight",
         domain=RoleDomain.COMMITTEE,
         chamber=Chamber.HOUSE,
         committee_code="JOINT_STATE_ADMINISTRATION_AND_REGULATORY_OVERSIGHT",
@@ -631,7 +631,7 @@ ROLE_SPECS += [
     ),
     Spec(
         code="HOUSE_ECON_DEV_EMERG_TECH_VICE_CHAIR",
-        title="Vice Chair, House Committee on Economic Development and Emerging Technologies",
+        title="Vice Chair, Joint Committee on Economic Development and Emerging Technologies",
         domain=RoleDomain.COMMITTEE,
         chamber=Chamber.HOUSE,
         committee_code="JOINT_ECONOMIC_DEVELOPMENT_AND_EMERGING_TECHNOLOGIES",
@@ -641,7 +641,7 @@ ROLE_SPECS += [
     Spec(
         code="HOUSE_ECON_DEV_EMERG_TECH_RM",
         title=(
-            "Ranking Minority Member, House Committee on Economic Development "
+            "Ranking Minority Member, Joint Committee on Economic Development "
             "and Emerging Technologies"
         ),
         domain=RoleDomain.COMMITTEE,
@@ -661,7 +661,7 @@ ROLE_SPECS += [
     ),
     Spec(
         code="SENATE_HEALTH_CARE_FINANCING_RM",
-        title="Ranking Minority Member, Senate Committee on Health Care Financing",
+        title="Ranking Minority Member, Joint Committee on Health Care Financing",
         domain=RoleDomain.COMMITTEE,
         chamber=Chamber.SENATE,
         committee_code="JOINT_HEALTH_CARE_FINANCING",
@@ -670,7 +670,7 @@ ROLE_SPECS += [
     ),
     Spec(
         code="HOUSE_HEALTH_CARE_FINANCING_RM",
-        title="Ranking Minority Member, House Committee on Health Care Financing",
+        title="Ranking Minority Member, Joint Committee on Health Care Financing",
         domain=RoleDomain.COMMITTEE,
         chamber=Chamber.HOUSE,
         committee_code="JOINT_HEALTH_CARE_FINANCING",
@@ -679,7 +679,7 @@ ROLE_SPECS += [
     ),
     Spec(
         code="HOUSE_JUDICIARY_VICE_CHAIR",
-        title="Vice Chair, House Committee on the Judiciary",
+        title="Vice Chair, Joint Committee on the Judiciary",
         domain=RoleDomain.COMMITTEE,
         chamber=Chamber.HOUSE,
         committee_code="JOINT_THE_JUDICIARY",
@@ -688,7 +688,7 @@ ROLE_SPECS += [
     ),
     Spec(
         code="HOUSE_JUDICIARY_RM",
-        title="Ranking Minority Member, House Committee on the Judiciary",
+        title="Ranking Minority Member, Joint Committee on the Judiciary",
         domain=RoleDomain.COMMITTEE,
         chamber=Chamber.HOUSE,
         committee_code="JOINT_THE_JUDICIARY",
@@ -697,7 +697,7 @@ ROLE_SPECS += [
     ),
     Spec(
         code="HOUSE_TRANSPORTATION_VICE_CHAIR",
-        title="Vice Chair, House Committee on Transportation",
+        title="Vice Chair, Joint Committee on Transportation",
         domain=RoleDomain.COMMITTEE,
         chamber=Chamber.HOUSE,
         committee_code="JOINT_TRANSPORTATION",
@@ -724,7 +724,7 @@ ROLE_SPECS += [
     ),
     Spec(
         code="HOUSE_EDUCATION_VICE_CHAIR",
-        title="Vice Chair, House Committee on Education",
+        title="Vice Chair, Joint Committee on Education",
         domain=RoleDomain.COMMITTEE,
         chamber=Chamber.HOUSE,
         committee_code="JOINT_EDUCATION",
@@ -733,7 +733,7 @@ ROLE_SPECS += [
     ),
     Spec(
         code="HOUSE_TELECOM_UTILITIES_ENERGY_VICE_CHAIR",
-        title="Vice Chair, House Committee on Telecommunications, Utilities and Energy",
+        title="Vice Chair, Joint Committee on Telecommunications, Utilities and Energy",
         domain=RoleDomain.COMMITTEE,
         chamber=Chamber.HOUSE,
         committee_code="JOINT_TELECOMMUNICATIONS_UTILITIES_AND_ENERGY",
