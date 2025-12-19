@@ -183,12 +183,7 @@
     },
     {
       "member_id": "PRF0",
-      "role_code": "SENATE_WAYS_MEANS_VICE_CHAIR",
-      "session_id": "2025-2026"
-    },
-    {
-      "member_id": "PRF0",
-      "role_code": "GENERIC_OTHER_COMMITTEE_VICE_CHAIR",
+      "role_code": "SENATE_WAYS_MEANS_ASSISTANT_VICE_CHAIR",
       "session_id": "2025-2026"
     },
     {
@@ -558,12 +553,7 @@
     },
     {
       "member_id": "KAD1",
-      "role_code": "HOUSE_WAYS_MEANS_VICE_CHAIR",
-      "session_id": "2025-2026"
-    },
-    {
-      "member_id": "KAD1",
-      "role_code": "GENERIC_OTHER_COMMITTEE_VICE_CHAIR",
+      "role_code": "HOUSE_WAYS_MEANS_ASSISTANT_VICE_CHAIR",
       "session_id": "2025-2026"
     },
     {

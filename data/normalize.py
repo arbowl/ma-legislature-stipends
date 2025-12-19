@@ -63,6 +63,8 @@ def normalize_role_label(raw: Optional[str]) -> Optional[CommitteeRoleType]:
     t = raw.lower()
     if "chair" in t and "vice" not in t:
         return CommitteeRoleType.CHAIR
+    if "vice" in t and "assistant" in t:
+        return CommitteeRoleType.ASSISTANT_VICE_CHAIR
     if "vice" in t:
         return CommitteeRoleType.VICE_CHAIR
     if "ranking" in t:
@@ -96,7 +98,7 @@ def committee_role_to_internal(
             continue
         if rd.chamber is not None and rd.chamber.name.lower() != chamber:
             continue
-        return rd.code.value
+        return rd.code
     if role_type is CommitteeRoleType.CHAIR:
         return "GENERIC_OTHER_COMMITTEE_CHAIR"
     if role_type is CommitteeRoleType.VICE_CHAIR:
