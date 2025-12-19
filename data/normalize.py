@@ -84,6 +84,8 @@ def committee_role_to_internal(
     if role_type is None:
         return None
     committee = get_committee_by_external_id(committee_external_id)
+    if committee and "J39" in committee.external_ids:
+        return None
     if committee is None:
         if role_type is CommitteeRoleType.CHAIR:
             return "GENERIC_OTHER_COMMITTEE_CHAIR"
