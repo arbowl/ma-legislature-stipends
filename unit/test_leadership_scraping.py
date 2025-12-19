@@ -383,9 +383,7 @@ def test_e2e_mapped_leadership_roles_in_session(
             assert (
                 expected_role_code in member_roles[member_id]
             ), f"Role {expected_role_code} for {member_id} ({raw_title}) not found in roles.json"
-    assert (
-        unmapped_count == 0
-    ), f"Expected 0 unmapped positions, got {unmapped_count}"
+    assert unmapped_count == 0, f"Expected 0 unmapped positions, got {unmapped_count}"
 
 
 def test_e2e_specific_members_2025_2026(session_roles_2025_2026):
