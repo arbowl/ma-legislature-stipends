@@ -302,12 +302,6 @@ def test_normalize_division_chairs(raw_title, chamber, expected):
     assert result == expected
 
 
-def test_normalize_unmapped_whip_positions():
-    """Test that Whip positions are currently unmapped (no statutory stipend basis)"""
-    assert normalize_leadership_title("Senate Majority Whip", "senate") is None
-    assert normalize_leadership_title("Assistant Majority Whip", "senate") is None
-
-
 def test_normalize_case_insensitive():
     """Test that normalization is case-insensitive"""
     assert (
@@ -390,8 +384,8 @@ def test_e2e_mapped_leadership_roles_in_session(
                 expected_role_code in member_roles[member_id]
             ), f"Role {expected_role_code} for {member_id} ({raw_title}) not found in roles.json"
     assert (
-        unmapped_count == 2
-    ), f"Expected 2 unmapped positions (Whips), got {unmapped_count}"
+        unmapped_count == 0
+    ), f"Expected 0 unmapped positions, got {unmapped_count}"
 
 
 def test_e2e_specific_members_2025_2026(session_roles_2025_2026):
@@ -453,10 +447,7 @@ def test_e2e_unmapped_roles_documented(raw_leadership_2025_2026):
         member_id = entry["member_id"]
         if normalize_leadership_title(raw_title, chamber) is None:
             unmapped.append((member_id, raw_title, chamber))
-    expected_unmapped = [
-        ("MFR0", "Senate Majority Whip", "senate"),
-        ("JAC0", "Assistant Majority Whip", "senate"),
-    ]
+    expected_unmapped = []
     assert len(unmapped) == len(
         expected_unmapped
     ), f"Expected {len(expected_unmapped)} unmapped roles, got {len(unmapped)}: {unmapped}"
