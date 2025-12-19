@@ -53,6 +53,8 @@ _TITLE_MAP: dict[tuple[str, str], str] = {
     ("second division chair", "house"): "HOUSE_DIVISION_CHAIR_2",
     ("third division chair", "house"): "HOUSE_DIVISION_CHAIR_3",
     ("fourth division chair", "house"): "HOUSE_DIVISION_CHAIR_4",
+    ("senate majority whip", "senate"): "SENATE_MAJORITY_WHIP",
+    ("assistant majority whip", "senate"): "SENATE_ASSISTANT_MAJORITY_WHIP",
 }
 
 
