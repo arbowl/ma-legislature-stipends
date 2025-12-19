@@ -102,13 +102,6 @@ ROLE_SPECS += [
         chamber=Chamber.SENATE,
         tier_id=StipendTierCode.TIER_60K,
     ),
-    Spec(
-        code="SENATE_MAJORITY_WHIP",
-        title="Senate Majority Whip",
-        domain=RoleDomain.LEADERSHIP,
-        chamber=Chamber.SENATE,
-        tier_id=StipendTierCode.TIER_60K,
-    ),
 ]
 
 # 9B(b): Presidents Pro Tempore & Speakers Pro Tempore - 50,000
@@ -166,8 +159,8 @@ for chamber, chamber_label in [
 
 ROLE_SPECS += [
     Spec(
-        code="SENATE_ASSISTANT_MAJORITY_WHIP",
-        title="Senate Assistant Majority Whip",
+        code="SENATE_MAJORITY_WHIP",
+        title="Senate Majority Whip",
         domain=RoleDomain.LEADERSHIP,
         chamber=Chamber.SENATE,
         tier_id=StipendTierCode.TIER_35K,
@@ -526,6 +519,18 @@ ROLE_SPECS += [
         chamber=Chamber.HOUSE,
         committee_code="JOINT_TRANSPORTATION",
         committee_role_type=CommitteeRoleType.CHAIR,
+        tier_id=StipendTierCode.TIER_30K,
+    ),
+]
+
+# 9B(d): Senate Whips - 30,000
+
+ROLE_SPECS += [
+    Spec(
+        code="SENATE_ASSISTANT_MAJORITY_WHIP",
+        title="Senate Assistant Majority Whip",
+        domain=RoleDomain.LEADERSHIP,
+        chamber=Chamber.SENATE,
         tier_id=StipendTierCode.TIER_30K,
     ),
 ]
