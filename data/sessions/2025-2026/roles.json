@@ -67,11 +67,6 @@
       "session_id": "2025-2026"
     },
     {
-      "member_id": "JMC0",
-      "role_code": "GENERIC_OTHER_COMMITTEE_VICE_CHAIR",
-      "session_id": "2025-2026"
-    },
-    {
       "member_id": "CSC0",
       "role_code": "GENERIC_OTHER_COMMITTEE_CHAIR",
       "session_id": "2025-2026"
@@ -418,11 +413,6 @@
     },
     {
       "member_id": "MJR0",
-      "role_code": "GENERIC_OTHER_COMMITTEE_CHAIR",
-      "session_id": "2025-2026"
-    },
-    {
-      "member_id": "MJR0",
       "role_code": "GENERIC_OTHER_COMMITTEE_VICE_CHAIR",
       "session_id": "2025-2026"
     },
@@ -762,11 +752,6 @@
       "session_id": "2025-2026"
     },
     {
-      "member_id": "AMM1",
-      "role_code": "GENERIC_OTHER_COMMITTEE_CHAIR",
-      "session_id": "2025-2026"
-    },
-    {
       "member_id": "S_M1",
       "role_code": "GENERIC_OTHER_COMMITTEE_VICE_CHAIR",
       "session_id": "2025-2026"
@@ -949,6 +934,16 @@
     {
       "member_id": "SND0",
       "role_code": "SENATE_MAJORITY_ASSISTANT_FLOOR_LEADER",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "MFR0",
+      "role_code": "SENATE_MAJORITY_WHIP",
+      "session_id": "2025-2026"
+    },
+    {
+      "member_id": "JAC0",
+      "role_code": "SENATE_ASSISTANT_MAJORITY_WHIP",
       "session_id": "2025-2026"
     },
     {
