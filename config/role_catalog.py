@@ -165,7 +165,7 @@ ROLE_SPECS += [
         chamber=Chamber.SENATE,
         tier_id=StipendTierCode.TIER_35K,
     ),
-        Spec(
+    Spec(
         code="SENATE_ASSISTANT_MAJORITY_WHIP",
         title="Senate Assistant Majority Whip",
         domain=RoleDomain.LEADERSHIP,
