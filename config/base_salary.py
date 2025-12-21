@@ -20,7 +20,7 @@ class BaseSalaryConfig:
     """Base salary before stipends"""
 
     session_id: str
-    base_amount: AmountWithProvenance
+    base_amount: int
     factor: Optional[float]
     note: str = ""
 
@@ -31,7 +31,7 @@ def load_base_salary_adjustment(session: Session) -> BaseSalaryConfig:
     data: dict = json.loads(path.read_text())
     if data["session_id"] != session.id:
         raise ValueError(
-            f"base_salary.jspn session_id mismatch: "
+            f"base_salary.json session_id mismatch: "
             f"{data['session_id']} != {session.id}"
         )
     base_amount = int(data["base_amount"])
