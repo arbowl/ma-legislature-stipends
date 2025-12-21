@@ -62,7 +62,7 @@ def _validate_member_raw_roles(member: Member, session_id: str) -> list[AuditIss
                 code="PROXIMITY_TO_STATE_HOUSE",
                 message=(
                     f"{member.name} lives within +/- 5 miles of the "
-                    "state house; their distance stipend may need manual review."
+                    "50-mile state house travel threshold."
                 ),
                 member=member.member_id,
                 district=member.district,

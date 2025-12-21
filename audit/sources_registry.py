@@ -24,6 +24,7 @@ ARTICLE_CXVIII_BASE = SourceRef(
     id="MGL_ART_CXVIII",
     label="Mass. Const. amend. Art. CXVIII (legislator base salary)",
     kind=SourceKind.STATUTE,
+    url="https://malegislature.gov/Laws/Constitution#amendmentArticleCXVIII",
     details=frozenset(),
 )
 SENATE_RULES_11E = SourceRef(
@@ -80,7 +81,7 @@ BASE_SALARY_ADJUSTMENT = SourceRef(
     id="BASE_SALARY_9B",
     label="Manual 9B(g) biennial adjustment factors (2019, 2021, 2023, 2025)",
     kind=SourceKind.MANUAL_OVERRIDE,
-    url=None,
+    url="https://www.masslive.com/boston/2025/01/gov-maura-healey-orders-11-pay-raise-for-mass-lawmakers-in-2025.html",
     details=frozenset(
         [
             "https://www.cbsnews.com/boston/news/massachusetts-lawmakers-governor-charlie-baker-pay-raises/",

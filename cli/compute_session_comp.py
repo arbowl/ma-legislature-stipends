@@ -51,7 +51,7 @@ def main() -> None:
     print(f"{'Member ID':<10}  {'Name':<25}  {'Total':>10}")
     for member in loaded.members.values():
         res = total_comp_for_member(member, session)
-        print(f"{member.member_id:<10}  {member.name:<25}  {res.total:>10}")
+        print(f"{member.member_id:<10}  {member.name:<25}  {res.total.value:>10}")
 
 
 if __name__ == "__main__":
