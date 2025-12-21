@@ -1,8 +1,44 @@
 {
     "MJR0": {
-        "override_reason": "CTHRU data indicates greater distance from state house"
+        "override_reason": "CTHRU data indicates Michael Rodrigues lives >50 miles from state house"
     },
     "A_S1": {
-        "override_reason": "CTHRU data indicates greater distance from state house"
+        "override_reason": "CTHRU data indicates Alan Silvia lives >50 miles from state house"
+    },
+    "JJC0": {
+        "override_reason": "CTHRU data indicates John Cronin lives >50 miles from state house"
+    },
+    "PJD0": {
+        "override_reason": "CTHRU data indicates Peter Durant lives >50 miles from state house"
+    },
+    "RCF0": {
+        "override_reason": "CTHRU data indicates Ryan Fattman lives >50 miles from state house"
+    },
+    "DAF0": {
+        "override_reason": "CTHRU data indicates Dylan Fernandes lives >50 miles from state house"
+    },
+    "KNF1": {
+        "override_reason": "CTHRU data indicates Kimberly Ferguson lives >50 miles from state house"
+    },
+    "C_H1": {
+        "override_reason": "CTHRU data indicates Christopher Hendricks lives >50 miles from state house"
+    },
+    "MPK1": {
+        "override_reason": "CTHRU data indicates Michael Kushmerek lives >50 miles from state house"
+    },
+    "JDM1": {
+        "override_reason": "CTHRU data indicates Joseph McKenna lives >50 miles from state house"
+    },
+    "JJO1": {
+        "override_reason": "CTHRU data indicates James O'Day lives >50 miles from state house"
+    },
+    "SJO1": {
+        "override_reason": "CTHRU data indicates Steven Ouellette lives >50 miles from state house"
+    },
+    "MDS1": {
+        "override_reason": "CTHRU data indicates Mark Sylvia lives >50 miles from state house"
+    },
+    "J_T2": {
+        "override_reason": "CTHRU data indicates Justin Thurber lives >50 miles from state house"
     }
 }
