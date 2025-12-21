@@ -92,13 +92,29 @@ BASE_SALARY_ADJUSTMENT = SourceRef(
     ),
 )
 
+
+def create_distance_override_source(url: str) -> SourceRef:
+    """Generates a URL source for a distance override"""
+    return SourceRef(
+        id="DISTANCE_OVERRIDE",
+        label="Manual override of distance centroids using alternative sources",
+        kind=SourceKind.MANUAL_OVERRIDE,
+        url=url,
+        details=frozenset(),
+    )
+
+
 _ALL_SOURCES: dict[str, SourceRef] = {
     s.id: s
     for s in [
         MGL_3_9B,
         MGL_3_9C,
         ARTICLE_CXVIII_BASE,
+        SENATE_RULES_11E,
+        HOUSE_RULES_18,
         BEA_WAGE_SERIES,
+        STIPEND_AMOUNT_ADJUSTMENT,
+        TRAVEL_AMOUNT_ADJUSTMENT,
         BASE_SALARY_ADJUSTMENT,
     ]
 }

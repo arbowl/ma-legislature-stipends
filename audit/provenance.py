@@ -68,3 +68,10 @@ def ap_scale(
     return AmountWithProvenance(
         value=new_value, sources=a.sources | frozenset(extra_sources.values())
     )
+
+
+def ap_source(a: AmountWithProvenance, *new_sources: SourceRef) -> AmountWithProvenance:
+    """Adds new sources to an existing AmountWithProvenance without changing the value."""
+    return AmountWithProvenance(
+        value=a.value, sources=a.sources | frozenset(new_sources)
+    )

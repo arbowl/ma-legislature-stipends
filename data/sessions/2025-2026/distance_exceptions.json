@@ -1,44 +1,58 @@
 {
     "MJR0": {
-        "override_reason": "CTHRU data indicates Michael Rodrigues lives >50 miles from state house"
+        "override_reason": "CTHRU data indicates Michael Rodrigues lives >50 miles from state house",
+        "source": "https://cthrupayroll.mass.gov/#!/year/2025/full_time_employees,others/pay1,pay2,pay3,pay4/explore/0-0-0/trans_no/16975491/0/department_division"
     },
     "A_S1": {
-        "override_reason": "CTHRU data indicates Alan Silvia lives >50 miles from state house"
+        "override_reason": "CTHRU data indicates Alan Silvia lives >50 miles from state house",
+        "source": "https://cthrupayroll.mass.gov/#!/year/2025/full_time_employees,others/pay1,pay2,pay3,pay4/explore/0-0-0/trans_no/18254912/0/department_division"
     },
     "JJC0": {
-        "override_reason": "CTHRU data indicates John Cronin lives >50 miles from state house"
+        "override_reason": "CTHRU data indicates John Cronin lives >50 miles from state house",
+        "source": "https://cthrupayroll.mass.gov/#!/year/2025/full_time_employees,others/pay1,pay2,pay3,pay4/explore/0-0-0/trans_no/17272723/0/department_division"
     },
     "PJD0": {
-        "override_reason": "CTHRU data indicates Peter Durant lives >50 miles from state house"
+        "override_reason": "CTHRU data indicates Peter Durant lives >50 miles from state house",
+        "source": "https://cthrupayroll.mass.gov/#!/year/2025/full_time_employees,others/pay1,pay2,pay3,pay4/explore/0-0-0/trans_no/17928105/0/department_division"
     },
     "RCF0": {
-        "override_reason": "CTHRU data indicates Ryan Fattman lives >50 miles from state house"
+        "override_reason": "CTHRU data indicates Ryan Fattman lives >50 miles from state house",
+        "source": "https://cthrupayroll.mass.gov/#!/year/2025/full_time_employees,others/pay1,pay2,pay3,pay4/explore/0-0-0/trans_no/17874701/0/department_division"
     },
     "DAF0": {
-        "override_reason": "CTHRU data indicates Dylan Fernandes lives >50 miles from state house"
+        "override_reason": "CTHRU data indicates Dylan Fernandes lives >50 miles from state house",
+        "source": "https://cthrupayroll.mass.gov/#!/year/2025/full_time_employees,others/pay1,pay2,pay3,pay4/explore/0-0-0/trans_no/18675189/0/department_division"
     },
     "KNF1": {
-        "override_reason": "CTHRU data indicates Kimberly Ferguson lives >50 miles from state house"
+        "override_reason": "CTHRU data indicates Kimberly Ferguson lives >50 miles from state house",
+        "source": "https://cthrupayroll.mass.gov/#!/year/2025/full_time_employees,others/pay1,pay2,pay3,pay4/explore/0-0-0/trans_no/15935140/0/department_division"
     },
     "C_H1": {
-        "override_reason": "CTHRU data indicates Christopher Hendricks lives >50 miles from state house"
+        "override_reason": "CTHRU data indicates Christopher Hendricks lives >50 miles from state house",
+        "source": "https://cthrupayroll.mass.gov/#!/year/2025/full_time_employees,others/pay1,pay2,pay3,pay4/explore/0-0-0/trans_no/16217253/0/department_division"
     },
     "MPK1": {
-        "override_reason": "CTHRU data indicates Michael Kushmerek lives >50 miles from state house"
+        "override_reason": "CTHRU data indicates Michael Kushmerek lives >50 miles from state house",
+        "source": "https://cthrupayroll.mass.gov/#!/year/2025/full_time_employees,others/pay1,pay2,pay3,pay4/explore/0-0-0/trans_no/17290234/0/department_division"
     },
     "JDM1": {
-        "override_reason": "CTHRU data indicates Joseph McKenna lives >50 miles from state house"
+        "override_reason": "CTHRU data indicates Joseph McKenna lives >50 miles from state house",
+        "source": "https://cthrupayroll.mass.gov/#!/year/2025/full_time_employees,others/pay1,pay2,pay3,pay4/explore/0-0-0/trans_no/17928495/0/department_division"
     },
     "JJO1": {
-        "override_reason": "CTHRU data indicates James O'Day lives >50 miles from state house"
+        "override_reason": "CTHRU data indicates James O'Day lives >50 miles from state house",
+        "source": "https://cthrupayroll.mass.gov/#!/year/2025/full_time_employees,others/pay1,pay2,pay3,pay4/explore/0-0-0/trans_no/14802840/0/department_division"
     },
     "SJO1": {
-        "override_reason": "CTHRU data indicates Steven Ouellette lives >50 miles from state house"
+        "override_reason": "CTHRU data indicates Steven Ouellette lives >50 miles from state house",
+        "source": "https://cthrupayroll.mass.gov/#!/year/2025/full_time_employees,others/pay1,pay2,pay3,pay4/explore/0-0-0/trans_no/20593768/0/department_division"
     },
     "MDS1": {
-        "override_reason": "CTHRU data indicates Mark Sylvia lives >50 miles from state house"
+        "override_reason": "CTHRU data indicates Mark Sylvia lives >50 miles from state house",
+        "source": "https://cthrupayroll.mass.gov/#!/year/2025/full_time_employees,others/pay1,pay2,pay3,pay4/explore/0-0-0/trans_no/17431622/0/department_division"
     },
     "J_T2": {
-        "override_reason": "CTHRU data indicates Justin Thurber lives >50 miles from state house"
+        "override_reason": "CTHRU data indicates Justin Thurber lives >50 miles from state house",
+        "source": "https://cthrupayroll.mass.gov/#!/year/2025/full_time_employees,others/pay1,pay2,pay3,pay4/explore/0-0-0/trans_no/20593846/0/department_division"
     }
 }

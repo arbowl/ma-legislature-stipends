@@ -7,7 +7,8 @@ import json
 from pathlib import Path
 from typing import Optional
 
-from audit.provenance import AmountWithProvenance, ap_scale
+from audit.provenance import AmountWithProvenance, ap_scale, ap_source
+from audit.sources_registry import create_distance_override_source
 from models.core import Member, Session
 from config.travel_config import TRAVEL_RULE_9C
 from config.comp_adjustment import load_travel_adjustment
@@ -29,14 +30,18 @@ class DistanceException:
     """Encodes manual distance overrides"""
 
     override_reason: str
+    source: str
     distance_miles_from_state_house: Optional[float] = None
 
     @staticmethod
-    def from_dict(json_data: dict[str, str | float], code: str) -> DistanceException:
+    def from_dict(
+        json_data: dict[str, dict[str, str | float]], code: str
+    ) -> DistanceException:
         """Generates a DistanceException from a JSON"""
         data: dict = json_data[code]
         return DistanceException(
             override_reason=data["override_reason"],
+            source=data["source"],
             distance_miles_from_state_house=data.get("distance_miles_from_state_house"),
         )
 
@@ -44,7 +49,7 @@ class DistanceException:
 def load_district_exceptions() -> dict[str, DistanceException]:
     """Loads the district exception files"""
     json_path = Path("data/sessions/2025-2026/distance_exceptions.json")
-    with open(json_path, "r") as f:
+    with open(json_path, "r", encoding="utf-8") as f:
         data = json.load(f)
         return {code: DistanceException.from_dict(data, code) for code in data}
 
@@ -86,6 +91,12 @@ def travel_9c_for_member(member: Member, session: Session) -> TravelAllowance:
             amount = rule.amount_leq_threshold
         else:
             amount = rule.amount_gt_threshold
+        amount = ap_source(
+            amount,
+            create_distance_override_source(
+                DISTRICT_EXCEPTIONS[member.member_id].source
+            ),
+        )
         rule_applied = (
             DISTRICT_EXCEPTIONS[member.member_id].override_reason
         ) + f" -> ${amount.value}"

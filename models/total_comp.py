@@ -4,12 +4,11 @@ from __future__ import annotations
 
 from dataclasses import dataclass
 
-from audit.provenance import AmountWithProvenance, ap_sum
+from audit.provenance import AmountWithProvenance, SourceRef, ap_sum
 from models.core import Member, Session
 from models.rules_9b import select_paid_roles_for_member
 from models.rules_9c import travel_9c_for_member
 from config.base_salary import base_salary_for_session
-from audit.provenance import SourceRef
 
 
 @dataclass(frozen=True)
