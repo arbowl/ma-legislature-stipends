@@ -29,6 +29,9 @@ def test_load_session_basic(tmp_path: Path):
     }
     (session_dir / "members.json").write_text(json.dumps(members_payload))
     (session_dir / "roles.json").write_text(json.dumps(roles_payload))
+    manual_roles_payload = roles_payload
+    manual_roles_payload["roles"][0]["source_id"] = "MGL_ART_CXVIII"
+    (session_dir / "manual_roles.json").write_text(json.dumps(manual_roles_payload))
     loaded = load_session(tmp_path, session_id)
     assert loaded.session.id == session_id
     assert loaded.members["H001"].chamber == Chamber.HOUSE

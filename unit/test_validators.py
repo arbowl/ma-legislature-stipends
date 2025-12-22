@@ -39,6 +39,9 @@ def test_validate_session_unknown_role(tmp_path: Path):
     }
     (d / "members.json").write_text(json.dumps(members_payload))
     (d / "roles.json").write_text(json.dumps(roles_payload))
+    manual_roles_payload = roles_payload
+    manual_roles_payload["roles"][0]["source_id"] = "MGL_ART_CXVIII"
+    (d / "manual_roles.json").write_text(json.dumps(manual_roles_payload))
     loaded = load_session(tmp_path, session_id)
     issues = validate_session_data(loaded)
     assert any(i.code == "UNKNOWN_ROLE_CODE" for i in issues)

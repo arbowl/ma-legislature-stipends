@@ -1,0 +1,17 @@
+{
+  "session_id": "2025-2026",
+  "roles": [
+        {
+            "member_id": "JDM1",
+            "role_code": "HOUSE_WAYS_MEANS_ASSISTANT_RM",
+            "session_id": "2025-2026",
+            "source_id": "HOUSE_MINORITY_APPOINTMENT_LETTER"
+        },
+        {
+            "member_id": "KWP1",
+            "role_code": "HOUSE_WAYS_MEANS_ASSISTANT_RM",
+            "session_id": "2025-2026",
+            "source_id": "HOUSE_MINORITY_APPOINTMENT_LETTER"
+        }
+    ]
+}

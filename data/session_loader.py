@@ -7,6 +7,7 @@ from dataclasses import dataclass
 from pathlib import Path
 from typing import Any, Optional
 
+from audit.sources_registry import get_source
 from models.core import (
     Session,
     Member,
@@ -97,6 +98,16 @@ def load_session(root: Path, session_id: str) -> LoadedSession:
             session_id=session_id,
         )
         role_assignments.append(ra)
+    with (session_dir / "manual_roles.json").open() as f:
+        mr_data: dict[str, Any] = json.load(f)
+    for row in mr_data["roles"]:
+        mra = RoleAssignment(
+            member_id=row["member_id"],
+            role_code=row["role_code"],
+            session_id=session_id,
+            source_id=get_source(row["source_id"]),
+        )
+        role_assignments.append(mra)
     for ra in role_assignments:
         member = members.get(ra.member_id)
         if member is None:

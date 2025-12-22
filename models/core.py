@@ -114,6 +114,7 @@ class RoleAssignment:
     member_id: str
     role_code: str
     session_id: str
+    source_id: Optional[str] = None
 
 
 class RoleCode(Enum):

@@ -8,7 +8,7 @@ from itertools import combinations
 from dataclasses import dataclass, field
 from typing import Optional, Any
 
-from audit.provenance import AmountWithProvenance, ap_scale, SourceRef
+from audit.provenance import AmountWithProvenance, ap_scale, SourceRef, ap_source
 from audit.sources_registry import (
     STIPEND_AMOUNT_ADJUSTMENT,
     SENATE_RULES_11E,
@@ -119,6 +119,8 @@ def stipend_for_role_assignment(
     adjusted = tier
     if factor != 1.0:
         adjusted = ap_scale(tier, factor, source=STIPEND_AMOUNT_ADJUSTMENT)
+    if assignment.source_id:
+        adjusted = ap_source(adjusted, assignment.source_id)
     return RoleStipend(
         role_code=assignment.role_code,
         session_id=assignment.session_id,

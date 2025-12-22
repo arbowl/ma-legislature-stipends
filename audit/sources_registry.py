@@ -91,6 +91,18 @@ BASE_SALARY_ADJUSTMENT = SourceRef(
         ]
     ),
 )
+HOUSE_MINORITY_APPTS_LETTER = SourceRef(
+    id="HOUSE_MINORITY_APPOINTMENT_LETTER",
+    label="Committee appointments by Bradley Jones for 2025",
+    kind=SourceKind.DATA_FILE,
+    url="https://files.engineers.org/file/HouseRepublicanCommitteeAssignments.pdf",
+    details=frozenset(
+        [
+            "Joseph McKenna: Assistant Ranking Minority Member on the House Committee on Ways and Means",
+            "Kelly Pease: Assistant Ranking Minority Member on the House Committee on Ways and Means",
+        ]
+    ),
+)
 
 
 def create_distance_override_source(url: str) -> SourceRef:
@@ -116,6 +128,7 @@ _ALL_SOURCES: dict[str, SourceRef] = {
         STIPEND_AMOUNT_ADJUSTMENT,
         TRAVEL_AMOUNT_ADJUSTMENT,
         BASE_SALARY_ADJUSTMENT,
+        HOUSE_MINORITY_APPTS_LETTER,
     ]
 }
 

@@ -1,0 +1,11 @@
+{
+  "session_id": "0-1",
+  "roles": [
+        {
+        "member_id": "H001",
+        "role_code": "SPEAKER",
+        "session_id": "0-1",
+        "source_id": "MGL_ART_CXVIII"
+        }
+    ]
+}
