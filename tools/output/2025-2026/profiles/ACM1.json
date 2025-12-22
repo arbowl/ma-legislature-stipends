@@ -1,0 +1,121 @@
+{
+  "member_id": "ACM1",
+  "name": "Adrian Madaro",
+  "chamber": "house",
+  "party": "D",
+  "district": "1st Suffolk",
+  "distance_from_state_house": 2.129,
+  "session_id": "2025-2026",
+  "compensation": {
+    "total": 149339,
+    "components": [
+      {
+        "label": "Base salary (Article CXVIII)",
+        "amount": 82046,
+        "provenance": [
+          {
+            "source_id": "MGL_ART_CXVIII",
+            "label": "Mass. Const. amend. Art. CXVIII (legislator base salary)",
+            "kind": "STATUTE",
+            "url": "https://malegislature.gov/Laws/Constitution#amendmentArticleCXVIII"
+          },
+          {
+            "source_id": "BASE_SALARY_9B",
+            "label": "Manual 9B(g) biennial adjustment factors (2019, 2021, 2023, 2025)",
+            "kind": "MANUAL_OVERRIDE",
+            "url": "https://www.masslive.com/boston/2025/01/gov-maura-healey-orders-11-pay-raise-for-mass-lawmakers-in-2025.html",
+            "details": [
+              "https://www.cbsnews.com/boston/news/massachusetts-lawmakers-governor-charlie-baker-pay-raises/",
+              "https://www.masslive.com/boston/2025/01/gov-maura-healey-orders-11-pay-raise-for-mass-lawmakers-in-2025.html",
+              "https://www.heraldnews.com/story/news/state/2021/01/02/massachusetts-lawmakers-eligible-6-46-percent-pay-raise-2021-baker-state-representatives-senators/4111890001/",
+              "https://franklinobserver.town.news/g/franklin-town-ma/n/137414/healey-other-state-officers-line-20-raises"
+            ]
+          }
+        ],
+        "details": {
+          "base_amount": 62548,
+          "adjustment_factor": 1.3116
+        }
+      },
+      {
+        "label": "Stipends (Section 9B)",
+        "amount": 44862,
+        "provenance": [
+          {
+            "source_id": "STIPEND_9B",
+            "label": "Manual stipend adjustment from Massachusetts Almanac",
+            "kind": "CALCULATION",
+            "url": "https://massachusettsalmanac.com/perks-n-pay/",
+            "details": [
+              "Data calculated via delta from base value to Almanac reported current value"
+            ]
+          },
+          {
+            "source_id": "MGL_3_9B",
+            "label": "Mass. Gen. Laws c.3 S9B",
+            "kind": "STATUTE",
+            "url": "https://malegislature.gov/Laws/GeneralLaws/PartI/TitleI/Chapter3/Section9B"
+          }
+        ],
+        "details": {
+          "breakdown": [
+            {
+              "role_code": "HOUSE_REVENUE_CHAIR",
+              "role_title": "House Chair, Joint Committee on Revenue",
+              "tier_id": "T30K",
+              "base_amount": 30000,
+              "adjusted_amount": 44862,
+              "adjustment_factor": 1.4954,
+              "paid": true,
+              "reason": "Tier StipendTierCode.TIER_30K base $30,000 adjusted by factor 1.4954",
+              "provenance": [
+                {
+                  "source_id": "STIPEND_9B",
+                  "label": "Manual stipend adjustment from Massachusetts Almanac",
+                  "kind": "CALCULATION",
+                  "url": "https://massachusettsalmanac.com/perks-n-pay/",
+                  "details": [
+                    "Data calculated via delta from base value to Almanac reported current value"
+                  ]
+                },
+                {
+                  "source_id": "MGL_3_9B",
+                  "label": "Mass. Gen. Laws c.3 S9B",
+                  "kind": "STATUTE",
+                  "url": "https://malegislature.gov/Laws/GeneralLaws/PartI/TitleI/Chapter3/Section9B"
+                }
+              ]
+            }
+          ],
+          "total_roles": 1,
+          "paid_roles": 1,
+          "discarded_roles": 0
+        }
+      },
+      {
+        "label": "Travel (Section 9C)",
+        "amount": 22431,
+        "provenance": [
+          {
+            "source_id": "MGL_3_9C",
+            "label": "Mass. Gen. Laws c.3 S9C",
+            "kind": "STATUTE",
+            "url": "https://malegislature.gov/Laws/GeneralLaws/PartI/TitleI/Chapter3/Section9C"
+          }
+        ],
+        "details": {
+          "distance_miles": 2.129,
+          "calculation": "distance 2.1 <= 50.0 miles -> $15000",
+          "base_amount": 15000,
+          "adjustment_factor": 1.4954
+        }
+      }
+    ]
+  },
+  "validation_issues": [],
+  "raw_data_sources": {
+    "member_data": "data/sessions/2025-2026/members.json",
+    "role_assignments": "data/sessions/2025-2026/roles.json",
+    "distances": "data/sessions/2025-2026/distances.json"
+  }
+}

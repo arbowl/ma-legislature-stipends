@@ -1,0 +1,222 @@
+{
+  "member_id": "MCM0",
+  "name": "Mark Montigny",
+  "chamber": "senate",
+  "party": "D",
+  "district": "Second Bristol and Plymouth",
+  "distance_from_state_house": 50.242,
+  "session_id": "2025-2026",
+  "compensation": {
+    "total": 179247,
+    "components": [
+      {
+        "label": "Base salary (Article CXVIII)",
+        "amount": 82046,
+        "provenance": [
+          {
+            "source_id": "MGL_ART_CXVIII",
+            "label": "Mass. Const. amend. Art. CXVIII (legislator base salary)",
+            "kind": "STATUTE",
+            "url": "https://malegislature.gov/Laws/Constitution#amendmentArticleCXVIII"
+          },
+          {
+            "source_id": "BASE_SALARY_9B",
+            "label": "Manual 9B(g) biennial adjustment factors (2019, 2021, 2023, 2025)",
+            "kind": "MANUAL_OVERRIDE",
+            "url": "https://www.masslive.com/boston/2025/01/gov-maura-healey-orders-11-pay-raise-for-mass-lawmakers-in-2025.html",
+            "details": [
+              "https://www.cbsnews.com/boston/news/massachusetts-lawmakers-governor-charlie-baker-pay-raises/",
+              "https://www.masslive.com/boston/2025/01/gov-maura-healey-orders-11-pay-raise-for-mass-lawmakers-in-2025.html",
+              "https://www.heraldnews.com/story/news/state/2021/01/02/massachusetts-lawmakers-eligible-6-46-percent-pay-raise-2021-baker-state-representatives-senators/4111890001/",
+              "https://franklinobserver.town.news/g/franklin-town-ma/n/137414/healey-other-state-officers-line-20-raises"
+            ]
+          }
+        ],
+        "details": {
+          "base_amount": 62548,
+          "adjustment_factor": 1.3116
+        }
+      },
+      {
+        "label": "Stipends (Section 9B)",
+        "amount": 67293,
+        "provenance": [
+          {
+            "source_id": "STIPEND_9B",
+            "label": "Manual stipend adjustment from Massachusetts Almanac",
+            "kind": "CALCULATION",
+            "url": "https://massachusettsalmanac.com/perks-n-pay/",
+            "details": [
+              "Data calculated via delta from base value to Almanac reported current value"
+            ]
+          },
+          {
+            "source_id": "SENATE_RULES_11E",
+            "label": "Senate Rules",
+            "kind": "OFFICIAL_WEBSITE",
+            "url": "https://malegislature.gov/Laws/Rules/Senate",
+            "details": [
+              "11E. Members of the Senate may be compensated for service in no more than 2 positions, whether as a member of leadership or as a chair, vice-chair or ranking member of a committee. [2017, 2019.]"
+            ]
+          },
+          {
+            "source_id": "MGL_3_9B",
+            "label": "Mass. Gen. Laws c.3 S9B",
+            "kind": "STATUTE",
+            "url": "https://malegislature.gov/Laws/GeneralLaws/PartI/TitleI/Chapter3/Section9B"
+          }
+        ],
+        "details": {
+          "breakdown": [
+            {
+              "role_code": "SENATE_POST_AUDIT_CHAIR",
+              "role_title": "Chair, Senate Committee on Post Audit and Oversight",
+              "tier_id": "T30K",
+              "base_amount": 30000,
+              "adjusted_amount": 44862,
+              "adjustment_factor": 1.4954,
+              "paid": true,
+              "reason": "Tier StipendTierCode.TIER_30K base $30,000 adjusted by factor 1.4954",
+              "provenance": [
+                {
+                  "source_id": "STIPEND_9B",
+                  "label": "Manual stipend adjustment from Massachusetts Almanac",
+                  "kind": "CALCULATION",
+                  "url": "https://massachusettsalmanac.com/perks-n-pay/",
+                  "details": [
+                    "Data calculated via delta from base value to Almanac reported current value"
+                  ]
+                },
+                {
+                  "source_id": "MGL_3_9B",
+                  "label": "Mass. Gen. Laws c.3 S9B",
+                  "kind": "STATUTE",
+                  "url": "https://malegislature.gov/Laws/GeneralLaws/PartI/TitleI/Chapter3/Section9B"
+                }
+              ]
+            },
+            {
+              "role_code": "GENERIC_OTHER_COMMITTEE_CHAIR",
+              "role_title": "Chair, other committee",
+              "tier_id": "T15K",
+              "base_amount": 15000,
+              "adjusted_amount": 22431,
+              "adjustment_factor": 1.4954,
+              "paid": true,
+              "reason": "Tier StipendTierCode.TIER_15K base $15,000 adjusted by factor 1.4954",
+              "provenance": [
+                {
+                  "source_id": "STIPEND_9B",
+                  "label": "Manual stipend adjustment from Massachusetts Almanac",
+                  "kind": "CALCULATION",
+                  "url": "https://massachusettsalmanac.com/perks-n-pay/",
+                  "details": [
+                    "Data calculated via delta from base value to Almanac reported current value"
+                  ]
+                },
+                {
+                  "source_id": "MGL_3_9B",
+                  "label": "Mass. Gen. Laws c.3 S9B",
+                  "kind": "STATUTE",
+                  "url": "https://malegislature.gov/Laws/GeneralLaws/PartI/TitleI/Chapter3/Section9B"
+                }
+              ]
+            },
+            {
+              "role_code": "GENERIC_OTHER_COMMITTEE_VICE_CHAIR",
+              "role_title": "Vice Chair, other committee",
+              "tier_id": "T5200",
+              "base_amount": 5200,
+              "adjusted_amount": 7776,
+              "adjustment_factor": 1.4954,
+              "paid": false,
+              "reason": "Tier StipendTierCode.TIER_5200 base $5,200 adjusted by factor 1.4954",
+              "provenance": [
+                {
+                  "source_id": "STIPEND_9B",
+                  "label": "Manual stipend adjustment from Massachusetts Almanac",
+                  "kind": "CALCULATION",
+                  "url": "https://massachusettsalmanac.com/perks-n-pay/",
+                  "details": [
+                    "Data calculated via delta from base value to Almanac reported current value"
+                  ]
+                },
+                {
+                  "source_id": "MGL_3_9B",
+                  "label": "Mass. Gen. Laws c.3 S9B",
+                  "kind": "STATUTE",
+                  "url": "https://malegislature.gov/Laws/GeneralLaws/PartI/TitleI/Chapter3/Section9B"
+                }
+              ]
+            }
+          ],
+          "total_roles": 3,
+          "paid_roles": 2,
+          "discarded_roles": 1
+        }
+      },
+      {
+        "label": "Travel (Section 9C)",
+        "amount": 29908,
+        "provenance": [
+          {
+            "source_id": "MGL_3_9C",
+            "label": "Mass. Gen. Laws c.3 S9C",
+            "kind": "STATUTE",
+            "url": "https://malegislature.gov/Laws/GeneralLaws/PartI/TitleI/Chapter3/Section9C"
+          }
+        ],
+        "details": {
+          "distance_miles": 50.242,
+          "calculation": "distance 50.2 > 50.0 miles -> $20000",
+          "base_amount": 20000,
+          "adjustment_factor": 1.4954
+        }
+      }
+    ]
+  },
+  "validation_issues": [
+    {
+      "level": "WARNING",
+      "code": "MULTIPLE_CHAIR_ROLES_RAW",
+      "message": "Mark Montigny has 2 chair roles in raw data; 9B(f) only allows one paid chair, so one or more may be discarded.",
+      "context": {
+        "member_id": "MCM0",
+        "session_id": "2025-2026",
+        "chair_role_codes": [
+          "GENERIC_OTHER_COMMITTEE_CHAIR",
+          "SENATE_POST_AUDIT_CHAIR"
+        ]
+      }
+    },
+    {
+      "level": "WARNING",
+      "code": "MORE_THAN_TWO_STIPEND_ROLES_RAW",
+      "message": "Mark Montigny has 3 stipend-bearing roles; 9B(f) only allows two paid positions by default.",
+      "context": {
+        "member_id": "MCM0",
+        "session_id": "2025-2026",
+        "stipend_role_codes": [
+          "GENERIC_OTHER_COMMITTEE_CHAIR",
+          "SENATE_POST_AUDIT_CHAIR",
+          "GENERIC_OTHER_COMMITTEE_VICE_CHAIR"
+        ]
+      }
+    },
+    {
+      "level": "WARNING",
+      "code": "PROXIMITY_TO_STATE_HOUSE",
+      "message": "Mark Montigny lives within +/- 5 miles of the 50-mile state house travel threshold.",
+      "context": {
+        "member": "MCM0",
+        "district": "Second Bristol and Plymouth",
+        "distance": 50.242
+      }
+    }
+  ],
+  "raw_data_sources": {
+    "member_data": "data/sessions/2025-2026/members.json",
+    "role_assignments": "data/sessions/2025-2026/roles.json",
+    "distances": "data/sessions/2025-2026/distances.json"
+  }
+}
