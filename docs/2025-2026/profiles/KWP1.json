@@ -25,10 +25,10 @@
             "kind": "MANUAL_OVERRIDE",
             "url": "https://www.masslive.com/boston/2025/01/gov-maura-healey-orders-11-pay-raise-for-mass-lawmakers-in-2025.html",
             "details": [
-              "https://www.masslive.com/boston/2025/01/gov-maura-healey-orders-11-pay-raise-for-mass-lawmakers-in-2025.html",
               "https://franklinobserver.town.news/g/franklin-town-ma/n/137414/healey-other-state-officers-line-20-raises",
-              "https://www.cbsnews.com/boston/news/massachusetts-lawmakers-governor-charlie-baker-pay-raises/",
-              "https://www.heraldnews.com/story/news/state/2021/01/02/massachusetts-lawmakers-eligible-6-46-percent-pay-raise-2021-baker-state-representatives-senators/4111890001/"
+              "https://www.masslive.com/boston/2025/01/gov-maura-healey-orders-11-pay-raise-for-mass-lawmakers-in-2025.html",
+              "https://www.heraldnews.com/story/news/state/2021/01/02/massachusetts-lawmakers-eligible-6-46-percent-pay-raise-2021-baker-state-representatives-senators/4111890001/",
+              "https://www.cbsnews.com/boston/news/massachusetts-lawmakers-governor-charlie-baker-pay-raises/"
             ]
           }
         ],
@@ -42,22 +42,13 @@
         "amount": 22431,
         "provenance": [
           {
-            "source_id": "STIPEND_9B",
-            "label": "Manual stipend adjustment from Massachusetts Almanac",
-            "kind": "CALCULATION",
-            "url": "https://massachusettsalmanac.com/perks-n-pay/",
-            "details": [
-              "Data calculated via delta from base value to Almanac reported current value"
-            ]
-          },
-          {
             "source_id": "HOUSE_MINORITY_APPOINTMENT_LETTER",
             "label": "Committee appointments by Bradley Jones for 2025",
             "kind": "DATA_FILE",
             "url": "https://files.engineers.org/file/HouseRepublicanCommitteeAssignments.pdf",
             "details": [
-              "Joseph McKenna: Assistant Ranking Minority Member on the House Committee on Ways and Means",
-              "Kelly Pease: Assistant Ranking Minority Member on the House Committee on Ways and Means"
+              "Kelly Pease: Assistant Ranking Minority Member on the House Committee on Ways and Means",
+              "Joseph McKenna: Assistant Ranking Minority Member on the House Committee on Ways and Means"
             ]
           },
           {
@@ -65,6 +56,15 @@
             "label": "Mass. Gen. Laws c.3 S9B",
             "kind": "STATUTE",
             "url": "https://malegislature.gov/Laws/GeneralLaws/PartI/TitleI/Chapter3/Section9B"
+          },
+          {
+            "source_id": "STIPEND_9B",
+            "label": "Manual stipend adjustment from Massachusetts Almanac",
+            "kind": "CALCULATION",
+            "url": "https://massachusettsalmanac.com/perks-n-pay/",
+            "details": [
+              "Data calculated via delta from base value to Almanac reported current value"
+            ]
           }
         ],
         "details": {
@@ -80,22 +80,13 @@
               "reason": "Tier StipendTierCode.TIER_15K base $15,000 adjusted by factor 1.4954",
               "provenance": [
                 {
-                  "source_id": "STIPEND_9B",
-                  "label": "Manual stipend adjustment from Massachusetts Almanac",
-                  "kind": "CALCULATION",
-                  "url": "https://massachusettsalmanac.com/perks-n-pay/",
-                  "details": [
-                    "Data calculated via delta from base value to Almanac reported current value"
-                  ]
-                },
-                {
                   "source_id": "HOUSE_MINORITY_APPOINTMENT_LETTER",
                   "label": "Committee appointments by Bradley Jones for 2025",
                   "kind": "DATA_FILE",
                   "url": "https://files.engineers.org/file/HouseRepublicanCommitteeAssignments.pdf",
                   "details": [
-                    "Joseph McKenna: Assistant Ranking Minority Member on the House Committee on Ways and Means",
-                    "Kelly Pease: Assistant Ranking Minority Member on the House Committee on Ways and Means"
+                    "Kelly Pease: Assistant Ranking Minority Member on the House Committee on Ways and Means",
+                    "Joseph McKenna: Assistant Ranking Minority Member on the House Committee on Ways and Means"
                   ]
                 },
                 {
@@ -103,6 +94,15 @@
                   "label": "Mass. Gen. Laws c.3 S9B",
                   "kind": "STATUTE",
                   "url": "https://malegislature.gov/Laws/GeneralLaws/PartI/TitleI/Chapter3/Section9B"
+                },
+                {
+                  "source_id": "STIPEND_9B",
+                  "label": "Manual stipend adjustment from Massachusetts Almanac",
+                  "kind": "CALCULATION",
+                  "url": "https://massachusettsalmanac.com/perks-n-pay/",
+                  "details": [
+                    "Data calculated via delta from base value to Almanac reported current value"
+                  ]
                 }
               ]
             }

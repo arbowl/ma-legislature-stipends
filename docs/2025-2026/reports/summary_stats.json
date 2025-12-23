@@ -19,11 +19,6 @@
     }
   },
   "by_party": {
-    "D": {
-      "count": 167,
-      "total_compensation": 22260750,
-      "average_compensation": 133297.90419161678
-    },
     "Other": {
       "count": 1,
       "total_compensation": 111954,
@@ -33,6 +28,11 @@
       "count": 30,
       "total_compensation": 4113797,
       "average_compensation": 137126.56666666668
+    },
+    "D": {
+      "count": 167,
+      "total_compensation": 22260750,
+      "average_compensation": 133297.90419161678
     }
   },
   "stipend_distribution": {

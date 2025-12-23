@@ -25,10 +25,10 @@
             "kind": "MANUAL_OVERRIDE",
             "url": "https://www.masslive.com/boston/2025/01/gov-maura-healey-orders-11-pay-raise-for-mass-lawmakers-in-2025.html",
             "details": [
-              "https://www.masslive.com/boston/2025/01/gov-maura-healey-orders-11-pay-raise-for-mass-lawmakers-in-2025.html",
               "https://franklinobserver.town.news/g/franklin-town-ma/n/137414/healey-other-state-officers-line-20-raises",
-              "https://www.cbsnews.com/boston/news/massachusetts-lawmakers-governor-charlie-baker-pay-raises/",
-              "https://www.heraldnews.com/story/news/state/2021/01/02/massachusetts-lawmakers-eligible-6-46-percent-pay-raise-2021-baker-state-representatives-senators/4111890001/"
+              "https://www.masslive.com/boston/2025/01/gov-maura-healey-orders-11-pay-raise-for-mass-lawmakers-in-2025.html",
+              "https://www.heraldnews.com/story/news/state/2021/01/02/massachusetts-lawmakers-eligible-6-46-percent-pay-raise-2021-baker-state-representatives-senators/4111890001/",
+              "https://www.cbsnews.com/boston/news/massachusetts-lawmakers-governor-charlie-baker-pay-raises/"
             ]
           }
         ],
@@ -53,16 +53,16 @@
         "amount": 29908,
         "provenance": [
           {
-            "source_id": "MGL_3_9C",
-            "label": "Mass. Gen. Laws c.3 S9C",
-            "kind": "STATUTE",
-            "url": "https://malegislature.gov/Laws/GeneralLaws/PartI/TitleI/Chapter3/Section9C"
-          },
-          {
             "source_id": "DISTANCE_OVERRIDE",
             "label": "Manual override of distance centroids using alternative sources",
             "kind": "MANUAL_OVERRIDE",
             "url": "https://cthrupayroll.mass.gov/#!/year/2025/full_time_employees,others/pay1,pay2,pay3,pay4/explore/0-0-0/trans_no/20593768/0/department_division"
+          },
+          {
+            "source_id": "MGL_3_9C",
+            "label": "Mass. Gen. Laws c.3 S9C",
+            "kind": "STATUTE",
+            "url": "https://malegislature.gov/Laws/GeneralLaws/PartI/TitleI/Chapter3/Section9C"
           }
         ],
         "details": {
