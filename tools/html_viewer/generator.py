@@ -89,7 +89,7 @@ def generate_html_viewer(
         github_url="https://github.com/arbowl/ma-legislature-stipends/",
         generated_on=generated_on,
     )
-    output_file = session_dir / "index.html"
+    output_file = Path("docs/") / "index.html"
     with output_file.open("w", encoding="utf-8") as f:
         f.write(html)
     print(f"\n[SUCCESS] HTML viewer generated: {output_file.absolute()}")

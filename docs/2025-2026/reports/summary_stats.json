@@ -1,0 +1,114 @@
+{
+  "session_id": "2025-2026",
+  "total_members": 198,
+  "total_compensation": 26486501,
+  "average_compensation": 133770.20707070708,
+  "median_compensation": 126908.0,
+  "by_chamber": {
+    "house": {
+      "count": 159,
+      "total_compensation": 19932227,
+      "average_compensation": 125359.9182389937,
+      "median_compensation": 126908
+    },
+    "senate": {
+      "count": 39,
+      "total_compensation": 6554274,
+      "average_compensation": 168058.3076923077,
+      "median_compensation": 164293
+    }
+  },
+  "by_party": {
+    "D": {
+      "count": 167,
+      "total_compensation": 22260750,
+      "average_compensation": 133297.90419161678
+    },
+    "Other": {
+      "count": 1,
+      "total_compensation": 111954,
+      "average_compensation": 111954.0
+    },
+    "R": {
+      "count": 30,
+      "total_compensation": 4113797,
+      "average_compensation": 137126.56666666668
+    }
+  },
+  "stipend_distribution": {
+    "0_stipends": 51,
+    "1_or_more_stipends": 147
+  },
+  "top_earners": [
+    {
+      "rank": 1,
+      "member_id": "KES0",
+      "name": "Karen Spilka",
+      "chamber": "senate",
+      "total": 224109
+    },
+    {
+      "rank": 2,
+      "member_id": "R_M1",
+      "name": "Ronald Mariano",
+      "chamber": "house",
+      "total": 224109
+    },
+    {
+      "rank": 3,
+      "member_id": "MJR0",
+      "name": "Michael Rodrigues",
+      "chamber": "senate",
+      "total": 216931
+    },
+    {
+      "rank": 4,
+      "member_id": "CSC0",
+      "name": "Cynthia Creem",
+      "chamber": "senate",
+      "total": 216632
+    },
+    {
+      "rank": 5,
+      "member_id": "MJB0",
+      "name": "Michael Barrett",
+      "chamber": "senate",
+      "total": 201678
+    },
+    {
+      "rank": 6,
+      "member_id": "WNB0",
+      "name": "William Brownsberger",
+      "chamber": "senate",
+      "total": 201678
+    },
+    {
+      "rank": 7,
+      "member_id": "SND0",
+      "name": "Sal DiDomenico",
+      "chamber": "senate",
+      "total": 201678
+    },
+    {
+      "rank": 8,
+      "member_id": "JBL0",
+      "name": "Joan Lovely",
+      "chamber": "senate",
+      "total": 201678
+    },
+    {
+      "rank": 9,
+      "member_id": "PMO",
+      "name": "Patrick O'Connor",
+      "chamber": "senate",
+      "total": 201678
+    },
+    {
+      "rank": 10,
+      "member_id": "AMM1",
+      "name": "Aaron Michlewitz",
+      "chamber": "house",
+      "total": 201678
+    }
+  ]
+}

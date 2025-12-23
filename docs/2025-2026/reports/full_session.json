@@ -1,0 +1,3037 @@
+{
+  "session_id": "2025-2026",
+  "session_label": "2025-2026",
+  "start_year": 2025,
+  "end_year": 2026,
+  "generated_at": "2025-12-23T00:33:40.576495Z",
+  "members": [
+    {
+      "member_id": "MJB0",
+      "name": "Michael Barrett",
+      "chamber": "senate",
+      "party": "D",
+      "base_salary": 82046,
+      "stipends_9b": 97201,
+      "travel_9c": 22431,
+      "total": 201678,
+      "distance_miles": 15.922
+    },
+    {
+      "member_id": "MDB0",
+      "name": "Michael Brady",
+      "chamber": "senate",
+      "party": "D",
+      "base_salary": 82046,
+      "stipends_9b": 30207,
+      "travel_9c": 22431,
+      "total": 134684,
+      "distance_miles": 20.985
+    },
+    {
+      "member_id": "WNB0",
+      "name": "William Brownsberger",
+      "chamber": "senate",
+      "party": "D",
+      "base_salary": 82046,
+      "stipends_9b": 97201,
+      "travel_9c": 22431,
+      "total": 201678,
+      "distance_miles": 5.212
+    },
+    {
+      "member_id": "N_C0",
+      "name": "Nick Collins",
+      "chamber": "senate",
+      "party": "D",
+      "base_salary": 82046,
+      "stipends_9b": 52638,
+      "travel_9c": 22431,
+      "total": 157115,
+      "distance_miles": 3.287
+    },
+    {
+      "member_id": "JMC0",
+      "name": "Joanne Comerford",
+      "chamber": "senate",
+      "party": "D",
+      "base_salary": 82046,
+      "stipends_9b": 67293,
+      "travel_9c": 29908,
+      "total": 179247,
+      "distance_miles": 68.724
+    },
+    {
+      "member_id": "CSC0",
+      "name": "Cynthia Creem",
+      "chamber": "senate",
+      "party": "D",
+      "base_salary": 82046,
+      "stipends_9b": 112155,
+      "travel_9c": 22431,
+      "total": 216632,
+      "distance_miles": 8.232
+    },
+    {
+      "member_id": "BPC0",
+      "name": "Brendan Crighton",
+      "chamber": "senate",
+      "party": "D",
+      "base_salary": 82046,
+      "stipends_9b": 67293,
+      "travel_9c": 22431,
+      "total": 171770,
+      "distance_miles": 10.048
+    },
+    {
+      "member_id": "JJC0",
+      "name": "John Cronin",
+      "chamber": "senate",
+      "party": "D",
+      "base_salary": 82046,
+      "stipends_9b": 44862,
+      "travel_9c": 29908,
+      "total": 156816,
+      "distance_miles": 37.096
+    },
+    {
+      "member_id": "JAC0",
+      "name": "Julian Cyr",
+      "chamber": "senate",
+      "party": "D",
+      "base_salary": 82046,
+      "stipends_9b": 74770,
+      "travel_9c": 29908,
+      "total": 186724,
+      "distance_miles": 70.579
+    },
+    {
+      "member_id": "SND0",
+      "name": "Sal DiDomenico",
+      "chamber": "senate",
+      "party": "D",
+      "base_salary": 82046,
+      "stipends_9b": 97201,
+      "travel_9c": 22431,
+      "total": 201678,
+      "distance_miles": 1.52
+    },
+    {
+      "member_id": "KAD0",
+      "name": "Kelly Dooner",
+      "chamber": "senate",
+      "party": "R",
+      "base_salary": 82046,
+      "stipends_9b": 74770,
+      "travel_9c": 22431,
+      "total": 179247,
+      "distance_miles": 36.722
+    },
+    {
+      "member_id": "WJD0",
+      "name": "William Driscoll",
+      "chamber": "senate",
+      "party": "D",
+      "base_salary": 82046,
+      "stipends_9b": 30207,
+      "travel_9c": 22431,
+      "total": 134684,
+      "distance_miles": 17.694
+    },
+    {
+      "member_id": "PJD0",
+      "name": "Peter Durant",
+      "chamber": "senate",
+      "party": "R",
+      "base_salary": 82046,
+      "stipends_9b": 52339,
+      "travel_9c": 29908,
+      "total": 164293,
+      "distance_miles": 49.38
+    },
+    {
+      "member_id": "LME0",
+      "name": "Lydia Edwards",
+      "chamber": "senate",
+      "party": "D",
+      "base_salary": 82046,
+      "stipends_9b": 52638,
+      "travel_9c": 22431,
+      "total": 157115,
+      "distance_miles": 0.482
+    },
+    {
+      "member_id": "JBE0",
+      "name": "James Eldridge",
+      "chamber": "senate",
+      "party": "D",
+      "base_salary": 82046,
+      "stipends_9b": 52638,
+      "travel_9c": 22431,
+      "total": 157115,
+      "distance_miles": 21.476
+    },
+    {
+      "member_id": "RCF0",
+      "name": "Ryan Fattman",
+      "chamber": "senate",
+      "party": "R",
+      "base_salary": 82046,
+      "stipends_9b": 52339,
+      "travel_9c": 29908,
+      "total": 164293,
+      "distance_miles": 48.004
+    },
+    {
+      "member_id": "PRF0",
+      "name": "Paul Feeney",
+      "chamber": "senate",
+      "party": "D",
+      "base_salary": 82046,
+      "stipends_9b": 67293,
+      "travel_9c": 22431,
+      "total": 171770,
+      "distance_miles": 22.249
+    },
+    {
+      "member_id": "DAF0",
+      "name": "Dylan Fernandes",
+      "chamber": "senate",
+      "party": "D",
+      "base_salary": 82046,
+      "stipends_9b": 30207,
+      "travel_9c": 29908,
+      "total": 142161,
+      "distance_miles": 36.731
+    },
+    {
+      "member_id": "BRF0",
+      "name": "Barry Finegold",
+      "chamber": "senate",
+      "party": "D",
+      "base_salary": 82046,
+      "stipends_9b": 52638,
+      "travel_9c": 22431,
+      "total": 157115,
+      "distance_miles": 23.823
+    },
+    {
+      "member_id": "CFF0",
+      "name": "Cindy Friedman",
+      "chamber": "senate",
+      "party": "D",
+      "base_salary": 82046,
+      "stipends_9b": 89724,
+      "travel_9c": 22431,
+      "total": 194201,
+      "distance_miles": 11.651
+    },
+    {
+      "member_id": "A_G0",
+      "name": "Adam Gómez",
+      "chamber": "senate",
+      "party": "D",
+      "base_salary": 82046,
+      "stipends_9b": 44862,
+      "travel_9c": 29908,
+      "total": 156816,
+      "distance_miles": 77.529
+    },
+    {
+      "member_id": "PDJ0",
+      "name": "Patricia Jehlen",
+      "chamber": "senate",
+      "party": "D",
+      "base_salary": 82046,
+      "stipends_9b": 30207,
+      "travel_9c": 22431,
+      "total": 134684,
+      "distance_miles": 4.861
+    },
+    {
+      "member_id": "JFK0",
+      "name": "John Keenan",
+      "chamber": "senate",
+      "party": "D",
+      "base_salary": 82046,
+      "stipends_9b": 30207,
+      "travel_9c": 22431,
+      "total": 134684,
+      "distance_miles": 11.974
+    },
+    {
+      "member_id": "RKK0",
+      "name": "Robyn Kennedy",
+      "chamber": "senate",
+      "party": "D",
+      "base_salary": 82046,
+      "stipends_9b": 30207,
+      "travel_9c": 22431,
+      "total": 134684,
+      "distance_miles": 32.981
+    },
+    {
+      "member_id": "jml0",
+      "name": "Jason Lewis",
+      "chamber": "senate",
+      "party": "D",
+      "base_salary": 82046,
+      "stipends_9b": 67293,
+      "travel_9c": 22431,
+      "total": 171770,
+      "distance_miles": 9.113
+    },
+    {
+      "member_id": "JBL0",
+      "name": "Joan Lovely",
+      "chamber": "senate",
+      "party": "D",
+      "base_salary": 82046,
+      "stipends_9b": 97201,
+      "travel_9c": 22431,
+      "total": 201678,
+      "distance_miles": 13.933
+    },
+    {
+      "member_id": "PWM0",
+      "name": "Paul Mark",
+      "chamber": "senate",
+      "party": "D",
+      "base_salary": 82046,
+      "stipends_9b": 30207,
+      "travel_9c": 29908,
+      "total": 142161,
+      "distance_miles": 100.828
+    },
+    {
+      "member_id": "L%20M0",
+      "name": "Liz Miranda",
+      "chamber": "senate",
+      "party": "D",
+      "base_salary": 82046,
+      "stipends_9b": 30207,
+      "travel_9c": 22431,
+      "total": 134684,
+      "distance_miles": 5.07
+    },
+    {
+      "member_id": "MCM0",
+      "name": "Mark Montigny",
+      "chamber": "senate",
+      "party": "D",
+      "base_salary": 82046,
+      "stipends_9b": 67293,
+      "travel_9c": 29908,
+      "total": 179247,
+      "distance_miles": 50.242
+    },
+    {
+      "member_id": "MOM0",
+      "name": "Michael Moore",
+      "chamber": "senate",
+      "party": "D",
+      "base_salary": 82046,
+      "stipends_9b": 30207,
+      "travel_9c": 22431,
+      "total": 134684,
+      "distance_miles": 33.332
+    },
+    {
+      "member_id": "PMO",
+      "name": "Patrick O'Connor",
+      "chamber": "senate",
+      "party": "R",
+      "base_salary": 82046,
+      "stipends_9b": 97201,
+      "travel_9c": 22431,
+      "total": 201678,
+      "distance_miles": 20.164
+    },
+    {
+      "member_id": "JRO0",
+      "name": "Jacob Oliveira",
+      "chamber": "senate",
+      "party": "D",
+      "base_salary": 82046,
+      "stipends_9b": 30207,
+      "travel_9c": 29908,
+      "total": 142161,
+      "distance_miles": 68.001
+    },
+    {
+      "member_id": "PMP0",
+      "name": "Pavel Payano",
+      "chamber": "senate",
+      "party": "D",
+      "base_salary": 82046,
+      "stipends_9b": 30207,
+      "travel_9c": 22431,
+      "total": 134684,
+      "distance_miles": 26.55
+    },
+    {
+      "member_id": "RLR0",
+      "name": "Rebecca Rausch",
+      "chamber": "senate",
+      "party": "D",
+      "base_salary": 82046,
+      "stipends_9b": 44862,
+      "travel_9c": 22431,
+      "total": 149339,
+      "distance_miles": 19.803
+    },
+    {
+      "member_id": "MJR0",
+      "name": "Michael Rodrigues",
+      "chamber": "senate",
+      "party": "D",
+      "base_salary": 82046,
+      "stipends_9b": 104977,
+      "travel_9c": 29908,
+      "total": 216931,
+      "distance_miles": 46.137
+    },
+    {
+      "member_id": "MFR0",
+      "name": "Michael Rush",
+      "chamber": "senate",
+      "party": "D",
+      "base_salary": 82046,
+      "stipends_9b": 74770,
+      "travel_9c": 22431,
+      "total": 179247,
+      "distance_miles": 12.608
+    },
+    {
+      "member_id": "KES0",
+      "name": "Karen Spilka",
+      "chamber": "senate",
+      "party": "D",
+      "base_salary": 82046,
+      "stipends_9b": 119632,
+      "travel_9c": 22431,
+      "total": 224109,
+      "distance_miles": 24.017
+    },
+    {
+      "member_id": "BET0",
+      "name": "Bruce Tarr",
+      "chamber": "senate",
+      "party": "R",
+      "base_salary": 82046,
+      "stipends_9b": 89724,
+      "travel_9c": 22431,
+      "total": 194201,
+      "distance_miles": 25.488
+    },
+    {
+      "member_id": "JCV0",
+      "name": "John Velis",
+      "chamber": "senate",
+      "party": "D",
+      "base_salary": 82046,
+      "stipends_9b": 44862,
+      "travel_9c": 29908,
+      "total": 156816,
+      "distance_miles": 87.672
+    },
+    {
+      "member_id": "J_A1",
+      "name": "James Arciero",
+      "chamber": "house",
+      "party": "D",
+      "base_salary": 82046,
+      "stipends_9b": 44862,
+      "travel_9c": 22431,
+      "total": 149339,
+      "distance_miles": 24.691
+    },
+    {
+      "member_id": "JCD1",
+      "name": "James Arena-DeRosa",
+      "chamber": "house",
+      "party": "D",
+      "base_salary": 82046,
+      "stipends_9b": 0,
+      "travel_9c": 22431,
+      "total": 104477,
+      "distance_miles": 23.287
+    },
+    {
+      "member_id": "JBA1",
+      "name": "Jennifer Balinsky Armini",
+      "chamber": "house",
+      "party": "D",
+      "base_salary": 82046,
+      "stipends_9b": 7776,
+      "travel_9c": 22431,
+      "total": 112253,
+      "distance_miles": 13.153
+    },
+    {
+      "member_id": "SBA1",
+      "name": "Shirley Arriaga",
+      "chamber": "house",
+      "party": "D",
+      "base_salary": 82046,
+      "stipends_9b": 0,
+      "travel_9c": 29908,
+      "total": 111954,
+      "distance_miles": 77.84
+    },
+    {
+      "member_id": "BMA1",
+      "name": "Brian Ashe",
+      "chamber": "house",
+      "party": "D",
+      "base_salary": 82046,
+      "stipends_9b": 22431,
+      "travel_9c": 29908,
+      "total": 134385,
+      "distance_miles": 69.461
+    },
+    {
+      "member_id": "BJA1",
+      "name": "Bruce Ayers",
+      "chamber": "house",
+      "party": "D",
+      "base_salary": 82046,
+      "stipends_9b": 22431,
+      "travel_9c": 22431,
+      "total": 126908,
+      "distance_miles": 8.805
+    },
+    {
+      "member_id": "MLB1",
+      "name": "Michelle Badger",
+      "chamber": "house",
+      "party": "D",
+      "base_salary": 82046,
+      "stipends_9b": 0,
+      "travel_9c": 22431,
+      "total": 104477,
+      "distance_miles": 40.737
+    },
+    {
+      "member_id": "CPB2",
+      "name": "Christine Barber",
+      "chamber": "house",
+      "party": "D",
+      "base_salary": 82046,
+      "stipends_9b": 22431,
+      "travel_9c": 22431,
+      "total": 126908,
+      "distance_miles": 3.734
+    },
+    {
+      "member_id": "J_B1",
+      "name": "John Barrett",
+      "chamber": "house",
+      "party": "D",
+      "base_salary": 82046,
+      "stipends_9b": 22431,
+      "travel_9c": 29908,
+      "total": 134385,
+      "distance_miles": 107.448
+    },
+    {
+      "member_id": "DRB1",
+      "name": "Donald Berthiaume",
+      "chamber": "house",
+      "party": "R",
+      "base_salary": 82046,
+      "stipends_9b": 22431,
+      "travel_9c": 29908,
+      "total": 134385,
+      "distance_miles": 55.272
+    },
+    {
+      "member_id": "D_B1",
+      "name": "David Biele",
+      "chamber": "house",
+      "party": "D",
+      "base_salary": 82046,
+      "stipends_9b": 22431,
+      "travel_9c": 22431,
+      "total": 126908,
+      "distance_miles": 1.855
+    },
+    {
+      "member_id": "NMB1",
+      "name": "Natalie Blais",
+      "chamber": "house",
+      "party": "D",
+      "base_salary": 82046,
+      "stipends_9b": 22431,
+      "travel_9c": 29908,
+      "total": 134385,
+      "distance_miles": 85.96
+    },
+    {
+      "member_id": "NAG1",
+      "name": "Nicholas Boldyga",
+      "chamber": "house",
+      "party": "R",
+      "base_salary": 82046,
+      "stipends_9b": 0,
+      "travel_9c": 29908,
+      "total": 111954,
+      "distance_miles": 94.783
+    },
+    {
+      "member_id": "HLB1",
+      "name": "Hannah Bowen",
+      "chamber": "house",
+      "party": "D",
+      "base_salary": 82046,
+      "stipends_9b": 0,
+      "travel_9c": 22431,
+      "total": 104477,
+      "distance_miles": 18.372
+    },
+    {
+      "member_id": "AFC1",
+      "name": "Antonio Cabral",
+      "chamber": "house",
+      "party": "D",
+      "base_salary": 82046,
+      "stipends_9b": 44862,
+      "travel_9c": 29908,
+      "total": 156816,
+      "distance_miles": 50.947
+    },
+    {
+      "member_id": "DFC1",
+      "name": "Daniel Cahill",
+      "chamber": "house",
+      "party": "D",
+      "base_salary": 82046,
+      "stipends_9b": 22431,
+      "travel_9c": 22431,
+      "total": 126908,
+      "distance_miles": 10.411
+    },
+    {
+      "member_id": "S_C1",
+      "name": "Simon Cataldo",
+      "chamber": "house",
+      "party": "D",
+      "base_salary": 82046,
+      "stipends_9b": 7776,
+      "travel_9c": 22431,
+      "total": 112253,
+      "distance_miles": 19.327
+    },
+    {
+      "member_id": "MSC1",
+      "name": "Michael Chaisson",
+      "chamber": "house",
+      "party": "R",
+      "base_salary": 82046,
+      "stipends_9b": 0,
+      "travel_9c": 22431,
+      "total": 104477,
+      "distance_miles": 24.273
+    },
+    {
+      "member_id": "T_C1",
+      "name": "Tackey Chan",
+      "chamber": "house",
+      "party": "D",
+      "base_salary": 82046,
+      "stipends_9b": 22431,
+      "travel_9c": 22431,
+      "total": 126908,
+      "distance_miles": 7.715
+    },
+    {
+      "member_id": "M_C2",
+      "name": "Michelle Ciccolo",
+      "chamber": "house",
+      "party": "D",
+      "base_salary": 82046,
+      "stipends_9b": 7776,
+      "travel_9c": 22431,
+      "total": 112253,
+      "distance_miles": 8.979
+    },
+    {
+      "member_id": "M_C1",
+      "name": "Mike Connolly",
+      "chamber": "house",
+      "party": "D",
+      "base_salary": 82046,
+      "stipends_9b": 7776,
+      "travel_9c": 22431,
+      "total": 112253,
+      "distance_miles": 1.584
+    },
+    {
+      "member_id": "R_C1",
+      "name": "Rob Consalvo",
+      "chamber": "house",
+      "party": "D",
+      "base_salary": 82046,
+      "stipends_9b": 22431,
+      "travel_9c": 22431,
+      "total": 126908,
+      "distance_miles": 7.571
+    },
+    {
+      "member_id": "M_C3",
+      "name": "Manny Cruz",
+      "chamber": "house",
+      "party": "D",
+      "base_salary": 82046,
+      "stipends_9b": 0,
+      "travel_9c": 22431,
+      "total": 104477,
+      "distance_miles": 13.501
+    },
+    {
+      "member_id": "MJC1",
+      "name": "Mark Cusack",
+      "chamber": "house",
+      "party": "D",
+      "base_salary": 82046,
+      "stipends_9b": 44862,
+      "travel_9c": 22431,
+      "total": 149339,
+      "distance_miles": 12.173
+    },
+    {
+      "member_id": "LSD1",
+      "name": "Leigh Davis",
+      "chamber": "house",
+      "party": "D",
+      "base_salary": 82046,
+      "stipends_9b": 0,
+      "travel_9c": 29908,
+      "total": 111954,
+      "distance_miles": 110.165
+    },
+    {
+      "member_id": "MSD1",
+      "name": "Michael Day",
+      "chamber": "house",
+      "party": "D",
+      "base_salary": 82046,
+      "stipends_9b": 44862,
+      "travel_9c": 22431,
+      "total": 149339,
+      "distance_miles": 7.934
+    },
+    {
+      "member_id": "MCD1",
+      "name": "Marjorie Decker",
+      "chamber": "house",
+      "party": "D",
+      "base_salary": 82046,
+      "stipends_9b": 22431,
+      "travel_9c": 22431,
+      "total": 126908,
+      "distance_miles": 3.046
+    },
+    {
+      "member_id": "DFD1",
+      "name": "David DeCoste",
+      "chamber": "house",
+      "party": "R",
+      "base_salary": 82046,
+      "stipends_9b": 0,
+      "travel_9c": 22431,
+      "total": 104477,
+      "distance_miles": 19.659
+    },
+    {
+      "member_id": "KAD1",
+      "name": "Kip Diggs",
+      "chamber": "house",
+      "party": "D",
+      "base_salary": 82046,
+      "stipends_9b": 22431,
+      "travel_9c": 29908,
+      "total": 134385,
+      "distance_miles": 61.262
+    },
+    {
+      "member_id": "M_D2",
+      "name": "Mindy Domb",
+      "chamber": "house",
+      "party": "D",
+      "base_salary": 82046,
+      "stipends_9b": 22431,
+      "travel_9c": 29908,
+      "total": 134385,
+      "distance_miles": 73.578
+    },
+    {
+      "member_id": "K_D1",
+      "name": "Kate Donaghue",
+      "chamber": "house",
+      "party": "D",
+      "base_salary": 82046,
+      "stipends_9b": 7776,
+      "travel_9c": 22431,
+      "total": 112253,
+      "distance_miles": 27.256
+    },
+    {
+      "member_id": "DMD1",
+      "name": "Daniel Donahue",
+      "chamber": "house",
+      "party": "D",
+      "base_salary": 82046,
+      "stipends_9b": 22431,
+      "travel_9c": 22431,
+      "total": 126908,
+      "distance_miles": 37.508
+    },
+    {
+      "member_id": "PJD1",
+      "name": "Paul Donato",
+      "chamber": "house",
+      "party": "D",
+      "base_salary": 82046,
+      "stipends_9b": 52339,
+      "travel_9c": 22431,
+      "total": 156816,
+      "distance_miles": 5.036
+    },
+    {
+      "member_id": "MMD1",
+      "name": "Michelle DuBois",
+      "chamber": "house",
+      "party": "D",
+      "base_salary": 82046,
+      "stipends_9b": 7776,
+      "travel_9c": 22431,
+      "total": 112253,
+      "distance_miles": 19.262
+    },
+    {
+      "member_id": "PAD1",
+      "name": "Patricia Duffy",
+      "chamber": "house",
+      "party": "D",
+      "base_salary": 82046,
+      "stipends_9b": 7776,
+      "travel_9c": 29908,
+      "total": 119730,
+      "distance_miles": 81.121
+    },
+    {
+      "member_id": "RME1",
+      "name": "Rodney Elliott",
+      "chamber": "house",
+      "party": "D",
+      "base_salary": 82046,
+      "stipends_9b": 0,
+      "travel_9c": 22431,
+      "total": 104477,
+      "distance_miles": 25.211
+    },
+    {
+      "member_id": "TFB1",
+      "name": "Tricia Farley-Bouvier",
+      "chamber": "house",
+      "party": "D",
+      "base_salary": 82046,
+      "stipends_9b": 22431,
+      "travel_9c": 29908,
+      "total": 134385,
+      "distance_miles": 112.281
+    },
+    {
+      "member_id": "KNF1",
+      "name": "Kimberly Ferguson",
+      "chamber": "house",
+      "party": "R",
+      "base_salary": 82046,
+      "stipends_9b": 52339,
+      "travel_9c": 29908,
+      "total": 164293,
+      "distance_miles": 42.526
+    },
+    {
+      "member_id": "LMF1",
+      "name": "Lisa Field",
+      "chamber": "house",
+      "party": "D",
+      "base_salary": 82046,
+      "stipends_9b": 0,
+      "travel_9c": 22431,
+      "total": 104477,
+      "distance_miles": 27.867
+    },
+    {
+      "member_id": "MJF1",
+      "name": "Michael Finn",
+      "chamber": "house",
+      "party": "D",
+      "base_salary": 82046,
+      "stipends_9b": 44862,
+      "travel_9c": 29908,
+      "total": 156816,
+      "distance_miles": 83.853
+    },
+    {
+      "member_id": "CAF1",
+      "name": "Carole Fiola",
+      "chamber": "house",
+      "party": "D",
+      "base_salary": 82046,
+      "stipends_9b": 44862,
+      "travel_9c": 22431,
+      "total": 149339,
+      "distance_miles": 41.893
+    },
+    {
+      "member_id": "CRF1",
+      "name": "Christopher Flanagan",
+      "chamber": "house",
+      "party": "D",
+      "base_salary": 82046,
+      "stipends_9b": 0,
+      "travel_9c": 29908,
+      "total": 111954,
+      "distance_miles": 63.389
+    },
+    {
+      "member_id": "BFR1",
+      "name": "Brandy Fluker-Reid",
+      "chamber": "house",
+      "party": "D",
+      "base_salary": 82046,
+      "stipends_9b": 22431,
+      "travel_9c": 22431,
+      "total": 126908,
+      "distance_miles": 5.867
+    },
+    {
+      "member_id": "PKF1",
+      "name": "Paul Frost",
+      "chamber": "house",
+      "party": "R",
+      "base_salary": 82046,
+      "stipends_9b": 52339,
+      "travel_9c": 22431,
+      "total": 156816,
+      "distance_miles": 42.057
+    },
+    {
+      "member_id": "DCG2",
+      "name": "Dennis Gallagher",
+      "chamber": "house",
+      "party": "D",
+      "base_salary": 82046,
+      "stipends_9b": 0,
+      "travel_9c": 22431,
+      "total": 104477,
+      "distance_miles": 28.562
+    },
+    {
+      "member_id": "WCG1",
+      "name": "William Galvin",
+      "chamber": "house",
+      "party": "D",
+      "base_salary": 82046,
+      "stipends_9b": 44862,
+      "travel_9c": 22431,
+      "total": 149339,
+      "distance_miles": 13.671
+    },
+    {
+      "member_id": "S_G1",
+      "name": "Sean Garballey",
+      "chamber": "house",
+      "party": "D",
+      "base_salary": 82046,
+      "stipends_9b": 22431,
+      "travel_9c": 22431,
+      "total": 126908,
+      "distance_miles": 6.353
+    },
+    {
+      "member_id": "JAG2",
+      "name": "Judith Garcia",
+      "chamber": "house",
+      "party": "D",
+      "base_salary": 82046,
+      "stipends_9b": 7776,
+      "travel_9c": 22431,
+      "total": 112253,
+      "distance_miles": 3.3
+    },
+    {
+      "member_id": "CMG1",
+      "name": "Colleen Garry",
+      "chamber": "house",
+      "party": "D",
+      "base_salary": 82046,
+      "stipends_9b": 0,
+      "travel_9c": 22431,
+      "total": 104477,
+      "distance_miles": 26.174
+    },
+    {
+      "member_id": "JRG2",
+      "name": "John Gaskey",
+      "chamber": "house",
+      "party": "R",
+      "base_salary": 82046,
+      "stipends_9b": 0,
+      "travel_9c": 22431,
+      "total": 104477,
+      "distance_miles": 39.512
+    },
+    {
+      "member_id": "CLG1",
+      "name": "Carmine Gentile",
+      "chamber": "house",
+      "party": "D",
+      "base_salary": 82046,
+      "stipends_9b": 7776,
+      "travel_9c": 22431,
+      "total": 112253,
+      "distance_miles": 16.078
+    },
+    {
+      "member_id": "JAG1",
+      "name": "Jessica Giannino",
+      "chamber": "house",
+      "party": "D",
+      "base_salary": 82046,
+      "stipends_9b": 22431,
+      "travel_9c": 22431,
+      "total": 126908,
+      "distance_miles": 5.537
+    },
+    {
+      "member_id": "H_G1",
+      "name": "Homar Gómez",
+      "chamber": "house",
+      "party": "D",
+      "base_salary": 82046,
+      "stipends_9b": 0,
+      "travel_9c": 29908,
+      "total": 111954,
+      "distance_miles": 76.651
+    },
+    {
+      "member_id": "C_G1",
+      "name": "Carlos González",
+      "chamber": "house",
+      "party": "D",
+      "base_salary": 82046,
+      "stipends_9b": 44862,
+      "travel_9c": 29908,
+      "total": 156816,
+      "distance_miles": 79.575
+    },
+    {
+      "member_id": "KIG1",
+      "name": "Kenneth Gordon",
+      "chamber": "house",
+      "party": "D",
+      "base_salary": 82046,
+      "stipends_9b": 44862,
+      "travel_9c": 22431,
+      "total": 149339,
+      "distance_miles": 13.174
+    },
+    {
+      "member_id": "DWG1",
+      "name": "Danielle Gregoire",
+      "chamber": "house",
+      "party": "D",
+      "base_salary": 82046,
+      "stipends_9b": 44862,
+      "travel_9c": 22431,
+      "total": 149339,
+      "distance_miles": 25.741
+    },
+    {
+      "member_id": "RMH1",
+      "name": "Richard Haggerty",
+      "chamber": "house",
+      "party": "D",
+      "base_salary": 82046,
+      "stipends_9b": 22431,
+      "travel_9c": 22431,
+      "total": 126908,
+      "distance_miles": 10.831
+    },
+    {
+      "member_id": "RMH2",
+      "name": "Ryan Hamilton",
+      "chamber": "house",
+      "party": "D",
+      "base_salary": 82046,
+      "stipends_9b": 0,
+      "travel_9c": 22431,
+      "total": 104477,
+      "distance_miles": 27.793
+    },
+    {
+      "member_id": "JKH1",
+      "name": "James Hawkins",
+      "chamber": "house",
+      "party": "D",
+      "base_salary": 82046,
+      "stipends_9b": 7776,
+      "travel_9c": 22431,
+      "total": 112253,
+      "distance_miles": 31.601
+    },
+    {
+      "member_id": "C_H1",
+      "name": "Christopher Hendricks",
+      "chamber": "house",
+      "party": "D",
+      "base_salary": 82046,
+      "stipends_9b": 22431,
+      "travel_9c": 29908,
+      "total": 134385,
+      "distance_miles": 49.22
+    },
+    {
+      "member_id": "N_H1",
+      "name": "Natalie Higgins",
+      "chamber": "house",
+      "party": "D",
+      "base_salary": 82046,
+      "stipends_9b": 7776,
+      "travel_9c": 22431,
+      "total": 112253,
+      "distance_miles": 38.047
+    },
+    {
+      "member_id": "K_H1",
+      "name": "Kate Hogan",
+      "chamber": "house",
+      "party": "D",
+      "base_salary": 82046,
+      "stipends_9b": 74770,
+      "travel_9c": 22431,
+      "total": 179247,
+      "distance_miles": 25.099
+    },
+    {
+      "member_id": "REH1",
+      "name": "Russell Holmes",
+      "chamber": "house",
+      "party": "D",
+      "base_salary": 82046,
+      "stipends_9b": 7776,
+      "travel_9c": 22431,
+      "total": 112253,
+      "distance_miles": 5.411
+    },
+    {
+      "member_id": "KGH1",
+      "name": "Kevin Honan",
+      "chamber": "house",
+      "party": "D",
+      "base_salary": 82046,
+      "stipends_9b": 44862,
+      "travel_9c": 22431,
+      "total": 149339,
+      "distance_miles": 4.239
+    },
+    {
+      "member_id": "TTH1",
+      "name": "Tara Hong",
+      "chamber": "house",
+      "party": "D",
+      "base_salary": 82046,
+      "stipends_9b": 0,
+      "travel_9c": 22431,
+      "total": 104477,
+      "distance_miles": 23.62
+    },
+    {
+      "member_id": "V_H1",
+      "name": "Vanna Howard",
+      "chamber": "house",
+      "party": "D",
+      "base_salary": 82046,
+      "stipends_9b": 0,
+      "travel_9c": 22431,
+      "total": 104477,
+      "distance_miles": 22.318
+    },
+    {
+      "member_id": "SSH1",
+      "name": "Steven Howitt",
+      "chamber": "house",
+      "party": "R",
+      "base_salary": 82046,
+      "stipends_9b": 22431,
+      "travel_9c": 22431,
+      "total": 126908,
+      "distance_miles": 36.678
+    },
+    {
+      "member_id": "djh1",
+      "name": "Daniel Hunt",
+      "chamber": "house",
+      "party": "D",
+      "base_salary": 82046,
+      "stipends_9b": 22431,
+      "travel_9c": 22431,
+      "total": 126908,
+      "distance_miles": 4.076
+    },
+    {
+      "member_id": "BHJ1",
+      "name": "Bradley Jones",
+      "chamber": "house",
+      "party": "R",
+      "base_salary": 82046,
+      "stipends_9b": 89724,
+      "travel_9c": 22431,
+      "total": 194201,
+      "distance_miles": 14.727
+    },
+    {
+      "member_id": "HEK1",
+      "name": "Hannah Kane",
+      "chamber": "house",
+      "party": "R",
+      "base_salary": 82046,
+      "stipends_9b": 22431,
+      "travel_9c": 22431,
+      "total": 126908,
+      "distance_miles": 33.747
+    },
+    {
+      "member_id": "K_K2",
+      "name": "Kristin Kassner",
+      "chamber": "house",
+      "party": "D",
+      "base_salary": 82046,
+      "stipends_9b": 0,
+      "travel_9c": 22431,
+      "total": 104477,
+      "distance_miles": 24.808
+    },
+    {
+      "member_id": "PJK1",
+      "name": "Patrick Kearney",
+      "chamber": "house",
+      "party": "D",
+      "base_salary": 82046,
+      "stipends_9b": 0,
+      "travel_9c": 22431,
+      "total": 104477,
+      "distance_miles": 21.465
+    },
+    {
+      "member_id": "MSK1",
+      "name": "Mary Keefe",
+      "chamber": "house",
+      "party": "D",
+      "base_salary": 82046,
+      "stipends_9b": 7776,
+      "travel_9c": 22431,
+      "total": 112253,
+      "distance_miles": 37.213
+    },
+    {
+      "member_id": "SPK1",
+      "name": "Sally Kerans",
+      "chamber": "house",
+      "party": "D",
+      "base_salary": 82046,
+      "stipends_9b": 7776,
+      "travel_9c": 22431,
+      "total": 112253,
+      "distance_miles": 17.506
+    },
+    {
+      "member_id": "M_K1",
+      "name": "Meghan Kilcoyne",
+      "chamber": "house",
+      "party": "D",
+      "base_salary": 82046,
+      "stipends_9b": 22431,
+      "travel_9c": 22431,
+      "total": 126908,
+      "distance_miles": 34.959
+    },
+    {
+      "member_id": "MPK1",
+      "name": "Michael Kushmerek",
+      "chamber": "house",
+      "party": "D",
+      "base_salary": 82046,
+      "stipends_9b": 22431,
+      "travel_9c": 29908,
+      "total": 134385,
+      "distance_miles": 41.573
+    },
+    {
+      "member_id": "KPL1",
+      "name": "Kathleen LaNatra",
+      "chamber": "house",
+      "party": "D",
+      "base_salary": 82046,
+      "stipends_9b": 22431,
+      "travel_9c": 22431,
+      "total": 126908,
+      "distance_miles": 29.462
+    },
+    {
+      "member_id": "JJL2",
+      "name": "John Lawn",
+      "chamber": "house",
+      "party": "D",
+      "base_salary": 82046,
+      "stipends_9b": 44862,
+      "travel_9c": 22431,
+      "total": 149339,
+      "distance_miles": 6.95
+    },
+    {
+      "member_id": "DAL1",
+      "name": "David LeBoeuf",
+      "chamber": "house",
+      "party": "D",
+      "base_salary": 82046,
+      "stipends_9b": 0,
+      "travel_9c": 22431,
+      "total": 104477,
+      "distance_miles": 42.614
+    },
+    {
+      "member_id": "JPL1",
+      "name": "Jack Lewis",
+      "chamber": "house",
+      "party": "D",
+      "base_salary": 82046,
+      "stipends_9b": 22431,
+      "travel_9c": 22431,
+      "total": 126908,
+      "distance_miles": 22.462
+    },
+    {
+      "member_id": "DPL1",
+      "name": "David Linsky",
+      "chamber": "house",
+      "party": "D",
+      "base_salary": 82046,
+      "stipends_9b": 22431,
+      "travel_9c": 22431,
+      "total": 126908,
+      "distance_miles": 15.674
+    },
+    {
+      "member_id": "KLG1",
+      "name": "Kate Lipper-Garabedian",
+      "chamber": "house",
+      "party": "D",
+      "base_salary": 82046,
+      "stipends_9b": 22431,
+      "travel_9c": 22431,
+      "total": 126908,
+      "distance_miles": 8.326
+    },
+    {
+      "member_id": "J_L1",
+      "name": "Jay Livingstone",
+      "chamber": "house",
+      "party": "D",
+      "base_salary": 82046,
+      "stipends_9b": 22431,
+      "travel_9c": 22431,
+      "total": 126908,
+      "distance_miles": 0.994
+    },
+    {
+      "member_id": "MTL1",
+      "name": "Marc Lombardo",
+      "chamber": "house",
+      "party": "R",
+      "base_salary": 82046,
+      "stipends_9b": 0,
+      "travel_9c": 22431,
+      "total": 104477,
+      "distance_miles": 17.569
+    },
+    {
+      "member_id": "H_L1",
+      "name": "Hadley Luddy",
+      "chamber": "house",
+      "party": "D",
+      "base_salary": 82046,
+      "stipends_9b": 0,
+      "travel_9c": 29908,
+      "total": 111954,
+      "distance_miles": 65.099
+    },
+    {
+      "member_id": "WFM1",
+      "name": "William MacGregor",
+      "chamber": "house",
+      "party": "D",
+      "base_salary": 82046,
+      "stipends_9b": 0,
+      "travel_9c": 22431,
+      "total": 104477,
+      "distance_miles": 6.704
+    },
+    {
+      "member_id": "ACM1",
+      "name": "Adrian Madaro",
+      "chamber": "house",
+      "party": "D",
+      "base_salary": 82046,
+      "stipends_9b": 44862,
+      "travel_9c": 22431,
+      "total": 149339,
+      "distance_miles": 2.129
+    },
+    {
+      "member_id": "JJM2",
+      "name": "John Mahoney",
+      "chamber": "house",
+      "party": "D",
+      "base_salary": 82046,
+      "stipends_9b": 44862,
+      "travel_9c": 22431,
+      "total": 149339,
+      "distance_miles": 40.034
+    },
+    {
+      "member_id": "R_M1",
+      "name": "Ronald Mariano",
+      "chamber": "house",
+      "party": "D",
+      "base_salary": 82046,
+      "stipends_9b": 119632,
+      "travel_9c": 22431,
+      "total": 224109,
+      "distance_miles": 9.029
+    },
+    {
+      "member_id": "CMM1",
+      "name": "Christopher Markey",
+      "chamber": "house",
+      "party": "D",
+      "base_salary": 82046,
+      "stipends_9b": 0,
+      "travel_9c": 29908,
+      "total": 111954,
+      "distance_miles": 50.844
+    },
+    {
+      "member_id": "JJM1",
+      "name": "John Marsi",
+      "chamber": "house",
+      "party": "R",
+      "base_salary": 82046,
+      "stipends_9b": 0,
+      "travel_9c": 29908,
+      "total": 111954,
+      "distance_miles": 50.575
+    },
+    {
+      "member_id": "jwm1",
+      "name": "Joseph McGonagle",
+      "chamber": "house",
+      "party": "D",
+      "base_salary": 82046,
+      "stipends_9b": 22431,
+      "travel_9c": 22431,
+      "total": 126908,
+      "distance_miles": 3.454
+    },
+    {
+      "member_id": "JDM1",
+      "name": "Joseph McKenna",
+      "chamber": "house",
+      "party": "R",
+      "base_salary": 82046,
+      "stipends_9b": 22431,
+      "travel_9c": 29908,
+      "total": 134385,
+      "distance_miles": 41.188
+    },
+    {
+      "member_id": "P_M1",
+      "name": "Paul McMurtry",
+      "chamber": "house",
+      "party": "D",
+      "base_salary": 82046,
+      "stipends_9b": 22431,
+      "travel_9c": 22431,
+      "total": 126908,
+      "distance_miles": 11.618
+    },
+    {
+      "member_id": "RAM1",
+      "name": "Rita Mendes",
+      "chamber": "house",
+      "party": "D",
+      "base_salary": 82046,
+      "stipends_9b": 7776,
+      "travel_9c": 22431,
+      "total": 112253,
+      "distance_miles": 18.937
+    },
+    {
+      "member_id": "J_M1",
+      "name": "Joan Meschino",
+      "chamber": "house",
+      "party": "D",
+      "base_salary": 82046,
+      "stipends_9b": 0,
+      "travel_9c": 22431,
+      "total": 104477,
+      "distance_miles": 13.72
+    },
+    {
+      "member_id": "AMM1",
+      "name": "Aaron Michlewitz",
+      "chamber": "house",
+      "party": "D",
+      "base_salary": 82046,
+      "stipends_9b": 97201,
+      "travel_9c": 22431,
+      "total": 201678,
+      "distance_miles": 0.43
+    },
+    {
+      "member_id": "TWM1",
+      "name": "Thomas Moakley",
+      "chamber": "house",
+      "party": "D",
+      "base_salary": 82046,
+      "stipends_9b": 0,
+      "travel_9c": 29908,
+      "total": 111954,
+      "distance_miles": 70.579
+    },
+    {
+      "member_id": "S_M1",
+      "name": "Samantha Montaño",
+      "chamber": "house",
+      "party": "D",
+      "base_salary": 82046,
+      "stipends_9b": 7776,
+      "travel_9c": 22431,
+      "total": 112253,
+      "distance_miles": 3.894
+    },
+    {
+      "member_id": "FAM1",
+      "name": "Frank Moran",
+      "chamber": "house",
+      "party": "D",
+      "base_salary": 82046,
+      "stipends_9b": 52339,
+      "travel_9c": 22431,
+      "total": 156816,
+      "distance_miles": 23.588
+    },
+    {
+      "member_id": "JFM1",
+      "name": "John Moran",
+      "chamber": "house",
+      "party": "D",
+      "base_salary": 82046,
+      "stipends_9b": 0,
+      "travel_9c": 22431,
+      "total": 104477,
+      "distance_miles": 1.727
+    },
+    {
+      "member_id": "MJM1",
+      "name": "Michael Moran",
+      "chamber": "house",
+      "party": "D",
+      "base_salary": 82046,
+      "stipends_9b": 89724,
+      "travel_9c": 22431,
+      "total": 194201,
+      "distance_miles": 2.521
+    },
+    {
+      "member_id": "DKM1",
+      "name": "David Muradian",
+      "chamber": "house",
+      "party": "R",
+      "base_salary": 82046,
+      "stipends_9b": 52339,
+      "travel_9c": 22431,
+      "total": 156816,
+      "distance_miles": 31.582
+    },
+    {
+      "member_id": "JMM1",
+      "name": "James Murphy",
+      "chamber": "house",
+      "party": "D",
+      "base_salary": 82046,
+      "stipends_9b": 44862,
+      "travel_9c": 22431,
+      "total": 149339,
+      "distance_miles": 12.389
+    },
+    {
+      "member_id": "BWM1",
+      "name": "Brian Murray",
+      "chamber": "house",
+      "party": "D",
+      "base_salary": 82046,
+      "stipends_9b": 22431,
+      "travel_9c": 22431,
+      "total": 126908,
+      "distance_miles": 28.884
+    },
+    {
+      "member_id": "TTN1",
+      "name": "Tram Nguyen",
+      "chamber": "house",
+      "party": "D",
+      "base_salary": 82046,
+      "stipends_9b": 22431,
+      "travel_9c": 22431,
+      "total": 126908,
+      "distance_miles": 20.266
+    },
+    {
+      "member_id": "JJO1",
+      "name": "James O'Day",
+      "chamber": "house",
+      "party": "D",
+      "base_salary": 82046,
+      "stipends_9b": 44862,
+      "travel_9c": 29908,
+      "total": 156816,
+      "distance_miles": 36.819
+    },
+    {
+      "member_id": "NJO1",
+      "name": "Norman Orrall",
+      "chamber": "house",
+      "party": "R",
+      "base_salary": 82046,
+      "stipends_9b": 22431,
+      "travel_9c": 22431,
+      "total": 126908,
+      "distance_miles": 34.562
+    },
+    {
+      "member_id": "SJO1",
+      "name": "Steven Ouellette",
+      "chamber": "house",
+      "party": "D",
+      "base_salary": 82046,
+      "stipends_9b": 0,
+      "travel_9c": 29908,
+      "total": 111954,
+      "distance_miles": 49.388
+    },
+    {
+      "member_id": "SCO1",
+      "name": "Steven Owens",
+      "chamber": "house",
+      "party": "D",
+      "base_salary": 82046,
+      "stipends_9b": 7776,
+      "travel_9c": 22431,
+      "total": 112253,
+      "distance_miles": 4.246
+    },
+    {
+      "member_id": "FEP1",
+      "name": "Francisco Paulino",
+      "chamber": "house",
+      "party": "D",
+      "base_salary": 82046,
+      "stipends_9b": 0,
+      "travel_9c": 22431,
+      "total": 104477,
+      "distance_miles": 25.0
+    },
+    {
+      "member_id": "KWP1",
+      "name": "Kelly Pease",
+      "chamber": "house",
+      "party": "R",
+      "base_salary": 82046,
+      "stipends_9b": 22431,
+      "travel_9c": 29908,
+      "total": 134385,
+      "distance_miles": 86.598
+    },
+    {
+      "member_id": "AHP1",
+      "name": "Alice Peisch",
+      "chamber": "house",
+      "party": "D",
+      "base_salary": 82046,
+      "stipends_9b": 52339,
+      "travel_9c": 22431,
+      "total": 156816,
+      "distance_miles": 12.169
+    },
+    {
+      "member_id": "ERP1",
+      "name": "Edward Philips",
+      "chamber": "house",
+      "party": "D",
+      "base_salary": 82046,
+      "stipends_9b": 22431,
+      "travel_9c": 22431,
+      "total": 126908,
+      "distance_miles": 18.739
+    },
+    {
+      "member_id": "BMP1",
+      "name": "Bridget Plouffe",
+      "chamber": "house",
+      "party": "D",
+      "base_salary": 82046,
+      "stipends_9b": 0,
+      "travel_9c": 22431,
+      "total": 104477,
+      "distance_miles": 21.765
+    },
+    {
+      "member_id": "AJP1",
+      "name": "Angelo Puppolo",
+      "chamber": "house",
+      "party": "D",
+      "base_salary": 82046,
+      "stipends_9b": 22431,
+      "travel_9c": 29908,
+      "total": 134385,
+      "distance_miles": 70.022
+    },
+    {
+      "member_id": "APR1",
+      "name": "Adrianne Ramos",
+      "chamber": "house",
+      "party": "D",
+      "base_salary": 82046,
+      "stipends_9b": 7776,
+      "travel_9c": 22431,
+      "total": 112253,
+      "distance_miles": 27.866
+    },
+    {
+      "member_id": "O_R1",
+      "name": "Orlando Ramos",
+      "chamber": "house",
+      "party": "D",
+      "base_salary": 82046,
+      "stipends_9b": 7776,
+      "travel_9c": 29908,
+      "total": 119730,
+      "distance_miles": 77.463
+    },
+    {
+      "member_id": "S_R1",
+      "name": "Sean Reid",
+      "chamber": "house",
+      "party": "D",
+      "base_salary": 82046,
+      "stipends_9b": 0,
+      "travel_9c": 22431,
+      "total": 104477,
+      "distance_miles": 8.39
+    },
+    {
+      "member_id": "EAR1",
+      "name": "Estela Reyes",
+      "chamber": "house",
+      "party": "D",
+      "base_salary": 82046,
+      "stipends_9b": 7776,
+      "travel_9c": 22431,
+      "total": 112253,
+      "distance_miles": 25.786
+    },
+    {
+      "member_id": "D_R1",
+      "name": "David Robertson",
+      "chamber": "house",
+      "party": "D",
+      "base_salary": 82046,
+      "stipends_9b": 7776,
+      "travel_9c": 22431,
+      "total": 112253,
+      "distance_miles": 15.419
+    },
+    {
+      "member_id": "DMR1",
+      "name": "David Rogers",
+      "chamber": "house",
+      "party": "D",
+      "base_salary": 82046,
+      "stipends_9b": 22431,
+      "travel_9c": 22431,
+      "total": 126908,
+      "distance_miles": 5.979
+    },
+    {
+      "member_id": "JHR1",
+      "name": "John Rogers",
+      "chamber": "house",
+      "party": "D",
+      "base_salary": 82046,
+      "stipends_9b": 22431,
+      "travel_9c": 22431,
+      "total": 126908,
+      "distance_miles": 15.045
+    },
+    {
+      "member_id": "JNR1",
+      "name": "Jeffrey Roy",
+      "chamber": "house",
+      "party": "D",
+      "base_salary": 82046,
+      "stipends_9b": 44862,
+      "travel_9c": 22431,
+      "total": 149339,
+      "distance_miles": 24.723
+    },
+    {
+      "member_id": "djr1",
+      "name": "Daniel Ryan",
+      "chamber": "house",
+      "party": "D",
+      "base_salary": 82046,
+      "stipends_9b": 22431,
+      "travel_9c": 22431,
+      "total": 126908,
+      "distance_miles": 1.006
+    },
+    {
+      "member_id": "L_S1",
+      "name": "Lindsay Sabadosa",
+      "chamber": "house",
+      "party": "D",
+      "base_salary": 82046,
+      "stipends_9b": 7776,
+      "travel_9c": 29908,
+      "total": 119730,
+      "distance_miles": 91.451
+    },
+    {
+      "member_id": "AMS3",
+      "name": "Amy Sangiolo",
+      "chamber": "house",
+      "party": "D",
+      "base_salary": 82046,
+      "stipends_9b": 0,
+      "travel_9c": 22431,
+      "total": 104477,
+      "distance_miles": 7.823
+    },
+    {
+      "member_id": "ALS1",
+      "name": "Aaron Saunders",
+      "chamber": "house",
+      "party": "D",
+      "base_salary": 82046,
+      "stipends_9b": 7776,
+      "travel_9c": 29908,
+      "total": 119730,
+      "distance_miles": 67.141
+    },
+    {
+      "member_id": "AJS1",
+      "name": "Adam Scanlon",
+      "chamber": "house",
+      "party": "D",
+      "base_salary": 82046,
+      "stipends_9b": 22431,
+      "travel_9c": 22431,
+      "total": 126908,
+      "distance_miles": 29.334
+    },
+    {
+      "member_id": "MRS1",
+      "name": "Margaret Scarsdale",
+      "chamber": "house",
+      "party": "D",
+      "base_salary": 82046,
+      "stipends_9b": 0,
+      "travel_9c": 22431,
+      "total": 104477,
+      "distance_miles": 37.982
+    },
+    {
+      "member_id": "G_S1",
+      "name": "Greg Schwartz",
+      "chamber": "house",
+      "party": "D",
+      "base_salary": 82046,
+      "stipends_9b": 0,
+      "travel_9c": 22431,
+      "total": 104477,
+      "distance_miles": 6.81
+    },
+    {
+      "member_id": "DAS1",
+      "name": "Danillo Sena",
+      "chamber": "house",
+      "party": "D",
+      "base_salary": 82046,
+      "stipends_9b": 0,
+      "travel_9c": 22431,
+      "total": 104477,
+      "distance_miles": 30.572
+    },
+    {
+      "member_id": "D_S1",
+      "name": "Dawne Shand",
+      "chamber": "house",
+      "party": "D",
+      "base_salary": 82046,
+      "stipends_9b": 0,
+      "travel_9c": 22431,
+      "total": 104477,
+      "distance_miles": 33.249
+    },
+    {
+      "member_id": "A_S1",
+      "name": "Alan Silvia",
+      "chamber": "house",
+      "party": "D",
+      "base_salary": 82046,
+      "stipends_9b": 0,
+      "travel_9c": 29908,
+      "total": 111954,
+      "distance_miles": 46.725
+    },
+    {
+      "member_id": "TMS2",
+      "name": "Todd Smola",
+      "chamber": "house",
+      "party": "R",
+      "base_salary": 82046,
+      "stipends_9b": 44862,
+      "travel_9c": 29908,
+      "total": 156816,
+      "distance_miles": 62.077
+    },
+    {
+      "member_id": "MJS3",
+      "name": "Michael Soter",
+      "chamber": "house",
+      "party": "R",
+      "base_salary": 82046,
+      "stipends_9b": 22431,
+      "travel_9c": 22431,
+      "total": 126908,
+      "distance_miles": 33.937
+    },
+    {
+      "member_id": "PSS1",
+      "name": "Priscila Sousa",
+      "chamber": "house",
+      "party": "D",
+      "base_salary": 82046,
+      "stipends_9b": 0,
+      "travel_9c": 22431,
+      "total": 104477,
+      "distance_miles": 20.017
+    },
+    {
+      "member_id": "TMS1",
+      "name": "Thomas Stanley",
+      "chamber": "house",
+      "party": "D",
+      "base_salary": 82046,
+      "stipends_9b": 22431,
+      "travel_9c": 22431,
+      "total": 126908,
+      "distance_miles": 9.542
+    },
+    {
+      "member_id": "AMS2",
+      "name": "Alyson Sullivan-Almeida",
+      "chamber": "house",
+      "party": "R",
+      "base_salary": 82046,
+      "stipends_9b": 0,
+      "travel_9c": 22431,
+      "total": 104477,
+      "distance_miles": 20.609
+    },
+    {
+      "member_id": "KPS1",
+      "name": "Kenneth Sweezey",
+      "chamber": "house",
+      "party": "R",
+      "base_salary": 82046,
+      "stipends_9b": 0,
+      "travel_9c": 22431,
+      "total": 104477,
+      "distance_miles": 24.427
+    },
+    {
+      "member_id": "MDS1",
+      "name": "Mark Sylvia",
+      "chamber": "house",
+      "party": "D",
+      "base_salary": 82046,
+      "stipends_9b": 0,
+      "travel_9c": 29908,
+      "total": 111954,
+      "distance_miles": 47.641
+    },
+    {
+      "member_id": "J_T1",
+      "name": "Joshua Tarsky",
+      "chamber": "house",
+      "party": "D",
+      "base_salary": 82046,
+      "stipends_9b": 0,
+      "travel_9c": 22431,
+      "total": 104477,
+      "distance_miles": 12.958
+    },
+    {
+      "member_id": "J_T2",
+      "name": "Justin Thurber",
+      "chamber": "house",
+      "party": "R",
+      "base_salary": 82046,
+      "stipends_9b": 0,
+      "travel_9c": 29908,
+      "total": 111954,
+      "distance_miles": 39.545
+    },
+    {
+      "member_id": "JRT1",
+      "name": "Jeffrey Turco",
+      "chamber": "house",
+      "party": "D",
+      "base_salary": 82046,
+      "stipends_9b": 7776,
+      "travel_9c": 22431,
+      "total": 112253,
+      "distance_miles": 4.651
+    },
+    {
+      "member_id": "C_T1",
+      "name": "Chynah Tyler",
+      "chamber": "house",
+      "party": "D",
+      "base_salary": 82046,
+      "stipends_9b": 22431,
+      "travel_9c": 22431,
+      "total": 126908,
+      "distance_miles": 2.567
+    },
+    {
+      "member_id": "S_G2",
+      "name": "Steven Ultrino",
+      "chamber": "house",
+      "party": "D",
+      "base_salary": 82046,
+      "stipends_9b": 22431,
+      "travel_9c": 22431,
+      "total": 126908,
+      "distance_miles": 4.868
+    },
+    {
+      "member_id": "E_U1",
+      "name": "Erika Uyterhoeven",
+      "chamber": "house",
+      "party": "D",
+      "base_salary": 82046,
+      "stipends_9b": 0,
+      "travel_9c": 22431,
+      "total": 104477,
+      "distance_miles": 3.176
+    },
+    {
+      "member_id": "AXV1",
+      "name": "Andres Vargas",
+      "chamber": "house",
+      "party": "D",
+      "base_salary": 82046,
+      "stipends_9b": 22431,
+      "travel_9c": 22431,
+      "total": 126908,
+      "distance_miles": 29.321
+    },
+    {
+      "member_id": "MSV1",
+      "name": "Marcus Vaughn",
+      "chamber": "house",
+      "party": "R",
+      "base_salary": 82046,
+      "stipends_9b": 0,
+      "travel_9c": 22431,
+      "total": 104477,
+      "distance_miles": 22.528
+    },
+    {
+      "member_id": "DTV1",
+      "name": "David Vieira",
+      "chamber": "house",
+      "party": "R",
+      "base_salary": 82046,
+      "stipends_9b": 52339,
+      "travel_9c": 29908,
+      "total": 164293,
+      "distance_miles": 57.451
+    },
+    {
+      "member_id": "T_V1",
+      "name": "Tommy Vitolo",
+      "chamber": "house",
+      "party": "D",
+      "base_salary": 82046,
+      "stipends_9b": 7776,
+      "travel_9c": 22431,
+      "total": 112253,
+      "distance_miles": 3.399
+    },
+    {
+      "member_id": "TJW1",
+      "name": "Thomas Walsh",
+      "chamber": "house",
+      "party": "D",
+      "base_salary": 82046,
+      "stipends_9b": 44862,
+      "travel_9c": 22431,
+      "total": 149339,
+      "distance_miles": 12.966
+    },
+    {
+      "member_id": "RGW1",
+      "name": "Richard Wells",
+      "chamber": "house",
+      "party": "D",
+      "base_salary": 82046,
+      "stipends_9b": 0,
+      "travel_9c": 22431,
+      "total": 104477,
+      "distance_miles": 10.627
+    },
+    {
+      "member_id": "SLG1",
+      "name": "Susannah Whipps",
+      "chamber": "house",
+      "party": "Other",
+      "base_salary": 82046,
+      "stipends_9b": 0,
+      "travel_9c": 29908,
+      "total": 111954,
+      "distance_miles": 63.753
+    },
+    {
+      "member_id": "BLW1",
+      "name": "Bud Williams",
+      "chamber": "house",
+      "party": "D",
+      "base_salary": 82046,
+      "stipends_9b": 22431,
+      "travel_9c": 29908,
+      "total": 134385,
+      "distance_miles": 78.573
+    },
+    {
+      "member_id": "DHW1",
+      "name": "Donald Wong",
+      "chamber": "house",
+      "party": "R",
+      "base_salary": 82046,
+      "stipends_9b": 22431,
+      "travel_9c": 22431,
+      "total": 126908,
+      "distance_miles": 8.929
+    },
+    {
+      "member_id": "CJW1",
+      "name": "Christopher Worrell",
+      "chamber": "house",
+      "party": "D",
+      "base_salary": 82046,
+      "stipends_9b": 7776,
+      "travel_9c": 22431,
+      "total": 112253,
+      "distance_miles": 3.392
+    },
+    {
+      "member_id": "SGX1",
+      "name": "Steven Xiarhos",
+      "chamber": "house",
+      "party": "R",
+      "base_salary": 82046,
+      "stipends_9b": 0,
+      "travel_9c": 29908,
+      "total": 111954,
+      "distance_miles": 54.984
+    },
+    {
+      "member_id": "JDZ1",
+      "name": "Jonathan Zlotnik",
+      "chamber": "house",
+      "party": "D",
+      "base_salary": 82046,
+      "stipends_9b": 7776,
+      "travel_9c": 29908,
+      "total": 119730,
+      "distance_miles": 51.662
+    }
+  ],
+  "summary_statistics": {
+    "session_id": "2025-2026",
+    "total_members": 198,
+    "total_compensation": 26486501,
+    "average_compensation": 133770.20707070708,
+    "median_compensation": 126908.0,
+    "by_chamber": {
+      "house": {
+        "count": 159,
+        "total_compensation": 19932227,
+        "average_compensation": 125359.9182389937,
+        "median_compensation": 126908
+      },
+      "senate": {
+        "count": 39,
+        "total_compensation": 6554274,
+        "average_compensation": 168058.3076923077,
+        "median_compensation": 164293
+      }
+    },
+    "by_party": {
+      "D": {
+        "count": 167,
+        "total_compensation": 22260750,
+        "average_compensation": 133297.90419161678
+      },
+      "Other": {
+        "count": 1,
+        "total_compensation": 111954,
+        "average_compensation": 111954.0
+      },
+      "R": {
+        "count": 30,
+        "total_compensation": 4113797,
+        "average_compensation": 137126.56666666668
+      }
+    },
+    "stipend_distribution": {
+      "0_stipends": 51,
+      "1_or_more_stipends": 147
+    },
+    "top_earners": [
+      {
+        "rank": 1,
+        "member_id": "KES0",
+        "name": "Karen Spilka",
+        "chamber": "senate",
+        "total": 224109
+      },
+      {
+        "rank": 2,
+        "member_id": "R_M1",
+        "name": "Ronald Mariano",
+        "chamber": "house",
+        "total": 224109
+      },
+      {
+        "rank": 3,
+        "member_id": "MJR0",
+        "name": "Michael Rodrigues",
+        "chamber": "senate",
+        "total": 216931
+      },
+      {
+        "rank": 4,
+        "member_id": "CSC0",
+        "name": "Cynthia Creem",
+        "chamber": "senate",
+        "total": 216632
+      },
+      {
+        "rank": 5,
+        "member_id": "MJB0",
+        "name": "Michael Barrett",
+        "chamber": "senate",
+        "total": 201678
+      },
+      {
+        "rank": 6,
+        "member_id": "WNB0",
+        "name": "William Brownsberger",
+        "chamber": "senate",
+        "total": 201678
+      },
+      {
+        "rank": 7,
+        "member_id": "SND0",
+        "name": "Sal DiDomenico",
+        "chamber": "senate",
+        "total": 201678
+      },
+      {
+        "rank": 8,
+        "member_id": "JBL0",
+        "name": "Joan Lovely",
+        "chamber": "senate",
+        "total": 201678
+      },
+      {
+        "rank": 9,
+        "member_id": "PMO",
+        "name": "Patrick O'Connor",
+        "chamber": "senate",
+        "total": 201678
+      },
+      {
+        "rank": 10,
+        "member_id": "AMM1",
+        "name": "Aaron Michlewitz",
+        "chamber": "house",
+        "total": 201678
+      }
+    ]
+  },
+  "validation_summary": {
+    "catalog_errors": 0,
+    "catalog_warnings": 1,
+    "session_errors": 0,
+    "session_warnings": 46,
+    "distance_errors": 0,
+    "distance_warnings": 13,
+    "all_issues": [
+      {
+        "level": "WARNING",
+        "code": "DUPLICATE_ROLE_TITLE",
+        "message": "Title 'Ranking Minority Member, Joint Committee on Health Care Financing' used for multiple role codes ['SENATE_HEALTH_CARE_FINANCING_RM', 'HOUSE_HEALTH_CARE_FINANCING_RM']",
+        "context": {
+          "title": "Ranking Minority Member, Joint Committee on Health Care Financing",
+          "role_codes": [
+            "SENATE_HEALTH_CARE_FINANCING_RM",
+            "HOUSE_HEALTH_CARE_FINANCING_RM"
+          ]
+        }
+      },
+      {
+        "level": "WARNING",
+        "code": "MORE_THAN_TWO_STIPEND_ROLES_RAW",
+        "message": "Michael Barrett has 3 stipend-bearing roles; 9B(f) only allows two paid positions by default.",
+        "context": {
+          "member_id": "MJB0",
+          "session_id": "2025-2026",
+          "stipend_role_codes": [
+            "SENATE_TELECOM_UTILITIES_ENERGY_CHAIR",
+            "GENERIC_OTHER_COMMITTEE_VICE_CHAIR",
+            "SENATE_MAJORITY_ASSISTANT_FLOOR_LEADER"
+          ]
+        }
+      },
+      {
+        "level": "WARNING",
+        "code": "MORE_THAN_TWO_STIPEND_ROLES_RAW",
+        "message": "Michael Brady has 3 stipend-bearing roles; 9B(f) only allows two paid positions by default.",
+        "context": {
+          "member_id": "MDB0",
+          "session_id": "2025-2026",
+          "stipend_role_codes": [
+            "GENERIC_OTHER_COMMITTEE_CHAIR",
+            "GENERIC_OTHER_COMMITTEE_VICE_CHAIR",
+            "GENERIC_OTHER_COMMITTEE_VICE_CHAIR"
+          ]
+        }
+      },
+      {
+        "level": "WARNING",
+        "code": "MORE_THAN_TWO_STIPEND_ROLES_RAW",
+        "message": "Nick Collins has 3 stipend-bearing roles; 9B(f) only allows two paid positions by default.",
+        "context": {
+          "member_id": "N_C0",
+          "session_id": "2025-2026",
+          "stipend_role_codes": [
+            "SENATE_STATE_ADMIN_CHAIR",
+            "GENERIC_OTHER_COMMITTEE_VICE_CHAIR",
+            "GENERIC_OTHER_COMMITTEE_VICE_CHAIR"
+          ]
+        }
+      },
+      {
+        "level": "WARNING",
+        "code": "MORE_THAN_TWO_STIPEND_ROLES_RAW",
+        "message": "Joanne Comerford has 4 stipend-bearing roles; 9B(f) only allows two paid positions by default.",
+        "context": {
+          "member_id": "JMC0",
+          "session_id": "2025-2026",
+          "stipend_role_codes": [
+            "GENERIC_OTHER_COMMITTEE_CHAIR",
+            "GENERIC_OTHER_COMMITTEE_VICE_CHAIR",
+            "SENATE_WAYS_MEANS_VICE_CHAIR",
+            "GENERIC_OTHER_COMMITTEE_VICE_CHAIR"
+          ]
+        }
+      },
+      {
+        "level": "WARNING",
+        "code": "MORE_THAN_TWO_STIPEND_ROLES_RAW",
+        "message": "Cynthia Creem has 3 stipend-bearing roles; 9B(f) only allows two paid positions by default.",
+        "context": {
+          "member_id": "CSC0",
+          "session_id": "2025-2026",
+          "stipend_role_codes": [
+            "GENERIC_OTHER_COMMITTEE_CHAIR",
+            "GENERIC_OTHER_COMMITTEE_VICE_CHAIR",
+            "SENATE_MAJORITY_FLOOR_LEADER"
+          ]
+        }
+      },
+      {
+        "level": "WARNING",
+        "code": "MULTIPLE_CHAIR_ROLES_RAW",
+        "message": "Brendan Crighton has 2 chair roles in raw data; 9B(f) only allows one paid chair, so one or more may be discarded.",
+        "context": {
+          "member_id": "BPC0",
+          "session_id": "2025-2026",
+          "chair_role_codes": [
+            "GENERIC_OTHER_COMMITTEE_CHAIR",
+            "SENATE_TRANSPORTATION_CHAIR"
+          ]
+        }
+      },
+      {
+        "level": "WARNING",
+        "code": "MORE_THAN_TWO_STIPEND_ROLES_RAW",
+        "message": "Brendan Crighton has 3 stipend-bearing roles; 9B(f) only allows two paid positions by default.",
+        "context": {
+          "member_id": "BPC0",
+          "session_id": "2025-2026",
+          "stipend_role_codes": [
+            "GENERIC_OTHER_COMMITTEE_CHAIR",
+            "SENATE_TRANSPORTATION_CHAIR",
+            "GENERIC_OTHER_COMMITTEE_VICE_CHAIR"
+          ]
+        }
+      },
+      {
+        "level": "WARNING",
+        "code": "MULTIPLE_CHAIR_ROLES_RAW",
+        "message": "John Cronin has 2 chair roles in raw data; 9B(f) only allows one paid chair, so one or more may be discarded.",
+        "context": {
+          "member_id": "JJC0",
+          "session_id": "2025-2026",
+          "chair_role_codes": [
+            "GENERIC_OTHER_COMMITTEE_CHAIR",
+            "GENERIC_OTHER_COMMITTEE_CHAIR"
+          ]
+        }
+      },
+      {
+        "level": "WARNING",
+        "code": "MORE_THAN_TWO_STIPEND_ROLES_RAW",
+        "message": "John Cronin has 3 stipend-bearing roles; 9B(f) only allows two paid positions by default.",
+        "context": {
+          "member_id": "JJC0",
+          "session_id": "2025-2026",
+          "stipend_role_codes": [
+            "GENERIC_OTHER_COMMITTEE_CHAIR",
+            "GENERIC_OTHER_COMMITTEE_CHAIR",
+            "GENERIC_OTHER_COMMITTEE_VICE_CHAIR"
+          ]
+        }
+      },
+      {
+        "level": "WARNING",
+        "code": "MORE_THAN_TWO_STIPEND_ROLES_RAW",
+        "message": "Julian Cyr has 3 stipend-bearing roles; 9B(f) only allows two paid positions by default.",
+        "context": {
+          "member_id": "JAC0",
+          "session_id": "2025-2026",
+          "stipend_role_codes": [
+            "GENERIC_OTHER_COMMITTEE_CHAIR",
+            "GENERIC_OTHER_COMMITTEE_VICE_CHAIR",
+            "SENATE_ASSISTANT_MAJORITY_WHIP"
+          ]
+        }
+      },
+      {
+        "level": "WARNING",
+        "code": "MORE_THAN_TWO_STIPEND_ROLES_RAW",
+        "message": "Sal DiDomenico has 3 stipend-bearing roles; 9B(f) only allows two paid positions by default.",
+        "context": {
+          "member_id": "SND0",
+          "session_id": "2025-2026",
+          "stipend_role_codes": [
+            "SENATE_BILLS_THIRD_READING_CHAIR",
+            "GENERIC_OTHER_COMMITTEE_VICE_CHAIR",
+            "SENATE_MAJORITY_ASSISTANT_FLOOR_LEADER"
+          ]
+        }
+      },
+      {
+        "level": "WARNING",
+        "code": "MORE_THAN_TWO_STIPEND_ROLES_RAW",
+        "message": "William Driscoll has 3 stipend-bearing roles; 9B(f) only allows two paid positions by default.",
+        "context": {
+          "member_id": "WJD0",
+          "session_id": "2025-2026",
+          "stipend_role_codes": [
+            "GENERIC_OTHER_COMMITTEE_CHAIR",
+            "GENERIC_OTHER_COMMITTEE_VICE_CHAIR",
+            "GENERIC_OTHER_COMMITTEE_VICE_CHAIR"
+          ]
+        }
+      },
+      {
+        "level": "WARNING",
+        "code": "PROXIMITY_TO_STATE_HOUSE",
+        "message": "Peter Durant lives within +/- 5 miles of the 50-mile state house travel threshold.",
+        "context": {
+          "member": "PJD0",
+          "district": "Worcester and Hampshire",
+          "distance": 49.38
+        }
+      },
+      {
+        "level": "WARNING",
+        "code": "MORE_THAN_TWO_STIPEND_ROLES_RAW",
+        "message": "James Eldridge has 3 stipend-bearing roles; 9B(f) only allows two paid positions by default.",
+        "context": {
+          "member_id": "JBE0",
+          "session_id": "2025-2026",
+          "stipend_role_codes": [
+            "SENATE_REVENUE_CHAIR",
+            "GENERIC_OTHER_COMMITTEE_VICE_CHAIR",
+            "GENERIC_OTHER_COMMITTEE_VICE_CHAIR"
+          ]
+        }
+      },
+      {
+        "level": "WARNING",
+        "code": "PROXIMITY_TO_STATE_HOUSE",
+        "message": "Ryan Fattman lives within +/- 5 miles of the 50-mile state house travel threshold.",
+        "context": {
+          "member": "RCF0",
+          "district": "Worcester and Hampden",
+          "distance": 48.004
+        }
+      },
+      {
+        "level": "WARNING",
+        "code": "MORE_THAN_TWO_STIPEND_ROLES_RAW",
+        "message": "Dylan Fernandes has 3 stipend-bearing roles; 9B(f) only allows two paid positions by default.",
+        "context": {
+          "member_id": "DAF0",
+          "session_id": "2025-2026",
+          "stipend_role_codes": [
+            "GENERIC_OTHER_COMMITTEE_CHAIR",
+            "GENERIC_OTHER_COMMITTEE_VICE_CHAIR",
+            "GENERIC_OTHER_COMMITTEE_VICE_CHAIR"
+          ]
+        }
+      },
+      {
+        "level": "WARNING",
+        "code": "MULTIPLE_CHAIR_ROLES_RAW",
+        "message": "Cindy Friedman has 3 chair roles in raw data; 9B(f) only allows one paid chair, so one or more may be discarded.",
+        "context": {
+          "member_id": "CFF0",
+          "session_id": "2025-2026",
+          "chair_role_codes": [
+            "SENATE_STEERING_POLICY_CHAIR",
+            "GENERIC_OTHER_COMMITTEE_CHAIR",
+            "SENATE_HEALTH_CARE_FINANCING_CHAIR"
+          ]
+        }
+      },
+      {
+        "level": "WARNING",
+        "code": "MORE_THAN_TWO_STIPEND_ROLES_RAW",
+        "message": "Cindy Friedman has 5 stipend-bearing roles; 9B(f) only allows two paid positions by default.",
+        "context": {
+          "member_id": "CFF0",
+          "session_id": "2025-2026",
+          "stipend_role_codes": [
+            "SENATE_STEERING_POLICY_CHAIR",
+            "GENERIC_OTHER_COMMITTEE_CHAIR",
+            "SENATE_HEALTH_CARE_FINANCING_CHAIR",
+            "GENERIC_OTHER_COMMITTEE_VICE_CHAIR",
+            "GENERIC_OTHER_COMMITTEE_VICE_CHAIR"
+          ]
+        }
+      },
+      {
+        "level": "WARNING",
+        "code": "MULTIPLE_CHAIR_ROLES_RAW",
+        "message": "Adam Gómez has 2 chair roles in raw data; 9B(f) only allows one paid chair, so one or more may be discarded.",
+        "context": {
+          "member_id": "A_G0",
+          "session_id": "2025-2026",
+          "chair_role_codes": [
+            "GENERIC_OTHER_COMMITTEE_CHAIR",
+            "GENERIC_OTHER_COMMITTEE_CHAIR"
+          ]
+        }
+      },
+      {
+        "level": "WARNING",
+        "code": "MORE_THAN_TWO_STIPEND_ROLES_RAW",
+        "message": "Adam Gómez has 4 stipend-bearing roles; 9B(f) only allows two paid positions by default.",
+        "context": {
+          "member_id": "A_G0",
+          "session_id": "2025-2026",
+          "stipend_role_codes": [
+            "GENERIC_OTHER_COMMITTEE_CHAIR",
+            "GENERIC_OTHER_COMMITTEE_CHAIR",
+            "GENERIC_OTHER_COMMITTEE_VICE_CHAIR",
+            "GENERIC_OTHER_COMMITTEE_VICE_CHAIR"
+          ]
+        }
+      },
+      {
+        "level": "WARNING",
+        "code": "MORE_THAN_TWO_STIPEND_ROLES_RAW",
+        "message": "Patricia Jehlen has 3 stipend-bearing roles; 9B(f) only allows two paid positions by default.",
+        "context": {
+          "member_id": "PDJ0",
+          "session_id": "2025-2026",
+          "stipend_role_codes": [
+            "GENERIC_OTHER_COMMITTEE_CHAIR",
+            "GENERIC_OTHER_COMMITTEE_VICE_CHAIR",
+            "GENERIC_OTHER_COMMITTEE_VICE_CHAIR"
+          ]
+        }
+      },
+      {
+        "level": "WARNING",
+        "code": "MULTIPLE_CHAIR_ROLES_RAW",
+        "message": "Jason Lewis has 2 chair roles in raw data; 9B(f) only allows one paid chair, so one or more may be discarded.",
+        "context": {
+          "member_id": "jml0",
+          "session_id": "2025-2026",
+          "chair_role_codes": [
+            "GENERIC_OTHER_COMMITTEE_CHAIR",
+            "SENATE_EDUCATION_CHAIR"
+          ]
+        }
+      },
+      {
+        "level": "WARNING",
+        "code": "MORE_THAN_TWO_STIPEND_ROLES_RAW",
+        "message": "Jason Lewis has 3 stipend-bearing roles; 9B(f) only allows two paid positions by default.",
+        "context": {
+          "member_id": "jml0",
+          "session_id": "2025-2026",
+          "stipend_role_codes": [
+            "GENERIC_OTHER_COMMITTEE_CHAIR",
+            "SENATE_EDUCATION_CHAIR",
+            "GENERIC_OTHER_COMMITTEE_VICE_CHAIR"
+          ]
+        }
+      },
+      {
+        "level": "WARNING",
+        "code": "MULTIPLE_CHAIR_ROLES_RAW",
+        "message": "Joan Lovely has 2 chair roles in raw data; 9B(f) only allows one paid chair, so one or more may be discarded.",
+        "context": {
+          "member_id": "JBL0",
+          "session_id": "2025-2026",
+          "chair_role_codes": [
+            "SENATE_RULES_CHAIR",
+            "GENERIC_OTHER_COMMITTEE_CHAIR"
+          ]
+        }
+      },
+      {
+        "level": "WARNING",
+        "code": "MORE_THAN_TWO_STIPEND_ROLES_RAW",
+        "message": "Joan Lovely has 4 stipend-bearing roles; 9B(f) only allows two paid positions by default.",
+        "context": {
+          "member_id": "JBL0",
+          "session_id": "2025-2026",
+          "stipend_role_codes": [
+            "SENATE_RULES_CHAIR",
+            "GENERIC_OTHER_COMMITTEE_CHAIR",
+            "GENERIC_OTHER_COMMITTEE_VICE_CHAIR",
+            "SENATE_MAJORITY_ASSISTANT_FLOOR_LEADER"
+          ]
+        }
+      },
+      {
+        "level": "WARNING",
+        "code": "MORE_THAN_TWO_STIPEND_ROLES_RAW",
+        "message": "Paul Mark has 3 stipend-bearing roles; 9B(f) only allows two paid positions by default.",
+        "context": {
+          "member_id": "PWM0",
+          "session_id": "2025-2026",
+          "stipend_role_codes": [
+            "GENERIC_OTHER_COMMITTEE_CHAIR",
+            "GENERIC_OTHER_COMMITTEE_VICE_CHAIR",
+            "GENERIC_OTHER_COMMITTEE_VICE_CHAIR"
+          ]
+        }
+      },
+      {
+        "level": "WARNING",
+        "code": "MULTIPLE_CHAIR_ROLES_RAW",
+        "message": "Mark Montigny has 2 chair roles in raw data; 9B(f) only allows one paid chair, so one or more may be discarded.",
+        "context": {
+          "member_id": "MCM0",
+          "session_id": "2025-2026",
+          "chair_role_codes": [
+            "GENERIC_OTHER_COMMITTEE_CHAIR",
+            "SENATE_POST_AUDIT_CHAIR"
+          ]
+        }
+      },
+      {
+        "level": "WARNING",
+        "code": "MORE_THAN_TWO_STIPEND_ROLES_RAW",
+        "message": "Mark Montigny has 3 stipend-bearing roles; 9B(f) only allows two paid positions by default.",
+        "context": {
+          "member_id": "MCM0",
+          "session_id": "2025-2026",
+          "stipend_role_codes": [
+            "GENERIC_OTHER_COMMITTEE_CHAIR",
+            "SENATE_POST_AUDIT_CHAIR",
+            "GENERIC_OTHER_COMMITTEE_VICE_CHAIR"
+          ]
+        }
+      },
+      {
+        "level": "WARNING",
+        "code": "PROXIMITY_TO_STATE_HOUSE",
+        "message": "Mark Montigny lives within +/- 5 miles of the 50-mile state house travel threshold.",
+        "context": {
+          "member": "MCM0",
+          "district": "Second Bristol and Plymouth",
+          "distance": 50.242
+        }
+      },
+      {
+        "level": "WARNING",
+        "code": "STIPEND_REJECTED",
+        "message": "Patrick O'Connor is eligible for a stipend-bearing role that they voluntarily declined.",
+        "context": {
+          "member_id": "PMO",
+          "session_id": "2025-2026",
+          "source": "https://www.oconnorforsenate.com/economy"
+        }
+      },
+      {
+        "level": "WARNING",
+        "code": "MULTIPLE_CHAIR_ROLES_RAW",
+        "message": "Rebecca Rausch has 2 chair roles in raw data; 9B(f) only allows one paid chair, so one or more may be discarded.",
+        "context": {
+          "member_id": "RLR0",
+          "session_id": "2025-2026",
+          "chair_role_codes": [
+            "GENERIC_OTHER_COMMITTEE_CHAIR",
+            "GENERIC_OTHER_COMMITTEE_CHAIR"
+          ]
+        }
+      },
+      {
+        "level": "WARNING",
+        "code": "MORE_THAN_TWO_STIPEND_ROLES_RAW",
+        "message": "Rebecca Rausch has 3 stipend-bearing roles; 9B(f) only allows two paid positions by default.",
+        "context": {
+          "member_id": "RLR0",
+          "session_id": "2025-2026",
+          "stipend_role_codes": [
+            "GENERIC_OTHER_COMMITTEE_CHAIR",
+            "GENERIC_OTHER_COMMITTEE_CHAIR",
+            "GENERIC_OTHER_COMMITTEE_VICE_CHAIR"
+          ]
+        }
+      },
+      {
+        "level": "WARNING",
+        "code": "PROXIMITY_TO_STATE_HOUSE",
+        "message": "Michael Rodrigues lives within +/- 5 miles of the 50-mile state house travel threshold.",
+        "context": {
+          "member": "MJR0",
+          "district": "First Bristol and Plymouth",
+          "distance": 46.137
+        }
+      },
+      {
+        "level": "WARNING",
+        "code": "MORE_THAN_TWO_STIPEND_ROLES_RAW",
+        "message": "Michael Rush has 3 stipend-bearing roles; 9B(f) only allows two paid positions by default.",
+        "context": {
+          "member_id": "MFR0",
+          "session_id": "2025-2026",
+          "stipend_role_codes": [
+            "GENERIC_OTHER_COMMITTEE_CHAIR",
+            "GENERIC_OTHER_COMMITTEE_VICE_CHAIR",
+            "SENATE_MAJORITY_WHIP"
+          ]
+        }
+      },
+      {
+        "level": "WARNING",
+        "code": "MULTIPLE_CHAIR_ROLES_RAW",
+        "message": "John Velis has 2 chair roles in raw data; 9B(f) only allows one paid chair, so one or more may be discarded.",
+        "context": {
+          "member_id": "JCV0",
+          "session_id": "2025-2026",
+          "chair_role_codes": [
+            "GENERIC_OTHER_COMMITTEE_CHAIR",
+            "GENERIC_OTHER_COMMITTEE_CHAIR"
+          ]
+        }
+      },
+      {
+        "level": "WARNING",
+        "code": "MORE_THAN_TWO_STIPEND_ROLES_RAW",
+        "message": "John Velis has 3 stipend-bearing roles; 9B(f) only allows two paid positions by default.",
+        "context": {
+          "member_id": "JCV0",
+          "session_id": "2025-2026",
+          "stipend_role_codes": [
+            "GENERIC_OTHER_COMMITTEE_CHAIR",
+            "GENERIC_OTHER_COMMITTEE_CHAIR",
+            "GENERIC_OTHER_COMMITTEE_VICE_CHAIR"
+          ]
+        }
+      },
+      {
+        "level": "WARNING",
+        "code": "PROXIMITY_TO_STATE_HOUSE",
+        "message": "Antonio Cabral lives within +/- 5 miles of the 50-mile state house travel threshold.",
+        "context": {
+          "member": "AFC1",
+          "district": "13th Bristol",
+          "distance": 50.947
+        }
+      },
+      {
+        "level": "WARNING",
+        "code": "MULTIPLE_CHAIR_ROLES_RAW",
+        "message": "William Galvin has 2 chair roles in raw data; 9B(f) only allows one paid chair, so one or more may be discarded.",
+        "context": {
+          "member_id": "WCG1",
+          "session_id": "2025-2026",
+          "chair_role_codes": [
+            "HOUSE_RULES_CHAIR",
+            "GENERIC_OTHER_COMMITTEE_CHAIR"
+          ]
+        }
+      },
+      {
+        "level": "WARNING",
+        "code": "PROXIMITY_TO_STATE_HOUSE",
+        "message": "Christopher Hendricks lives within +/- 5 miles of the 50-mile state house travel threshold.",
+        "context": {
+          "member": "C_H1",
+          "district": "11th Bristol",
+          "distance": 49.22
+        }
+      },
+      {
+        "level": "WARNING",
+        "code": "PROXIMITY_TO_STATE_HOUSE",
+        "message": "Christopher Markey lives within +/- 5 miles of the 50-mile state house travel threshold.",
+        "context": {
+          "member": "CMM1",
+          "district": "9th Bristol",
+          "distance": 50.844
+        }
+      },
+      {
+        "level": "WARNING",
+        "code": "PROXIMITY_TO_STATE_HOUSE",
+        "message": "John Marsi lives within +/- 5 miles of the 50-mile state house travel threshold.",
+        "context": {
+          "member": "JJM1",
+          "district": "6th Worcester",
+          "distance": 50.575
+        }
+      },
+      {
+        "level": "WARNING",
+        "code": "PROXIMITY_TO_STATE_HOUSE",
+        "message": "Steven Ouellette lives within +/- 5 miles of the 50-mile state house travel threshold.",
+        "context": {
+          "member": "SJO1",
+          "district": "8th Bristol",
+          "distance": 49.388
+        }
+      },
+      {
+        "level": "WARNING",
+        "code": "PROXIMITY_TO_STATE_HOUSE",
+        "message": "Alan Silvia lives within +/- 5 miles of the 50-mile state house travel threshold.",
+        "context": {
+          "member": "A_S1",
+          "district": "7th Bristol",
+          "distance": 46.725
+        }
+      },
+      {
+        "level": "WARNING",
+        "code": "PROXIMITY_TO_STATE_HOUSE",
+        "message": "Mark Sylvia lives within +/- 5 miles of the 50-mile state house travel threshold.",
+        "context": {
+          "member": "MDS1",
+          "district": "10th Bristol",
+          "distance": 47.641
+        }
+      },
+      {
+        "level": "WARNING",
+        "code": "PROXIMITY_TO_STATE_HOUSE",
+        "message": "Steven Xiarhos lives within +/- 5 miles of the 50-mile state house travel threshold.",
+        "context": {
+          "member": "SGX1",
+          "district": "5th Barnstable",
+          "distance": 54.984
+        }
+      },
+      {
+        "level": "WARNING",
+        "code": "PROXIMITY_TO_STATE_HOUSE",
+        "message": "Jonathan Zlotnik lives within +/- 5 miles of the 50-mile state house travel threshold.",
+        "context": {
+          "member": "JDZ1",
+          "district": "2nd Worcester",
+          "distance": 51.662
+        }
+      },
+      {
+        "level": "WARNING",
+        "code": "PROXIMITY_TO_STATE_HOUSE",
+        "message": "Member Peter Durant lives within +/- 5 miles of the state house; their distance stipend may need manual review.",
+        "context": {
+          "member": "PJD0",
+          "district": "Worcester and Hampshire",
+          "distance": 49.38
+        }
+      },
+      {
+        "level": "WARNING",
+        "code": "PROXIMITY_TO_STATE_HOUSE",
+        "message": "Member Ryan Fattman lives within +/- 5 miles of the state house; their distance stipend may need manual review.",
+        "context": {
+          "member": "RCF0",
+          "district": "Worcester and Hampden",
+          "distance": 48.004
+        }
+      },
+      {
+        "level": "WARNING",
+        "code": "PROXIMITY_TO_STATE_HOUSE",
+        "message": "Member Mark Montigny lives within +/- 5 miles of the state house; their distance stipend may need manual review.",
+        "context": {
+          "member": "MCM0",
+          "district": "Second Bristol and Plymouth",
+          "distance": 50.242
+        }
+      },
+      {
+        "level": "WARNING",
+        "code": "PROXIMITY_TO_STATE_HOUSE",
+        "message": "Member Michael Rodrigues lives within +/- 5 miles of the state house; their distance stipend may need manual review.",
+        "context": {
+          "member": "MJR0",
+          "district": "First Bristol and Plymouth",
+          "distance": 46.137
+        }
+      },
+      {
+        "level": "WARNING",
+        "code": "PROXIMITY_TO_STATE_HOUSE",
+        "message": "Member Antonio Cabral lives within +/- 5 miles of the state house; their distance stipend may need manual review.",
+        "context": {
+          "member": "AFC1",
+          "district": "13th Bristol",
+          "distance": 50.947
+        }
+      },
+      {
+        "level": "WARNING",
+        "code": "PROXIMITY_TO_STATE_HOUSE",
+        "message": "Member Christopher Hendricks lives within +/- 5 miles of the state house; their distance stipend may need manual review.",
+        "context": {
+          "member": "C_H1",
+          "district": "11th Bristol",
+          "distance": 49.22
+        }
+      },
+      {
+        "level": "WARNING",
+        "code": "PROXIMITY_TO_STATE_HOUSE",
+        "message": "Member Christopher Markey lives within +/- 5 miles of the state house; their distance stipend may need manual review.",
+        "context": {
+          "member": "CMM1",
+          "district": "9th Bristol",
+          "distance": 50.844
+        }
+      },
+      {
+        "level": "WARNING",
+        "code": "PROXIMITY_TO_STATE_HOUSE",
+        "message": "Member John Marsi lives within +/- 5 miles of the state house; their distance stipend may need manual review.",
+        "context": {
+          "member": "JJM1",
+          "district": "6th Worcester",
+          "distance": 50.575
+        }
+      },
+      {
+        "level": "WARNING",
+        "code": "PROXIMITY_TO_STATE_HOUSE",
+        "message": "Member Steven Ouellette lives within +/- 5 miles of the state house; their distance stipend may need manual review.",
+        "context": {
+          "member": "SJO1",
+          "district": "8th Bristol",
+          "distance": 49.388
+        }
+      },
+      {
+        "level": "WARNING",
+        "code": "PROXIMITY_TO_STATE_HOUSE",
+        "message": "Member Alan Silvia lives within +/- 5 miles of the state house; their distance stipend may need manual review.",
+        "context": {
+          "member": "A_S1",
+          "district": "7th Bristol",
+          "distance": 46.725
+        }
+      },
+      {
+        "level": "WARNING",
+        "code": "PROXIMITY_TO_STATE_HOUSE",
+        "message": "Member Mark Sylvia lives within +/- 5 miles of the state house; their distance stipend may need manual review.",
+        "context": {
+          "member": "MDS1",
+          "district": "10th Bristol",
+          "distance": 47.641
+        }
+      },
+      {
+        "level": "WARNING",
+        "code": "PROXIMITY_TO_STATE_HOUSE",
+        "message": "Member Steven Xiarhos lives within +/- 5 miles of the state house; their distance stipend may need manual review.",
+        "context": {
+          "member": "SGX1",
+          "district": "5th Barnstable",
+          "distance": 54.984
+        }
+      },
+      {
+        "level": "WARNING",
+        "code": "PROXIMITY_TO_STATE_HOUSE",
+        "message": "Member Jonathan Zlotnik lives within +/- 5 miles of the state house; their distance stipend may need manual review.",
+        "context": {
+          "member": "JDZ1",
+          "district": "2nd Worcester",
+          "distance": 51.662
+        }
+      }
+    ]
+  }
+}

@@ -67,8 +67,8 @@ def main() -> None:
     parser.add_argument("session_id", help="Session ID, e.g. 2025-2026")
     parser.add_argument(
         "--output-dir",
-        default="tools/output",
-        help="Output directory (default: tools/output)",
+        default="docs/",
+        help="Output directory (default: docs/)",
     )
     parser.add_argument("--verbose", action="store_true", help="Show detailed progress")
     args = parser.parse_args()
